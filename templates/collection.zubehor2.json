@@ -1,0 +1,548 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "collection-banner",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "show_collection_title": true,
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "collection_title_size": "h1",
+        "image_size": "sm",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "featured_product": "",
+        "featured_product_heading": "Featured product",
+        "text_color": "#eeece5",
+        "overlay_color": "#000000",
+        "overlay_opacity": 15
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "products_per_page": 8,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "filter_layout": "horizontal",
+        "show_sort_by": false,
+        "show_filters": false,
+        "show_filter_group_name": false,
+        "show_color_swatch": false,
+        "show_empty_filter_values": false,
+        "show_filter_values_count": false,
+        "open_first_filter_group": false
+      }
+    },
+    "image_with_text_overlay_YArrE6": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_XW4rnr": {
+          "type": "heading",
+          "settings": {
+            "text": "Balkonkraftwerk Zubehör",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_6bcncr": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Hochwertige Kabel, präzise Strommessgeräte und leistungsstarke Erweiterungssets!</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_XW4rnr",
+        "richtext_6bcncr"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "enable_fix_parallax": false,
+        "image_size": "md",
+        "image": "shopify://shop_images/produktion-highres32.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 55
+      }
+    },
+    "custom_logo_list_HdEjrW": {
+      "type": "custom-logo-list",
+      "blocks": {
+        "logo_image_yPtEtQ": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/Untitled_design_80.png"
+          }
+        },
+        "logo_image_fahDp8": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_1_6ad045c6-a6af-43bc-8772-088fda3e65c1.png"
+          }
+        },
+        "logo_image_JicDP3": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_68bc6b1f-9cde-4e28-90d9-010389d4b518.png"
+          }
+        },
+        "logo_image_Nmzwy9": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_4.png"
+          }
+        },
+        "logo_image_U4Ba8V": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_3_eccce761-16d6-41a5-aab7-1b94750e6ae5.png"
+          }
+        },
+        "logo_image_hVtMMT": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_2_a6e3afea-7afd-46b9-9542-a2b05fba13c9.png"
+          }
+        }
+      },
+      "block_order": [
+        "logo_image_yPtEtQ",
+        "logo_image_fahDp8",
+        "logo_image_JicDP3",
+        "logo_image_Nmzwy9",
+        "logo_image_U4Ba8V",
+        "logo_image_hVtMMT"
+      ],
+      "settings": {
+        "enable_mobile_slider": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "text_with_icons_TLKtnV": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_wrRGc9": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/icondeutschland.png",
+            "mobile_icon_width": 24,
+            "icon_width": 40,
+            "icon_background_type": "circle",
+            "icon_background": "#eee9e3",
+            "icon_color": "",
+            "subtitle": "",
+            "title": "Kabel Made in Germany",
+            "content": ""
+          }
+        },
+        "item_ExJwiz": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/icon-solar.png",
+            "mobile_icon_width": 24,
+            "icon_width": 40,
+            "icon_background_type": "circle",
+            "icon_background": "#eee9e3",
+            "icon_color": "",
+            "subtitle": "",
+            "title": "Kompatibel mit allen Sets",
+            "content": ""
+          }
+        },
+        "item_cmfjTj": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/icon-montage.png",
+            "mobile_icon_width": 24,
+            "icon_width": 40,
+            "icon_background_type": "circle",
+            "icon_background": "#eee9e3",
+            "icon_color": "",
+            "subtitle": "",
+            "title": "Einfache Installation",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_wrRGc9",
+        "item_ExJwiz",
+        "item_cmfjTj"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "title": "",
+        "heading_tag": "h4",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "#f7f7f7",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "2c4561fc-8168-4c14-a781-918edacf03b9": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "kabel",
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 4,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Kabel",
+        "content": "<p>Mit den Schuko-Anschlusskabeln verbindest du den Wechselrichter mit der Steckdose. Die MC-4-Verlängerungskabel ermöglichen eine größere Entfernung von Modul zu Wechselrichter.</p>",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "7433429d-5568-44aa-8c68-9de61f8995a5": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "products": [
+          "hoymiles-dtu-wlite-s",
+          "mystrom-wlan-strommessgerat-digitaler-ertragsmesser",
+          "revolt-strommessgerat"
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 4,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Strommessgeräte",
+        "content": "<p>Verfolge, wieviel Strom dein Solarpanel erzeugt.</p>",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "featured_collection_NgHDBY": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "erweiterungssets",
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 4,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Erweiterungssets",
+        "content": "<p>Erweitere dein Balkonkraftwerk mit unseren maßgeschneiderten Erweiterungssets und steigere die Leistung deiner Solaranlage. Für mehr Effizienz und maximale Stromerzeugung in deinem Zuhause.</p>",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "featured_collection_DACJtw": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "wechselrichter",
+        "products": [],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_count": 4,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Wechselrichter",
+        "content": "<p>Das Herzstück jeder Solarstromanlage wandelt den Gleichstrom der PV-Module in haushaltsüblichen Wechselstrom um und speist diesen in das Hausnetz ein. Gleichzeitig steuert und überwacht er das gesamte Balkonkraftwerk.</p>",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "media_with_text_eWN6Pf": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_Va3ybn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/KabelMiG_Header_e5424825-dad1-48af-8e54-6e4e66c39ff5.webp",
+            "media_width": 55,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Darum Kabel von Balkonstrom®",
+            "content": "<ul><li>Fertigung in Deutschland nach höchsten Qualitätsstandards</li><li>Robustes Material mit UV-Beständigkeit und Wetterresistenz </li><li>25 Jahre Garantie auf Made in Germany Kabel</li></ul>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f7f7f7",
+            "background_gradient": "",
+            "text_color": "#040404",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_Va3ybn"
+      ],
+      "settings": {
+        "show_klaviyo_form": false,
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "media_with_text_HfhHij": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_wArmW4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Balkonstrom_Vergleich_gross.webp",
+            "media_width": 55,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Vertraue auf Premium-Qualität",
+            "content": "<p>Balkonstrom® liefert dir hochwertige, in Deutschland gefertigte Kabel und individuelle Fachberatung. Dank schneller Lieferung und klarer Schritt-für-Schritt-Anleitung ist dein Balkonkraftwerk sofort einsatzbereit.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f7f7f7",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_wArmW4"
+      ],
+      "settings": {
+        "show_klaviyo_form": false,
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "09df8a39-86d5-4eab-a510-9aa283582fe0": {
+      "type": "faq",
+      "blocks": {
+        "template--18109074047240__09df8a39-86d5-4eab-a510-9aa283582fe0-item-1": {
+          "type": "item",
+          "settings": {
+            "title": "Welche Vorteile bieten Made-in-Germany Kabel?",
+            "content": "<p>Unsere Made-in-Germany Kabel sind auf höchste Qualität und Langlebigkeit ausgelegt. Sie sind UV-beständig und widerstandsfähig gegen extreme Wetterbedingungen, was eine zuverlässige und kontinuierliche Stromerzeugung gewährleistet. Die sorgfältige Fertigung und umfassenden Prüfverfahren in Deutschland minimieren Ausfallrisiken und garantieren eine stabile Leistung deiner Solaranlage.</p>"
+          }
+        },
+        "template--18109074047240__09df8a39-86d5-4eab-a510-9aa283582fe0-item-2": {
+          "type": "item",
+          "settings": {
+            "title": "Wozu benötige ich ein Strommessgerät?",
+            "content": "<p>Strommessgeräte zeigen dir in Echtzeit, wie viel Strom deine Solaranlage produziert, und helfen dir, die Effizienz zu optimieren und Anpassungen vorzunehmen.</p>"
+          }
+        },
+        "template--18109074047240__09df8a39-86d5-4eab-a510-9aa283582fe0-item-3": {
+          "type": "item",
+          "settings": {
+            "title": "Wie kann ich die Leistung meines Balkonkraftwerks steigern?",
+            "content": "<p>Mit unseren Erweiterungssets kannst du mit zusätzlichen Modulen und Wechselrichtern die Stromproduktion erhöhen, wodurch du noch mehr Strom selbst erzeugen und deine Stromkosten senken kannst.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18109074047240__09df8a39-86d5-4eab-a510-9aa283582fe0-item-1",
+        "template--18109074047240__09df8a39-86d5-4eab-a510-9aa283582fe0-item-2",
+        "template--18109074047240__09df8a39-86d5-4eab-a510-9aa283582fe0-item-3"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "rich_text_3i4ViU": {
+      "type": "rich-text",
+      "blocks": {
+        "image_W43Fx8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Logos.png",
+            "width_mode": "custom",
+            "max_width": 350,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "image_W43Fx8"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "a493de14-c542-4e9f-9959-bc466b723f8e": {
+      "type": "seo-section",
+      "blocks": {
+        "template--18732286574856__a493de14-c542-4e9f-9959-bc466b723f8e-fullwidthblock-1": {
+          "type": "fullwidthblock",
+          "settings": {
+            "full_width_heading": "Qualität bis ins letzte Detail: Unser Zubehör für deine Balkon-Solaranlage",
+            "full_width_description": "<p>Wenn es um Solaranlagen geht, denkst du sicher zuerst an die Solarmodule. Eine zuverlässige Anlage zeichnet sich aber nicht nur durch hochwertige Module aus, denn es ist mindestens genauso wichtig, das gutes und zuverlässiges Zubehör zu haben. Wir setzen deshalb auf ausgewählte Komponenten, um dein Balkonkraftwerk bis ins letzte Detail mit dem Besten vom Besten auszustatten. Neben unseren Komplettsets kannst du einige Komponenten auch einzeln kaufen. Dazu bieten wir dir unter anderem eine Auswahl an Kabeln, Wechselrichtern und Strommessgeräten.</p>",
+            "full_width_heading_color": "#040404",
+            "gradient": "",
+            "full_width_description_color": "#040404",
+            "full_width_heading_size": "h2"
+          }
+        },
+        "template--18732286574856__a493de14-c542-4e9f-9959-bc466b723f8e-leftblock-1": {
+          "type": "leftblock",
+          "settings": {
+            "left_block_heading": "Kabel, die halten, was sie versprechen: Unsere Made in Germany Kabel",
+            "left_block_description": "<p>Mit unseren MC-4-Verlängerungs- und AC-Anschlusskabeln gehst du keine Kompromisse ein. Um dir auch hier die beste Qualität bieten zu können, lassen wir unsere Kabel exklusiv von unserem Partner in Deutschland fertigen. Warum? Kabel von schlechter Qualität führen am häufigsten zu Problemen im Betrieb von Solaranlagen und können so zu unbemerkten Ausfällen der Anlage führen. Genaueres zu dem Thema kannst du in unserem <a href=\"/blogs/news/balkonkraftwerke-bloss-nicht-am-falschen-ende-sparen\" title=\"Balkonkraftwerk Made in Germany: Warum wir auf Made in Germany setzen\">Blog-Beitrag</a> nachlesen.</p><p>Mit unseren Kabeln brauchst du dir darüber aber zum Glück keine weiteren Gedanken machen und entspannt deine nächste Stromkostenabrechnung entgegennehmen. Unsere Made in Germany Kabel sind robust und halten widrigen Wetterbedingungen stand. Um die Qualität der Kabel zu garantieren, führt unser Partner bei der Fertigung unserer Kabel verschiedene Prüfverfahren durch. In einem unserer <a href=\"/blogs/news/herstellung-und-produktion-der-kabel-fur-unsere-balkonkraftwerke\" title=\"Balkonkraftwerk: Unsere Kabel Made in Germany unter die Lupe genommen\">Blog-Posts</a> gewähren wir dir Einblicke in die Produktion. </p>",
+            "left_block_heading_color": "#040404",
+            "gradient": "",
+            "left_block_description_color": "#040404",
+            "left_block_heading_size": "h3"
+          }
+        },
+        "template--18732286574856__a493de14-c542-4e9f-9959-bc466b723f8e-rightblock-1": {
+          "type": "rightblock",
+          "settings": {
+            "right_block_heading": "Kompakt und leistungsstark: Die Wechselrichter in unseren Balkonkraftwerken",
+            "right_block_description": "<p>Der Wechselrichter ist ein wichtiger Bestandteil deiner Balkon-Solaranlage. Er wandelt den Gleichstrom, der von den Solarmodulen erzeugt wird, in Wechselstrom um. So kannst du deine Haushaltsgeräte mit eigens produziertem Strom versorgen. Abseits unserer Komplettsets kannst du die darin verbauten Wechselrichter auch einzeln kaufen. Wir setzen auf Wechselrichter von Hoymiles, denn wir sind von der Qualität der Produkte überzeugt. Unter anderem erhältst du bei uns den Hoymiles HM-800, dessen Leistung ganz einfach von 800 Watt auf die derzeit für das vereinfachte Verfahren zulässigen 600W drosseln kannst. Selbstverständlich kannst du die Leistung auch jederzeit wieder auf die 800 Watt steigern. </p>",
+            "right_block_heading_color": "#040404",
+            "gradient": "",
+            "right_block_description_color": "#040404",
+            "right_block_heading_size": "h3"
+          }
+        },
+        "57c2fde1-c1bb-4bc7-a9d2-7b2e1b07666f": {
+          "type": "leftblock",
+          "settings": {
+            "left_block_heading": "Strommessgeräte: So hast du deinen Stromertrag im Blick",
+            "left_block_description": "<p>Strommessgeräte helfen dir, den Stromertrag deiner Balkon-Solaranlage in Echtzeit zu überwachen. Du kannst so sicherstellen, dass deine Anlage effektiv arbeitet und einschreiten, wenn etwas nicht stimmt. Je nach Unterkonstruktion deiner Anlage, kannst du die Ausrichtung oder den Neigungswinkel der Solarmodule anpassen und durch das Strommessgerät feststellen, ob du so mehr Strom erzeugst. Und das Beste ist: Es macht auch noch eine Menge Spaß, deiner Anlage dabei zuzusehen, wie sie fleißig Strom produziert. So bist du live dabei, wie der Betrag auf deiner Stromrechnung immer kleiner wird.</p>",
+            "left_block_heading_color": "#040404",
+            "gradient": "",
+            "left_block_description_color": "#040404",
+            "left_block_heading_size": "h3"
+          }
+        },
+        "rightblock_ejGDMT": {
+          "type": "rightblock",
+          "settings": {
+            "right_block_heading": "Erweiterungssets für dein Balkonkraftwerk",
+            "right_block_description": "<p>Du möchtest die neue 800-Watt-Einspeisegrenze voll ausschöpfen und deine Stromkosten weiter senken? Mit unseren Balkonkraftwerk Erweiterungssets kannst du die Effizienz deiner Solaranlage mühelos steigern und somit noch mehr eigenen Strom erzeugen. Die Sets sind mit modernen Solarmodulen, hochwertigen Kabeln aus Deutschland und leistungsstarken Wechselrichtern ausgestattet. Selbst bei extremen Wetterbedingungen und schwierigen Lichtverhältnissen liefern sie zuverlässig Strom.</p><p>Mit den Balkonkraftwerk Erweiterungssets kannst du deine Solaranlage nachträglich flexibel nachrüsten. Die Installation der Solarmodule von Balkonstrom® ist einfach und schnell erledigt, sodass du sofort von der erhöhten Leistung profitieren kannst.</p>",
+            "right_block_heading_color": "#040404",
+            "gradient": "",
+            "right_block_description_color": "#040404",
+            "right_block_heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--18732286574856__a493de14-c542-4e9f-9959-bc466b723f8e-fullwidthblock-1",
+        "template--18732286574856__a493de14-c542-4e9f-9959-bc466b723f8e-leftblock-1",
+        "template--18732286574856__a493de14-c542-4e9f-9959-bc466b723f8e-rightblock-1",
+        "57c2fde1-c1bb-4bc7-a9d2-7b2e1b07666f",
+        "rightblock_ejGDMT"
+      ],
+      "settings": {
+        "full_width": true,
+        "page_width": 1600,
+        "link_color": "#040404",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "main",
+    "image_with_text_overlay_YArrE6",
+    "custom_logo_list_HdEjrW",
+    "text_with_icons_TLKtnV",
+    "2c4561fc-8168-4c14-a781-918edacf03b9",
+    "7433429d-5568-44aa-8c68-9de61f8995a5",
+    "featured_collection_NgHDBY",
+    "featured_collection_DACJtw",
+    "media_with_text_eWN6Pf",
+    "media_with_text_HfhHij",
+    "09df8a39-86d5-4eab-a510-9aa283582fe0",
+    "rich_text_3i4ViU",
+    "a493de14-c542-4e9f-9959-bc466b723f8e"
+  ]
+}

@@ -1,0 +1,125 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "100%"
+      }
+    },
+    "ertragsrechner_XxAaXQ": {
+      "type": "ertragsrechner",
+      "settings": {
+        "section_title": "Ertragsrechner",
+        "section_description": "<p>Der Balkonstrom®-Ertragsrechner zeigt dir, wie viel Strom dein Balkonkraftwerk erzeugen kann und wie viel du  mit der perfekten Modulausrichtung und dem besten Neigungswinkel sparen kannst.</p>",
+        "panel_1_image": "shopify://shop_images/fullblack1.webp",
+        "panel_2_image": "shopify://shop_images/fullblack2.webp",
+        "panel_3_image": "shopify://shop_images/fullblack3.webp",
+        "panel_4_image": "shopify://shop_images/fullblack4.webp",
+        "activate_klaviyo_form": false
+      }
+    },
+    "custom_liquid_NwVnn4": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div class=\"klaviyo-form-S7xFyh\"></div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "seo_section_YDK7nG": {
+      "type": "seo-section",
+      "blocks": {
+        "fullwidthblock_NiVFnz": {
+          "type": "fullwidthblock",
+          "settings": {
+            "full_width_heading": "Optimiere deinen Stromertrag mit dem Balkonkraftwerk Ertragsrechner",
+            "full_width_description": "<p>Berechne jetzt ganz einfach, wie viel Strom dein Balkonkraftwerk erzeugen kann und wie hoch deine Balkonkraftwerk Ersparnis ist. Mit unserem Balkonkraftwerk Ertrag Rechner findest du die perfekte Modulausrichtung, den besten Neigungswinkel und die optimale Leistung für deinen Haushalt. Egal, ob du ein oder mehrere Module nutzt – entdecke, wie einfach du mit einem Balkonkraftwerk Ertragsrechner deine Energiekosten senken kannst.</p>",
+            "full_width_heading_color": "#040404",
+            "gradient": "",
+            "full_width_description_color": "#040404",
+            "full_width_heading_size": "h1"
+          }
+        },
+        "leftblock_etnU43": {
+          "type": "leftblock",
+          "settings": {
+            "left_block_heading": "Wie funktioniert der Ertragsrechner Balkonkraftwerk?",
+            "left_block_description": "<p>Die Nutzung des Balkonkraftwerk Ertragsrechners ist super einfach:</p><ol><li>Modulanzahl wählen: Entscheide, ob du 1, 2 oder mehr Module nutzen möchtest.</li><li>Modulausrichtung bestimmen: Wähle die Richtung, in die deine Module ausgerichtet werden (z. B. Süden oder Osten).</li><li>Neigungswinkel einstellen: Gib den Winkel an, der für deine Module ideal ist (z. B. 30° oder 45°).</li><li>Haushaltsgröße angeben: Wähle die Anzahl der Personen in deinem Haushalt, um den Verbrauch präzise zu berechnen.</li><li>Stromkosten eingeben: Trag deinen Preis pro kWh ein, um deine genaue Balkonkraftwerk Ersparnis zu berechnen.</li></ol><p>Klicke auf „Einsparungen berechnen“, und der Rechner zeigt dir, wie viel du mit deinem Balkonkraftwerk Ertrag Rechner jährlich sparen kannst. So einfach kannst du die Ersparnis Balkonkraftwerk berechnen und deinen Beitrag zu einer nachhaltigen Zukunft leisten!</p>",
+            "left_block_heading_color": "#040404",
+            "gradient": "",
+            "left_block_description_color": "#040404",
+            "left_block_heading_size": "h1"
+          }
+        },
+        "leftblock_aMqgaN": {
+          "type": "leftblock",
+          "settings": {
+            "left_block_heading": "Die Vorteile eines Balkonkraftwerks für dein Zuhause",
+            "left_block_description": "<p>Ein Balkonkraftwerk ist nicht nur eine clevere Möglichkeit, deine Energiekosten zu senken, sondern auch ein Schritt hin zu mehr Nachhaltigkeit. Mithilfe des Balkonkraftwerk Ertrag Rechners kannst du genau sehen, wie viel Strom du mit deinen Solarmodulen erzeugen wirst und wie schnell du deine Investition zurückverdienen kannst. Die Balkonkraftwerk Ersparnis zu berechnen hilft dir, den besten Zeitpunkt für den Einstieg in die Solarnutzung zu finden. Mit einem Balkonkraftwerk trägst du aktiv zur Energiewende bei und wirst unabhängiger von steigenden Strompreisen. Nutze die Möglichkeit, deinen Beitrag zu einer grünen Zukunft zu leisten und gleichzeitig deine Stromkosten zu reduzieren.</p>",
+            "left_block_heading_color": "#040404",
+            "gradient": "",
+            "left_block_description_color": "#040404",
+            "left_block_heading_size": "h1"
+          }
+        },
+        "rightblock_kkGhKH": {
+          "type": "rightblock",
+          "settings": {
+            "right_block_heading": "Warum Balkonstrom® der richtige Partner für dein Balkonkraftwerk ist",
+            "right_block_description": "<p>Bei Balkonstrom® setzen wir auf Qualität und einfache Handhabung. Als Experten für Balkonkraftwerke bieten wir dir nicht nur leistungsstarke Solarmodule, sondern auch die passenden Tools, um deine Balkonkraftwerk Ersparnis zu berechnen. Mit unserem Ertragsrechner Balkonkraftwerk kannst du ganz einfach herausfinden, wie viel Strom deine Module erzeugen und wie viel du an Energiekosten sparen kannst. Egal, ob du den Balkonkraftwerk Ertrag Rechner nutzt, um deine Ersparnisse zu kalkulieren oder die besten Einstellungen für deine Module zu finden – bei Balkonstrom® bekommst du alles, was du für eine nachhaltige und effiziente Nutzung deiner Mini-Solaranlage benötigst. Vertrauen in Qualität, Service und innovative Berechnungswerkzeuge – das ist, was Balkonstrom® auszeichnet.</p>",
+            "right_block_heading_color": "#040404",
+            "gradient": "",
+            "right_block_description_color": "#040404",
+            "right_block_heading_size": "h1"
+          }
+        },
+        "rightblock_GALzbA": {
+          "type": "rightblock",
+          "settings": {
+            "right_block_heading": "Mit dem Balkonkraftwerk Ertragsrechner deine Stromkosten langfristig senken",
+            "right_block_description": "<p>Der Ertragsrechner Balkonkraftwerk bietet dir nicht nur eine einmalige Berechnung, sondern hilft dir dabei, deine Energiekosten auf lange Sicht zu senken. Indem du verschiedene Szenarien wie Modulanzahl, Ausrichtung und Neigung testest, kannst du herausfinden, wie du deine Balkonkraftwerk Ersparnis maximieren kannst. Mit dem Balkonkraftwerk Ertrag Rechner lässt sich nicht nur der potenzielle Ertrag ermitteln, sondern auch eine realistische Einschätzung darüber geben, wie schnell sich deine Investition in Balkonkraftwerk-Module rentiert. Damit hast du nicht nur die Kontrolle über deine aktuellen Stromkosten, sondern auch eine Planungshilfe für die Zukunft. So kannst du sicherstellen, dass du das Maximum aus deiner Solaranlage herausholst und langfristig von der Energiewende profitierst.</p>",
+            "right_block_heading_color": "#040404",
+            "gradient": "",
+            "right_block_description_color": "#040404",
+            "right_block_heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "fullwidthblock_NiVFnz",
+        "leftblock_etnU43",
+        "leftblock_aMqgaN",
+        "rightblock_kkGhKH",
+        "rightblock_GALzbA"
+      ],
+      "settings": {
+        "full_width": true,
+        "page_width": 1200,
+        "link_color": "#040404",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "ertragsrechner_XxAaXQ",
+    "custom_liquid_NwVnn4",
+    "seo_section_YDK7nG"
+  ]
+}

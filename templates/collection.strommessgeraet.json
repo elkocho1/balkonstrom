@@ -1,0 +1,320 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "collection-banner",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "enable_parallax": false,
+        "show_collection_title": true,
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "collection_title_size": "h1",
+        "image_size": "auto",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "featured_product": "",
+        "featured_product_heading": "Featured product",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 15
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "custom_css": [
+        ".circle-chevron {background: #e5e5e5;}"
+      ],
+      "settings": {
+        "products_per_page": 24,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "filter_layout": "horizontal",
+        "show_sort_by": true,
+        "show_filters": false,
+        "show_filter_group_name": true,
+        "show_color_swatch": false,
+        "show_empty_filter_values": false,
+        "show_filter_values_count": false,
+        "open_first_filter_group": false
+      }
+    },
+    "image_with_text_overlay_YQbctE": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_qkURJM": {
+          "type": "heading",
+          "settings": {
+            "text": "Strommessgeräte",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_AM78bA": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Behalte den Stromertrag deines Balkonkraftwerks immer im Blick!</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qkURJM",
+        "richtext_AM78bA"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "enable_fix_parallax": false,
+        "image_size": "md",
+        "image": "shopify://shop_images/A7403725.webp",
+        "mobile_image": "shopify://shop_images/Strommessgerate_Header_mobile.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "custom_logo_list_R6fhJQ": {
+      "type": "custom-logo-list",
+      "blocks": {
+        "logo_image_ecqKFj": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/Untitled_design_80.png"
+          }
+        },
+        "logo_image_arT4Nr": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_1_6ad045c6-a6af-43bc-8772-088fda3e65c1.png"
+          }
+        },
+        "logo_image_73LLDz": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_68bc6b1f-9cde-4e28-90d9-010389d4b518.png"
+          }
+        },
+        "logo_image_7HwACr": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_4.png"
+          }
+        },
+        "logo_image_ARtHwB": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_3_eccce761-16d6-41a5-aab7-1b94750e6ae5.png"
+          }
+        },
+        "logo_image_j4E96c": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_2_a6e3afea-7afd-46b9-9542-a2b05fba13c9.png"
+          }
+        }
+      },
+      "block_order": [
+        "logo_image_ecqKFj",
+        "logo_image_arT4Nr",
+        "logo_image_73LLDz",
+        "logo_image_7HwACr",
+        "logo_image_ARtHwB",
+        "logo_image_j4E96c"
+      ],
+      "settings": {
+        "enable_mobile_slider": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection_akTnt8": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "strommessgeraete",
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Strommessgeräte",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "text_with_icons_eQPABz": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_CWErAY": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-timer",
+            "custom_icon": "shopify://shop_images/icon_real_time.png",
+            "mobile_icon_width": 24,
+            "icon_width": 40,
+            "icon_background_type": "circle",
+            "icon_background": "#eee9e3",
+            "icon_color": "",
+            "subtitle": "",
+            "title": "Überwachung in Echtzeit",
+            "content": ""
+          }
+        },
+        "item_G3mWdm": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-wifi",
+            "custom_icon": "shopify://shop_images/icon-Wifi.png",
+            "mobile_icon_width": 24,
+            "icon_width": 40,
+            "icon_background_type": "circle",
+            "icon_background": "#eee9e3",
+            "icon_color": "",
+            "subtitle": "",
+            "title": "Einfache Bedienung",
+            "content": ""
+          }
+        },
+        "item_eLwwxA": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-percent",
+            "custom_icon": "shopify://shop_images/icon-performance_opt.png",
+            "mobile_icon_width": 24,
+            "icon_width": 40,
+            "icon_background_type": "circle",
+            "icon_background": "#eee9e3",
+            "icon_color": "",
+            "subtitle": "",
+            "title": "Leistungsoptimierung",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_CWErAY",
+        "item_G3mWdm",
+        "item_eLwwxA"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "title": "",
+        "heading_tag": "h4",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "#f7f7f7",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "rich_text_tzJaeD": {
+      "type": "rich-text",
+      "blocks": {
+        "image_pTRV8b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Logos.png",
+            "width_mode": "custom",
+            "max_width": 350,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "image_pTRV8b"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "c1d0a117-a4ef-4754-a27d-488398f20f16": {
+      "type": "seo-section",
+      "blocks": {
+        "template--18732286443784__c1d0a117-a4ef-4754-a27d-488398f20f16-fullwidthblock-1": {
+          "type": "fullwidthblock",
+          "settings": {
+            "full_width_heading": "Strommessgeräte: Behalte den Stromertrag deines Balkonkraftwerks im Blick",
+            "full_width_description": "<p>Mit Strommessgeräten kannst du den Ertrag deines Balkonkraftwerks in Echtzeit kontrollieren. So kannst du dir sicher sein, dass deine Anlage effizient arbeitet und sofort eingreifen, wenn Unregelmäßigkeiten auftreten. Abhängig von der Montage und Konstruktion deiner Mini-Solaranlage hast du die Möglichkeit, die Neigungswinkel und Position der Solarmodule anzupassen und mithilfe des Strommessgeräts zu überprüfen, ob diese Änderungen zu einer höheren Stromproduktion führen. Außerdem macht es richtig Spaß, live mitzuerleben, wie dein Balkonkraftwerk stetig Strom produziert und deine Stromrechnung kontinuierlich sinkt.</p>",
+            "full_width_heading_color": "#040404",
+            "gradient": "",
+            "full_width_description_color": "#040404",
+            "full_width_heading_size": "h2"
+          }
+        },
+        "leftblock_zKFR6y": {
+          "type": "leftblock",
+          "settings": {
+            "left_block_heading": "ReVolt, Hoymiles und myStrom Zubehör für dein Balkonkraftwerk",
+            "left_block_description": "<p>Strommessgeräte von Marken wie Revolt, Hoymiles und My Strom sind essenzielle Komponenten für jedes Balkonkraftwerk. Diese Geräte bieten präzise Messungen des Stromertrags und sind unverzichtbar, um die Leistung deiner Solaranlage optimal zu überwachen. Dank hochentwickelter Technologien und außergewöhnlicher Zuverlässigkeit, kannst du den Energiefluss deiner Anlage genau und kontinuierlich überwachen. Zusätzlich bieten diese Geräte wertvolle Einblicke in die Leistungsdaten deiner Solaranlage, die dir ermöglichen, gezielte Anpassungen vorzunehmen und Probleme frühzeitig zu erkennen. Sie unterstützen dich dabei, den Energieertrag zu optimieren, indem sie dir helfen, die besten Einstellungen für dein Balkonkraftwerk zu finden.</p>",
+            "left_block_heading_color": "#040404",
+            "gradient": "",
+            "left_block_description_color": "#040404",
+            "left_block_heading_size": "h1"
+          }
+        },
+        "rightblock_JNcCCb": {
+          "type": "rightblock",
+          "settings": {
+            "right_block_heading": "Darum lohnt sich ein Strommessgerät für dein Balkonkraftwerk",
+            "right_block_description": "<p>Die Relevanz von Strommessgeräten für Balkonkraftwerke sind unbestritten. Sie ermöglichen dir nicht nur eine präzise Überwachung deiner Energieproduktion in Echtzeit, sondern bieten auch die Möglichkeit, Anpassungen vorzunehmen, um die Effizienz deiner Anlage zu maximieren. Durch regelmäßige Überprüfungen kannst du sicherstellen, dass alle Komponenten optimal funktionieren und du das Maximum aus deiner Solaranlage herausholst. So kannst du aktiv zur Reduzierung deiner Stromkosten beitragen.</p>",
+            "right_block_heading_color": "#040404",
+            "gradient": "",
+            "right_block_description_color": "#040404",
+            "right_block_heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--18732286443784__c1d0a117-a4ef-4754-a27d-488398f20f16-fullwidthblock-1",
+        "leftblock_zKFR6y",
+        "rightblock_JNcCCb"
+      ],
+      "settings": {
+        "full_width": false,
+        "page_width": 1600,
+        "link_color": "#040404",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "main",
+    "image_with_text_overlay_YQbctE",
+    "custom_logo_list_R6fhJQ",
+    "featured_collection_akTnt8",
+    "text_with_icons_eQPABz",
+    "rich_text_tzJaeD",
+    "c1d0a117-a4ef-4754-a27d-488398f20f16"
+  ]
+}

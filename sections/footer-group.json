@@ -1,0 +1,87 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "Footer group",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "text_tj73FE": {
+          "type": "text",
+          "settings": {
+            "title": "20€ Rabatt sichern!",
+            "content": "<p>Du willst keine Produktneuheiten und tolle Aktionen verpassen? Jetzt anmelden und 20 € Rabatt sichern.</p>",
+            "enable_follow_on_shop": true,
+            "show_newsletter_form": false,
+            "show_klaviyo_form": true,
+            "klaviyo_form_id": "VtqzSi",
+            "description": "<p>Du kannst den Newsletter jederzeit abbestellen. Unsere Datenschutzerklärung findest du <a href=\"https://www.balkonstrom.com/pages/datenschutz\" title=\"https://www.balkonstrom.com/pages/datenschutz\">hier</a>.</p>"
+          }
+        },
+        "8da773e7-4d1d-465d-80c0-4986c6d04d51": {
+          "type": "links",
+          "settings": {
+            "menu": "unsere-komplettsets",
+            "show_menu_title": true
+          }
+        },
+        "0fbc30ca-38f5-4aeb-af72-30e50e8410ad": {
+          "type": "links",
+          "settings": {
+            "menu": "footer-2",
+            "show_menu_title": true
+          }
+        },
+        "3aac0508-1e12-47b3-925e-23923cfd6ca5": {
+          "type": "links",
+          "settings": {
+            "menu": "footer-1",
+            "show_menu_title": true
+          }
+        },
+        "links": {
+          "type": "links",
+          "settings": {
+            "menu": "footer",
+            "show_menu_title": true
+          }
+        }
+      },
+      "block_order": [
+        "text_tj73FE",
+        "8da773e7-4d1d-465d-80c0-4986c6d04d51",
+        "0fbc30ca-38f5-4aeb-af72-30e50e8410ad",
+        "3aac0508-1e12-47b3-925e-23923cfd6ca5",
+        "links"
+      ],
+      "settings": {
+        "show_social_media": true,
+        "social_media_title": "Social Media",
+        "show_payment_icons": true,
+        "payment_title": "Zahlung",
+        "show_quality_promise": true,
+        "quality_promise_title": "Qualitätsversprechen",
+        "quality_promise_text": "<p>balkonstrom.com ist mit durchschnittlich 4.82 von 5.00 Sternen bewertet, basierend auf 227 Bewertungen von Trusted Shops.</p>",
+        "quality_image_1": "shopify://shop_images/quality-logo.png",
+        "quality_image_2": "shopify://shop_images/image_1.png",
+        "quality_image_3": "shopify://shop_images/image-_2.png",
+        "quality_image_4": "shopify://shop_images/image_3.png",
+        "show_country_selector": false,
+        "show_country_flag": false,
+        "show_country_name": false,
+        "show_locale_selector": false
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

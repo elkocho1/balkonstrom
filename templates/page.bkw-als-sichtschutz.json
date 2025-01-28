@@ -1,0 +1,696 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "100%"
+      }
+    },
+    "image_with_text_overlay_p6tfBA": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_3dFEet": {
+          "type": "heading",
+          "settings": {
+            "text": "Balkonkraftwerke als Sichtschutz",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_NHqdNz": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Gewinne Privatsphäre und spare Stromkosten!</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_3dFEet",
+        "richtext_NHqdNz"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "enable_fix_parallax": false,
+        "image_size": "md",
+        "image": "shopify://shop_images/Balkonkraftwerk_am_Gelaender1.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 57
+      }
+    },
+    "rich_text_BFRzpj": {
+      "type": "rich-text",
+      "blocks": {
+        "image_tTG8Rr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BEKANNT_AUS_2.webp",
+            "width_mode": "full_width",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "image_tTG8Rr"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "text_with_icons_QTUCnr": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_BrRn6C": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-document",
+            "custom_icon": "shopify://shop_images/Icon_Wetterfest.png",
+            "mobile_icon_width": 24,
+            "icon_width": 40,
+            "icon_background_type": "circle",
+            "icon_background": "#eee9e3",
+            "icon_color": "",
+            "subtitle": "",
+            "title": "Pflegeleicht & wetterfest",
+            "content": ""
+          }
+        },
+        "item_PyU8k6": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-shield",
+            "custom_icon": "shopify://shop_images/icon-kosten_senken.png",
+            "mobile_icon_width": 24,
+            "icon_width": 40,
+            "icon_background_type": "circle",
+            "icon_background": "#eee9e3",
+            "icon_color": "",
+            "subtitle": "",
+            "title": "Senkt deine Stromkosten",
+            "content": ""
+          }
+        },
+        "item_NmtC86": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-money",
+            "custom_icon": "shopify://shop_images/icon-solar.png",
+            "mobile_icon_width": 24,
+            "icon_width": 40,
+            "icon_background_type": "circle",
+            "icon_background": "#eee9e3",
+            "icon_color": "",
+            "subtitle": "",
+            "title": "Moderne Ästhetik",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_BrRn6C",
+        "item_PyU8k6",
+        "item_NmtC86"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "title": "",
+        "heading_tag": "h4",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "#f7f7f7",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "before_after_image_LqtrKk": {
+      "type": "before-after-image",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Langlebiger und moderner Sichtschutz für deinen Balkon",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "before_image": "shopify://shop_images/sichtschutz_before.webp",
+        "after_image": "shopify://shop_images/sichtschutz_after.webp",
+        "expand_image": false,
+        "text_position": "center",
+        "before_after_text_position": "top",
+        "before_text": "",
+        "after_text": "",
+        "drag_initial_position": 60,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "before_text_color": "#ffffff",
+        "after_text_color": "#ffffff",
+        "drag_cursor_background": "#ffffff",
+        "drag_cursor_color": "#000000"
+      }
+    },
+    "multi_column_tRr7RM": {
+      "type": "multi-column",
+      "blocks": {
+        "item_B9nUKr": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Schnelle Eigenmontage",
+            "heading_tag": "h4",
+            "content": "<p>Montiere das Balkonkraftwerk ganz einfach selbst an deinem Balkongeländer - ohne Bohren!</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_CKgkHp": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Langlebig & robust",
+            "heading_tag": "h4",
+            "content": "<p>Kein Ausbleichen, keine Sturmschäden. Dein Sichtschutz für den Balkon ist wetter- und sturmfest.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_H8bbLz": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Produziere eigenen Strom",
+            "heading_tag": "h4",
+            "content": "<p>Profitiere doppelt und spare bis zu 538 € Stromkosten pro Jahr, während du deine Privatsphäre schützt. </p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_B9nUKr",
+        "item_CKgkHp",
+        "item_H8bbLz"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "enable_column_padding": false,
+        "column_background": "",
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "Warum ein Balkonkraftwerk der ideale Sichtschutz ist",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "rich_text_XKcccf": {
+      "type": "rich-text",
+      "blocks": {
+        "button_RW7PNw": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Vereinbare einen Beratungstermin",
+            "url": "shopify://pages/beratungstermin",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_RW7PNw"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "featured_collection_ptCJ9x": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "products": [
+          "basic-balcony-900-bifazial",
+          "basic-balcony-1350-bifazial",
+          "premium-balcony-800",
+          "premium-balcony-1200"
+        ],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_count": 4,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Moderne Sichtschutzlösungen für Balkongeländer",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "rich_text_cMqDzN": {
+      "type": "rich-text",
+      "blocks": {
+        "button_CjG3nd": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Entdecke alle Balkonkraftwerke",
+            "url": "shopify://collections/balkon",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_CjG3nd"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "media_with_text_3jzrnk": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_fN6YNA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Gegenueberstellung_Sichtschutz_BKW.webp",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Die Vorteile auf einen Blick",
+            "content": "<p>Herkömmliche Sichtschutz-Lösungen für Balkongeländer erfüllen ihren Zweck, bieten jedoch keine zusätzlichen wirtschaftlichen Mehrwerte.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#040404",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_fN6YNA"
+      ],
+      "settings": {
+        "show_klaviyo_form": false,
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "rich_text_gyaFeW": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_KPDRGT": {
+          "type": "heading",
+          "settings": {
+            "text": "Innovative Sichtschutzlösungen für den Balkon",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_KPDRGT"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#f7f7f7",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "media_grid_PWNP3E": {
+      "type": "media-grid",
+      "blocks": {
+        "image_UwgNfA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Balkonkraftwerk_am_Gelaender5.webp",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-start sm:text-start",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_YEQdbh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Balkonkraftwerk_am_Gelaender6.webp",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_aweRzB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Balkonkraftwerk_am_Gelaender2.webp",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_QRRUq4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/A7407645_1.webp",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 4,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_UwgNfA",
+        "image_YEQdbh",
+        "image_aweRzB",
+        "image_QRRUq4"
+      ],
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "#f7f7f7",
+        "background_gradient": ""
+      }
+    },
+    "rich_text_LijjAK": {
+      "type": "rich-text",
+      "blocks": {
+        "image_X63taw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Logos.png",
+            "width_mode": "custom",
+            "max_width": 350,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "image_X63taw"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "media_with_text_3Fx9KG": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_x8WP6p": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Balkonstrom_Vergleich_gross.webp",
+            "media_width": 55,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Vertraue auf Premium-Qualität",
+            "content": "<p>Balkonstrom® liefert dir hochwertige, in Deutschland gefertigte Kabel und individuelle Fachberatung. Dank schneller Lieferung und klarer Schritt-für-Schritt-Anleitung ist dein Balkonkraftwerk sofort einsatzbereit.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f7f7f7",
+            "background_gradient": "",
+            "text_color": "#040404",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_x8WP6p"
+      ],
+      "settings": {
+        "show_klaviyo_form": false,
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "media_with_text_4pqeX6": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_F9DhLh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/A7403862.webp",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "So wird der Kauf noch attraktiver",
+            "content": "<p>Der Kauf von Balkonkraftwerken wird im Rahmen von bundesweiten Förderprogrammen mit bis zu 500 € bezuschusst. Informiere dich vor dem Kauf über Förderprogramme in deiner Stadt oder Region und spare Geld!</p>",
+            "link_text": "Finde eine Förderung in deiner Region!",
+            "link_url": "shopify://pages/foerderung-balkonkraftwerke-in-berlin",
+            "background": "#f7f7f7",
+            "background_gradient": "",
+            "text_color": "#040404",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_F9DhLh"
+      ],
+      "settings": {
+        "show_klaviyo_form": false,
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "accordion_content_mhWcgT": {
+      "type": "accordion-content",
+      "blocks": {
+        "item_FXCtE4": {
+          "type": "item",
+          "settings": {
+            "title": "Wie lange hält das Balkonkraftwerk als Sichtschutz?",
+            "content": "<p>Balkonkraftwerke sind gegen Rost und UV-Strahlung geschützt somit ideal als Sichtschutz für deinen Balkon geeignet. Zudem bieten die Modelle von Balkonstrom® eine 25-jährige Herstellergarantie.</p>"
+          }
+        },
+        "item_YR8CfH": {
+          "type": "item",
+          "settings": {
+            "title": "Was ist der Vorteil von einem Balkonkraftwerk als Sichtschutz?",
+            "content": "<p>Ein Balkonkraftwerk bietet doppelte Funktionalität – es schützt deine Privatsphäre wie ein herkömmlicher Balkon-Sichtschutz und wandelt gleichzeitig Sonnenenergie in Strom um. So kannst du bares Geld sparen.</p>"
+          }
+        },
+        "item_Q4zWPD": {
+          "type": "item",
+          "settings": {
+            "title": "Wie wird der Sichtschutz befestigt?",
+            "content": "<p>Das Balkonkraftwerk kannst du dank flexibler Montagevorrichtungen, ohne Bohren und ohne Handwerker selbst an deinem Balkongeländer befestigen.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_FXCtE4",
+        "item_YR8CfH",
+        "item_Q4zWPD"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "<p>Hast du Fragen zur Nutzung eines Balkonkraftwerks als Sichtschutz für deinen Balkon? Hier findest du die Antworten.</p>",
+        "button_text": "Zu unseren FAQ",
+        "button_url": "shopify://pages/faq",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "seo_section_TjzdBX": {
+      "type": "seo-section",
+      "blocks": {
+        "fullwidthblock_cRFPkG": {
+          "type": "fullwidthblock",
+          "settings": {
+            "full_width_heading": "Balkongeländer Sichtschutz: Wie ein Balkonkraftwerk zum effektiven Sichtschutz wird",
+            "full_width_description": "<p>Ein Balkonkraftwerk ist die perfekte Wahl für langlebigen und effektiven Sichtschutz am Balkongeländer. Es bietet Schutz vor neugierigen Blicken und wandelt gleichzeitig Sonnenenergie in Strom um. Dieser Sichtschutz überzeugt durch seine doppelte Funktionalität und ist eine innovative Alternative zu herkömmlichen Sichtschutzlösungen. Das Balkonkraftwerk wird direkt ohne Bohren am Balkongeländer montiert und kann flexibel an verschiedenen Stellen des Balkons angebracht werden. Es ist wetterfest und langlebig und widersteht Wind, Regen und Sonne.</p>",
+            "full_width_heading_color": "#040404",
+            "gradient": "",
+            "full_width_description_color": "#040404",
+            "full_width_heading_size": "h1"
+          }
+        },
+        "leftblock_tKnTjW": {
+          "type": "leftblock",
+          "settings": {
+            "left_block_heading": "Praktische Sichtschutz Ideen für den Balkon",
+            "left_block_description": "<p>Balkone können durch eine Vielzahl von Lösungen vor neugierigen Blicken geschützt werden: Balkonbespannungen, Sichtschutzmatten, Paravents und Trennwände. Diese Methoden bieten einen effektiven Schutz und verwandeln den Balkon in einen privaten Bereich, der von verschiedenen Richtungen, sei es seitlich, oben oder vorne, abgeschirmt ist. Jeder möchte in seinem Zuhause, besonders auf dem Balkon, Privatsphäre und Schutz vor unerwünschten Blicken haben.</p><p>Eine moderne und multifunktionale Alternative zu diesen traditionellen Sichtschutzmethoden ist das Balkonkraftwerk. Es bietet nicht nur den gewohnten Schutz vor neugierigen Blicken, sondern wandelt auch Sonnenenergie in Strom um. Durch die Kombination des klassischen Sichtschutzes mit den Vorteilen erneuerbarer Energie bietet ein Balkonkraftwerk eine wirtschaftliche Sichtschutz-Lösung für den Balkon.</p>",
+            "left_block_heading_color": "#040404",
+            "gradient": "",
+            "left_block_description_color": "#040404",
+            "left_block_heading_size": "h1"
+          }
+        },
+        "rightblock_L6erKQ": {
+          "type": "rightblock",
+          "settings": {
+            "right_block_heading": "Ein Vergleich der Sichtschutzlösungen",
+            "right_block_description": "<p>Klassische Sichtschutzlösungen für den Balkon wie Bambus-Sichtschutz, Textil-Sichtschutz, Paravents oder Sichtschutzmatten bieten einen guten Schutz der Privatsphäre und sind oft wegen ihrer einfachen Optik und geringeren Kosten beliebt. Witterungseinflüsse wie Sonne und Regen können jedoch zu Verfärbungen oder Beschädigungen führen, was die Lebensdauer der Produkte deutlich verkürzt. Zudem erfordert die Montage häufig Bohren, was zusätzlichen Aufwand bedeutet.</p><p>Im Gegensatz dazu bietet das Balkonkraftwerk eine moderne und multifunktionale Lösung. Neben dem Schutz der Privatsphäre auf dem Balkon kann ein Balkonkraftwerk die jährlichen Stromkosten um bis zu 600 € reduzieren. Dies macht das Balkonkraftwerk zu einer wirtschaftlichen Wahl als Sichtschutz für moderne Balkone. </p>",
+            "right_block_heading_color": "#040404",
+            "gradient": "",
+            "right_block_description_color": "#040404",
+            "right_block_heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "fullwidthblock_cRFPkG",
+        "leftblock_tKnTjW",
+        "rightblock_L6erKQ"
+      ],
+      "settings": {
+        "full_width": true,
+        "page_width": 1200,
+        "link_color": "#040404",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_p6tfBA",
+    "rich_text_BFRzpj",
+    "text_with_icons_QTUCnr",
+    "before_after_image_LqtrKk",
+    "multi_column_tRr7RM",
+    "rich_text_XKcccf",
+    "featured_collection_ptCJ9x",
+    "rich_text_cMqDzN",
+    "media_with_text_3jzrnk",
+    "rich_text_gyaFeW",
+    "media_grid_PWNP3E",
+    "rich_text_LijjAK",
+    "media_with_text_3Fx9KG",
+    "media_with_text_4pqeX6",
+    "accordion_content_mhWcgT",
+    "seo_section_TjzdBX"
+  ]
+}

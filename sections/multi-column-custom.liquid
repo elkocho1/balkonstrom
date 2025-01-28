@@ -1,0 +1,228 @@
+{%- render 'section-spacing-collapsing' -%}
+
+  <style>
+    #shopify-section-{{ section.id }} {
+      --multi-column-grid: {% if section.settings.stack_on_mobile %}none{% else %}auto / auto-flow 73vw{% endif %};
+      --multi-column-list-gap: {% if section.settings.gap == 'small' %}var(--grid-gutter){% elsif section.settings.gap == 'medium' %}var(--spacing-12){% elsif section.settings.gap == 'large' %}var(--spacing-20){% else %}var(--spacing-28){% endif %};
+    }
+  </style>
+
+  {% assign Lieferumfang_Items = product.metafields.custom.lieferumfang_images %}
+
+  <div {% render 'section-properties' %} id="multi-column-custom">
+    <div class="section-stack">
+      {%- render 'section-header', subheading: section.settings.subheading, heading: section.settings.title, content: section.settings.content, text_alignment: section.settings.text_alignment -%}
+
+      <div class="multi-column multi-column-custom scroll-area bleed md:unbleed">
+        {%- for item in Lieferumfang_Items.value -%}
+          <div class="multi-column__item justify-{{ section.settings.text_alignment }} snap-start {% if section.settings.enable_column_padding %} enable_column_padding{% endif %}" style="--multi-column-item-column-count: span {{ section.settings.column_size }}; background-color: {{ section.settings.column_background }}" {{ block.shopify_attributes }}>
+            {%- if item.media_type == "video" and item != blank -%}
+              <video-media autoplay style="--aspect-ratio: {{ item.video.aspect_ratio }}">
+                {{ item | video_tag: playsinline: true, muted: true, loop: true, preload: 'metadata', class: 'rounded' }}
+              </video-media>
+            {%- elsif item.media_type == "image" and item != blank -%}
+              {%- capture sizes -%}(max-width: 699px) calc(73vw - 40px), (max-width: 999px) calc(38vw - 64px), calc(min({{ settings.page_width }}px, 100vw) / {{ section.settings.column_size }}){%- endcapture -%}
+              {{- item | image_url: width: item.width | image_tag: sizes: sizes, widths: '300,400,500,600,800,1000,1200,1400,1600,1800', class: 'rounded' -}}
+            {%- endif -%}
+
+            {%- if item.alt != blank-%}
+              <div class="v-stack gap-4 text-{{ section.settings.text_alignment }}">
+                {%- if item.alt != blank -%}
+                  <p class="scope-heading {{ section.settings.heading_tag }}">{{ item.alt | escape }}</p>
+                {%- endif -%}
+              </div>
+            {%- endif -%}
+          </div>
+      
+        {%- endfor -%}
+      </div>
+    </div>
+  </div>
+
+{% schema %}
+{
+  "name": "Multi-column-custom",
+  "class": "shopify-section--multi-column",
+  "tag": "section",
+  "disabled_on": {
+    "templates": ["password"],
+    "groups": ["header", "custom.overlay"]
+  },
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Full width",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "stack_on_mobile",
+      "label": "Stack on mobile",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_column_padding",
+      "label": "Enable column padding",
+      "default": false
+    },
+    {
+      "type": "color",
+      "id": "column_background",
+      "label": "Column Background"
+    },
+    {
+      "type": "select",
+      "id": "gap",
+      "label": "Gap spacing",
+      "options": [
+        {
+          "value": "small",
+          "label": "Small"
+        },
+        {
+          "value": "medium",
+          "label": "Medium"
+        },
+        {
+          "value": "large",
+          "label": "Large"
+        },
+        {
+        "value": "x-large",
+        "label": "X-Large"
+        }
+      ],
+      "default": "medium"
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Text alignment",
+      "options": [
+        {
+          "value": "start",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "end",
+          "label": "Right"
+        }
+      ],
+      "default": "start"
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Subheading",
+      "default": "About"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Featured content"
+    },
+    {
+      "type": "richtext",
+      "id": "content",
+      "label": "Content",
+      "default": "<p>Organize content into multiple columns to share useful information to your customers about your products, values...</p>"
+    },
+    {
+      "type": "header",
+      "content": "Images"
+    },
+    {
+      "type": "select",
+      "id": "column_size",
+      "label": "Desktop item size",
+      "options": [
+        {
+          "value": "4",
+          "label": "25%"
+        },
+        {
+          "value": "3",
+          "label": "33%"
+        },
+        {
+          "value": "2",
+          "label": "50%"
+        },
+        {
+          "value": "1.5",
+          "label": "66%"
+        }
+      ],
+      "default": "3"
+    },
+    {
+      "type": "header",
+      "content": "Title"
+    },
+    {
+      "type": "select",
+      "id": "heading_tag",
+      "label": "Heading style",
+      "options": [
+        {
+          "value": "h1",
+          "label": "H1"
+        },
+        {
+          "value": "h2",
+          "label": "H2"
+        },
+        {
+          "value": "h3",
+          "label": "H3"
+        },
+        {
+          "value": "h4",
+          "label": "H4"
+        },
+        {
+          "value": "h5",
+          "label": "H5"
+        },
+        {
+          "value": "h6",
+          "label": "H6"
+        }
+      ],
+      "default": "h4"
+    },
+    {
+      "type": "header",
+      "content": "Colors",
+      "info": "Gradient replaces solid colors when set."
+    },
+    {
+      "type": "color",
+      "id": "background",
+      "label": "Background"
+    },
+    {
+      "type": "color_background",
+      "id": "background_gradient",
+      "label": "Background gradient"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Multi-column-custom"
+    }
+  ]
+}
+{% endschema %}

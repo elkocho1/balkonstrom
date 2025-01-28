@@ -1,0 +1,484 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product-custom",
+      "blocks": {
+        "discount_highlight_tCYPQB": {
+          "type": "discount_highlight",
+          "disabled": true,
+          "settings": {
+            "title": "100€ Rabatt & Einsparung verdoppeln:",
+            "description": "Bestelle zusätzlich einen Speicher für deinen Strom & erhalte automatisch 100€ Direktrabatt auf deine Bestellung."
+          }
+        },
+        "icon_badge_EfEcWp": {
+          "type": "icon_badge",
+          "settings": {
+            "text": "{{ product.metafields.custom.beliebt_produktgallerie.value }}"
+          }
+        },
+        "trusted_by_FmnNwi": {
+          "type": "trusted_by",
+          "settings": {
+            "image": "shopify://shop_images/patrick.webp",
+            "title": "<strong>Patrick</strong> und über <strong>5.000+</strong> Kunden sparen gemeinsam Strom mit uns."
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h1"
+          }
+        },
+        "text_c4EmbA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ product.metafields.custom.neu_teaser_produktbeschreibung | metafield_tag }} </p>"
+          }
+        },
+        "icon_with_text_nYbi7p": {
+          "type": "icon_with_text",
+          "settings": {
+            "item_heading": "Deine Vorteile",
+            "item_image_1": "shopify://shop_images/Icon_Mindestbestwellwert-min.png",
+            "item_text_1": "<p>Kein Mindestbestellwert</p>",
+            "item_image_2": "shopify://shop_images/Solar_Icon-min.png",
+            "item_text_2": "<p>Einlösbar für alle Produkte im Shop</p>",
+            "item_image_3": "shopify://shop_images/Exzellenter_Kundenservice_39f2dab1-b8d1-4ab5-b572-a94d4bdc4c91-removebg-preview.png",
+            "item_text_3": "<p>3 Jahre gültig</p>"
+          }
+        },
+        "benefits_hLLEbM": {
+          "type": "benefits",
+          "settings": {
+            "title_1": "Online & vor Ort",
+            "description_1": "einlösbar",
+            "title_2": "Direkt",
+            "description_2": "verfügbar",
+            "title_3": "Betrag",
+            "description_3": "frei auswählbar"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "first_varint_name": "Wähle den",
+            "varint_name": "Wähle deine",
+            "varint_tooltip_title": "Welchen Betrag möchtest du verschenken?",
+            "varint_tooltip_text": "Wähle flexibel zwischen 25 €, 50 €, 100 € oder 200 €.",
+            "varint_tooltip_title-2": "",
+            "varint_tooltip_text-2": "",
+            "varint_tooltip_title-3": "berschrift.3",
+            "varint_tooltip_text-3": "Large, glossy grains that provide a visually stunning presentation33.",
+            "upsell_heading": "",
+            "tooltip_title": "",
+            "tooltip_content": "",
+            "badge_heading": "",
+            "badge_saving_text": "",
+            "badge_description": "",
+            "hide_sold_out_variants": true,
+            "stack_blocks": false,
+            "selector_mode": "dropdown",
+            "color_mode": "block",
+            "size_chart_page": "balkonkraftwerk-anmeldeverfahren"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": true
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": false,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "in_stock_block_T4QRp4": {
+          "type": "in_stock_block",
+          "settings": {}
+        },
+        "klarna_on_site_messaging_app_block_LaGVpf": {
+          "type": "shopify://apps/klarna-on-site-messaging/blocks/app-block/b95936a9-74b6-4a95-8103-6a1b6459c25e",
+          "settings": {
+            "data_key": "top-strip-promotion-badge",
+            "locale_option": "geolocation",
+            "locale_fallback": "",
+            "theme": "default",
+            "topPadding": "0",
+            "bottomPadding": "0",
+            "messagePrefix": ""
+          }
+        },
+        "liquid_yrwKqV": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div \n    data-pp-message\ndata-pp-buyercountry=\"DE\"\n    data-pp-style-layout=\"text\"\n    data-pp-style-logo-type=\"alternative\"\n    data-pp-style-text-color=\"black\"\ndata-pp-style-text-align=\"center\"\n    data-pp-amount=\"product.selected_variant.price\">\n</div>"
+          }
+        },
+        "consultant_DgEDnN": {
+          "type": "consultant",
+          "settings": {
+            "image": "shopify://shop_images/Design_ohne_Titel_1_2e3e9877-c8f3-484d-857e-785662da356c.webp",
+            "title": "Unser Kundenberater Hannes ist da, um dich bei deiner Entscheidung zu unterstützen und offene Fragen zu beantworten.",
+            "show_only_mobile": false,
+            "heading": "Noch Fragen? Wir helfen gerne!",
+            "subheading": "",
+            "link_telephone": "tel:+49 9369 9848130",
+            "text_telephone": "+49 9369 9848130",
+            "size_telephone": "sm",
+            "style_telephone": "outline",
+            "background_telephone": "",
+            "text_color_telephone": "#040404",
+            "link_email": "mailto:info@balkonstrom.com",
+            "text_email": "info@balkonstrom.com",
+            "size_email": "sm",
+            "style_email": "outline",
+            "background_email": "",
+            "text_color_email": "#040404"
+          }
+        },
+        "image_block_zkQ7kE": {
+          "type": "image_block",
+          "settings": {
+            "image_1": "shopify://shop_images/image_2_89fe41a8-8b50-46e3-812d-142e602801e6.png",
+            "image_2": "shopify://shop_images/image_1_9f744b79-e0dd-4c0f-9d3d-3dc286d6cc0e.png",
+            "image_3": "shopify://shop_images/image_3_b23da760-1ff3-4c32-86bb-f9bfd3310fa2.png"
+          }
+        }
+      },
+      "block_order": [
+        "discount_highlight_tCYPQB",
+        "icon_badge_EfEcWp",
+        "trusted_by_FmnNwi",
+        "title",
+        "text_c4EmbA",
+        "icon_with_text_nYbi7p",
+        "benefits_hLLEbM",
+        "variant_picker",
+        "price",
+        "buy_buttons",
+        "in_stock_block_T4QRp4",
+        "klarna_on_site_messaging_app_block_LaGVpf",
+        "liquid_yrwKqV",
+        "consultant_DgEDnN",
+        "image_block_zkQ7kE"
+      ],
+      "custom_css": [
+        ".button {border-radius: 6px;}",
+        ".border {border-width: 0px;}",
+        ".h-stack {padding-left: 15px;}",
+        ".container {border-style: none !important; border-width: 0 !important; border-color: transparent !important;}",
+        ".shopify-block {margin-left: 10px; margin-right: 10px;}",
+        ".product-info__inventory {display: flex; justify-content: center; align-items: center; height: 100%; text-align: center;}",
+        ".message__headline span {font-size: 14px !important;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": true,
+        "enable_upsell": true,
+        "enable_mobile_top_data": true,
+        "desktop_media_width": 60,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "hide_thumbnails",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": false,
+        "max_image_zoom_level": 3,
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "#ffffff",
+        "input_text_color": ""
+      }
+    },
+    "collection_list_iEMp9k": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_MjLmVc": {
+          "type": "collection",
+          "settings": {
+            "collection": "balkonkraftwerke",
+            "image": "shopify://shop_images/Balkon2Blackcropv2.webp",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_RnbLeJ": {
+          "type": "collection",
+          "settings": {
+            "collection": "speicher",
+            "image": "shopify://shop_images/Anker_Menu.webp",
+            "subheading": "",
+            "title": "Stromspeicher",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_NQb3q8": {
+          "type": "collection",
+          "settings": {
+            "collection": "zubehoer",
+            "image": "shopify://shop_images/Shelly_Plus_Plug_S2.webp",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_MjLmVc",
+        "collection_RnbLeJ",
+        "collection_NQb3q8"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_collections": false,
+        "collections_per_row": 3,
+        "show_progress_bar": false,
+        "subheading": "",
+        "title": "Balkonkraftwerk Gutschein von Balkonstrom®",
+        "content": "<p>Du brauchst noch ein Geschenk für deine Liebsten und möchtest gerne etwas Sinnvolles verschenken? Vergiss das hundertste Parfüm und nicht schon wieder ein neues Paar Socken. Mit unserem Gutschein von Balkonstrom® landest du einen Volltreffer! Wähle ganz flexibel zwischen unterschiedlich hohen Gutschein-Beträgen aus. Schenke deinen Liebsten mit einem Gutschein von Balkonstrom® eine Möglichkeit, sich unabhängiger von externer Stromerzeugung zu machen und nachhaltig Stromkosten einzusparen. </p><p>Den Geschenkgutschein erhältst du direkt digital zum Ausdrucken oder wenn du möchtest, physisch per Post zu dir nachhause. Der Beschenkte kann dann in unserem Shop stöbern und sich das passende Produkt aussuchen. </p>",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "faq_8TtBi6": {
+      "type": "faq",
+      "blocks": {
+        "item_wdmqaH": {
+          "type": "item",
+          "settings": {
+            "title": "Gilt der Balkonstrom® Gutschein für alle Produkte im Shop?",
+            "content": "<p>Ja, von deinem Gutschein kann sich der Beschenkte alle Produkte in unserem Balkonstrom® Onlineshop kaufen. Außerdem kann er bei uns vor Ort eingelöst werden.</p>"
+          }
+        },
+        "item_ciCHCL": {
+          "type": "item",
+          "settings": {
+            "title": "Wie lange ist der Gutschein gültig?",
+            "content": "<p>Ein Gutschein von Balkonstrom® ist <strong>bis zu drei Jahre nach Kauf </strong>gültig. Wer so lange wartet, verpasst jedoch die Chance, bereits drei Jahre eigenen Strom zu produzieren und Stromkosten einzusparen.</p>"
+          }
+        },
+        "item_3PFXFj": {
+          "type": "item",
+          "settings": {
+            "title": "Wie löse ich meinen Balkonstrom® Gutschein ein?",
+            "content": "<p>Du erhältst beim Kauf einen Gutscheincode von uns. Diesen gibst du ganz einfach im Bestellvorgang in unserem Onlineshop ein. Der Gutschein-Betrag wird automatisch von der Gesamtsumme abgezogen. Solltest du den Gutschein bei uns vor Ort einlösen wollen, erhältst du den Rabatt bei der Bezahlung.<br/><br/>Dein Gutschein ist mit anderen Rabattcodes kombinierbar. Halte also die Augen offen und halte nach weiteren Möglichkeiten in unserem Shop Ausschau, um Schnäppchen zu jagen.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_wdmqaH",
+        "item_ciCHCL",
+        "item_3PFXFj"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "<p>Du hast noch Fragen zum Balkonstrom® Geschenkgutschein? Wir haben die Antworten!</p>",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "rich_text_PJG9qF": {
+      "type": "rich-text",
+      "blocks": {
+        "button_3TqEp9": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "Entdecke unsere Balkonkraftwerke",
+            "url": "shopify://collections/balkonkraftwerke",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_3TqEp9"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "17337589411e6dbe9c": {
+      "type": "apps",
+      "blocks": {
+        "google_reviews_plus_app_block_wbdBXk": {
+          "type": "shopify://apps/google-reviews-plus/blocks/app-block/d11c8893-a181-4aff-a280-7446d42cec3b",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "google_reviews_plus_app_block_wbdBXk"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, #FFC266 0%, #FFA31A 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "8eb5da07-5544-419e-87e6-3deb94add2c2": {
+      "type": "seo-section",
+      "blocks": {
+        "template--18732287656200__8eb5da07-5544-419e-87e6-3deb94add2c2-fullwidthblock-1": {
+          "type": "fullwidthblock",
+          "settings": {
+            "full_width_heading": "Balkonkraftwerk Gutschein von Balkonstrom®",
+            "full_width_description": "<p>Mit einem Balkonkraftwerk von Balkonstrom® schlägst du zwei Fliegen mit einer Klappe! Sichere dir jetzt deinen Balkonkraftwerk Gutschein von Balkonstrom® und verschenke eine unabhängigere Zukunft. Balkonkraftwerke sind kleine Solaranlagen, die an einem Balkon, der Fassade, im Garten und an vielen anderen Montageorten installiert werden können. Sie bestehen aus Solarmodulen, einem Wechselrichter, Kabeln und einer Unterkonstruktion. Die Solarmodule wandeln das Sonnenlicht in Gleichstrom um, der dann vom Wechselrichter in Wechselstrom umgewandelt wird. Der erzeugte Strom kann über eine haushaltsübliche Steckdose in dein Hausnetz eingespeist und direkt von deinen Haushaltsgeräten genutzt werden. Weitere Informationen zur <a href=\"/blogs/news/so-funktioniert-dein-balkonkraftwerk\" title=\"So funktioniert dein Balkonkraftwerk\">Funktionsweise von Balkonkraftwerken</a> findest du in unserem Balkonstrom® Blog. Balkonkraftwerke eignen sich besonders gut für Wohnungen oder Mehrfamilienhäuser, in denen begrenzter Platz vorhanden ist. Aber auch für diejenigen mit einem Garten, einem Schuppen oder einer freien Dachfläche ist ein Balkonkraftwerk die ideale Möglichkeit, die Sonnenenergie zu nutzen.</p>",
+            "full_width_heading_color": "#040404",
+            "gradient": "",
+            "full_width_description_color": "#040404",
+            "full_width_heading_size": "h2"
+          }
+        },
+        "a7d32039-b949-4f2d-b3ba-4773e654a972": {
+          "type": "leftblock",
+          "settings": {
+            "left_block_heading": "Die Vorteile eines Balkonkraftwerks",
+            "left_block_description": "<p>Ein Balkonkraftwerk bietet zahlreiche Vorteile. Allen voran: du produzierst deinen eigenen Strom, was dich unabhängiger von externen Stromanbietern macht und deine Stromkosten senkt. Im Vergleich zu großen Solaranlagen sind Balkonkraftwerke wesentlich günstiger und erfordern in der Regel keine Kreditaufnahme. Dank der niedrigen Anschaffungskosten rentieren sich Balkonkraftwerke schneller. Für den Anschluss eines Balkonkraftwerks musst du keinen Elektriker oder Handwerker beauftragen, sondern kannst die Inbetriebnahme einfach selbst übernehmen. Balkonkraftwerke sind platzsparend und an dank verschiedener Unterkonstruktionen an nahezu jedem Montageort installierbar. So bist du maximal flexibel.</p><p>Zum Thema Finanzierung gibt es übrigens einen weiteren Pluspunkt, denn viele Städte und Landkreise fördern die Anschaffung von Balkonkraftwerken finanziell. Derzeit gibt es in Deutschland kein einheitliches Förderprogramm, sodass sich ein unübersichtlicher Förder-Flickenteppich gebildet hat. In unserem Blog haben wir uns für dich mit den unterschiedlichen Förderprogrammen auseinandergesetzt und eine ausführliche <a href=\"https://www.balkonstrom.com/pages/foerderung\" target=\"_blank\" title=\"https://www.balkonstrom.com/pages/foerderung\">Förderübersicht</a> erstellt. Schau vorbei und informiere dich, welche Fördermöglichkeiten in deiner Nähe verfügbar sind.</p>",
+            "left_block_heading_color": "#040404",
+            "gradient": "",
+            "left_block_description_color": "#040404",
+            "left_block_heading_size": "h3"
+          }
+        },
+        "template--18732287656200__8eb5da07-5544-419e-87e6-3deb94add2c2-rightblock-1": {
+          "type": "rightblock",
+          "settings": {
+            "right_block_heading": "Anschaffung und Installation eines Balkonkraftwerks",
+            "right_block_description": "<p>Vor der Anschaffung eines Balkonkraftwerks solltest du deinen individuellen Energiebedarf und die baulichen Gegebenheiten berücksichtigen. Wir bieten verschiedene Größen und Ausführungen von Balkonkraftwerken, daher ist es wichtig, das passende Modell für deine Bedürfnisse zu wählen. Bei Unsicherheit, welches Balkonkraftwerk sich am besten eignet, stehen wir gerne für eine individuelle Beratung zur Verfügung. </p><p>Bei der Installation deines Balkonkraftwerkes unterstützen wir dich mit detaillierten Schritt-für-Schritt-Montageanleitungen für die entsprechend gewählte Unterkonstruktion, durch die keine Fragen offen bleiben sollten. Achte bei der Montage auch auf eine günstige Ausrichtung deiner Anlage, die du an dein Verbrauchsverhalten anpassen kannst. Tipps, wie du durch die Auswahl und Ausrichtung des Balkonkraftwerks eine <a href=\"/blogs/news/balkonkraftwerke-4-tipps-zur-effizienzsteigerung\" title=\"Balkonkraftwerk: 4 Tipps zur Effizienzsteigerung\">Effizienzsteigerung</a> erreichst, geben wir dir in einem weiteren unserer Blogartikel. </p>",
+            "right_block_heading_color": "#040404",
+            "gradient": "",
+            "right_block_description_color": "#040404",
+            "right_block_heading_size": "h3"
+          }
+        },
+        "84a666e3-8b14-4c22-a443-8f3ec8a01e78": {
+          "type": "rightblock",
+          "settings": {
+            "right_block_heading": "Balkonkraftwerke - Die smarte Investition für die Zukunft",
+            "right_block_description": "<p>Mit einem Balkonkraftwerk Gutschein von Balkonstrom® kannst du oder der Beschenkte jetzt ein eigenes kleines Kraftwerk auf dem Balkon installieren und langfristig von der Sonne als kostenlose und unerschöpfliche Energiequelle profitieren. Nutze die Sonnenenergie effizienter als je zuvor! Mit einem Balkonkraftwerk Gutschein wird der Einstieg in die Energieversorgung aus Eigenproduktion noch einfacher. Bestelle noch heute deinen Gutschein bei uns online und schenke anderen eine unabhängigere Zukunft.</p>",
+            "right_block_heading_color": "#040404",
+            "gradient": "",
+            "right_block_description_color": "#040404",
+            "right_block_heading_size": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "template--18732287656200__8eb5da07-5544-419e-87e6-3deb94add2c2-fullwidthblock-1",
+        "a7d32039-b949-4f2d-b3ba-4773e654a972",
+        "template--18732287656200__8eb5da07-5544-419e-87e6-3deb94add2c2-rightblock-1",
+        "84a666e3-8b14-4c22-a443-8f3ec8a01e78"
+      ],
+      "settings": {
+        "full_width": false,
+        "page_width": 1600,
+        "link_color": "#040404",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "1688451742a820c98a": {
+      "type": "apps",
+      "blocks": {
+        "4896e922-20bc-41bc-8c7b-4864048329b0": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "4896e922-20bc-41bc-8c7b-4864048329b0"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "collection_list_iEMp9k",
+    "faq_8TtBi6",
+    "rich_text_PJG9qF",
+    "17337589411e6dbe9c",
+    "8eb5da07-5544-419e-87e6-3deb94add2c2",
+    "1688451742a820c98a"
+  ]
+}

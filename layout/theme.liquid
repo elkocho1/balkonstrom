@@ -1,0 +1,338 @@
+{%- comment -%}
+  ------------------------------------------------------------------------------------------------------------------------
+  NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing this theme as much as we did for
+    developing it. We have put a lot of work to make this theme as developer friendly as possible by offering you
+    hooks to integrate into critical parts of the theme. You will find the complete technical documentation (including
+    all events, dependencies...) in the "documentation.txt" file, located in the Assets folder.
+  ------------------------------------------------------------------------------------------------------------------------
+{%- endcomment -%}
+
+<!doctype html>
+
+<html class="no-js" lang="{{ request.locale.iso_code }}" dir="{% render 'direction' %}">
+  <head>
+    <!-- Start of Shoplift scripts -->
+    {% render 'shoplift' %}
+    <!-- End of Shoplift scripts -->
+
+    <script
+      src="https://consent.cookiefirst.com/sites/balkonstrom.com-0abb6504-f64b-48e1-a65d-483ad79c79de/consent.js"
+    ></script>
+
+    <!-- Paypal Pay Later -->
+    <script
+      src="https://www.paypal.com/sdk/js?client-id=AcaF5Q2CxtovaiqR6en9cmJNmu3jogjb7Jqzcl-WUSqfiAZeAjOqhvnXlGWbYeNzTajywX-e5RDWzxHI&components=messages"
+      data-namespace="PayPalSDK"
+    ></script>
+    <!-- End Paypal Pay Later -->
+
+    {% if request.path == '/blogs/news/tagged/wirtschaftlichkeit'
+      or request.path == '/blogs/news/tagged/rechtliches'
+      or request.path == '/blogs/news/tagged/technik'
+      or request.path == '/blogs/news/tagged/uber-balkonstrom'
+      or request.path == '/404'
+    %}
+      <meta name="robots" content="noindex">
+    {% endif %}
+
+    <script>
+      (function soluteLandingTracking(){
+        if (location.href.indexOf("soluteclid") < 0) return;
+        localStorage.setItem("soluteclid", (new Date()).getTime()+" "+location.href);
+        var url = "https://cmodul.solutenetwork.com/landing";
+        url += "?url=" + encodeURIComponent(location.href);
+        var req = new XMLHttpRequest();
+        req.open("GET", url);
+        req.send();
+      })();
+    </script>
+
+    <!-- -LIGHTBOX- -->
+    {{ 'https://code.jquery.com/jquery-3.6.0.min.js' | script_tag }}
+    {{ 'https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js' | script_tag }}
+    {{ 'https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css' | stylesheet_tag }}
+    {{ 'https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pdfobject.min.js' | script_tag }}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+    <meta charset="utf-8">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, maximum-scale=1.0"
+    >
+    <meta name="theme-color" content="{{ settings.header_background }}">
+
+    <title>
+      {% if page_title == blank -%}
+        {{- shop.name -}}
+      {%- else -%}
+        {{- page_title -}}
+        {%- if current_page != 1 %} &ndash; {{ 'general.page' | t: page: current_page }}{% endif -%}
+      {%- endif %}
+    </title>
+
+    {%- if page_description -%}
+      <meta name="description" content="{{ page_description | escape }}">
+    {%- endif -%}
+
+    {% if template contains 'list-collections' %}
+      <meta
+        name="description"
+        content="Entdecken Sie hochwertige Balkonkraftwerke mit Fokus auf deutsche Qualität. Profitieren Sie von schneller Lieferung, einfacher Installation und persönlicher Expertenberatung. Sparen Sie jetzt mit unseren effizienten und umweltfreundlichen Lösungen für Ihren Balkon. 🌞."
+      >
+    {% endif %}
+
+    <link rel="canonical" href="{{ canonical_url }}">
+
+    {%- if settings.favicon -%}
+      <link rel="shortcut icon" href="{{ settings.favicon | image_url: width: 96 }}">
+      <link rel="apple-touch-icon" href="{{ settings.favicon | image_url: width: 180 }}">
+    {%- endif -%}
+
+    {%- comment -%}Few prefetch to increase performance on commonly used third-parties{%- endcomment -%}
+    <link rel="preconnect" href="https://cdn.shopify.com">
+    <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
+    <link rel="dns-prefetch" href="https://productreviews.shopifycdn.com">
+
+    {%- unless settings.heading_font.system? -%}
+      <link rel="preload" href="{{ settings.heading_font | font_url }}" as="font" type="font/woff2" crossorigin>
+    {%- endunless -%}
+
+    {%- unless settings.text_font.system? -%}
+      <link rel="preload" href="{{ settings.text_font | font_url }}" as="font" type="font/woff2" crossorigin>
+    {%- endunless -%}
+
+    {{- 'custom.css' | asset_url | stylesheet_tag: preload: true -}}
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    >
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    >
+
+    {%- render 'social-meta-tags' -%}
+    {%- render 'microdata-schema' -%}
+    {%- render 'css-variables' -%}
+    {%- render 'js-variables' -%}
+
+    <script type="module" src="{{ 'vendor.min.js' | asset_url }}"></script>
+    <script type="module" src="{{ 'theme.js' | asset_url }}"></script>
+    <script type="module" src="{{ 'custom.js' | asset_url }}"></script>
+    <script type="module" src="{{ 'sections.js' | asset_url }}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <meta name="facebook-domain-verification" content="fbdpoyaxgz1mvu6mqzmvv25j3ee19s">
+    {%- if tinyscript -%}{{ content_for_header }}{%- else -%}{% render 'tiny-script-control' %}{%- endif -%}
+
+    {{- 'theme.css' | asset_url | stylesheet_tag: preload: true -}}
+
+    {% render 'qikify-apps' %}
+
+    {%- sections 'Custom-Announcement' -%}
+
+    {% render 'nx8_hm_assets' %}
+
+    <style>
+      .AnnouncementBar{
+        opacity:0;
+      }
+       @keyframes fadeIn {
+              from {
+                  opacity: 0;
+              }
+              to {
+                  opacity: 1;
+              }
+          }
+
+          .AnnouncementBar {
+              animation: fadeIn 1s ease 1s forwards;
+          }
+      .slick-initialized .slick-slide {
+          display: flex !important;
+      }
+      .slick-slider{
+          display: flex !important;
+      }
+      .countdown-main-wrapper {
+        display: none;
+      }
+    </style>
+
+    {% include 'wiser' %}
+    {% include 'wiser_popup' %}
+  </head>
+
+  <body class="custom_{{ template.name }} {% if settings.show_page_transition %}page-transition{% endif %} {% if settings.zoom_image_on_hover %}zoom-image--enabled{% endif %}">
+    {%- render 'shadow-dom-templates' -%}
+
+    <a href="#main" class="skip-to-content sr-only">{{ 'general.accessibility.skip_to_content' | t }}</a>
+
+    {%- if request.page_type != 'password' -%}
+      {%- sections 'Custom-Announcement' -%}
+      {%- sections 'header-group' -%}
+      {%- sections 'overlay-group' -%}
+
+      {%- if settings.cart_type == 'popover' -%}
+        <cart-notification-drawer open-from="bottom" class="quick-buy-drawer drawer"></cart-notification-drawer>
+      {%- endif -%}
+    {%- endif -%}
+
+    {%- if request.page_type == 'customers/account'
+      or request.page_type == 'customers/order'
+      or request.page_type == 'customers/addresses'
+    -%}
+      {%- section 'account-banner' -%}
+    {%- endif -%}
+
+    <main role="main" id="main" class="anchor">
+{% render 'breadcrumbs' %}
+      <!-- --BREADCRUMBS-- -->
+      <style>
+          .breadcrumbs {
+          margin: 0 0 2em 50px;
+          text-align: left;
+        }
+          .breadcrumbs__list {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+          }
+          .breadcrumbs__item {
+            display: inline-block;
+          }
+          .breadcrumbs__item:not(:last-child):after {
+            border-style: solid;
+            border-width: .10em .10em 0 0;
+            content: '';
+            display: inline-block;
+            height: .20em;
+            margin: 0 .20em;
+            position: relative;
+            transform: rotate(45deg);
+            vertical-align: middle;
+            width: .20em;
+          }
+          .breadcrumbs__link {
+            text-decoration: underline;
+          }
+          .breadcrumbs__link[aria-current="page"] {
+            color: inherit;
+            font-weight: normal;
+            text-decoration: none;
+          }
+          .breadcrumbs__link[aria-current="page"]:hover,
+          .breadcrumbs__link[aria-current="page"]:focus {
+            text-decoration: underline;
+          }
+      </style>
+ {% comment %}     {%- unless template == 'index'
+        or template == 'cart'
+        or template == 'list-collections'
+        or template == '404'
+        or template == 'product'
+      -%}
+        {%- assign t = template | split: '.' | first -%}
+        <nav class="breadcrumbs" role="navigation" aria-label="breadcrumbs">
+          <ol class="breadcrumbs__list">
+            <li class="breadcrumbs__item">
+              <a class="breadcrumbs__link" href="/">Home</a>
+            </li>
+            {%- case t -%}
+              {%- when 'page' -%}
+                <li class="breadcrumbs__item">
+                  <a class="breadcrumbs__link" href="{{ page.url }}" aria-current="page">{{ page.title }}</a>
+                </li>
+              {%- when 'product' -%}
+                {%- if collection.url -%}
+                  <li class="breadcrumbs__item">
+                    {{ collection.title | link_to: collection.url }}
+                  </li>
+                {%- endif -%}
+                {%- assign collections = product.collections | reverse -%}
+                {%- for collection in collections -%}
+                  <li class="breadcrumbs__item">
+                    <a class="breadcrumbs__link" href="{{ collection.url }}" aria-current="page">
+                      {{- collection.title | replace: 'Collections', 'Kategorien' -}}
+                    </a>
+                  </li>
+                {%- endfor -%}
+                <li class="breadcrumbs__item">
+                  <a class="breadcrumbs__link" href="{{ product.url }}" aria-current="page">{{ product.title }}</a>
+                </li>
+
+              {%- when 'collection' and collection.handle -%}
+                {%- if current_tags -%}
+                  <li class="breadcrumbs__item">
+                    <a class="breadcrumbs__link" href="/collections">{{ 'Kategorien' }}</a>
+                  </li>
+                  <li class="breadcrumbs__item">
+                    {{ collection.title | link_to: collection.url }}
+                  </li>
+                  <li class="breadcrumbs__item">
+                    {%- capture tag_url -%}{{ collection.url }}/{{ current_tags | join: "+"}}{%- endcapture -%}
+                    <a class="breadcrumbs__link" href="{{ tag_url }}" aria-current="page">
+                      {{- current_tags | join: ' + ' -}}
+                    </a>
+                  </li>
+                {%- else -%}
+                  <li class="breadcrumbs__item">
+                    <a class="breadcrumbs__link" href="/collections">{{ 'Kategorien' }}</a>
+                  </li>
+                  <li class="breadcrumbs__item">
+                    <a class="breadcrumbs__link" href="{{ collection.url }}" aria-current="page">
+                      {{- collection.title -}}
+                    </a>
+                  </li>
+                {%- endif -%}
+
+              {%- when 'blog' -%}
+                {%- if current_tags -%}
+                  <li class="breadcrumbs__item">
+                    {{ blog.title | link_to: blog.url }}
+                  </li>
+                  <li class="breadcrumbs__item">
+                    {%- capture tag_url -%}{{blog.url}}/tagged/{{ current_tags | join: "+" }}{%- endcapture -%}
+                    <a class="breadcrumbs__link" href="{{ tag_url }}" aria-current="page">
+                      {{- current_tags | join: ' + ' -}}
+                    </a>
+                  </li>
+                {%- else -%}
+                  <li class="breadcrumbs__item">
+                    <a class="breadcrumbs__link" href="{{ blog.url }}" aria-current="page">{{ blog.title }}</a>
+                  </li>
+                {%- endif -%}
+              {%- when 'article' -%}
+                <li class="breadcrumbs__item">
+                  {{ blog.title | link_to: blog.url }}
+                </li>
+                <li class="breadcrumbs__item">
+                  <a class="breadcrumbs__link" href="{{ article.url }}" aria-current="page">{{ article.title }}</a>
+                </li>
+              {%- else -%}
+                <li class="breadcrumbs__item">
+                  <a class="breadcrumbs__link" href="{{ request.path }}" aria-current="page">{{ page_title }}</a>
+                </li>
+            {%- endcase -%}
+          </ol>
+        </nav>
+      {%- endunless -%} {% endcomment %}
+
+      {{ content_for_layout }}
+
+      {%- comment -%}
+        IMPLEMENTATION NOTE: due to the very complex logic of margin/padding collapsing in Impact, the footer group is
+        added into the main element to ensure that dynamic sections added into the footer group are properly laid out.
+      {%- endcomment -%}
+      {%- if request.page_type != 'password' -%}
+        {%- sections 'footer-group' -%}
+      {%- endif -%}
+    </main>
+  </body>
+  <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+  ></script>
+</html>

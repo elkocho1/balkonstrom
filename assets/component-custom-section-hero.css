@@ -1,0 +1,101 @@
+.circle-image {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: -5px;
+}
+.social_text_hero {
+  margin-left: 15px;
+  font-size:14px;
+}
+.social_text_hero strong{
+  font-weight:bold;
+}
+.hide-social{
+  display:flex;
+  justify-content:flex-start;
+  align-items:center;
+}
+
+.custom_section_hero .media-with-text__item {
+  gap: 50px;
+}
+.custom_section_hero .media-with-text__content {
+  padding-left: 0;
+}
+.custom_section_hero video-media:not([loaded]) > :is(video, iframe),
+video-media[loaded] > img,
+video-media[loaded] > svg,
+video-media[loaded]::part(play-button) {
+  opacity: 1;
+  visibility: visible;
+}
+/* .custom_section_hero .prose .section_heading {
+    font-weight: 700;
+} */
+.custom_section_hero
+  .prose
+  :is(
+    p img:not([style*="float"]):only-child,
+    div img:not([style*="float"]):only-child,
+    figure,
+    video
+  ) {
+  margin-block: 0;
+  margin-left: 15px;
+}
+.custom_section_hero .section {
+  padding-block-start: 0;
+  padding-block-end: 0;
+}
+.custom_section_hero .logo_item_img img {
+  width: 100%;
+  height: auto;
+  margin-left: 0 !important;
+}
+.custom_section_hero .logo_item_img {
+  max-width: 75px;
+  margin: 0;
+}
+.custom_section_hero .section_logo_hero_img .logo_item_img:last-child {
+  max-width: 60px;
+}
+.custom_section_hero .section_logo_hero_img {
+  display: flex;
+  align-items: center;
+  gap: 20px 11px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 1025px) {
+  .custom_section_hero .logo_item_img {
+    max-width: 69px;
+  }
+  .custom_section_hero .section_logo_hero_img {
+    gap: 10px 11px;
+  }
+}
+@media screen and (max-width: 999px) {
+  .custom_section_hero .media-with-text__content {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 479px) {
+  .custom_section_hero .media-with-text__item {
+    gap: 30px;
+  }
+  .custom_section_hero .logo_item_img {
+    max-width: 60px;
+  }
+  .custom_section_hero .section_logo_hero_img {
+    gap: 10px 7px;
+  }
+  .custom_section_hero .section_logo_hero_img .logo_item_img:last-child {
+    max-width: 50px;
+  }
+  .font-size_mobile {
+    font-size: 22px;
+  }
+}

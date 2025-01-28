@@ -1,0 +1,175 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "100%"
+      }
+    },
+    "collection_hero_beYXR3": {
+      "type": "collection-hero",
+      "blocks": {
+        "collection_ytRFbq": {
+          "type": "collection",
+          "settings": {
+            "collection": "outlet",
+            "collection_custom_image": "shopify://shop_images/sichtschutz_after.webp",
+            "collection_custom_title": "Balcony"
+          }
+        },
+        "collection_irPhD8": {
+          "type": "collection",
+          "settings": {
+            "collection": "basic-plus-bkw-mit-speicher",
+            "collection_custom_image": "shopify://shop_images/basic-roof-860-bitumendach2.webp",
+            "collection_custom_title": "Roof"
+          }
+        },
+        "collection_4yMXTb": {
+          "type": "collection",
+          "settings": {
+            "collection": "balkon-premium",
+            "collection_custom_image": "shopify://shop_images/Garden_2_11ceac1f-cc7c-4519-bc72-090360f5ed23.jpg",
+            "collection_custom_title": "Garden"
+          }
+        },
+        "collection_tCnPRr": {
+          "type": "collection",
+          "settings": {
+            "collection": "balkon-premium",
+            "collection_custom_image": "shopify://shop_images/Garden_2_11ceac1f-cc7c-4519-bc72-090360f5ed23.jpg",
+            "collection_custom_title": "Garden"
+          }
+        }
+      },
+      "block_order": [
+        "collection_ytRFbq",
+        "collection_irPhD8",
+        "collection_4yMXTb",
+        "collection_tCnPRr"
+      ],
+      "settings": {
+        "heading": "Wir helfen dir<br> <span>deine Stromkosten zu senken</span> mit<br> <span>hocheffizienten, selbst installierbaren</span><br> Balkonkraftwerken",
+        "title_icon": "shopify://shop_images/b36bcc1635af60768c19d7efce939230.png",
+        "main_description": "",
+        "heading_tag": "h2",
+        "heading_max_width": 720,
+        "content_alignment": "center",
+        "desktop_heading_padding_bottom": 49,
+        "mobile_heading_padding_bottom": 30,
+        "video": "shopify://files/videos/Erklärfilm Balkonstrom META 1500x1500 - HQ.mp4",
+        "autoplay": true,
+        "language_icon": "shopify://shop_images/Flag_of_Germany.svg",
+        "language_text": "Made in Germany",
+        "customer_icon": "shopify://shop_images/headset_1.svg",
+        "customer_text": "Deutscher Expertensupport <br>",
+        "text_block_heading": "Das Perfekte Set für jedes Zuhause",
+        "icon_text_list1": "Montiere es selbst in 60 Minunten ohne Vorkenntnisse",
+        "icon_text_list2": "Amortisiert sich nach 3 Jahren",
+        "icon_text_list3": "25 Jahre Garantie",
+        "button_1": "Welches Balkonkraftwerk passt zu dir?",
+        "button_url1": "",
+        "button_2": "Zu den Balkonkraftwerken",
+        "button_url2": "",
+        "desktop_padding_top": 52,
+        "desktop_padding_bottom": 100,
+        "mobile_padding_top": 10,
+        "mobile_padding_bottom": 50
+      }
+    },
+    "new_header_section_rE7Cnh": {
+      "type": "new-header-section",
+      "blocks": {
+        "image_UXbWBN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Online-Shop_2024_priwatt.webp"
+          }
+        },
+        "heading_ib8GkB": {
+          "type": "heading",
+          "settings": {
+            "text": "Einfach selbst <br> Strom produzieren",
+            "heading_tag": "h0"
+          }
+        },
+        "subheading_rCRRdi": {
+          "type": "subheading",
+          "settings": {
+            "text": "Dein Speicher von ANKER"
+          }
+        },
+        "button_kRzJrn": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "Zu den Balkonkraftwerken",
+            "url": "shopify://collections/all",
+            "background": "#3edc99",
+            "text_color": "#0c215a"
+          }
+        },
+        "icon_with_text_block_MfW9hW": {
+          "type": "icon_with_text_block",
+          "settings": {
+            "icon_with_text_icon": "shopify://shop_images/10_1.png",
+            "icon_with_text_heading": "Schnell und<br>einfach aufgebaut"
+          }
+        },
+        "icon_with_text_block_zwfmzC": {
+          "type": "icon_with_text_block",
+          "settings": {
+            "icon_with_text_icon": "shopify://shop_images/opt-2-2.svg",
+            "icon_with_text_heading": "Emissionen und<br>Kosten reduzieren"
+          }
+        },
+        "icon_with_text_block_ENcrpR": {
+          "type": "icon_with_text_block",
+          "settings": {
+            "icon_with_text_icon": "shopify://shop_images/Vector_2.svg",
+            "icon_with_text_heading": "Über 70.000<br>Haushalte ausgestattet"
+          }
+        }
+      },
+      "block_order": [
+        "image_UXbWBN",
+        "heading_ib8GkB",
+        "subheading_rCRRdi",
+        "button_kRzJrn",
+        "icon_with_text_block_MfW9hW",
+        "icon_with_text_block_zwfmzC",
+        "icon_with_text_block_ENcrpR"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "enable_fix_parallax": false,
+        "image_size": "fill",
+        "image": "shopify://shop_images/Balkonkraftwerk_am_Gelaender5.webp",
+        "mobile_image": "shopify://shop_images/Balkonkraftwerk_am_Gelaender5.webp",
+        "mobile_text_position": "place-self-center-start text-start",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 20
+      }
+    }
+  },
+  "order": [
+    "main",
+    "collection_hero_beYXR3",
+    "new_header_section_rE7Cnh"
+  ]
+}

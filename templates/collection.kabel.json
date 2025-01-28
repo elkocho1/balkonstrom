@@ -1,0 +1,374 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "custom_css": [
+        ".circle-chevron {background: #e5e5e5;}"
+      ],
+      "settings": {
+        "products_per_page": 24,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "filter_layout": "horizontal",
+        "show_sort_by": true,
+        "show_filters": false,
+        "show_filter_group_name": true,
+        "show_color_swatch": false,
+        "show_empty_filter_values": false,
+        "show_filter_values_count": false,
+        "open_first_filter_group": false
+      }
+    },
+    "banner": {
+      "type": "collection-banner",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "enable_parallax": false,
+        "show_collection_title": true,
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "collection_title_size": "h1",
+        "image_size": "auto",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "featured_product": "",
+        "featured_product_heading": "Featured product",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 15
+      }
+    },
+    "image_with_text_overlay_UJDQr8": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_QtkQhj": {
+          "type": "heading",
+          "settings": {
+            "text": "Kabel für dein Balkonkraftwerk",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_yCjdMd": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Hochwertige und robuste Kabel Made in Germany</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_QtkQhj",
+        "richtext_yCjdMd"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "enable_fix_parallax": false,
+        "image_size": "md",
+        "image": "shopify://shop_images/KabelMiG_Header_e5424825-dad1-48af-8e54-6e4e66c39ff5.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 66
+      }
+    },
+    "custom_logo_list_Hh6GL3": {
+      "type": "custom-logo-list",
+      "blocks": {
+        "logo_image_86QeaF": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/Untitled_design_80.png"
+          }
+        },
+        "logo_image_xwiUn9": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_1_6ad045c6-a6af-43bc-8772-088fda3e65c1.png"
+          }
+        },
+        "logo_image_4TwwzF": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_68bc6b1f-9cde-4e28-90d9-010389d4b518.png"
+          }
+        },
+        "logo_image_Gtkynf": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_4.png"
+          }
+        },
+        "logo_image_WLfi7F": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_3_eccce761-16d6-41a5-aab7-1b94750e6ae5.png"
+          }
+        },
+        "logo_image_Ak6dKn": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_2_a6e3afea-7afd-46b9-9542-a2b05fba13c9.png"
+          }
+        }
+      },
+      "block_order": [
+        "logo_image_86QeaF",
+        "logo_image_xwiUn9",
+        "logo_image_4TwwzF",
+        "logo_image_Gtkynf",
+        "logo_image_WLfi7F",
+        "logo_image_Ak6dKn"
+      ],
+      "settings": {
+        "enable_mobile_slider": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection_3tRyAe": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "kabel",
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Kabel für dein Balkonkraftwerk",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "featured_collection_EJjnec": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "products": [
+          "ecoflow-powerstream-bkw-ac-anschlusskabel-5m",
+          "ecoflow-powerstream-zu-delta-pro-verbindungskabel-0-5m",
+          "ecoflow-powerstream-delta-verbindungskabel",
+          "ecoflow-xt60-ladekabel"
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Kabel für EcoFlow Produkte",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "text_with_icons_fYy9gc": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_htLpfy": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/icondeutschland.png",
+            "mobile_icon_width": 24,
+            "icon_width": 40,
+            "icon_background_type": "circle",
+            "icon_background": "#eee9e3",
+            "icon_color": "",
+            "subtitle": "",
+            "title": "Made in Germany",
+            "content": ""
+          }
+        },
+        "item_TmjQ48": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-validation",
+            "custom_icon": "shopify://shop_images/icon-robust.png",
+            "mobile_icon_width": 24,
+            "icon_width": 40,
+            "icon_background_type": "circle",
+            "icon_background": "#eee9e3",
+            "icon_color": "",
+            "subtitle": "",
+            "title": "Robust & langlebig",
+            "content": ""
+          }
+        },
+        "item_wHggqf": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-recycle",
+            "custom_icon": "shopify://shop_images/icon-lebensdauer.png",
+            "mobile_icon_width": 24,
+            "icon_width": 40,
+            "icon_background_type": "circle",
+            "icon_background": "#eee9e3",
+            "icon_color": "",
+            "subtitle": "",
+            "title": "25 Jahre Lebensdauer",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_htLpfy",
+        "item_TmjQ48",
+        "item_wHggqf"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "title": "",
+        "heading_tag": "h4",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "#f7f7f7",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "rich_text_XXFjYp": {
+      "type": "rich-text",
+      "blocks": {
+        "image_V6RyHX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Logos.png",
+            "width_mode": "custom",
+            "max_width": 350,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "image_V6RyHX"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "e82e7223-d7c2-4657-abaf-5de9384d717a": {
+      "type": "seo-section",
+      "blocks": {
+        "fullwidthblock_kW9dDC": {
+          "type": "fullwidthblock",
+          "settings": {
+            "full_width_heading": "Hochwertige Kabel für dein Balkonkraftwerk: Made in Germany",
+            "full_width_description": "<p>Unsere hochwertigen MC-4-Verlängerungs- und AC-Anschlusskabel sind die perfekte Lösung, um dein Balkonkraftwerk zu optimieren. Mit Balkonstrom®️ kannst du sicher sein, dass die Kabel halten, was sie versprechen. Um dir die beste Qualität bieten zu können, lassen wir diese exklusiv von unserem Partner in Deutschland fertigen. Warum? Kabel von schlechter Qualität führen am häufigsten zu Problemen im Bereich von Solaranlagen und können so zu unbemerkten Ausfällen der Anlage führen. Genaueres zu dem Thema kannst du in unserem <a href=\"/blogs/news/balkonkraftwerke-bloss-nicht-am-falschen-ende-sparen\" title=\"Balkonkraftwerk Made in Germany: Warum wir auf Made in Germany setzen\">Blog-Beitrag</a> nachlesen.</p><p>Unsere Kabel sind speziell für den Anschluss und die Verlängerung von Solarkabeln von Balkonkraftwerken entwickelt worden. Mit fortlaufenden Kontrollen und Tests nach Norm IEC 60532-2 stellen wir sicher, dass unsere Kabel stabil, zuverlässig und korrosionsbeständig sind. In einem unserer <a href=\"/blogs/news/herstellung-und-produktion-der-kabel-fur-unsere-balkonkraftwerke\" title=\"Balkonkraftwerk: Unsere Kabel Made in Germany unter die Lupe genommen\">Blog-Posts</a> gewähren wir dir Einblicke in die Produktion. </p>",
+            "full_width_heading_color": "#040404",
+            "gradient": "",
+            "full_width_description_color": "#040404",
+            "full_width_heading_size": "h1"
+          }
+        },
+        "template--18732286279944__e82e7223-d7c2-4657-abaf-5de9384d717a-leftblock-1": {
+          "type": "leftblock",
+          "settings": {
+            "left_block_heading": "Qualität bis ins letzte Detail: Unser Zubehör für deine Balkon-Solaranlage",
+            "left_block_description": "<p>Eine zuverlässige Solaranlage zeichnet sich durch erstklassige Module sowie qualitativ hochwertiges und zuverlässiges Zubehör aus. Bei Balkonstrom®️ bieten wir dir ausgewählte Komponenten, mit denen zu dein Balkonkraftwerk bis ins letzte Detail perfektionieren kannst. Unser Sortiment umfasst nicht nur komplette Sets, sondern auch einzeln erhältliche Komponenten wie hochwertige Kabel, Wechselrichter und präzise Strommessgeräte. Wir legen großen Wert auf Qualität, eine lange Lebensdauer und Zuverlässigkeit, um sicherzustellen, dass deine Mini-Solaranlage optimal funktioniert und langfristig deine Stromkosten reduziert.</p>",
+            "left_block_heading_color": "#040404",
+            "gradient": "",
+            "left_block_description_color": "#040404",
+            "left_block_heading_size": "h2"
+          }
+        },
+        "rightblock_aGPeki": {
+          "type": "rightblock",
+          "settings": {
+            "right_block_heading": "MC-4 Y Verlängerungskabel für die Parallelschaltung von Solarmodulen",
+            "right_block_description": "<p>Das MC-4 Y Kabel von Balkonstrom®️ ist die ideale Lösung für maximale Leistung und Langlebigkeit in deinem Balkonkraftwerk und deiner Solaranlage! Der einzigartige Vulkanisierungsprozess unserer MC-4 Y Kabel garantiert minimale Übergangswiderstände, um Ertragsverluste zu vermeiden. Das robuste Kabel ist widerstandsfähig und minimiert das Risiko von Anlagenausfällen. Mit einer erwarteten Lebensdauer von 25 Jahren und einer TÜV-Zertifizierung für DC Systemspannungen von 1000 V und 1500 V bieten wir höchste Qualität und Zuverlässigkeit.<br/><br/>Durch chemische Verbindungsbrücken im Vulkanisierungsprozess wird eine dauerhaft stabile Verbindung zwischen Kabelmantel und Verbindungsstück der Y-Kabel geschaffen. Unsere strengen Prüfverfahren gewährleisten, dass jede Crimpverbindung einwandfrei ist, sodass du dich auf eine sichere und effiziente Leistung verlassen kannst.<br/><br/>Entdecke die Vorteile des MC-4 Y Kabels von Balkonstrom®️ und genieße maximale Leistung und Langlebigkeit für deine Solaranlage. Mit dem MC-4 Y Verlängerungskabel für die Parallelschaltung von Solarmodulen bist du bestens gerüstet.</p>",
+            "right_block_heading_color": "#040404",
+            "gradient": "",
+            "right_block_description_color": "#040404",
+            "right_block_heading_size": "h1"
+          }
+        },
+        "leftblock_F7Qnjb": {
+          "type": "leftblock",
+          "settings": {
+            "left_block_heading": "Maximale Flexibilität mit MC-4 Verlängerungskabeln für deine Solaranlage",
+            "left_block_description": "<p>Mit den MC-4 Verlängerungskabeln von Balkonstrom®️ kannst du deine Solaranlage flexibel und individuell montieren. Mit einer Länge von 0,5 bis 20 Metern können kurze Distanzen überbrückt oder Solarmodule und Wechselrichter über größere Entfernungen miteinander verbunden werden. Die anschlussfertige Bauweise erleichtert die Installation und bietet eine schnelle und unkomplizierte Lösung für die flexible Verkabelung deiner Solaranlage.<br/><br/>Unsere Kabel sind äußerst robust und für verschiedene Wetterbedingungen geeignet, sodass eine lange Lebensdauer von 25 Jahren zu erwarten ist. Sie sind witterungs-, UV- und Ozonbeständig sowie wasserdicht nach IP68 zertifiziert, was ihre Langlebigkeit unterstreicht. Mit einem Querschnitt von 4 mm² aus verzinnter Kupferlitze nach Klasse 5 IEC 60228 und Steckern vom Typ MC-4-Evo 2 bieten die Verlängerungskabel optimale Leitfähigkeit und Zuverlässigkeit.<br/><br/>Durch strenge und fortlaufende Prüfverfahren stellen wir sicher, dass jedes Verlängerungskabel für deine Solaranlage einwandfrei funktioniert, sodass du dich auf sichere und zuverlässige Verbindungen verlassen kannst. Überzeuge dich selbst von der Qualität und Leistungsfähigkeit der MC-4 Verlängerungskabel von Balkonstrom®️ und maximiere die Effizienz deiner Solaranlage.</p>",
+            "left_block_heading_color": "#040404",
+            "gradient": "",
+            "left_block_description_color": "#040404",
+            "left_block_heading_size": "h1"
+          }
+        },
+        "rightblock_XeBL7L": {
+          "type": "rightblock",
+          "settings": {
+            "right_block_heading": "Sichere Einspeisung deines produzierten Stroms mit Schuko Anschlusskabeln",
+            "right_block_description": "<p>Unsere AC-Anschlusskabel mit Schuko-Stecker sind die optimale Wahl für eine sichere und unkomplizierte Einspeisung deines produzierten Solarstroms in dein Hausnetz. Die hochwertige und flexible Gummischlauchleitung gewährleistet eine stabile Leistungsübertragung über Distanzen von bis zu 20 Metern. Die AC-Anschlusskabel sind chemikalien-, UV- sowie ozonbeständig und halten extremen Witterungsbedingungen stand.<br/><br/>Die Schuko Anschlusskabel sind unverzichtbar für die Verbindung deines Hauses mit einem Wechselrichter, um den Wechselstrom sicher in dein Hausnetz zu leiten. Mit den Anschlusskabeln von Balkonstrom®️ steht einer einfachen und sofortigen Inbetriebnahme deines Balkonkraftwerks nichts im Wege. Profitiere von langfristiger Zuverlässigkeit und Qualität durch unsere hochwertigen Schuko Kabel.</p>",
+            "right_block_heading_color": "#040404",
+            "gradient": "",
+            "right_block_description_color": "#040404",
+            "right_block_heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "fullwidthblock_kW9dDC",
+        "template--18732286279944__e82e7223-d7c2-4657-abaf-5de9384d717a-leftblock-1",
+        "rightblock_aGPeki",
+        "leftblock_F7Qnjb",
+        "rightblock_XeBL7L"
+      ],
+      "settings": {
+        "full_width": false,
+        "page_width": 1600,
+        "link_color": "#040404",
+        "padding_top": 40,
+        "padding_bottom": 100
+      }
+    }
+  },
+  "order": [
+    "main",
+    "banner",
+    "image_with_text_overlay_UJDQr8",
+    "custom_logo_list_Hh6GL3",
+    "featured_collection_3tRyAe",
+    "featured_collection_EJjnec",
+    "text_with_icons_fYy9gc",
+    "rich_text_XXFjYp",
+    "e82e7223-d7c2-4657-abaf-5de9384d717a"
+  ]
+}

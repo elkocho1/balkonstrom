@@ -1,0 +1,735 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "collection-banner",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "show_collection_title": true,
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "collection_title_size": "h0",
+        "image_size": "lg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "featured_product": "",
+        "featured_product_heading": "Featured product",
+        "text_color": "#eeece5",
+        "overlay_color": "#000000",
+        "overlay_opacity": 15
+      }
+    },
+    "image_with_text_overlay_Hrqyxz": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_W7rQMp": {
+          "type": "heading",
+          "settings": {
+            "text": "Premium Meyer Burger Balkonkraftwerke",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_jhWzMf": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Steckerfertige Komplettsets mit deutschen Modulen</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_W7rQMp",
+        "richtext_jhWzMf"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "enable_fix_parallax": false,
+        "image_size": "md",
+        "image": "shopify://shop_images/Meyer_Burger_BKW.webp",
+        "mobile_image": "shopify://shop_images/meyerburger_mobile.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "custom_logo_list_NBrF4Y": {
+      "type": "custom-logo-list",
+      "blocks": {
+        "logo_image_FBNzTQ": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/Untitled_design_80.png"
+          }
+        },
+        "logo_image_qd9pPH": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_1_6ad045c6-a6af-43bc-8772-088fda3e65c1.png"
+          }
+        },
+        "logo_image_DBmnGA": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_68bc6b1f-9cde-4e28-90d9-010389d4b518.png"
+          }
+        },
+        "logo_image_afyxdN": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_4.png"
+          }
+        },
+        "logo_image_BKaxMz": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_3_eccce761-16d6-41a5-aab7-1b94750e6ae5.png"
+          }
+        },
+        "logo_image_xLBfQV": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_2_a6e3afea-7afd-46b9-9542-a2b05fba13c9.png"
+          }
+        }
+      },
+      "block_order": [
+        "logo_image_FBNzTQ",
+        "logo_image_qd9pPH",
+        "logo_image_DBmnGA",
+        "logo_image_afyxdN",
+        "logo_image_BKaxMz",
+        "logo_image_xLBfQV"
+      ],
+      "settings": {
+        "enable_mobile_slider": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection_7nhya3": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "meyer-burger-balkonkraftwerke",
+        "products": [
+          "premium-balcony-800",
+          "premium-wall-1200",
+          "premium-roof-800-ziegeldach",
+          "premium-flat-800"
+        ],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_count": 4,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Komplettset Bestseller",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "text_with_icons_TQcfmM": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_69cVFb": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/icondeutschland.png",
+            "mobile_icon_width": 24,
+            "icon_width": 40,
+            "icon_background_type": "circle",
+            "icon_background": "#eee9e3",
+            "icon_color": "",
+            "subtitle": "",
+            "title": "Deutscher Garantiegeber",
+            "content": ""
+          }
+        },
+        "item_mb9fXy": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/Meyer_Burger_380_-1.png",
+            "mobile_icon_width": 24,
+            "icon_width": 40,
+            "icon_background_type": "circle",
+            "icon_background": "#eee9e3",
+            "icon_color": "",
+            "subtitle": "",
+            "title": "Moderne Ästhetik",
+            "content": ""
+          }
+        },
+        "item_NxPDUd": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/icon-lebensdauer.png",
+            "mobile_icon_width": 24,
+            "icon_width": 40,
+            "icon_background_type": "circle",
+            "icon_background": "#eee9e3",
+            "icon_color": "",
+            "subtitle": "",
+            "title": "Absolut langlebig",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_69cVFb",
+        "item_mb9fXy",
+        "item_NxPDUd"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "title": "",
+        "heading_tag": "h4",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "#f7f7f7",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "products_per_page": 8,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "filter_layout": "horizontal",
+        "show_sort_by": false,
+        "show_filters": false,
+        "show_filter_group_name": false,
+        "show_color_swatch": false,
+        "show_empty_filter_values": false,
+        "show_filter_values_count": false,
+        "open_first_filter_group": false
+      }
+    },
+    "multi_column_dhC6WT": {
+      "type": "multi-column",
+      "blocks": {
+        "item_pnw3yj": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Meyer_Burger_Fertigung.webp",
+            "column_size": "3",
+            "title": "Made in Germany",
+            "heading_tag": "h4",
+            "content": "<p>Meyer Burger steht für erstklassige Qualität und präzise Fertigung. Die Solarmodule werden in Deutschland nach höchsten Qualitätsstandards hergestellt. Die Produktion erfolgt mit 100 % erneuerbaren Energien, verzichtet auf Blei und fördert eine regionale Wertschöpfungskette.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_RcKUzT": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/MeyerBurger_Logo_mit_Solarmodul.webp",
+            "column_size": "3",
+            "title": "Branchenführende Effizienz",
+            "heading_tag": "h4",
+            "content": "<p>Die HJT steigert die Effizienz der Meyer Burger Solarmodule, indem sie mehr Sonnenlicht aufnimmt und die Abschattung in den Zellen um bis zu 3 % reduziert. Besonders morgens, abends oder bei diffusen Lichtverhältnissen zeigen die Module eine deutlich höhere Leistung.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_FJ8Mka": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Meyer_Burger_Detailbild.webp",
+            "column_size": "3",
+            "title": "SmartWire Technologie",
+            "heading_tag": "h4",
+            "content": "<p>Die Smart Wire Technologie von Meyer Burger verwendet ultradünne Drähte für eine effiziente Verschaltung der Solarzellen. Dies reduziert Energieverluste durch Abschattung, erhöht die Lebensdauer der Module und ermöglicht gleichzeitig ein ästhetisches Design.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_pnw3yj",
+        "item_RcKUzT",
+        "item_FJ8Mka"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "enable_column_padding": false,
+        "column_background": "",
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "Meyer Burger Hochleistungsmodule",
+        "content": "<p>Meyer Burger bietet leistungsstarke Solarmodule mit fortschrittlicher Heterojunction (HJT)- und SmartWire-Technologie. Die patentierte Technologie sorgt für deutlich höhere Erträge pro Fläche im Vergleich zu herkömmlichen PERC-Systemen. In Deutschland gefertigt, profitieren die Meyer Burger Solarmodule von höchster Qualität und kurzen Transportwegen, was zusammen mit einer umfassenden 25-jährigen Leistungs- und Produktgarantie ihre hohe Zuverlässigkeit unterstreicht.</p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "media_with_text_UzmVj9": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_rLcnRq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Meyer_Burger_Solarmodul_mit_Logo.webp",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Technische Spezifikationen",
+            "content": "<ul><li>Leistung: 390 WP</li><li>Gewicht: 19,7 kg</li><li>Optik: Fullblack Design</li><li>Rahmen: Schwarz eloxiertes Aluminium</li><li>Temperaturbereich: -40 bis +85 Grad Celsius</li><li>25 Jahre Produkt- und Leistungsgarantie</li><li>Made in Germany</li></ul>",
+            "link_text": "Solarmodul Datenblatt",
+            "link_url": "https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Datenblatt_SolarmodulINO380.pdf?v=1681207081",
+            "background": "#f7f7f7",
+            "background_gradient": "",
+            "text_color": "#040404",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_rLcnRq"
+      ],
+      "settings": {
+        "show_klaviyo_form": false,
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "collection_list_Ag9rXK": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_pB7xPE": {
+          "type": "collection",
+          "settings": {
+            "collection": "balkon-premium",
+            "subheading": "",
+            "title": "Balkon",
+            "url": "",
+            "heading_tag": "h3",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_9kYNwp": {
+          "type": "collection",
+          "settings": {
+            "collection": "fassade-premium",
+            "subheading": "",
+            "title": "Fassade",
+            "url": "",
+            "heading_tag": "h3",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_4K7G6h": {
+          "type": "collection",
+          "settings": {
+            "collection": "garten-premium",
+            "subheading": "",
+            "title": "Garten",
+            "url": "",
+            "heading_tag": "h3",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_7NwbdC": {
+          "type": "collection",
+          "settings": {
+            "collection": "ohne-halterung-premium",
+            "subheading": "",
+            "title": "Ohne Halterung",
+            "url": "",
+            "heading_tag": "h3",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_DXgaAf": {
+          "type": "collection",
+          "settings": {
+            "collection": "ziegeldach-premium",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h3",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_BfYaEV": {
+          "type": "collection",
+          "settings": {
+            "collection": "erweiterungssets",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h3",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_H96Yeh": {
+          "type": "collection",
+          "settings": {
+            "collection": "bitumendach-premium",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h3",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_JFWHTV": {
+          "type": "collection",
+          "settings": {
+            "collection": "biberschwanzdach-1",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h3",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_gmCyyV": {
+          "type": "collection",
+          "settings": {
+            "collection": "blechdach-premium",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h3",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_pB7xPE",
+        "collection_9kYNwp",
+        "collection_4K7G6h",
+        "collection_7NwbdC",
+        "collection_DXgaAf",
+        "collection_BfYaEV",
+        "collection_H96Yeh",
+        "collection_JFWHTV",
+        "collection_gmCyyV"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_collections": false,
+        "collections_per_row": 4,
+        "show_progress_bar": false,
+        "subheading": "",
+        "title": "Unsere Meyer Burger Komplettsets",
+        "content": "<p>Entdecke unsere Balkonkraftwerk-Komplettsets mit den innovativen Meyer Burger Solarmodulen für <strong>Balkon, Fassade, Garten oder Dach</strong>. Dank Plug & Play kannst du die Module <strong>ohne Fachkenntnisse selbst installieren und in Betrieb nehmen</strong>. Sie sind modular erweiterbar, sodass du dein Solarsystem flexibel an deine Bedürfnisse anpassen kannst. Die <strong>Komplettsets beinhalten alle Komponenten</strong> für die sofortige Inbetriebnahme deines Balkonkraftwerks.</p>",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "rich_text_egtCTm": {
+      "type": "rich-text",
+      "blocks": {
+        "image_BzFMnC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Logos.png",
+            "width_mode": "custom",
+            "max_width": 350,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "image_BzFMnC"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "media_with_text_GBChXg": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_UWNWQg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/A7403862.webp",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "So wird der Kauf noch attraktiver",
+            "content": "<p>Der Kauf von Balkonkraftwerken wird im Rahmen von bundesweiten Förderprogrammen mit bis zu 500 € bezuschusst. Informiere dich vor dem Kauf über Förderprogramme in deiner Stadt oder Region und spare Geld!</p>",
+            "link_text": "Finde eine Förderung in deiner Region!",
+            "link_url": "https://www.balkonstrom.com/pages/foerderung",
+            "background": "#f7f7f7",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_UWNWQg"
+      ],
+      "settings": {
+        "show_klaviyo_form": false,
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "media_with_text_nqatdB": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_mLdAFR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Balkonstrom_Vergleich_gross.webp",
+            "media_width": 55,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Vertraue auf Premium-Qualität",
+            "content": "<p>Balkonstrom® liefert dir hochwertige, in Deutschland gefertigte Kabel und individuelle Fachberatung. Dank schneller Lieferung und klarer Schritt-für-Schritt-Anleitung ist dein Balkonkraftwerk sofort einsatzbereit.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f7f7f7",
+            "background_gradient": "",
+            "text_color": "#040404",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_mLdAFR"
+      ],
+      "settings": {
+        "show_klaviyo_form": false,
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "09df8a39-86d5-4eab-a510-9aa283582fe0": {
+      "type": "faq",
+      "blocks": {
+        "template--18109074047240__09df8a39-86d5-4eab-a510-9aa283582fe0-item-1": {
+          "type": "item",
+          "settings": {
+            "title": "Warum sollte ich ein Balkonkraftwerk mit deutschen Modulen kaufen?",
+            "content": "<p>Durch den Standort des Garantiegebers in Deutschland hast du im Falle eines Garantiefalles deines Solarmoduls eine Sicherheit dieses auch ersetzt zu bekommen. Dies ist bei asiatischen Herstellern mitunter nicht der Fall und es ist wesentlich schwieriger Garantieansprüche durchzusetzen.</p>"
+          }
+        },
+        "template--18109074047240__09df8a39-86d5-4eab-a510-9aa283582fe0-item-2": {
+          "type": "item",
+          "settings": {
+            "title": "Was ist die SmartWire Technologie?",
+            "content": "<p>Bei dieser neuen Technologie werden die Solarzellen mit Hilfe dünner Kupferdrähte auf beiden Seiten der Zelle elektrisch verbunden und verringern die Abschattung auf den Solarzellen um 3% im Vergleich zu Zellen mit drei Busbars. In Verbindung mit einem um 2% tieferen Serienwiderstand steigert die SWCT-Technologie die Leistung eines Solarmoduls um 5%.</p>"
+          }
+        },
+        "template--18109074047240__09df8a39-86d5-4eab-a510-9aa283582fe0-item-3": {
+          "type": "item",
+          "settings": {
+            "title": "Was macht ein Balkonkraftwerk mit deutschen Modulen besser?",
+            "content": "<p>25 Jahre Garantie eines deutschen Herstellers besitzen einen deutlich höheren Wert gegenüber ausländischen Herstellern. Zudem garantiert Meyer Burger, dass die Leistung der Module nach 25 Jahren noch bei 92 Prozent liegt. Die Module sind zudem sehr langlebig. Dies wird durch die hohe Zellstabilität und Bruchsicherheit mithilfe der SmartWire Connection Technology gewährleistet. Durch die Heterojunction Technologie sind die Module zudem effizienter als herkömmliche Module.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18109074047240__09df8a39-86d5-4eab-a510-9aa283582fe0-item-1",
+        "template--18109074047240__09df8a39-86d5-4eab-a510-9aa283582fe0-item-2",
+        "template--18109074047240__09df8a39-86d5-4eab-a510-9aa283582fe0-item-3"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "<p>Du hast Fragen zum Thema Balkonkraftwerke und Premium Solarmodule von Meyer Burger? Für eine Zusammenstellung der häufig gestellten Fragen schaue gerne bei unseren FAQ vorbei.</p>",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "rich_text_KCdBcA": {
+      "type": "rich-text",
+      "blocks": {
+        "button_HEdhzR": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Vereinbare einen Beratungstermin",
+            "url": "https://www.balkonstrom.com/pages/beratungstermin",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_HEdhzR"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "e74dc221-69c5-467a-ba14-74e75ad29631": {
+      "type": "seo-section",
+      "blocks": {
+        "fullwidthblock_kzcNkJ": {
+          "type": "fullwidthblock",
+          "settings": {
+            "full_width_heading": "Premium Solarmodule von Meyer Burger",
+            "full_width_description": "<p>Die Meyer Burger Black Solarmodule kombinieren branchenführende Effizienz mit modernem Design. Die 390 Wp-Module überzeugen durch ihre elegante Fullblack Optik mit Rahmen aus schwarz eloxiertem Aluminium. Sie sind für extreme Wetterbedingungen von -40 bis +85 Grad Celsius ausgelegt, wodurch sie in nahezu jedem Klima zuverlässig arbeiten. Meyer Burger kombiniert die innovative Heterojunction- (HJT) und SmartWire-Technologie, die die Effizienz der Solarmodule maximieren und gleichzeitig Abschattungsverluste um bis zu 30 % reduzieren. Die Zuverlässigkeit und Langlebigkeit der Meyer Burger Solarmodule wird durch die umfassende 25-jährige Leistungs- und Produktgarantie unterstrichen. Im Vergleich zu herkömmlichen PERC-Modulen bieten die Meyer Burger Solarmodule höhere Effizienz, geringere Degradation und bessere Leistung bei Schräglichter und Schwachlicht. Die regionale Wertschöpfungskette und Produktion in Deutschland gewährleisten höchste Qualität und kurze Transportwege, was die Wahrscheinlichkeit von Mikrorissen minimiert. Zusammenfassend bieten die Meyer Burger 390-Wp Black Solarmodule herausragende Leistung und Langlebigkeit.</p><p>Meyer Burger ist ein führender Hersteller mit jahrzehntelanger Erfahrung von innovativen Solarmodulen, die höchste Effizienz, eine regionale Wertschöpfungskette und Zuverlässigkeit gewährleisten. Die Module werden in der Schweiz designed und in Deutschland nach höchsten Qualitätsstandards produziert. Die Fertigung der Meyer Burger Solarmodule in Deutschland ermöglicht nicht nur eine präzise Kontrolle der Produktionsqualität, sondern auch kurze Transportwege.</p>",
+            "full_width_heading_color": "#040404",
+            "gradient": "",
+            "full_width_description_color": "#040404",
+            "full_width_heading_size": "h1"
+          }
+        },
+        "leftblock_m8X7gw": {
+          "type": "leftblock",
+          "settings": {
+            "left_block_heading": "SmartWire Technologie von Meyer Burger",
+            "left_block_description": "<p>Die Smart Wire Technologie von Meyer Burger setzt neue Maßstäbe in der Solarmodulbranche. Durch die innovative Verschaltung der Solarzellen mit ultradünnen Drähten anstelle der traditionellen breiten Kontaktbänder wird der elektrische Widerstand minimiert. Dies führt zu einer erheblichen Steigerung der Energieeffizienz der Solarmodule. Dank dieser Technologie werden Verluste durch Abschattung reduziert und die mechanische Belastung gleichmäßiger auf die Zellen verteilt. Dies macht die Module von Meyer Burger nicht nur robuster, sondern auch langlebiger. Zusätzlich sorgt das ästhetische Design der Smart Wire Module für eine nahtlose Integration in verschiedene Architekturstile und macht sie zur idealen Wahl für moderne Bauprojekte.</p>",
+            "left_block_heading_color": "#040404",
+            "gradient": "",
+            "left_block_description_color": "#040404",
+            "left_block_heading_size": "h1"
+          }
+        },
+        "rightblock_rVDwDH": {
+          "type": "rightblock",
+          "settings": {
+            "right_block_heading": "Branchenführende Effizienz dank Heterojunction-Technologie",
+            "right_block_description": "<p>Die Heterojunction-Technologie (HJT) von Meyer Burger kombiniert zwei verschiedene Silizium-Schichten, um die Sonnenenergieaufnahme zu maximieren und den Widerstand beim elektrischen Stromfluss zu minimieren. Dies sorgt für eine verbesserte Leistung der Solarmodule bei diffusen Lichtverhältnissen, wie morgens oder abends. Auch unter weniger idealen Bedingungen erzeugen die Meyer Burger Solarmodule kontinuierlich Energie und sind hocheffizient. Diese HJT-Technologie macht die Meyer Burger Solarmodule besonders leistungsstark und langlebig. </p>",
+            "right_block_heading_color": "#040404",
+            "gradient": "",
+            "right_block_description_color": "#040404",
+            "right_block_heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "fullwidthblock_kzcNkJ",
+        "leftblock_m8X7gw",
+        "rightblock_rVDwDH"
+      ],
+      "settings": {
+        "full_width": false,
+        "page_width": 1600,
+        "link_color": "#040404",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "image_with_text_overlay_Hrqyxz",
+    "custom_logo_list_NBrF4Y",
+    "featured_collection_7nhya3",
+    "text_with_icons_TQcfmM",
+    "main",
+    "multi_column_dhC6WT",
+    "media_with_text_UzmVj9",
+    "collection_list_Ag9rXK",
+    "rich_text_egtCTm",
+    "media_with_text_GBChXg",
+    "media_with_text_nqatdB",
+    "09df8a39-86d5-4eab-a510-9aa283582fe0",
+    "rich_text_KCdBcA",
+    "e74dc221-69c5-467a-ba14-74e75ad29631"
+  ]
+}

@@ -1,0 +1,680 @@
+<style>
+  /* Prefixed CSS classes to ensure uniqueness */
+  .balkonstrom-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .balkonstrom-sections-container {
+    width: 100%;
+    max-width: 800px;
+    margin-right: 0;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+  .balkonstrom-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .balkonstrom-section-header {
+    font-size: 24px;
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .balkonstrom-panel-selection {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    justify-items: center;
+  }
+  .balkonstrom-styled-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .balkonstrom-styled-input button {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .balkonstrom-styled-input input[type="number"] {
+    width: 70px;
+    padding: 5px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    text-align: center;
+  }
+  .balkonstrom-styled-input span {
+    font-size: 16px;
+    margin-left: 5px;
+  }
+  .balkonstrom-panel-thumbnail {
+    background-color: #fff;
+    border: 2px solid transparent;
+    border-radius: 16px;
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: auto;
+    max-width: 150px;
+  }
+  .balkonstrom-panel-thumbnail img {
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+    margin-bottom: 10px;
+  }
+  .balkonstrom-panel-thumbnail.active,
+  .balkonstrom-panel-thumbnail:hover {
+    border-color: #ffc107;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+  .balkonstrom-panel-title {
+    font-weight: bold;
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 5px;
+    text-align: center;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+  }
+  .balkonstrom-calculate-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #FFC107;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .balkonstrom-results-section {
+    padding: 15px;
+    background-color: #e2ffd9;
+    color: green;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+    opacity: 0.5;
+    filter: blur(3px);
+  }
+  .balkonstrom-results-section.active {
+    opacity: 1;
+    filter: none;
+  }
+  .balkonstrom-newsletter-form {
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .balkonstrom-newsletter-form h3 {
+    font-size: 18px;
+    color: black;
+    margin-bottom: 15px;
+  }
+  .balkonstrom-newsletter-form input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  .balkonstrom-newsletter-form button {
+    background-color: #FFC107;
+    border: none;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  .balkonstrom-newsletter-form .email-required {
+    color: red;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 5px;
+    display: none;
+  }
+  .balkonstrom-thank-you {
+    display: none;
+    color: green;
+    margin-top: 15px;
+    font-size: 16px;
+    text-align: center;
+  }
+  .balkonstrom-pill-selection {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .balkonstrom-pill-button {
+    padding: 10px 20px;
+    background-color: #e0e0e0;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s, color 0.3s;
+    font-weight: 500;
+    color: #333;
+    flex: 1 1 auto;
+    text-align: center;
+    margin: 5px 0;
+  }
+  .balkonstrom-pill-button.active,
+  .balkonstrom-pill-button:hover {
+    background-color: #ffc107;
+    color: #fff;
+  }
+  .balkonstrom-range-slider {
+    width: 100%;
+    position: relative;
+  }
+  .balkonstrom-range-slider input[type="range"] {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 8px;
+    background: #e9ebed;
+    border-radius: 5px;
+    outline: none;
+    padding: 0;
+    margin: 0;
+  }
+  .balkonstrom-range-slider input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #FFD118;
+    cursor: pointer;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+  }
+  .balkonstrom-range-slider input[type="range"]::-moz-range-thumb {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #FFD118;
+    cursor: pointer;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+  }
+  .balkonstrom-range-values {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position:relative;
+    top: -10px;
+    font-size: 12px;
+  }
+  .balkonstrom-range-labels {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    font-size: 12px;
+    color: #666;
+  }
+  .balkonstrom-full-width-section {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-top: 20px;
+  }
+  .balkonstrom-sticky-section {
+    position: sticky;
+    top: 20px;
+    z-index: 10;
+    width: 50%;
+    box-sizing: border-box;
+  }
+
+  @media (max-width: 768px) {
+    .balkonstrom-panel-selection {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .balkonstrom-sticky-section{
+      width:100%;
+    }
+
+    .balkonstrom-sections-container {
+      width: 100%;
+    }
+
+    .balkonstrom-panel-thumbnail {
+      max-width: 100px;
+    }
+
+    .balkonstrom-section-header {
+      font-size: 20px;
+    }
+
+    .balkonstrom-pill-button {
+      padding: 8px 15px;
+      font-size: 12px;
+    }
+
+    .balkonstrom-newsletter-form h3 {
+      font-size: 16px;
+    }
+  }
+  .balkonstrom-newsletter-form-new h3 {
+    font-size: 18px;
+    color: black;
+    margin-bottom: 15px;
+    text-align: center;
+}
+</style>
+
+{% assign activate_klaviyo_form = section.settings.activate_klaviyo_form %}
+
+<div class="balkonstrom-container">
+  <div class="balkonstrom-sections-container">
+    <!-- Header and Content Section -->
+    <div class="balkonstrom-section balkonstrom-calculator-header-section">
+      <div class="balkonstrom-section-header">{{ section.settings.section_title }}</div>
+      <div class="balkonstrom-calculator-content">{{ section.settings.section_description }}</div>
+    </div>
+
+    <!-- Number of Panels Section -->
+    <div class="balkonstrom-section balkonstrom-calculation">
+      <div class="balkonstrom-section-header">Modulanzahl</div>
+      <div class="balkonstrom-panel-selection">
+        <div class="balkonstrom-panel-thumbnail" onclick="selectPanel(1, this)">
+          <img alt="1 Paneel" src="{{ section.settings.panel_1_image | img_url: '300x300' }}">
+          <div class="balkonstrom-panel-title">1 Modul</div>
+        </div>
+        <div class="balkonstrom-panel-thumbnail" onclick="selectPanel(2, this)">
+          <img alt="2 Paneele" src="{{ section.settings.panel_2_image | img_url: '300x300' }}">
+          <div class="balkonstrom-panel-title">2 Module</div>
+        </div>
+        <div class="balkonstrom-panel-thumbnail" onclick="selectPanel(3, this)">
+          <img alt="3 Paneele" src="{{ section.settings.panel_3_image | img_url: '300x300' }}">
+          <div class="balkonstrom-panel-title">3 Module</div>
+        </div>
+        <div class="balkonstrom-panel-thumbnail" onclick="selectPanel(4, this)">
+          <img alt="4 Paneele" src="{{ section.settings.panel_4_image | img_url: '300x300' }}">
+          <div class="balkonstrom-panel-title">4 Module</div>
+        </div>
+      </div>
+      <input type="hidden" id="panelCount" value="">
+      <input type="hidden" id="powerRating" value="0.45"> <!-- Hidden input to store the power rating -->
+    </div>
+
+    <!-- Orientation Adjustment Factor Section -->
+    <div class="balkonstrom-section balkonstrom-calculation">
+      <div class="balkonstrom-section-header">Modulausrichtung</div>
+      <div class="balkonstrom-pill-selection">
+        <button class="balkonstrom-pill-button" onclick="selectOrientation(this, 1.0)">Süden</button>
+        <button class="balkonstrom-pill-button" onclick="selectOrientation(this, 0.90)">Westen</button>
+        <button class="balkonstrom-pill-button" onclick="selectOrientation(this, 0.85)">Osten</button>
+        <button class="balkonstrom-pill-button" onclick="selectOrientation(this, 0.7)">Norden</button>
+      </div>
+      <input type="hidden" id="orientationFactor" value="">
+    </div>
+
+    <!-- Tilt Angle Adjustment Factor Section -->
+    <div class="balkonstrom-section balkonstrom-calculation">
+      <div class="balkonstrom-section-header">Neigungswinkel</div>
+      <div class="balkonstrom-range-slider">
+        <input id="tiltAngleSlider" type="range" min="0.15" max="0.9" step="0.15" value="0.15" oninput="updateTiltAngle(this.value)">
+        <div class="balkonstrom-range-labels">
+          <span>15°</span>
+          <span>30°</span>
+          <span>45°</span>
+          <span>60°</span>
+          <span>75°</span>
+          <span>90°</span>
+        </div>
+      </div>
+      <input type="hidden" id="tiltFactor" value="0.15">
+    </div>
+
+    <!-- Annual Electricity Consumption Section -->
+    <div class="balkonstrom-section balkonstrom-calculation">
+      <div class="balkonstrom-section-header">Anzahl der Personen im Haushalt</div>
+      <div class="balkonstrom-pill-selection">
+        <button class="balkonstrom-pill-button" onclick="selectPersonCount(1500, this)">1 Person</button>
+        <button class="balkonstrom-pill-button" onclick="selectPersonCount(2000, this)">2 Personen</button>
+        <button class="balkonstrom-pill-button" onclick="selectPersonCount(3000, this)">3 Personen</button>
+        <button class="balkonstrom-pill-button" onclick="selectPersonCount(4000, this)">4 Personen</button>
+        <button class="balkonstrom-pill-button" onclick="selectPersonCount(5000, this)">5 Personen</button>
+      </div>
+      <input type="number" id="manualConsumption" value="1500" oninput="updateConsumption(this.value)" style="margin-top: 10px; width: 100%; padding: 8px; font-size: 16px; text-align: center; border-radius: 5px; border: 1px solid #ccc;">
+      <input type="hidden" id="personCount" value="1500">
+    </div>
+
+    <!-- Electricity Cost per kWh Section -->
+    <div class="balkonstrom-section balkonstrom-calculation">
+      <div class="balkonstrom-section-header">Stromkosten pro kWh (€)</div>
+      <div class="balkonstrom-input-section" style="align-items: flex-start;">
+        <div class="balkonstrom-styled-input">
+          <button onclick="adjustCost(-0.01)">-</button>
+          <input type="number" id="electricityCost" step="0.01" value="0.45">
+          <button onclick="adjustCost(0.01)">+</button>
+          <span>€</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Calculate Savings Section -->
+  <div class="balkonstrom-sticky-section">
+    <div class="balkonstrom-section">
+      <button class="balkonstrom-calculate-button" onclick="validateAndCalculate()">Einsparungen berechnen</button>
+      <div id="resultsSection" class="balkonstrom-results-section{% unless activate_klaviyo_form %} active{% endunless %}">
+        <h3>Jährliche Einsparungen: €<span id="annualSavings">0</span></h3>
+      </div>
+    </div>
+
+    <!-- Klaviyo Newsletter Form Section -->
+    <div class="balkonstrom-newsletter-form-new">
+      
+      {% if activate_klaviyo_form == true %}<div class="klaviyo-form-S7xFyh"></div>{% endif %}
+       {% comment %}
+          <input type="email" id="klaviyo-email-input" placeholder="E-Mail eingeben">
+          <div class="email-required">E-Mail ist erforderlich!</div>
+          <button onclick="subscribeAndShowResults()">Abonnieren</button>
+          <div class="balkonstrom-thank-you">Danke fürs Abonnieren!</div>
+       {% endcomment %} 
+    </div>
+  </div>
+</div>
+
+<script>
+  var has_klaviyo_form = {{activate_klaviyo_form}};
+  
+  function selectPanel(panelCount, element) {
+    const panels = document.querySelectorAll('.balkonstrom-panel-thumbnail');
+    panels.forEach(panel => panel.classList.remove('active'));
+    element.classList.add('active');
+    document.getElementById('panelCount').value = panelCount;
+
+    // Set power rating based on the selected number of panels
+    const powerRatings = {
+      1: 0.45,
+      2: 0.9,
+      3: 1.35,
+      4: 1.8
+    };
+    document.getElementById('powerRating').value = powerRatings[panelCount];
+  }
+
+  function selectOrientation(button, factor) {
+    // console.log(button.closest('.balkonstrom-pill-selection'));
+    const buttons = button.closest('.balkonstrom-pill-selection').querySelectorAll('.balkonstrom-pill-button');
+    buttons.forEach(btn => btn.classList.remove('active'));
+    button.classList.add('active');
+    document.getElementById('orientationFactor').value = factor;
+  }
+
+  function updateTiltAngle(value) {
+    document.getElementById('tiltFactor').value = value;
+  }
+
+  function selectPersonCount(annualConsumption, element) {
+    // console.log(element.closest('.balkonstrom-pill-selection'));
+    const buttons = element.closest('.balkonstrom-pill-selection').querySelectorAll('.balkonstrom-pill-button');
+    buttons.forEach(button => button.classList.remove('active'));
+    element.classList.add('active');
+    document.getElementById('personCount').value = annualConsumption;
+    document.getElementById('manualConsumption').value = annualConsumption;
+  }
+
+  function updateConsumption(value) {
+    document.getElementById('personCount').value = value;
+  }
+
+  function adjustCost(amount) {
+    const costInput = document.getElementById('electricityCost');
+    let cost = parseFloat(costInput.value);
+    cost = (cost + amount).toFixed(2);
+    if (cost >= 0) {
+      costInput.value = cost;
+    }
+  }
+
+  // function validateAndCalculate() {
+  //   const emailInput = document.getElementById('klaviyo-email-input');
+  //   if (!emailInput.value) {
+  //     document.querySelector('.balkonstrom-newsletter-form .email-required').style.display = 'block';
+  //     document.getElementById('resultsSection').classList.remove('active');
+  //     return;
+  //   }
+
+  //   document.querySelector('.balkonstrom-newsletter-form .email-required').style.display = 'none';
+
+  //   const panelCount = document.getElementById('panelCount').value;
+  //   const powerRating = document.getElementById('powerRating').value;
+  //   const orientationFactor = document.getElementById('orientationFactor').value;
+  //   const tiltFactor = document.getElementById('tiltFactor').value;
+  //   const personCount = document.getElementById('personCount').value;
+
+  //   if (!panelCount || !powerRating || !orientationFactor || !tiltFactor || !personCount) {
+  //     alert('Bitte stellen Sie sicher, dass alle Optionen ausgewählt sind, bevor Sie die Berechnung durchführen.');
+  //     return;
+  //   }
+
+  //   // Retrieve the current values
+  //   const numberOfPanels = parseInt(panelCount);
+  //   const panelPower = parseFloat(powerRating);
+  //   const orientation = parseFloat(orientationFactor);
+  //   const tilt = parseFloat(tiltFactor);
+  //   const electricityCost = parseFloat(document.getElementById('electricityCost').value);
+  //   const annualConsumption = parseFloat(personCount);
+
+  //   // Constants
+  //   const sunHoursPerDay = 4.5;
+  //   const systemEfficiency = 0.8;
+  //   const selfConsumptionRate = 0.7;
+
+  //   // Base Energy Production (E_Base)
+  //   const E_Base = numberOfPanels * panelPower * sunHoursPerDay * 365 * systemEfficiency;
+
+  //   // Adjustment for Orientation (E_Orientation)
+  //   const E_Orientation = E_Base * orientation;
+
+  //   // Adjustment for Tilt Angle (E_Solar)
+  //   const E_Solar = E_Orientation * tilt;
+
+  //   // Calculate Self-Consumed Energy (E_Self)
+  //   const E_Self = E_Solar * selfConsumptionRate;
+
+  //   // Calculate Annual Savings (S_Electricity)
+  //   const E_Self_Limited = Math.min(E_Self, annualConsumption);
+  //   const S_Electricity = E_Self_Limited * electricityCost;
+
+  //   // Display the result
+  //   document.getElementById('annualSavings').innerText = S_Electricity.toFixed(2);
+
+  //   // Show the results section
+  //   document.getElementById('resultsSection').classList.add('active');
+  // }
+
+  function subscribeAndShowResults() {
+    const emailInput = document.getElementById('klaviyo-email-input');
+    if (emailInput.value) {
+      validateAndCalculate();
+      document.querySelector('.balkonstrom-thank-you').style.display = 'block';
+    } else {
+      document.querySelector('.balkonstrom-newsletter-form .email-required').style.display = 'block';
+    }
+  }
+
+  function validateAndCalculate() {
+    if(has_klaviyo_form){
+      const emailInput = document.getElementById('email_125796846');
+      // console.log(emailInput.value);
+      if (!emailInput.value) {
+        // document.querySelector('.balkonstrom-newsletter-form .email-required').style.display = 'block';
+        document.getElementById('resultsSection').classList.remove('active');
+        return;
+      }
+    }
+
+    // document.querySelector('.balkonstrom-newsletter-form .email-required').style.display = 'none';
+
+    const panelCount = document.getElementById('panelCount').value;
+    const powerRating = document.getElementById('powerRating').value;
+    const orientationFactor = document.getElementById('orientationFactor').value;
+    const tiltFactor = document.getElementById('tiltFactor').value;
+    const personCount = document.getElementById('personCount').value;
+
+    if (!panelCount || !powerRating || !orientationFactor || !tiltFactor || !personCount) {
+      // alert('Bitte stellen Sie sicher, dass alle Optionen ausgewählt sind, bevor Sie die Berechnung durchführen.');
+      return;
+    }
+
+    // Retrieve the current values
+    const numberOfPanels = parseInt(panelCount);
+    const panelPower = parseFloat(powerRating);
+    const orientation = parseFloat(orientationFactor);
+    const tilt = parseFloat(tiltFactor);
+    const electricityCost = parseFloat(document.getElementById('electricityCost').value);
+    const annualConsumption = parseFloat(personCount);
+
+    // Constants
+    const sunHoursPerDay = 4.5;
+    const systemEfficiency = 0.8;
+    const selfConsumptionRate = 0.7;
+
+    // Base Energy Production (E_Base)
+    const E_Base = numberOfPanels * panelPower * sunHoursPerDay * 365 * systemEfficiency;
+
+    // Adjustment for Orientation (E_Orientation)
+    const E_Orientation = E_Base * orientation;
+
+    // Adjustment for Tilt Angle (E_Solar)
+    const E_Solar = E_Orientation * tilt;
+
+    // Calculate Self-Consumed Energy (E_Self)
+    const E_Self = E_Solar * selfConsumptionRate;
+
+    // Calculate Annual Savings (S_Electricity)
+    const E_Self_Limited = Math.min(E_Self, annualConsumption);
+    const S_Electricity = E_Self_Limited * electricityCost;
+
+    // Display the result
+    document.getElementById('annualSavings').innerText = S_Electricity.toFixed(2);
+
+    // Show the results section
+    document.getElementById('resultsSection').classList.add('active');
+  }
+
+
+  if(!has_klaviyo_form){    
+    const calculationsEles = document.querySelectorAll('.balkonstrom-calculation');
+    if(calculationsEles.length > 0){
+      calculationsEles.forEach(ele => {
+        ele.addEventListener('click', ()=>{
+          validateAndCalculate();
+        })
+      })
+    }
+  }
+
+  if(has_klaviyo_form){
+    setTimeout(()=>{    
+      const klavioFormSubmitBtn = document.querySelector('[data-testid="form-component"] button');
+      if(klavioFormSubmitBtn){
+        klavioFormSubmitBtn.addEventListener('click',()=>{
+          const emailInput = document.getElementById('email_125796846');
+          if (emailInput.value) {
+            validateAndCalculate();
+            document.querySelector('.balkonstrom-thank-you').style.display = 'block';
+          } else {
+            // document.querySelector('.balkonstrom-newsletter-form .email-required').style.display = 'block';
+          }
+        })
+      }
+    }, 2500);
+  }
+</script>
+
+{% schema %}
+{
+  "name": "Balkonstrom Calculator",
+  "settings": [
+    {
+      "type": "text",
+      "id": "section_title",
+      "label": "Titel",
+      "default": "Balkonstrom Rechner für Ihr Solarkonzept"
+    },
+    {
+      "type": "richtext",
+      "id": "section_description",
+      "label": "Beschreibung",
+      "default": "<p>Der Balkonstrom-Kraftwerkrechner zeigt Ihnen, wie viel Strom Ihr Balkonkraftwerk erzeugen kann und wie viel Sie mit der perfekten Modulausrichtung und dem besten Neigungswinkel sparen können.</p>"
+    },
+    {
+      "type": "image_picker",
+      "id": "panel_1_image",
+      "label": "Paneel 1 Bild"
+    },
+    {
+      "type": "image_picker",
+      "id": "panel_2_image",
+      "label": "Paneel 2 Bild"
+    },
+    {
+      "type": "image_picker",
+      "id": "panel_3_image",
+      "label": "Paneel 3 Bild"
+    },
+    {
+      "type": "image_picker",
+      "id": "panel_4_image",
+      "label": "Paneel 4 Bild"
+    },
+    {
+      "type": "checkbox",
+      "id": "activate_klaviyo_form",
+      "label": "Activate Klaviyo Form",
+      "default": false
+    }
+  ],
+  "presets": [
+    {
+      "name": "Balkonstrom Rechner",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,209 @@
+
+.new-header-section .icon_width_text_block_main {
+    display: flex;
+    column-gap: 30px;
+    place-self: end;
+    margin: 0 auto 20px;
+}
+.new-header-section .icon_width_text_block_list img {
+    width: 100%;
+    height: 36px;
+    margin-bottom: 10px;
+  object-fit:contain;
+}
+.new-header-section .icon_width_text_block_list .icon_with_text_heading {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.4;
+    word-break: break-word;
+    
+    font-weight: 400;
+}
+
+.only_desktop_show {
+  display: flex;
+}
+.only_mobile_show {
+  display: none !important;
+}
+.new-header-section .h0 {
+    font-size: 102px;
+    line-height: 1;
+    letter-spacing: -5.1px;
+    font-weight: 700;
+}
+.new-header-section .subheding {
+    font-size: 44px;
+    line-height: 100%;
+    letter-spacing: -0.88px;
+}
+.new-header-section .content-over-media > :not(img, .new-header-section video, .new-header-section iframe, svg, video-media) {
+    max-width: var(--content-over-media-content-max-width, 920px);
+    z-index: 1;
+    grid-area: 2 / 2 / auto / span 1;
+    position: relative;
+}
+.new-header-section .image_block {
+    position: absolute !important;
+    top: 0;
+    right: 0;
+}
+.new-header-section .image_block img{
+    aspect-ratio: 100 / 150;
+  object-fit: contain;
+}
+.new-header-section .text-custom .prose {
+    padding-bottom: 150px;
+}
+.new-header-section .content-over-media>:not(img,.new-header-section video,.new-header-section iframe,svg,video-media) .icon_width_text_block_list {
+    text-align: center;
+    width: 100%;
+}
+
+@media screen and (max-width: 1199px){
+  .new-header-section .h0 {
+    font-size: 60px;
+    line-height: 1;
+    letter-spacing: -3.1px;
+  }
+  /* .new-header-section .subheding {
+      font-size: 36px;
+      line-height: 100%;
+      letter-spacing: -0.88px;
+  } */
+}
+@media screen and (max-width: 1023px){
+
+  /* .new-header-section .subheding {
+      font-size: 32px;
+  } */
+  .new-header-section .subheding {
+      margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 767px){
+.only_desktop_show {
+  display: none !important;
+}
+.only_mobile_show {
+  display: block !important;
+}
+.new-header-section .icon_width_text_block_list img {
+    margin-bottom: 0px;
+    filter: brightness(0) saturate(100%) invert(31%) sepia(91%) saturate(1130%) hue-rotate(149deg) brightness(96%) contrast(101%);
+}
+.icon_width_text_block_list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.icon_width_text_block_list:last-child {
+    margin-bottom: 0px;
+}
+  .new-header-section .icon_width_text_block_list .icon_with_text_heading br {
+    display: none;
+}
+.new-header-section .icon_width_text_block_main {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+  .new-header-section .icon_width_text_block_list .icon_with_text_heading {
+    font-size: 16px;
+    line-height: 1.4;
+    text-align: left;
+}
+.new-header-section .h0 {
+    font-size: 30px;
+    line-height: 1.2;
+    letter-spacing: normal;
+}
+.new-header-section .subheding {
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: -0.88px;
+}
+.new-header-section .image_block {
+    position: absolute!important;
+    top: auto;
+    left: 50%;
+    transform: translate(-50%, 0);
+    bottom: 40px;
+    right: auto;
+}
+  .new-header-section .text-custom .prose {
+    /* padding-top: 60px; */
+    padding-bottom: 250px;
+}
+  .icon_with_text_icon_cover {
+    background: #effcf7;
+    padding: 6px;
+    width: 100%;
+    max-width: 46px;
+    height: 46px;
+    border-radius: 4px;
+    margin-right: 15px;
+}
+  .new-header-section .icon_width_text_block_list img {
+      height: 34px;
+  }
+}
+
+.cus_btn .button{
+  padding-right: calc(var(--spacing-8) + 24px);
+}
+.cus_btn .button:after{
+    content: "";
+    display: block;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 24px;
+    background: url("https://cdn.shopify.com/s/files/1/0609/9481/4140/files/button_arrow.svg") center center / 17px 14px no-repeat;
+  
+}
+.new-header-section .cus_btn {
+  margin-block-start: var(--spacing-5);
+  display: inline-block;
+  margin-right: 15px;
+}
+
+
+/* @media screen and (max-width: 1800px) {
+  .new-header-section .text-custom .prose {
+      padding-top: 80px;
+  }
+}
+ */
+
+/* @media screen and (min-width: 767px) and (max-width: 1199px) {
+  .new-header-section .text-custom .prose {
+      padding-bottom: 0;
+  }
+}
+ */
+@media screen and (max-width: 476px) {
+  .new-header-section .h0 {
+      font-size: 29px;
+      line-height: 1;
+  }
+  .new-header-section .subheding {
+      line-height: 1.2;
+  }
+  .new-header-section .text-custom .prose {
+      padding-bottom: 150px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .cus_btn .button {
+      width: 100%;
+  }
+}
+
+
+
+
+

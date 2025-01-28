@@ -1,0 +1,115 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "449420bb-1ab6-4a2c-840a-1304416168c3": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17993392521480__449420bb-1ab6-4a2c-840a-1304416168c3-1684004283c4a08ff3-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/collection-und-startseite-bilder_5a9091e7-a1cd-433e-b601-a919c70d7304.webp",
+            "mobile_image": "shopify://shop_images/wir-arbeiten.webp",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17993392521480__449420bb-1ab6-4a2c-840a-1304416168c3-1684004283c4a08ff3-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": true,
+        "image_size": "lg",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#ffffff",
+        "background_gradient": ""
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "content_width": "100%"
+      }
+    },
+    "6e35f183-c92a-4439-915f-1d2c748b49e6": {
+      "type": "accordion-content",
+      "blocks": {
+        "template--17993392521480__6e35f183-c92a-4439-915f-1d2c748b49e6-1684061384fa24b028-0": {
+          "type": "item",
+          "settings": {
+            "title": "Fachkraft für Lagerlogistik (Midi-Job)",
+            "content": "<p><a href=\"/pages/midi-job-fachkraft-fur-lagerlogistik\" title=\"Midi-Job Fachkraft für Lagerlogistik\">Zu den Jobdetails</a></p>"
+          }
+        },
+        "template--17993392521480__6e35f183-c92a-4439-915f-1d2c748b49e6-1684061384fa24b028-1": {
+          "type": "item",
+          "settings": {
+            "title": "Mini-/Midi-Job Social Media Manager / Content Creator",
+            "content": "<p><a href=\"/pages/mini-midi-job-e-commerce-und-grafikdesign-m-w-d\" title=\"Mini-/ Midi-Job E-Commerce und Grafikdesign (m/w/d)\">Zu den Jobdetails</a></p>"
+          }
+        },
+        "template--17993392521480__6e35f183-c92a-4439-915f-1d2c748b49e6-1684061384fa24b028-2": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "title": "E-Commerce / Online-Marketing-Manager (Vollzeit)",
+            "content": "<p><a href=\"/pages/vollzeit-e-commerce-online-marketing-manager\" title=\"Vollzeit E-Commerce / Online-Marketing-Manager\">Zu den Jobdetails</a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17993392521480__6e35f183-c92a-4439-915f-1d2c748b49e6-1684061384fa24b028-0",
+        "template--17993392521480__6e35f183-c92a-4439-915f-1d2c748b49e6-1684061384fa24b028-1",
+        "template--17993392521480__6e35f183-c92a-4439-915f-1d2c748b49e6-1684061384fa24b028-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "Unsere offenen Stellen",
+        "title": "Du hast die Skills, wir haben die Herausforderung.",
+        "content": "<p>Für unseren Standort 97292 Uettingen möchten wir unser Team in folgenden Bereichen erweitern. Wenn du eine Leidenschaft für unsere Branche hast und deine Fähigkeiten in einem motivierten und jungen Team einbringen möchtest, dann bist du bei uns genau richtig! </p><p>Wir freuen uns auf dich!</p>",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "449420bb-1ab6-4a2c-840a-1304416168c3",
+    "main",
+    "6e35f183-c92a-4439-915f-1d2c748b49e6"
+  ]
+}

@@ -1,0 +1,549 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "100%"
+      }
+    },
+    "image_with_text_overlay_p6tfBA": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_3dFEet": {
+          "type": "heading",
+          "settings": {
+            "text": "CYBER WEEK 2025",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_NHqdNz": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Sichere dir Bestpreise für Balkonkraftwerke und Speicher!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_3dFEet",
+        "richtext_NHqdNz"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "enable_fix_parallax": false,
+        "image_size": "lg",
+        "image": "shopify://shop_images/Header_Cyber_Week.webp",
+        "mobile_image": "shopify://shop_images/Cyber_Week_Header_Mobile.webp",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "custom_logo_list_jth6J4": {
+      "type": "custom-logo-list",
+      "blocks": {
+        "logo_image_enjh4A": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/Untitled_design_80.png"
+          }
+        },
+        "logo_image_EymiBQ": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_1_6ad045c6-a6af-43bc-8772-088fda3e65c1.png"
+          }
+        },
+        "logo_image_cXgU7A": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_68bc6b1f-9cde-4e28-90d9-010389d4b518.png"
+          }
+        },
+        "logo_image_BenpyK": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_4.png"
+          }
+        },
+        "logo_image_im4WYn": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_3_eccce761-16d6-41a5-aab7-1b94750e6ae5.png"
+          }
+        },
+        "logo_image_kgrNid": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_2_a6e3afea-7afd-46b9-9542-a2b05fba13c9.png"
+          }
+        }
+      },
+      "block_order": [
+        "logo_image_enjh4A",
+        "logo_image_EymiBQ",
+        "logo_image_cXgU7A",
+        "logo_image_BenpyK",
+        "logo_image_im4WYn",
+        "logo_image_kgrNid"
+      ],
+      "settings": {
+        "enable_mobile_slider": true,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "featured_collection_mh_DptDky": {
+      "type": "featured-collection-mh",
+      "disabled": true,
+      "settings": {
+        "enable_blur": false,
+        "items_mt": 40,
+        "collection": "",
+        "product_list": [
+          "basic-balcony-900-bifazial",
+          "basic-set-1800-bifazial-pro-mit-speicher",
+          "premium-1600-pro-mit-speicher"
+        ],
+        "stack_products": false,
+        "show_bar": false,
+        "top_bar": false,
+        "product_show": 15,
+        "product_per_desktop": 4,
+        "product_per_mobile": "1",
+        "image_radius": 4,
+        "image_ration": "square",
+        "use_custom_height": false,
+        "image_height_desktop": 400,
+        "image_height_mobile": 200,
+        "show_second": true,
+        "use_shadow": true,
+        "shadow_width": 5,
+        "card_padding_horizontal": 12,
+        "card_padding_vertical": 20,
+        "card_title_custom": false,
+        "card_title_font": "assistant_n4",
+        "card_title_size": 18,
+        "card_title_letter": 0,
+        "card_title_height": 100,
+        "heading": "Top Deals für Balkonkraftwerke",
+        "heading_custom": false,
+        "heading_font": "assistant_n4",
+        "heading_size": 34,
+        "heading_letter": 0,
+        "heading_height": 110,
+        "heading_align": "left",
+        "sub_heading": "Cyber Week: Nur für kurze Zeit",
+        "sub_heading_custom": false,
+        "sub_heading_font": "assistant_n4",
+        "sub_heading_size": 20,
+        "sub_heading_letter": 0,
+        "sub_heading_height": 100,
+        "sub_heading_align": "left",
+        "invert_content": true,
+        "link": "",
+        "link_url": "",
+        "link_custom": false,
+        "link_font": "assistant_n4",
+        "link_size": 18,
+        "link_letter": 0,
+        "link_height": 100,
+        "link_position": false,
+        "card_price_custom": false,
+        "card_price_font": "assistant_n4",
+        "card_price_size": 16,
+        "card_price_letter": 0,
+        "card_price_height": 100,
+        "card_price_mt": 12,
+        "heading_color": "#000000",
+        "sub_heading_color": "#000000",
+        "link_color": "#040404",
+        "link_hover_color": "#ffffff",
+        "link_arrow_color": "#ffffff",
+        "link_background_color": "#ffffff",
+        "link_background_hover_color": "#ffffff",
+        "card_title_color": "#000000",
+        "card_price_color": "#000000",
+        "arrow_color": "#040404",
+        "arrow_hover_color": "#000000",
+        "arrow_bg_color": "#f2c315",
+        "arrow_bg_hover_color": "#f2c315",
+        "arrow_border_color": "#f2c315",
+        "arrow_border_hover_color": "#f2c315",
+        "progress_color": "#000000",
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "benefit_text_1": "Benefit 1 Text",
+        "benefit_text_2": "Benefit 2 Text",
+        "benefit_text_3": "Benefit 3 Text",
+        "inventory_text": "Auf Lager - in 2-4 Werktagen bei dir",
+        "subsidy_price": "Subsidy Price",
+        "subsidy_label": "Cyber Week Deal",
+        "no_subsidy_label": "vorher",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "content_width": 130,
+        "border_thickness": 0
+      }
+    },
+    "featured_collection_mh_kPPT8Q": {
+      "type": "featured-collection-mh",
+      "disabled": true,
+      "settings": {
+        "enable_blur": false,
+        "items_mt": 40,
+        "collection": "",
+        "product_list": [
+          "anker-solix-solarbank-2-e1600-pro",
+          "hoymiles-ms-mikro-speicher-2240wh"
+        ],
+        "stack_products": false,
+        "show_bar": false,
+        "top_bar": false,
+        "product_show": 10,
+        "product_per_desktop": 4,
+        "product_per_mobile": "1",
+        "image_radius": 4,
+        "image_ration": "square",
+        "use_custom_height": false,
+        "image_height_desktop": 400,
+        "image_height_mobile": 200,
+        "show_second": true,
+        "use_shadow": true,
+        "shadow_width": 5,
+        "card_padding_horizontal": 12,
+        "card_padding_vertical": 20,
+        "card_title_custom": false,
+        "card_title_font": "assistant_n4",
+        "card_title_size": 18,
+        "card_title_letter": 0,
+        "card_title_height": 100,
+        "heading": "Cyber Week Deals für Speicher",
+        "heading_custom": false,
+        "heading_font": "assistant_n4",
+        "heading_size": 34,
+        "heading_letter": 0,
+        "heading_height": 110,
+        "heading_align": "left",
+        "sub_heading": "",
+        "sub_heading_custom": false,
+        "sub_heading_font": "assistant_n4",
+        "sub_heading_size": 20,
+        "sub_heading_letter": 0,
+        "sub_heading_height": 100,
+        "sub_heading_align": "left",
+        "invert_content": true,
+        "link": "",
+        "link_url": "",
+        "link_custom": false,
+        "link_font": "assistant_n4",
+        "link_size": 18,
+        "link_letter": 0,
+        "link_height": 100,
+        "link_position": false,
+        "card_price_custom": false,
+        "card_price_font": "assistant_n4",
+        "card_price_size": 16,
+        "card_price_letter": 0,
+        "card_price_height": 100,
+        "card_price_mt": 12,
+        "heading_color": "#000000",
+        "sub_heading_color": "#000000",
+        "link_color": "#000000",
+        "link_hover_color": "#ffffff",
+        "link_arrow_color": "#ffffff",
+        "link_background_color": "#ffffff",
+        "link_background_hover_color": "#000000",
+        "card_title_color": "#000000",
+        "card_price_color": "#000000",
+        "arrow_color": "#000000",
+        "arrow_hover_color": "#000000",
+        "arrow_bg_color": "#f2c315",
+        "arrow_bg_hover_color": "#f2c315",
+        "arrow_border_color": "#f2c315",
+        "arrow_border_hover_color": "#f2c315",
+        "progress_color": "#000000",
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "benefit_text_1": "Benefit 1 Text",
+        "benefit_text_2": "Benefit 2 Text",
+        "benefit_text_3": "Benefit 3 Text",
+        "inventory_text": "Auf Lager - in 2-4 Werktagen bei dir",
+        "subsidy_price": "Subsidy Price",
+        "subsidy_label": "Cyber Week Deal",
+        "no_subsidy_label": "vorher",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "content_width": 130,
+        "border_thickness": 0
+      }
+    },
+    "rich_text_PPWQTT": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_kWhbJp": {
+          "type": "heading",
+          "settings": {
+            "text": "Erfahre als Erster von den Cyber Week Deals 2025!",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "divider_nWLe6U": {
+          "type": "divider",
+          "settings": {}
+        },
+        "richtext_LdCJbg": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Melde dich jetzt für den Balkonstrom-Newsletter an und verpasse keine Angebote mehr!</p>"
+          }
+        },
+        "liquid_DEmyfY": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"klaviyo-form-RwdpKp\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_kWhbJp",
+        "divider_nWLe6U",
+        "richtext_LdCJbg",
+        "liquid_DEmyfY"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "#f7f7f7",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "rich_text_LijjAK": {
+      "type": "rich-text",
+      "blocks": {
+        "image_X63taw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Logos.png",
+            "width_mode": "custom",
+            "max_width": 350,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "image_X63taw"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "faq_aq4Ckn": {
+      "type": "faq",
+      "blocks": {
+        "item_cWqmwm": {
+          "type": "item",
+          "settings": {
+            "title": "Wie lange sind die Black Friday Angebote gültig?",
+            "content": "<p>Die Black Friday Angebote gelten vom 26. November 2024 bis zum Cyber Monday am 02. Dezember 2024.</p>"
+          }
+        },
+        "item_bYtz3k": {
+          "type": "item",
+          "settings": {
+            "title": "Wie sind die Rücksendebestimmungen am Black Friday?",
+            "content": "<p>Es gelten wie üblich unsere 60 Tage Rückgaberecht.</p>"
+          }
+        },
+        "item_WixGRj": {
+          "type": "item",
+          "settings": {
+            "title": "Mit welcher Lieferzeit kann ich rechnen?",
+            "content": "<p>Die Lieferzeit beträgt auch an Black Friday 2-4 Werktage.</p>"
+          }
+        },
+        "item_BBRJz3": {
+          "type": "item",
+          "settings": {
+            "title": "Gilt der Black Friday Rabatt auf alle Balkonkraftwerke?",
+            "content": "<p>Die rabattierten Produkte findest du auf dieser Seite. Wenn du über weitere Angebote an Black Friday und auch an anderen Tagen auf dem Laufenden gehalten werden möchtest, abonniere unseren Newsletter!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_cWqmwm",
+        "item_bYtz3k",
+        "item_WixGRj",
+        "item_BBRJz3"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "<p>Die häufigsten Fragen & unsere Antworten zu unserem Black Friday Sale</p>",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "custom_html_tynrbc": {
+      "type": "custom-html",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<p style=\"text-align: center;\"><a href=\"https://www.balkonstrom.com/collections/balkonkraftwerke\" class=\"button\"><span class=\"NormalTextRun SCXW4322749 BCX8\">Entdecke unsere Balkonkraftwerke</span></a><br class=\"SCXW4322749 BCX8\"></p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "media_with_text_pXw7BV": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_nRPRm6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Ratgeber_3D_web_1.webp",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "100 % Mehrwert - komplett kostenlos",
+            "title": "Dein Balkonkraftwerk-Ratgeber",
+            "content": "<p>Du bist noch nicht ganz sicher, welches Balkonkraftwerk zu dir passt? Finde wertvolle Informationen & Entscheidungshilfen im kostenlosen Balkonstrom®-Ratgeber!</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f7f7f7",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_nRPRm6"
+      ],
+      "custom_css": [
+        ".prose * + :is(p, div, ul, ol) {margin-block-start: 5px;}",
+        ".prose * + :is(p, div, ul, ol) {margin-block-start: 15px;}"
+      ],
+      "settings": {
+        "show_klaviyo_form": true,
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "seo_section_JD3Be9": {
+      "type": "seo-section",
+      "blocks": {
+        "fullwidthblock_EPWAX7": {
+          "type": "fullwidthblock",
+          "settings": {
+            "full_width_heading": "Cyber Week 2025 bei Balkonstrom®",
+            "full_width_description": "<p>Die Cyber Week 2025 ist deine Gelegenheit, in nachhaltige Energielösungen zu investieren und mit attraktiven Rabatten auf Balkonkraftwerke von Balkonstrom® bares Geld zu sparen. Damit kannst du deine Stromkosten langfristig senken! Bis zum 9. Dezember 2025 läuft unser Cyber Week Sale, bei dem du dir leistungsstarke Mini-Solaranlagen sichern kannst, um unabhängiger von steigenden Strompreisen zu werden.</p><p>Bei Balkonstrom® findest du hochwertige, maßgeschneiderte Lösungen, die genau zu deinen Bedürfnissen passen – vom kompakten Balkonkraftwerk-Set bis hin zur Premium-Anlage für größere Flächen. Mit Made in Germany MC-4- und AC-Anschlusskabeln von unseren lokalen Partnern garantieren wir höchste Sicherheit und Qualität.</p><p>Die einfache Montage gelingt dir mit unseren praktischen Schritt-für-Schritt-Anleitungen – ganz ohne Fachkraft. Nutze die Gelegenheit, von der Cyber Week 2025 zu profitieren.</p>",
+            "full_width_heading_color": "#040404",
+            "gradient": "",
+            "full_width_description_color": "#040404",
+            "full_width_heading_size": "h1"
+          }
+        },
+        "rightblock_3tgxaD": {
+          "type": "rightblock",
+          "settings": {
+            "right_block_heading": "Die Vorteile eines Balkonkraftwerks auf einen Blick",
+            "right_block_description": "<p>Mit einem Balkonkraftwerk produzierst du deinen eigenen Strom direkt bei dir Zuhause. Diese kompakten Solaranlagen lassen sich flexibel an verschiedenen Orten installieren, sei es auf Balkonen, Flachdächern, Terrassen oder anderen freien Flächen rund um dein Heim. Dank ihrer modernen Bauweise sind Balkonkraftwerke einfach zu montieren und kommen ohne aufwendige Umbauarbeiten aus. Als Komplettlösung mit hochwertigen Solarmodulen und einem Wechselrichter ermöglichen sie dir im Nu die Erzeugung von Sonnenstrom. Dieser Strom wird direkt in dein Hausnetz eingespeist, sodass deine Elektrogeräte ihn vorrangig nutzen können. Überschüssige Energie lässt sich mit einem passenden Stromspeicher für später aufbewahren. Das Resultat? Du profitierst von mehr Unabhängigkeit gegenüber externen Energielieferanten und kannst deine Stromkosten nachhaltig reduzieren!</p>",
+            "right_block_heading_color": "#040404",
+            "gradient": "",
+            "right_block_description_color": "#040404",
+            "right_block_heading_size": "h1"
+          }
+        },
+        "leftblock_F7UN33": {
+          "type": "leftblock",
+          "settings": {
+            "left_block_heading": "Was ist die Cyber Week?",
+            "left_block_description": "<p>Die Cyber Week ist eine Aktionswoche voller exklusiver Rabatte und Angebote, die jedes Jahr nach dem amerikanischen Feiertag Thanksgiving stattfindet. Ursprünglich als Shopping-Event für Elektronik bekannt, hat sich die Cyber Week zu einer breiten Rabattaktion entwickelt, bei der Produkte aus Kategorien wie Balkonkraftwerken im Fokus stehen. Für Verbraucher bietet die Cyber Week die ideale Gelegenheit, hochwertige Produkte zu vergünstigten Preisen zu ergattern.</p>",
+            "left_block_heading_color": "#040404",
+            "gradient": "",
+            "left_block_description_color": "#040404",
+            "left_block_heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "fullwidthblock_EPWAX7",
+        "rightblock_3tgxaD",
+        "leftblock_F7UN33"
+      ],
+      "settings": {
+        "full_width": true,
+        "page_width": 1200,
+        "link_color": "#040404",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_p6tfBA",
+    "custom_logo_list_jth6J4",
+    "featured_collection_mh_DptDky",
+    "featured_collection_mh_kPPT8Q",
+    "rich_text_PPWQTT",
+    "rich_text_LijjAK",
+    "faq_aq4Ckn",
+    "custom_html_tynrbc",
+    "media_with_text_pXw7BV",
+    "seo_section_JD3Be9"
+  ]
+}

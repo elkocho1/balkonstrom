@@ -1,0 +1,1100 @@
+<cart-drawer
+  {% if request.design_mode %}
+    handle-section-events
+  {% endif %}
+  class="cart-drawer drawer drawer--lg"
+  id="cart-drawer"
+>
+  {%- if cart.item_count == 0 -%}
+    <button is="close-button" aria-label="{{ 'general.accessibility.close' | t | escape }}">
+      {%- render 'icon' with 'close' -%}
+    </button>
+
+    <div class="empty-state align-self-center">
+      <div class="empty-state__icon-wrapper">
+        {%- render 'icon' with 'cart', width: 32, height: 32, stroke_width: 1 -%}
+        <span class="count-bubble count-bubble--lg">0</span>
+      </div>
+
+      <div class="prose">
+        <p class="h5">{{ 'cart.general.empty' | t }}</p>
+
+        {%- assign button_content = 'cart.general.continue_shopping' | t -%}
+        {%- render 'button', href: settings.cart_empty_button_link, size: 'xl', content: button_content -%}
+      </div>
+    </div>
+  {%- else -%}
+    <div>
+      <div class="cart-drawer__top">
+        <div class="h-stack items-center justify-between">
+          <div class="h-stack grow gap-2 sm:gap-2.5">
+            <p class="h5">{{- 'cart.general.title' | t -}}</p>
+            <cart-count class="count-bubble count-bubble--md">{{ cart.item_count }}</cart-count>
+          </div>
+
+          <button type="button" is="close-button" class="drawer__close-icon">
+            <span class="sr-only">{{ 'general.accessibility.close' | t }}</span>
+            {%- render 'icon' with 'close' -%}
+          </button>
+        </div>
+
+      
+        {% comment %}
+        {%- if settings.cart_show_free_shipping_threshold -%}
+          {%- render 'free-shipping-bar' -%}
+        {%- endif -%}  
+        {% endcomment %}
+{%- render 'progress_bar_with_gift', section: section, cart: cart -%}
+        <div class="success-banner" style="background: {{ section.settings.success_msg_background }};">
+            {% if section.settings.success_msg_heading != blank %}
+              <p class="success-text">{{ section.settings.success_msg_heading }}</p>
+            {% endif %}
+            {% if section.settings.success_msg_content != blank %}
+              <p class="success-subtext">{{ section.settings.success_msg_content }}</p>
+            {% endif %}
+        </div>
+      </div>
+
+  
+
+      <div class="v-stack gap-6 sm:gap-8">
+
+      {% if section.settings.choose_functionality == 'collection_based' %}
+        {% assign recommendation_collection_1 = section.settings.recommendation_collection_1 %}
+        {% assign recommendation_collection_2 = section.settings.recommendation_collection_2 %}
+        {% assign recommendation_collection_3 = section.settings.recommendation_collection_3 %}
+        {% assign has_product_from_collection_1 = false %}
+        {% assign has_product_from_collection_2 = false %}
+        {% assign has_product_from_collection_3 = false %}
+        <div class="cart-drawer__line-items">
+          {%- for line_item in cart.items -%} 
+            {%- render 'line-item', line_item: line_item, show_desktop_quantity: true -%}
+            {% assign lineitem_product_handle = line_item.product.handle %}
+            {% for product in recommendation_collection_1.products %}
+              {% assign product_handle_1 = product.handle %}
+              {% if lineitem_product_handle == product_handle_1 %}
+                {% assign has_product_from_collection_1 = true %}
+              {% endif %}
+            {% endfor %}
+            {% for product in recommendation_collection_2.products %}
+              {% assign product_handle_2 = product.handle %}
+              {% if lineitem_product_handle == product_handle_2 %}
+                {% assign has_product_from_collection_2 = true %}
+              {% endif %}
+            {% endfor %}
+            {% for product in recommendation_collection_3.products %}
+              {% assign product_handle_3 = product.handle %}
+              {% if lineitem_product_handle == product_handle_3 %}
+                {% assign has_product_from_collection_3 = true %}
+              {% endif %}
+            {% endfor %}
+          {%- endfor -%}
+
+          {% assign recomendation_product_enable_1 = true %}
+           {% for item in cart.items %}
+              {% assign cart_product_id = item.product.id %}
+              {%- for recommended_product in section.settings.recommendation_product_1 -%}
+                  {% assign recommended_product_id = recommended_product.id %}
+                  {% if cart_product_id == recommended_product_id %}
+                      {% assign recomendation_product_enable_1 = false %}
+                  {% endif %}
+              {% endfor %}
+           {% endfor %}
+          
+           {% assign recomendation_product_enable_2 = true %}
+           {% for item in cart.items %}
+              {% assign cart_product_id = item.product.id %}
+              {%- for recommended_product in section.settings.recommendation_product_2 -%}
+                  {% assign recommended_product_id = recommended_product.id %}
+                  {% if cart_product_id == recommended_product_id %}
+                      {% assign recomendation_product_enable_2 = false %}
+                  {% endif %}
+              {% endfor %}
+           {% endfor %}
+          
+           {% assign recomendation_product_enable_3 = true %}
+           {% for item in cart.items %}
+              {% assign cart_product_id = item.product.id %}
+              {%- for recommended_product in section.settings.recommendation_product_3 -%}
+                  {% assign recommended_product_id = recommended_product.id %}
+                  {% if cart_product_id == recommended_product_id %}
+                      {% assign recomendation_product_enable_3 = false %}
+                  {% endif %}
+              {% endfor %}
+           {% endfor %}
+
+        {%- if section.settings.recommendation_product_1.count > 0 and has_product_from_collection_1 == true and recomendation_product_enable_1 == true -%}
+          <div class="cart-drawer__recommendations">
+            <div class="v-stack gap-2.5 sm:gap-4">
+              {%- capture carousel_id -%}cart-drawer-recommendations{%- endcapture -%}
+
+              {%- if section.settings.recommendations_title != blank or section.settings.solarbank_recommendations_title != blank or section.settings.recommendation_product_1.count > 0 -%}
+                <div class="h-stack justify-between gap-4">
+                  {%- if section.settings.recommendations_title != blank %}
+                    <p>{{ section.settings.recommendations_title | escape }}</p>
+                  {% else %}
+                    {%- if section.settings.solarbank_recommendations_title != blank -%}<p>{{ section.settings.solarbank_recommendations_title | escape }}</p>{% endif %}
+                  {%- endif -%}
+
+                  {%- if section.settings.recommendation_product_1.count > 1 -%}
+                    <div class="button-hide h-stack gap-2 hidden sm:flex">
+                      <button
+                        is="prev-button"
+                        class="circle-chevron hover:colors"
+                        aria-controls="{{ carousel_id }}"
+                        aria-label="{{ 'general.accessibility.previous' | t | escape }}"
+                        disabled
+                      >
+                        {%- render 'icon' with 'chevron-left-small', direction_aware: true -%}
+                      </button>
+                      <button
+                        is="next-button"
+                        class="circle-chevron hover:colors"
+                        aria-controls="{{ carousel_id }}"
+                        aria-label="{{ 'general.accessibility.next' | t | escape }}"
+                      >
+                        {%- render 'icon' with 'chevron-right-small', direction_aware: true -%}
+                      </button>
+                    </div>
+                  {%- endif -%}
+                </div>
+              {%- endif -%}
+
+              {%- assign horizontal_products_blends = true -%}
+              {%- assign product_card_background = section.settings.product_card_background
+                | default: product.settings.product_card_background
+              -%}
+
+              {%- if product_card_background != 'rgba(0,0,0,0)'
+                and product_card_background != blank
+                and product_card_background != settings.dialog_background
+              -%}
+                {%- assign horizontal_products_blends = false -%}
+              {%- endif -%}
+
+              <scroll-carousel
+                selector=".horizontal-product"
+                id="{{ carousel_id }}"
+                class="horizontal-product-list-carousel {% unless horizontal_products_blends %}separate{% endunless %} scroll-area bleed"
+              >
+                <div class="cart-drawer-recommendation horizontal-product-list {% if horizontal_products_blends %}divide-x{% else %}separate{% endif %}">
+                  {%- for recommended_product in section.settings.recommendation_product_1 -%}
+                    {%- render 'horizontal-product',
+                      product: recommended_product,
+                      show_add_to_cart: true,
+                      background: section.settings.product_card_background,
+                      text_color: section.settings.product_card_text_color
+                    -%}
+                  {%- endfor -%}
+                </div>
+              </scroll-carousel>
+            </div>
+          </div>
+        {%- endif -%}
+
+        {%- if section.settings.recommendation_product_2.count > 0 and has_product_from_collection_2 == true and recomendation_product_enable_2 == true -%}
+          <div class="cart-drawer__recommendations">
+            <div class="v-stack gap-2.5 sm:gap-4">
+              {%- capture carousel_id -%}cart-drawer-recommendations{%- endcapture -%}
+
+              {%- if section.settings.recommendations_title_2 != blank or section.settings.solarbank_recommendations_title != blank or section.settings.recommendation_product_2.count > 0 -%}
+                <div class="h-stack justify-between gap-4">
+                  {%- if section.settings.recommendations_title_2 != blank -%}
+                    <p>{{ section.settings.recommendations_title_2 | escape }}</p>
+                  {% else %}
+                    {%- if section.settings.solarbank_recommendations_title != blank -%}<p>{{ section.settings.solarbank_recommendations_title | escape }}</p>{% endif %}
+                  {%- endif -%}
+
+                  {%- if section.settings.recommendation_product_2.count > 1 -%}
+                    <div class="button-hide h-stack gap-2 hidden sm:flex">
+                      <button
+                        is="prev-button"
+                        class="circle-chevron hover:colors"
+                        aria-controls="{{ carousel_id }}"
+                        aria-label="{{ 'general.accessibility.previous' | t | escape }}"
+                        disabled
+                      >
+                        {%- render 'icon' with 'chevron-left-small', direction_aware: true -%}
+                      </button>
+                      <button
+                        is="next-button"
+                        class="circle-chevron hover:colors"
+                        aria-controls="{{ carousel_id }}"
+                        aria-label="{{ 'general.accessibility.next' | t | escape }}"
+                      >
+                        {%- render 'icon' with 'chevron-right-small', direction_aware: true -%}
+                      </button>
+                    </div>
+                  {%- endif -%}
+                </div>
+              {%- endif -%}
+
+              {%- assign horizontal_products_blends = true -%}
+              {%- assign product_card_background = section.settings.product_card_background
+                | default: product.settings.product_card_background
+              -%}
+
+              {%- if product_card_background != 'rgba(0,0,0,0)'
+                and product_card_background != blank
+                and product_card_background != settings.dialog_background
+              -%}
+                {%- assign horizontal_products_blends = false -%}
+              {%- endif -%}
+
+              <scroll-carousel
+                selector=".horizontal-product"
+                id="{{ carousel_id }}"
+                class="horizontal-product-list-carousel {% unless horizontal_products_blends %}separate{% endunless %} scroll-area bleed"
+              >
+                <div class="cart-drawer-recommendation horizontal-product-list {% if horizontal_products_blends %}divide-x{% else %}separate{% endif %}">
+                  {%- for recommended_product in section.settings.recommendation_product_2 -%}
+                    {%- render 'horizontal-product',
+                      product: recommended_product,
+                      show_add_to_cart: true,
+                      background: section.settings.product_card_background,
+                      text_color: section.settings.product_card_text_color
+                    -%}
+                  {%- endfor -%}
+                </div>
+              </scroll-carousel>
+            </div>
+          </div>
+        {%- endif -%}
+
+            {%- if section.settings.recommendation_product_3.count > 0 and has_product_from_collection_3 == true and recomendation_product_enable_3 == true -%}
+          <div class="cart-drawer__recommendations">
+            <div class="v-stack gap-2.5 sm:gap-4">
+              {%- capture carousel_id -%}cart-drawer-recommendations{%- endcapture -%}
+
+              {%- if section.settings.recommendations_title_3 != blank or section.settings.solarbank_recommendations_title != blank or section.settings.recommendation_product_3.count > 0 -%}
+                <div class="h-stack justify-between gap-4">
+                  {%- if section.settings.recommendations_title_3 != blank %}
+                    <p>{{ section.settings.recommendations_title_3 | escape }}</p>
+                  {% else %}
+                    {%- if section.settings.solarbank_recommendations_title != blank -%}<p>{{ section.settings.solarbank_recommendations_title | escape }}</p>{% endif %}
+                  {%- endif -%}
+
+                  {%- if section.settings.recommendation_product_3.count > 1 -%}
+                    <div class="button-hide h-stack gap-2 hidden sm:flex">
+                      <button
+                        is="prev-button"
+                        class="circle-chevron hover:colors"
+                        aria-controls="{{ carousel_id }}"
+                        aria-label="{{ 'general.accessibility.previous' | t | escape }}"
+                        disabled
+                      >
+                        {%- render 'icon' with 'chevron-left-small', direction_aware: true -%}
+                      </button>
+                      <button
+                        is="next-button"
+                        class="circle-chevron hover:colors"
+                        aria-controls="{{ carousel_id }}"
+                        aria-label="{{ 'general.accessibility.next' | t | escape }}"
+                      >
+                        {%- render 'icon' with 'chevron-right-small', direction_aware: true -%}
+                      </button>
+                    </div>
+                  {%- endif -%}
+                </div>
+              {%- endif -%}
+
+              {%- assign horizontal_products_blends = true -%}
+              {%- assign product_card_background = section.settings.product_card_background
+                | default: product.settings.product_card_background
+              -%}
+
+              {%- if product_card_background != 'rgba(0,0,0,0)'
+                and product_card_background != blank
+                and product_card_background != settings.dialog_background
+              -%}
+                {%- assign horizontal_products_blends = false -%}
+              {%- endif -%}
+
+              <scroll-carousel
+                selector=".horizontal-product"
+                id="{{ carousel_id }}"
+                class="horizontal-product-list-carousel {% unless horizontal_products_blends %}separate{% endunless %} scroll-area bleed"
+              >
+                <div class="cart-drawer-recommendation horizontal-product-list {% if horizontal_products_blends %}divide-x{% else %}separate{% endif %}">
+                  {%- for recommended_product in section.settings.recommendation_product_3 -%}
+                    {%- render 'horizontal-product',
+                      product: recommended_product,
+                      show_add_to_cart: true,
+                      background: section.settings.product_card_background,
+                      text_color: section.settings.product_card_text_color
+                    -%}
+                  {%- endfor -%}
+                </div>
+              </scroll-carousel>
+            </div>
+          </div>
+        {%- endif -%}
+            
+          </div>
+
+      {% else %}
+
+      <div class="cart-drawer__line-items">
+        {% assign has_power = false %}
+        {% assign new_has_combo_power_bank = false %}
+        {%- for line_item in cart.items -%}
+        {% assign has_power_bank = true %}
+        {% assign has_combo_power_bank = false %}  
+          {%- render 'line-item', line_item: line_item, show_desktop_quantity: true -%}
+          {%- assign power = line_item.product.metafields.custom.stromertrag.value | downcase | remove: " kwh" | plus: 0 -%}
+          {% if power >= 1000  %}
+            {% assign has_power = true %}
+          {% endif %}
+          {% assign LineItemHandle = line_item.product.handle %}
+          
+          {% for product in collections['speicher'].products %}
+            {% assign Product_handle = product.handle %}
+            {% if LineItemHandle == Product_handle %}
+              {% assign has_power_bank = false %}
+            {% endif %}
+          {% endfor %}
+
+          {% for productArry in collections['balkonkraftwerke-mit-speicher'].products %}
+            {% assign Product_Handle = productArry.handle %}
+            {% if LineItemHandle == Product_Handle %}
+              {% assign has_combo_power_bank = true %}
+            {% endif %}
+          {% endfor %}
+
+        
+          
+        {% if has_power_bank == true %}
+          {% assign new_has_power_bank = true %}
+        {% endif %}
+        {% if has_combo_power_bank == true %}
+          {% assign new_has_combo_power_bank = true %}
+        {% endif %}  
+        {%- endfor -%}
+
+      {%- if section.settings.products.count > 0 and new_has_power_bank == true and new_has_combo_power_bank == false -%}
+        <div class="cart-drawer__recommendations">
+          <div class="v-stack gap-2.5 sm:gap-4">
+            {%- capture carousel_id -%}cart-drawer-recommendations{%- endcapture -%}
+
+            {%- if section.settings.recommendations_title != blank or section.settings.solarbank_recommendations_title != blank or section.settings.products.count > 1 -%}
+              <div class="h-stack justify-between gap-4">
+                {%- if section.settings.recommendations_title != blank and has_power == true -%}
+                  <p>{{ section.settings.recommendations_title | escape }}</p>
+                {% else %}
+                  {%- if section.settings.solarbank_recommendations_title != blank -%}<p>{{ section.settings.solarbank_recommendations_title | escape }}</p>{% endif %}
+                {%- endif -%}
+
+                {%- if section.settings.products.count > 1 -%}
+                  <div class="button-hide h-stack gap-2 hidden sm:flex">
+                    <button
+                      is="prev-button"
+                      class="circle-chevron hover:colors"
+                      aria-controls="{{ carousel_id }}"
+                      aria-label="{{ 'general.accessibility.previous' | t | escape }}"
+                      disabled
+                    >
+                      {%- render 'icon' with 'chevron-left-small', direction_aware: true -%}
+                    </button>
+                    <button
+                      is="next-button"
+                      class="circle-chevron hover:colors"
+                      aria-controls="{{ carousel_id }}"
+                      aria-label="{{ 'general.accessibility.next' | t | escape }}"
+                    >
+                      {%- render 'icon' with 'chevron-right-small', direction_aware: true -%}
+                    </button>
+                  </div>
+                {%- endif -%}
+              </div>
+            {%- endif -%}
+
+            {%- assign horizontal_products_blends = true -%}
+            {%- assign product_card_background = section.settings.product_card_background
+              | default: product.settings.product_card_background
+            -%}
+
+            {%- if product_card_background != 'rgba(0,0,0,0)'
+              and product_card_background != blank
+              and product_card_background != settings.dialog_background
+            -%}
+              {%- assign horizontal_products_blends = false -%}
+            {%- endif -%}
+
+            <scroll-carousel
+              selector=".horizontal-product"
+              id="{{ carousel_id }}"
+              class="horizontal-product-list-carousel {% unless horizontal_products_blends %}separate{% endunless %} scroll-area bleed"
+            >
+              <div class="cart-drawer-recommendation horizontal-product-list {% if horizontal_products_blends %}divide-x{% else %}separate{% endif %}">
+                {%- for recommended_product in section.settings.products -%}
+                  {% if has_power == true %}
+                    {%- render 'horizontal-product',
+                      product: recommended_product,
+                      show_add_to_cart: true,
+                      background: section.settings.product_card_background,
+                      text_color: section.settings.product_card_text_color
+                    -%}
+                  {% else %}
+                    {% unless recommended_product.handle == 'hoymiles-dtu-wlite-s' %}
+                      {%- render 'horizontal-product',
+                        product: recommended_product,
+                        show_add_to_cart: true,
+                        background: section.settings.product_card_background,
+                        text_color: section.settings.product_card_text_color
+                      -%}
+                    {% endunless %}
+                  {% endif %}
+                {%- endfor -%}
+              </div>
+            </scroll-carousel>
+          </div>
+        </div>
+      {%- endif -%}
+
+      {%- if section.settings.products_2.count > 0 and new_has_combo_power_bank == true -%}
+        <div class="cart-drawer__recommendations">
+          <div class="v-stack gap-2.5 sm:gap-4">
+            {%- capture carousel_id -%}cart-drawer-recommendations{%- endcapture -%}
+
+            {%- if section.settings.recommendations_title_2 != blank or section.settings.solarbank_recommendations_title != blank or section.settings.products_2.count > 1 -%}
+              <div class="h-stack justify-between gap-4">
+                {%- if section.settings.recommendations_title_2 != blank -%}
+                  <p>{{ section.settings.recommendations_title_2 | escape }}</p>
+                {% else %}
+                  {%- if section.settings.solarbank_recommendations_title != blank -%}<p>{{ section.settings.solarbank_recommendations_title | escape }}</p>{% endif %}
+                {%- endif -%}
+
+                {%- if section.settings.products_2.count > 1 -%}
+                  <div class="button-hide h-stack gap-2 hidden sm:flex">
+                    <button
+                      is="prev-button"
+                      class="circle-chevron hover:colors"
+                      aria-controls="{{ carousel_id }}"
+                      aria-label="{{ 'general.accessibility.previous' | t | escape }}"
+                      disabled
+                    >
+                      {%- render 'icon' with 'chevron-left-small', direction_aware: true -%}
+                    </button>
+                    <button
+                      is="next-button"
+                      class="circle-chevron hover:colors"
+                      aria-controls="{{ carousel_id }}"
+                      aria-label="{{ 'general.accessibility.next' | t | escape }}"
+                    >
+                      {%- render 'icon' with 'chevron-right-small', direction_aware: true -%}
+                    </button>
+                  </div>
+                {%- endif -%}
+              </div>
+            {%- endif -%}
+
+            {%- assign horizontal_products_blends = true -%}
+            {%- assign product_card_background = section.settings.product_card_background
+              | default: product.settings.product_card_background
+            -%}
+
+            {%- if product_card_background != 'rgba(0,0,0,0)'
+              and product_card_background != blank
+              and product_card_background != settings.dialog_background
+            -%}
+              {%- assign horizontal_products_blends = false -%}
+            {%- endif -%}
+
+            <scroll-carousel
+              selector=".horizontal-product"
+              id="{{ carousel_id }}"
+              class="horizontal-product-list-carousel {% unless horizontal_products_blends %}separate{% endunless %} scroll-area bleed"
+            >
+              <div class="cart-drawer-recommendation horizontal-product-list {% if horizontal_products_blends %}divide-x{% else %}separate{% endif %}">
+                {%- for recommended_product in section.settings.products_2 -%}
+                  {% if has_power == true %}
+                    {%- render 'horizontal-product',
+                      product: recommended_product,
+                      show_add_to_cart: true,
+                      background: section.settings.product_card_background,
+                      text_color: section.settings.product_card_text_color
+                    -%}
+                  {% else %}
+                    {% unless recommended_product.handle == 'hoymiles-dtu-wlite-s' %}
+                      {%- render 'horizontal-product',
+                        product: recommended_product,
+                        show_add_to_cart: true,
+                        background: section.settings.product_card_background,
+                        text_color: section.settings.product_card_text_color
+                      -%}
+                    {% endunless %}
+                  {% endif %}
+                {%- endfor -%}
+              </div>
+            </scroll-carousel>
+          </div>
+        </div>
+      {%- endif -%}
+
+          {%- if section.settings.products_3.count > 0 and new_has_combo_power_bank == true -%}
+        <div class="cart-drawer__recommendations">
+          <div class="v-stack gap-2.5 sm:gap-4">
+            {%- capture carousel_id -%}cart-drawer-recommendations{%- endcapture -%}
+
+            {%- if section.settings.recommendations_title_3 != blank or section.settings.solarbank_recommendations_title != blank or section.settings.products_3.count > 1 -%}
+              <div class="h-stack justify-between gap-4">
+                {%- if section.settings.recommendations_title_3 != blank -%}
+                  <p>{{ section.settings.recommendations_title_3 | escape }}</p>
+                {% else %}
+                  {%- if section.settings.solarbank_recommendations_title != blank -%}<p>{{ section.settings.solarbank_recommendations_title | escape }}</p>{% endif %}
+                {%- endif -%}
+
+                {%- if section.settings.products_3.count > 1 -%}
+                  <div class="button-hide h-stack gap-2 hidden sm:flex">
+                    <button
+                      is="prev-button"
+                      class="circle-chevron hover:colors"
+                      aria-controls="{{ carousel_id }}"
+                      aria-label="{{ 'general.accessibility.previous' | t | escape }}"
+                      disabled
+                    >
+                      {%- render 'icon' with 'chevron-left-small', direction_aware: true -%}
+                    </button>
+                    <button
+                      is="next-button"
+                      class="circle-chevron hover:colors"
+                      aria-controls="{{ carousel_id }}"
+                      aria-label="{{ 'general.accessibility.next' | t | escape }}"
+                    >
+                      {%- render 'icon' with 'chevron-right-small', direction_aware: true -%}
+                    </button>
+                  </div>
+                {%- endif -%}
+              </div>
+            {%- endif -%}
+
+            {%- assign horizontal_products_blends = true -%}
+            {%- assign product_card_background = section.settings.product_card_background
+              | default: product.settings.product_card_background
+            -%}
+
+            {%- if product_card_background != 'rgba(0,0,0,0)'
+              and product_card_background != blank
+              and product_card_background != settings.dialog_background
+            -%}
+              {%- assign horizontal_products_blends = false -%}
+            {%- endif -%}
+
+            <scroll-carousel
+              selector=".horizontal-product"
+              id="{{ carousel_id }}"
+              class="horizontal-product-list-carousel {% unless horizontal_products_blends %}separate{% endunless %} scroll-area bleed"
+            >
+              <div class="cart-drawer-recommendation horizontal-product-list {% if horizontal_products_blends %}divide-x{% else %}separate{% endif %}">
+                {%- for recommended_product in section.settings.products_3 -%}
+                  {% if has_power == true %}
+                    {%- render 'horizontal-product',
+                      product: recommended_product,
+                      show_add_to_cart: true,
+                      background: section.settings.product_card_background,
+                      text_color: section.settings.product_card_text_color
+                    -%}
+                  {% else %}
+                    {% unless recommended_product.handle == 'hoymiles-dtu-wlite-s' %}
+                      {%- render 'horizontal-product',
+                        product: recommended_product,
+                        show_add_to_cart: true,
+                        background: section.settings.product_card_background,
+                        text_color: section.settings.product_card_text_color
+                      -%}
+                    {% endunless %}
+                  {% endif %}
+                {%- endfor -%}
+              </div>
+            </scroll-carousel>
+          </div>
+        </div>
+      {%- endif -%}
+        
+      </div>
+      {% endif %}
+        
+      </div>
+    </div>
+
+    {% for cart_item in cart.items %}
+      {% assign discounts = cart_item.discounts %} {% for discount in discounts %}{% assign discount_title = discount.title %}{% endfor %} {% endfor %}
+    <div class="v-stack gap-4 sm:gap-6" slot="footer">
+      {% comment %}{% if settings.show_shipping_discount %}
+        <div class="v-stack gap-1 discount_box">
+          {% if settings.free_shiping != blank %}
+            <div class="discount_box_inr">
+              <input type="radio" id="free_delivery" name="discount_r" {% if cart.total_discount %}checked{% endif %}>
+              <label for="free_delivery">{{ settings.free_shiping }}</label>
+            </div>
+          {% endif %}
+          {% if settings.company_facility != blank %}
+            <div class="discount_box_inr">
+              <input type="radio" id="company_delivery" name="discount_r" {% if cart.total_discount %}checked{% endif %}>
+              <label for="company_delivery">{{ settings.company_facility }}</label>
+            </div>
+          {% endif %}
+        </div>
+      {% endif %}{% endcomment %}
+      <div class="v-stack gap-1">
+        {% for discount_application in cart.cart_level_discount_applications %}
+          <div class="h-stack gap-4 justify-between">
+            <div class="badge">
+              {%- render 'icon' with 'discount' -%}
+              {{- discount_application.title -}}
+            </div>
+
+            <span class="text-subdued">-{{ discount_application.total_allocated_amount | money }}</span>
+          </div>
+        {% endfor %}
+
+        {% comment %}{% assign min_order_amount = settings.min_order_amount | times: 100 %}
+        {% assign discount_amount = settings.discount_amount | times: 100  %}
+
+        <input type="hidden" id="__min_order_amount" value="{{ min_order_amount }}">
+        <input type="hidden" id="__discount_amount" value="{{ discount_amount }}">
+        <input type="hidden" id="__total_price" value="{{ cart.original_total_price }}">{% endcomment %}
+    
+        <div class="h-stack gap-4 justify-between">
+          <span class="h5">{{ 'cart.general.total' | t }}</span>
+          {% if cart.total_discount %}
+            <div class="h5 cart_totalPrice">{{- cart.total_price | money_with_currency -}}</div> 
+          {% else %}
+            <span class="h5 __cart_total_price cart_totalPrice">{{- cart.total_price | money_with_currency -}}</span>
+          {% endif %}
+        </div>
+
+        {% comment %}
+          {%- if section.settings.show_shipping_text -%}
+          {%- if cart.taxes_included and shop.shipping_policy.body != blank -%}
+            <p class="text-subdued text-sm">
+              {{ 'cart.general.taxes_included_and_shipping_policy_html' | t: link: shop.shipping_policy.url  }}
+            </p>
+          {%- elsif cart.taxes_included -%}
+            <p class="text-subdued text-sm">{{ 'cart.general.taxes_included_but_shipping_at_checkout' | t }}</p>
+          {%- elsif shop.shipping_policy.body != blank -%}
+            <p class="text-subdued text-sm">
+              {{ 'cart.general.taxes_and_shipping_policy_at_checkout_html' | t: link: shop.shipping_policy.url }}
+            </p>
+          {%- else -%}
+            <p class="text-subdued text-sm">{{ 'cart.general.taxes_and_shipping_at_checkout' | t }}</p>
+          {%- endif -%}
+        {%- endif -%}
+        {% endcomment %}
+
+        {% assign free_delivery = true %}
+        {% assign has_saprate_product = false %}
+        {% for item in cart.items %}
+          {% if item.product.metafields.custom.free_delivery_cost == false or item.product.metafields.custom.free_delivery_cost == blank %}
+            {% assign free_delivery = false %}
+          {% endif %}
+          {% if item.product.template_suffix == 'bkw-hilfsmittel-2' %}
+              {% assign has_saprate_product = true %}
+            {% endif %}
+          {% endfor %}
+        {%- if section.settings.show_shipping_text -%}
+          
+          {%- if cart.taxes_included or shop.shipping_policy.body != blank -%}
+            
+            
+            {% if settings.shipping_cost == true %}
+              
+              {% if free_delivery == true %}
+                
+                  <div class="h-stack gap-4 justify-between">
+                  <span class="h5 tax-info-title">{{ 'cart.general.Versandkosten' | t }}</span>
+                  <div class="bold cart-free-highlight">{{ 'cart.general.Kostenlos' | t }}</div>
+                </div>
+              {% else %}
+                  <div class="h-stack gap-4 justify-between">
+                    <span class="h5 tax-info-title">{{ 'cart.general.Versandkosten' | t }}</span>
+                    <div class="text-sm text-subdued"><a class="link text-sm text-subdued" href="https://www.balkonstrom.com/policies/shipping-policy">{{ 'cart.general.Versand' | t }}</a> {{ 'cart.general.shipping_text' | t }}</div>
+                  </div>
+              {% endif %}
+            {% endif %}
+            
+            {% if settings.taxes == true and has_saprate_product == false %}
+              
+                <div class="h-stack gap-4 justify-between">
+                  <span class="h5 tax-info-title">{{ 'cart.general.shipping_tax' | t }}</span>
+                  <div class="bold cart-free-highlight">{{ 'cart.general.Steuerfrei' | t }}</div>
+                </div>
+              {% else %}
+                <div class="h-stack gap-4 justify-between">
+                  <span class="h5 tax-info-title">{{ 'cart.general.shipping_tax' | t }}</span>
+                  <div class="bold cart-free-highlight">{{ 'cart.general.shipping_text_for_Balkonkraftwerk' | t }}</div>
+                </div>
+              {% endif %}
+            
+            {% comment %}<p class="text-subdued text-sm">
+              {{ 'cart.general.taxes_included_and_shipping_policy_html' | t: link: shop.shipping_policy.url  }}
+            </p>
+            {% endcomment %}
+          {%- elsif cart.taxes_included -%}
+            <p class="text-subdued text-sm">{{ 'cart.general.taxes_included_but_shipping_at_checkout' | t }}</p>
+          {%- elsif shop.shipping_policy.body != blank -%}
+            <p class="text-subdued text-sm">
+              {{ 'cart.general.taxes_and_shipping_policy_at_checkout_html' | t: link: shop.shipping_policy.url }}
+            </p>
+          {%- else -%}
+            <p class="text-subdued text-sm">{{ 'cart.general.taxes_and_shipping_at_checkout' | t }}</p>
+          {%- endif -%}
+        {%- endif -%}
+
+        {%- if section.settings.show_cart_note -%}
+          <button type="button" class="justify-self-start" aria-controls="cart-drawer-note">
+            <span class="link text-sm text-subdued">
+              {%- if cart.note == blank -%}
+                {{- 'cart.general.add_order_note' | t -}}
+              {%- else -%}
+                {{- 'cart.general.edit_order_note' | t -}}
+              {%- endif -%}
+            </span>
+          </button>
+
+          <cart-note-dialog id="cart-drawer-note" class="cart-drawer__note">
+            <div class="cart-drawer__note-inner">
+              <div class="v-stack gap-4 sm:gap-6">
+                <p class="h5">{{ 'cart.general.order_note' | t }}</p>
+
+                <cart-note class="v-stack gap-4">
+                  {%- assign order_note = 'cart.general.order_note' | t -%}
+                  {%- assign order_save_label = 'cart.general.save_note' | t -%}
+
+                  {%- render 'input', name: 'note', multiline: 3, label: order_note, value: cart.note -%}
+
+                  <div class="justify-self-start">
+                    {%- render 'button',
+                      type: 'button',
+                      content: order_save_label,
+                      size: 'lg',
+                      is: 'close-button',
+                      secondary: true
+                    -%}
+                  </div>
+                </cart-note>
+              </div>
+            </div>
+          </cart-note-dialog>
+        {%- endif -%}
+      </div>
+
+      {% comment %}{% if settings.apply_coupon_code != blank %}
+        <a href="{{ routes.cart_url }}/checkout?discount={{ settings.apply_coupon_code }}" class="buy-buttons {% if section.settings.show_checkout_button %}buy-buttons--compact{% endif %} custom_checkout_btn">
+          {%- render 'button',
+            type: 'submit',
+            content: "Checkout",
+            icon: 'picto-lock',
+            name: 'checkout',
+            size: 'xl'
+          -%}
+        </a>
+      {% else %}
+        <form
+          action="{{ routes.cart_url }}"
+          method="POST"
+          class="buy-buttons {% if section.settings.show_checkout_button %}buy-buttons--compact{% endif %}"
+        >
+          {%- assign checkout_label = 'cart.general.checkout' | t -%}
+  
+          {%- if section.settings.show_view_cart_button or section.settings.show_checkout_button == false -%}
+            <a
+              href="{{ routes.cart_url }}"
+              class="button button--xl {% if section.settings.show_checkout_button %}button--secondary{% endif %}"
+              data-no-instant
+            >
+              {{- 'cart.general.view_cart' | t -}}
+            </a>
+          {%- endif -%}
+  
+          {%- if section.settings.show_checkout_button -%}
+            {%- render 'button',
+              type: 'submit',
+              content: checkout_label,
+              icon: 'picto-lock',
+              name: 'checkout',
+              size: 'xl'
+            -%}
+          {%- endif -%}
+        </form>
+      {% endif %}{% endcomment %}
+
+      <form
+          action="{{ routes.cart_url }}"
+          method="POST"
+          class="buy-buttons {% if section.settings.show_checkout_button %}buy-buttons--compact{% endif %}"
+        >
+          {%- assign checkout_label = 'cart.general.checkout' | t -%}
+  
+          {%- if section.settings.show_view_cart_button or section.settings.show_checkout_button == false -%}
+            <a
+              href="{{ routes.cart_url }}"
+              class="button button--xl {% if section.settings.show_checkout_button %}button--secondary{% endif %}"
+              data-no-instant
+            >
+              {{- 'cart.general.view_cart' | t -}}
+            </a>
+          {%- endif -%}
+  
+          {%- if section.settings.show_checkout_button -%}
+            {%- render 'button',
+              type: 'submit',
+              content: checkout_label,
+              icon: 'picto-lock',
+              name: 'checkout',
+              size: 'xl'
+            -%}
+          {%- endif -%}
+        </form>
+    </div>
+  {%- endif -%}
+</cart-drawer>
+
+{% schema %}
+{
+  "name": "Cart drawer",
+  "settings": [
+    {
+      "type": "paragraph",
+      "content": "Cart drawer won't appear to your customers if you have set the cart type to Page in the global theme settings."
+    },
+    {
+      "type": "paragraph",
+      "content": "Free shipping bar can be configured in global cart settings."
+    },
+    {
+      "type": "checkbox",
+      "id": "show_cart_note",
+      "label": "Show cart note",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_shipping_text",
+      "label": "Show shipping text",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_view_cart_button",
+      "label": "Show view cart button",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_checkout_button",
+      "label": "Show checkout button",
+      "default": true
+    },
+    {
+      "type": "select",
+      "id": "choose_functionality",
+      "label": "Choose Functionality",
+      "options": [
+        {
+          "value": "collection_based",
+          "label": "Collection Based"
+        },
+        {
+          "value": "power_based",
+          "label": "Power Based"
+        }
+      ],
+      "default": "collection_based"
+    },
+    {
+      "type": "header",
+      "content": "Gift Progress Bar"
+    },
+    {
+      "type": "checkbox",
+      "id": "thresold_enable_disable",
+      "label": "Thresold enable"
+    },
+    {
+      "type": "product",
+      "id": "free_gift_product",
+      "label": "Free gift product"
+    },
+    {
+      "type": "collection_list",
+      "id": "free_gift_collection",
+      "label": "Free gift collections"
+    },
+    {
+      "type": "text",
+      "id": "thresold_for_free_gift",
+      "label": "Free gift...in cents"
+    },
+    {
+      "type": "text",
+      "id": "free_gift_not_reach_msg",
+      "label": "Free gift not reached yet"
+    },
+    {
+      "type": "text",
+      "id": "free_gift_reach_msg",
+      "label": "Free gift reached"
+    },
+    {
+      "type": "header",
+      "content": "Free shipping Progress Bar"
+    },
+    {
+      "type": "text",
+      "id": "thresold_for_free_shipping",
+      "label": "Free shipping...in cents"
+    },
+    {
+      "type": "text",
+      "id": "free_shipping_not_reach_msg",
+      "label": "Free shipping not reached yet"
+    },
+    {
+      "type": "text",
+      "id": "free_shipping_reach_msg",
+      "label": "Free shipping reached"
+    },
+    {
+      "type": "header",
+      "content": "Collection based functionality"
+    },
+    {
+      "type": "collection",
+      "id": "recommendation_collection_1",
+      "label": "Collection",
+      "info": "Below selected products are showing in all the products from this collection."
+    },
+    {
+      "type": "product_list",
+      "id": "recommendation_product_1",
+      "label": "Recommendations",
+      "info": "Suggest additional products to your customers.",
+      "limit": 10
+    },
+    {
+      "type": "collection",
+      "id": "recommendation_collection_2",
+      "label": "Collection",
+      "info": "Below selected products are showing in all the products from this collection."
+    },
+    {
+      "type": "product_list",
+      "id": "recommendation_product_2",
+      "label": "Recommendations",
+      "info": "Suggest additional products to your customers.",
+      "limit": 10
+    },
+    {
+      "type": "collection",
+      "id": "recommendation_collection_3",
+      "label": "Collection",
+      "info": "Below selected products are showing in all the products from this collection."
+    },
+    {
+      "type": "product_list",
+      "id": "recommendation_product_3",
+      "label": "Recommendations",
+      "info": "Suggest additional products to your customers.",
+      "limit": 10
+    },
+    {
+      "type": "header",
+      "content": "Power based functionality"
+    },
+    {
+      "type": "header",
+      "content": "Product recommendations 1"
+    },
+    {
+      "type": "text",
+      "id": "solarbank_recommendations_title",
+      "label": "Solarbanks Heading",
+      "default": "Du möchtest deinen Strom speichern?"
+    },
+    {
+      "type": "text",
+      "id": "recommendations_title",
+      "label": "Heading",
+      "default": "Trending this month"
+    },
+    {
+      "type": "product_list",
+      "id": "products",
+      "label": "Recommendations",
+      "info": "Suggest additional products to your customers.",
+      "limit": 10
+    },
+    {
+      "type": "header",
+      "content": "Product recommendations 2"
+    },
+    {
+      "type": "text",
+      "id": "recommendations_title_2",
+      "label": "Heading 2",
+      "default": "Trending this month"
+    },
+    {
+      "type": "product_list",
+      "id": "products_2",
+      "label": "Recommendations 2",
+      "info": "Suggest additional products to your customers.",
+      "limit": 10
+    },
+    {
+      "type": "header",
+      "content": "Product recommendations 3"
+    },
+    {
+      "type": "text",
+      "id": "recommendations_title_3",
+      "label": "Heading 3",
+      "default": "Trending this month"
+    },
+    {
+      "type": "product_list",
+      "id": "products_3",
+      "label": "Recommendations 3",
+      "info": "Suggest additional products to your customers.",
+      "limit": 10
+    },
+    {
+      "type": "color",
+      "id": "product_card_background",
+      "label": "Product card background"
+    },
+    {
+      "type": "color",
+      "id": "product_card_text_color",
+      "label": "Product card text"
+    },
+    {
+      "type": "header",
+      "content": "Positive content box"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "success_msg_heading",
+      "label": "Message Heading",
+      "default": "Gute Wahl! 🎉"
+    },
+    {
+      "type": "textarea",
+      "id": "success_msg_content",
+      "label": "Message Text",
+      "default": "Bleib gesund und fit mit Deinen Produkten"
+    },
+    {
+      "type": "color",
+      "id": "success_msg_background",
+      "label": "Success msg background"
+    },
+    {
+      "type": "color",
+      "id": "success_msg_color",
+      "label": "Success msg text"
+    }
+  ]
+}
+{% endschema %}

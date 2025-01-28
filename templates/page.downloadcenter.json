@@ -1,0 +1,95 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "content_width": "100%"
+      }
+    },
+    "18ebdda0-b7b4-4ec4-a81e-e26e9c61ecd2": {
+      "type": "faq",
+      "blocks": {
+        "template--18586414743816__18ebdda0-b7b4-4ec4-a81e-e26e9c61ecd2-item-1": {
+          "type": "item",
+          "settings": {
+            "title": "Montageanleitung Halterungen",
+            "content": "<p><strong>Balkon (Balcony)</strong></p><ul><li><a href=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Balkonstrom_Montageanleitung_Balkon.pdf?v=1728827016\" target=\"_blank\" title=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Balkonstrom_Montageanleitung_Balkon.pdf?v=1728827016\">Montageanleitung</a></li><li><a href=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Balkonstrom_Montageanleitung_Basisanleitung.pdf?v=1728827016\" target=\"_blank\" title=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Balkonstrom_Montageanleitung_Basisanleitung.pdf?v=1728827016\">Basisanleitung</a></li></ul><p><strong>Ziegeldach (Roof)</strong></p><ul><li><a href=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Balkonstrom_Montageanleitung_Ziegeldach_1.pdf?v=1728827309\" target=\"_blank\" title=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Balkonstrom_Montageanleitung_Ziegeldach_1.pdf?v=1728827309\">Montageanleitung</a></li></ul><p><strong>Bitumendach (Roof)</strong></p><ul><li><a href=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Balkonstrom_Montageanleitung_Bitumendach_1.pdf?v=1728828855\" target=\"_blank\" title=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Balkonstrom_Montageanleitung_Bitumendach_1.pdf?v=1728828855\">Montageanleitung</a></li></ul><p><strong>Blechdach (Roof)</strong></p><ul><li><a href=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Balkonstrom_Montageanleitung_Trapezblech_1.pdf?v=1728827279\" target=\"_blank\" title=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Balkonstrom_Montageanleitung_Trapezblech_1.pdf?v=1728827279\">Montageanleitung</a></li></ul><p><strong>Flachdach (Roof)</strong></p><ul><li><a href=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Balkonstrom_Montageanleitung_Flachdach.pdf?v=1728827017\" target=\"_blank\" title=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Balkonstrom_Montageanleitung_Flachdach.pdf?v=1728827017\">Montageanleitung</a></li></ul><p><strong>Fassade (Wall)</strong></p><ul><li><a href=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Balkonstrom_Montageanleitung_Fassade_1.pdf?v=1728827292\" target=\"_blank\" title=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Balkonstrom_Montageanleitung_Fassade_1.pdf?v=1728827292\">Montageanleitung</a></li></ul><p><strong>Fassade 90 Grad (Wall)</strong></p><ul><li><a href=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Balkonstrom_Montageanleitung_Fassade_90_Grad.pdf?v=1728827017\" target=\"_blank\" title=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Balkonstrom_Montageanleitung_Fassade_90_Grad.pdf?v=1728827017\">Montageanleitung</a></li></ul><p><strong>Garten (Flat)</strong></p><ul><li><a href=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Balkonstrom_Montageanleitung_Garten.pdf?v=1728827017\" target=\"_blank\" title=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Balkonstrom_Montageanleitung_Garten.pdf?v=1728827017\">Montageanleitung</a></li></ul><p><strong>ohne Halterung (Pure)</strong></p><ul><li><a href=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Balkonstrom_Montageanleitung_Basisanleitung.pdf?v=1728827016\" target=\"_blank\" title=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Balkonstrom_Montageanleitung_Basisanleitung.pdf?v=1728827016\">Montageanleitung</a></li></ul>"
+          }
+        },
+        "416fe1dd-aa8b-4e5d-bee7-8009ab65be5b": {
+          "type": "item",
+          "settings": {
+            "title": "Solarmodule",
+            "content": "<p><strong>Basic Sets</strong></p><p><strong>Trina Solar Vertex S 430</strong></p><ul><li><a href=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Solarmodul_Datenblatt.pdf?v=1702464200\" target=\"_blank\" title=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Solarmodul_Datenblatt.pdf?v=1702464200\">Datenblatt</a></li><li><a href=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Solarmodul_-_Garantienachweis.pdf?v=1702464179\" target=\"_blank\" title=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Solarmodul_-_Garantienachweis.pdf?v=1702464179\">Garantiebedingungen</a></li></ul><p></p><p><strong>Basic bifaziale Sets</strong></p><p><strong>JA Solar JAM54D40-450</strong></p><ul><li><a href=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Datenblatt_Ja-Solar-JAM54D40-445-LB.pdf?v=1714073882\" target=\"_blank\" title=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Datenblatt_Ja-Solar-JAM54D40-445-LB.pdf?v=1714073882\">Datenblatt</a></li><li><a href=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Garantiebedingungen_JA-Solar.pdf?v=1714073883\" target=\"_blank\" title=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Garantiebedingungen_JA-Solar.pdf?v=1714073883\">Garantiebedingungen</a></li></ul><p><strong>SUNPRO 210R TOPCON 480-404W</strong></p><ul><li><a href=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Sunpro_210R_bifazial_Solarmodul_Datenblatt.pdf?v=1737046543\" target=\"_blank\" title=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Sunpro_210R_bifazial_Solarmodul_Datenblatt.pdf?v=1737046543\">Datenblatt</a></li></ul><p></p><p><strong>Premium Sets</strong></p><p><strong>Meyer Burger 390-Wp Black</strong></p><ul><li><a href=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Solarmodul_Datenblatt_18e7e6fa-bea6-404b-b9e0-26907d982119.pdf?v=1702465170\" target=\"_blank\" title=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Solarmodul_Datenblatt_18e7e6fa-bea6-404b-b9e0-26907d982119.pdf?v=1702465170\">Datenblatt</a></li><li><a href=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Garantiebedingungen_Solarmodul.pdf?v=1702465169\" target=\"_blank\" title=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Garantiebedingungen_Solarmodul.pdf?v=1702465169\">Garantiebedingungen</a></li></ul>"
+          }
+        },
+        "3134bd98-b822-468e-aead-24b1b89c6444": {
+          "type": "item",
+          "settings": {
+            "title": "Wechselrichter",
+            "content": "<p><strong>Hoymiles App Einrichtung</strong></p><ul><li><a href=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Balkonstrom_Hoymiles_Anleitung.pdf?v=1719792828\" target=\"_blank\" title=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Balkonstrom_Hoymiles_Anleitung.pdf?v=1719792828\">DTU Einrichtung und Drosselung</a></li></ul><p><strong>Hoymiles HMS-500 (1 Solarmodul)</strong></p><ul><li><a href=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Hoymiles_HMS-300-350-400-450-5000_Datenblatt.pdf?v=1717615220\" target=\"_blank\" title=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Hoymiles_HMS-300-350-400-450-5000_Datenblatt.pdf?v=1717615220\">Datenblatt</a></li><li><a href=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Hoymiles_HMS-300-1T_HMS-350-1T_HMS-400-1T_HMS-450-1T_HMS-500-1T_Bedienungsanleitung.pdf?v=1717616506\" target=\"_blank\" title=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Hoymiles_HMS-300-1T_HMS-350-1T_HMS-400-1T_HMS-450-1T_HMS-500-1T_Bedienungsanleitung.pdf?v=1717616506\">Bedienungsanleitung</a></li><li><a href=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Hoymiles_Garantiebedingungen_baf690eb-e148-49ad-9242-441fc0161107.pdf?v=1717616506\" target=\"_blank\" title=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Hoymiles_Garantiebedingungen_baf690eb-e148-49ad-9242-441fc0161107.pdf?v=1717616506\">Garantiebedingungen</a></li></ul><p><strong>Hoymiles HMS 800W 2T (2-4 Solarmodule)</strong></p><ul><li><a href=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Datenblatt-Hoymiles-HMS-800W.pdf?v=1712959406\" target=\"_blank\" title=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Datenblatt-Hoymiles-HMS-800W.pdf?v=1712959406\">Datenblatt</a></li><li><a href=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Konformitaetsnachweis-HMS-800W-2T.pdf?v=1712959405\" target=\"_blank\" title=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Konformitaetsnachweis-HMS-800W-2T.pdf?v=1712959405\">Konformitätsnachweis</a></li><li><a href=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/CE-Konformitaetserklaerung-HMS-800W-2T.pdf?v=1712959406\" target=\"_blank\" title=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/CE-Konformitaetserklaerung-HMS-800W-2T.pdf?v=1712959406\">Konformitätserklärung</a></li><li><a href=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/BDA-Wechselrichter-HMS-800W-2T.pdf?v=1713474131\" target=\"_blank\" title=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/BDA-Wechselrichter-HMS-800W-2T.pdf?v=1713474131\">Bedienungsanleitung</a></li></ul><p><strong>Hoymiles HMS-1800 4T</strong></p><ul><li><a href=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Datenblatt-Hoymiles-HMS-1800.pdf?v=1712957463\" target=\"_blank\" title=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Datenblatt-Hoymiles-HMS-1800.pdf?v=1712957463\">Datenblatt</a></li><li><a href=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Konformitaetsnachweis-HMS-1600-4T.pdf?v=1712957877\" target=\"_blank\" title=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Konformitaetsnachweis-HMS-1600-4T.pdf?v=1712957877\">Konformitätsnachweis</a></li><li><a href=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/CE-Konformitaetserklaerung-HMS-1600-4T.pdf?v=1712958424\" target=\"_blank\" title=\"https://cdn.shopify.com/s/files/1/9/0609481/4140/files/CE-Konformitaetserklaerung-HMS-1600-4T.pdf?v=1712958424\">Konformitätserklärung</a></li><li><a href=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Benutzerhandbuch-HMS-1600-4T_EU_DE_V202201.pdf?v=1713474274\" target=\"_blank\" title=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Benutzerhandbuch-HMS-1600-4T_EU_DE_V202201.pdf?v=1713474274\">Bedienungsanleitung</a></li></ul><p><strong>Hoymiles HMS-2000 4T</strong></p><ul><li><a href=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Hoymiles_HMS_2000_4T_Datenblatt.pdf?v=1728830174\" title=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Hoymiles_HMS_2000_4T_Datenblatt.pdf?v=1728830174\">Datenblatt</a></li><li><a href=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Hoymiles_HMS_2000_4T_NA-Schutz.pdf?v=1728830174\" title=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Hoymiles_HMS_2000_4T_NA-Schutz.pdf?v=1728830174\">NA-Schutz</a></li><li><a href=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Hoymiles_HMS_2000_4T__Konformitaetserklaerung.pdf?v=1728830174\" title=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Hoymiles_HMS_2000_4T__Konformitaetserklaerung.pdf?v=1728830174\">Konformitätserklärung</a></li><li><a href=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Hoymiles_HMS_2000_4T_Bedienungsanleitung.pdf?v=1728830176\" title=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Hoymiles_HMS_2000_4T_Bedienungsanleitung.pdf?v=1728830176\">Bedienungsanleitung</a></li></ul><p><strong>APSystems EZ1-M 800W Mikrowechselrichter</strong></p><ul><li><a href=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/APSYSTEMS_EZ1-M_800_Datenblatt.pdf?v=1728829579\" title=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/APSYSTEMS_EZ1-M_800_Datenblatt.pdf?v=1728829579\">Datenblatt</a></li><li><a href=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/APSYSTEMS_EZ1-M_800_NA-Schutz.pdf?v=1728829580\" title=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/APSYSTEMS_EZ1-M_800_NA-Schutz.pdf?v=1728829580\">NA-Schutz</a></li><li><a href=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/APSYSTEMS_EZ1-M_800_Einheitenzertifikat.pdf?v=1728829581\" title=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/APSYSTEMS_EZ1-M_800_Einheitenzertifikat.pdf?v=1728829581\">Einheitenzertifikat</a></li><li><a href=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/APSYSTEMS_EZ1-M_800_Anleitung.pdf?v=1728829581\" title=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/APSYSTEMS_EZ1-M_800_Anleitung.pdf?v=1728829581\">Bedienungsanleitung</a></li></ul><p><strong>APSystems EZ1-D 1800W Mikrowechselrichter</strong></p><ul><li><a href=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/APSystems-EZ1-D-1800W-PV-Mikro-Wechselrichter-Datenblatt.pdf?v=1728829252\" target=\"_blank\" title=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/APSystems-EZ1-D-1800W-PV-Mikro-Wechselrichter-Datenblatt.pdf?v=1728829252\">Datenblatt</a></li><li><a href=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/APSystems-EZ1-D-1800W-PV-Mikro-Wechselrichter-Anleitung.pdf?v=1728829252\" target=\"_blank\" title=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/APSystems-EZ1-D-1800W-PV-Mikro-Wechselrichter-Anleitung.pdf?v=1728829252\">Bedienungsanleitung</a></li></ul><p></p>"
+          }
+        },
+        "e0cb7af8-5890-46b3-bfa1-588369bad916": {
+          "type": "item",
+          "settings": {
+            "title": "Strommessgeräte",
+            "content": "<p><strong>myStrom</strong></p><ul><li><a href=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/myStrom_Wifi_Switch_Bedienungsanleitung.pdf?v=1702463327\" target=\"_blank\" title=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/myStrom_Wifi_Switch_Bedienungsanleitung.pdf?v=1702463327\">Bedienungsanleitung</a></li></ul><p><strong>ReVolt</strong></p><ul><li><a href=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Revolt_Bedienungsanleitung.pdf?v=1702463488\" target=\"_blank\" title=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Revolt_Bedienungsanleitung.pdf?v=1702463488\">Bedienungsanleitung</a></li></ul><p><strong>DTU Wlite</strong></p><ul><li><a href=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/DTU-WLite_Bedienungsanleitung.pdf?v=1702463424\" target=\"_blank\" title=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/DTU-WLite_Bedienungsanleitung.pdf?v=1702463424\">Bedienungsanleitung</a></li><li><a href=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/DTU_WLite_Datenblatt.pdf?v=1702463422\" target=\"_blank\" title=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/DTU_WLite_Datenblatt.pdf?v=1702463422\">Datenblatt</a></li></ul>"
+          }
+        },
+        "item_Czm8jR": {
+          "type": "item",
+          "settings": {
+            "title": "Speicher",
+            "content": "<p><strong>Anker SOLIX Solarbank E1600 PRO</strong></p><ul><li><a href=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/AnkerSolix_E1600_Pro_Anleitung.pdf?v=1728830717\" title=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/AnkerSolix_E1600_Pro_Anleitung.pdf?v=1728830717\">Bedienungsanleitung</a></li><li><a href=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/AnkerSolix_E1600_Pro_Datenblatt.pdf?v=1728830474\" title=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/AnkerSolix_E1600_Pro_Datenblatt.pdf?v=1728830474\">Datenblatt</a></li></ul><p><strong>Anker SOLIX BP1600 Erweiterungsbatterie</strong></p><ul><li><a href=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/AnkerSolix_BP1600_Erweiterungsbatterie_Datenblatt.pdf?v=1728830861\" title=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/AnkerSolix_BP1600_Erweiterungsbatterie_Datenblatt.pdf?v=1728830861\">Datenblatt</a></li></ul><p><strong>Hoymiles MS A2 Speicher 2240 Wh</strong></p><ul><li><a href=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Hoymiles_MS_A2_Speicher_2240_Handbuch.pdf?v=1728831054\" title=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Hoymiles_MS_A2_Speicher_2240_Handbuch.pdf?v=1728831054\">Bedienungsanleitung</a></li><li><a href=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Hoymiles_MS_A2_Speicher_2240_Datenblatt.pdf?v=1728830984\" title=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Hoymiles_MS_A2_Speicher_2240_Datenblatt.pdf?v=1728830984\">Datenblatt</a></li></ul><p><strong>Zendure AIO 2400</strong></p><ul><li><a href=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Zendure_AIO_2400_Betriebsanleitung.pdf?v=1714331313\" target=\"_blank\">Bedienungsanleitung</a></li><li><a href=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Datenblatt_Zendure_AIO_2400.pdf?v=1714331311\" target=\"_blank\">Datenblatt</a></li><li><a href=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Zendure_AIO_2400_Anleitung_App.pdf?v=1714331314\" target=\"_blank\" title=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Zendure_AIO_2400_Anleitung_App.pdf?v=1714331314\">Anleitung App-Einrichtung</a></li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18586414743816__18ebdda0-b7b4-4ec4-a81e-e26e9c61ecd2-item-1",
+        "416fe1dd-aa8b-4e5d-bee7-8009ab65be5b",
+        "3134bd98-b822-468e-aead-24b1b89c6444",
+        "e0cb7af8-5890-46b3-bfa1-588369bad916",
+        "item_Czm8jR"
+      ],
+      "custom_css": [
+        ".accordion__toggle span {font-weight: 700; font-size: 15px;}",
+        ".prose li {font-weight: 400;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "",
+        "content": "<p><strong>Alle wichtigen Dokumente nach Kategorien unterteilt</strong></p>",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "#fcfcfc",
+        "background_gradient": "",
+        "text_color": "#040404",
+        "heading_color": "#040404",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "18ebdda0-b7b4-4ec4-a81e-e26e9c61ecd2"
+  ]
+}

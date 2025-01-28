@@ -1,0 +1,651 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "100%"
+      }
+    },
+    "06951c88-a3ae-4541-b7d7-04803792023b": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--17852456009992__06951c88-a3ae-4541-b7d7-04803792023b-168166331224c09692-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Wir sind Balkonstrom®",
+            "heading_tag": "h1"
+          }
+        },
+        "template--17852456009992__06951c88-a3ae-4541-b7d7-04803792023b-168166331224c09692-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Wie Sonnenschein zu unserem Geschäft wurde</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17852456009992__06951c88-a3ae-4541-b7d7-04803792023b-168166331224c09692-1",
+        "template--17852456009992__06951c88-a3ae-4541-b7d7-04803792023b-168166331224c09692-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "enable_fix_parallax": false,
+        "image_size": "md",
+        "image": "shopify://shop_images/DSC00642_1_1.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 59
+      }
+    },
+    "custom_logo_list_jUyNyA": {
+      "type": "custom-logo-list",
+      "blocks": {
+        "logo_image_ydHGA4": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/Untitled_design_80.png"
+          }
+        },
+        "logo_image_6iBbbj": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_1_6ad045c6-a6af-43bc-8772-088fda3e65c1.png"
+          }
+        },
+        "logo_image_JVCfNA": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_68bc6b1f-9cde-4e28-90d9-010389d4b518.png"
+          }
+        },
+        "logo_image_Dwfhjz": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_4.png"
+          }
+        },
+        "logo_image_rqYVHT": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_3_eccce761-16d6-41a5-aab7-1b94750e6ae5.png"
+          }
+        },
+        "logo_image_rMY9Km": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_2_a6e3afea-7afd-46b9-9542-a2b05fba13c9.png"
+          }
+        }
+      },
+      "block_order": [
+        "logo_image_ydHGA4",
+        "logo_image_6iBbbj",
+        "logo_image_JVCfNA",
+        "logo_image_Dwfhjz",
+        "logo_image_rqYVHT",
+        "logo_image_rMY9Km"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_mobile_slider": true,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "49854753-a042-43d9-9788-7df219e21b27": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Fzhbmr": {
+          "type": "heading",
+          "settings": {
+            "text": "Unsere Philosophie",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--17852456009992__49854753-a042-43d9-9788-7df219e21b27-1681662380b37908bc-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Bei Balkonstrom® stehen <strong>Produktqualität </strong>und die <strong>Nähe zu unseren Kunden</strong> ganz weit oben. Deshalb setzen wir bei unseren Balkonkraftwerken auf hochwertige Produkte und <strong>Made in Germany Komponenten</strong>. Da primär Kabel von schlechter Qualität unter anderem Leistungsverluste von Solaranlagen verursachen, deren Lebensdauer verkürzen oder sogar Sicherheitsrisiken bergen können, verfolgen wir das Ziel, rundum <strong>sichere und zuverlässige Produkte anzubieten</strong>. Erfahre mehr über unsere Made in Germany Kabel für Balkonkraftwerke in<a href=\"https://www.balkonstrom.com/blogs/news/balkonkraftwerke-bloss-nicht-am-falschen-ende-sparen\" target=\"_blank\" title=\"https://www.balkonstrom.com/blogs/news/balkonkraftwerke-bloss-nicht-am-falschen-ende-sparen\"> diesem Blogbeitrag</a>.</p><p>Wir verwenden deshalb lediglich von unserem Partner in Deutschland unter höchsten Qualitätsstandards gefertigte Kabel. Bei unseren Anlagen haben unsere Kunden die Möglichkeit, zwischen Made in Germany Solarmodulen (z.B. Meyer Burger) und bewährten Modulen aus Asien zu wählen. Vom ersten Beratungsgespräch bis zur Installation begleiten <strong>wir unsere Kunden auf Augenhöhe </strong>– <strong>mit transparentem Service und Expertenrat</strong>.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Fzhbmr",
+        "template--17852456009992__49854753-a042-43d9-9788-7df219e21b27-1681662380b37908bc-2"
+      ],
+      "custom_css": [
+        ".prose p {text-align: justify;}"
+      ],
+      "settings": {
+        "full_width": false,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "rich_text_fEMgek": {
+      "type": "rich-text",
+      "blocks": {
+        "button_n3axdP": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "Entdecke unsere Balkonkraftwerke",
+            "url": "shopify://collections/balkonkraftwerke",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_n3axdP"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "text_with_icons_DtTVi8": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_aTKPVi": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/Icon_Location.png",
+            "mobile_icon_width": 32,
+            "icon_width": 52,
+            "icon_background_type": "circle",
+            "icon_background": "#F2C315",
+            "icon_color": "",
+            "subtitle": "",
+            "title": "Regionaler Ansprechpartner",
+            "content": ""
+          }
+        },
+        "item_ttMKrA": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/Icon_kundenerfahrung.png",
+            "mobile_icon_width": 24,
+            "icon_width": 52,
+            "icon_background_type": "circle",
+            "icon_background": "#F2C315",
+            "icon_color": "",
+            "subtitle": "",
+            "title": "Expertenberatung",
+            "content": ""
+          }
+        },
+        "item_eceh3b": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/Icon_deutschland.png",
+            "mobile_icon_width": 32,
+            "icon_width": 52,
+            "icon_background_type": "circle",
+            "icon_background": "#F2C315",
+            "icon_color": "",
+            "subtitle": "",
+            "title": "Made in Germany Komponenten",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_aTKPVi",
+        "item_ttMKrA",
+        "item_eceh3b"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "title": "",
+        "heading_tag": "h4",
+        "text_alignment": "center",
+        "icon_spacing": "small",
+        "background": "#f7f7f7",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "media_with_text_yiMHcb": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_WPLPP9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Balkonstrom_Vergleich_gross.webp",
+            "media_width": 55,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Unsere Mission",
+            "content": "<p>Wir möchten jedem eine erschwingliche und einfache Möglichkeit bieten, um günstig Strom zu beziehen und sich unabhängiger von externer Stromversorgung zu machen.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f7f7f7",
+            "background_gradient": "",
+            "text_color": "#040404",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_WPLPP9"
+      ],
+      "settings": {
+        "show_klaviyo_form": false,
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "rich_text_iMbxDg": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_LjMaGA": {
+          "type": "heading",
+          "settings": {
+            "text": "Die Balkonstrom Geschichte",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_LjMaGA"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "5a459668-df29-49a8-93bc-65055024f11d": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--17852211364104__5a459668-df29-49a8-93bc-65055024f11d-1677414585d197619c-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Berater_MH.webp",
+            "media_width": 35,
+            "media_position": "start",
+            "text_position": "place-self-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "Geschäftsführung",
+            "title": "Markus Hemrich",
+            "content": "<p>ist Geschäftsführer der Balkonstrom GmbH. Was einst als persönliches Interesse begann, resultierte in einer Leidenschaft für Photovoltaik Technologien. Mit Balkonstrom® verfolgt er die Mission, jedem eine erschwingliche und einfache Möglichkeit zu bieten, um günstig Strom zu beziehen und sich unabhängiger von externer Stromversorgung zu machen. </p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17852211364104__5a459668-df29-49a8-93bc-65055024f11d-1677414585d197619c-0"
+      ],
+      "settings": {
+        "show_klaviyo_form": false,
+        "full_width": true,
+        "spacing": "medium"
+      }
+    },
+    "5299325d-86d1-4e6c-b4e6-09b0ed4d8813": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17852456009992__5299325d-86d1-4e6c-b4e6-09b0ed4d8813-1681662380b37908bc-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><em>\"Heutzutage lebe ich in einer Großstadt, in der fast jeder in Mietwohnungen wohnt. Den wenigsten steht hier ein freies Dach oder ein Garten für eine Photovoltaik-Anlage zur Verfügung, um eigenen Strom zu produzieren. Unterm Strich bedeutet das: so gut wie jeder ist hier vollkommen abhängig von externen Stromanbietern und den steigenden Strompreisen ausgeliefert.</em></p><p><em>Immer wieder kamen mir beim Anblick der leeren Balkone in meiner Nachbarschaft Gedanken, die sich schnell zu einer Geschäftsidee entwickelten. Wieso nutzt niemand seinen Balkon, um seine Stromkosten zu reduzieren? Wieso hängen die Leute lieber triste Bambus-Sichtschutz-Matten an ihre Balkonbrüstung als ein schickes Balkonkraftwerk, das ihnen zu barem Geld verhilft? Erklärbar war das für mich nur damit, dass vermutlich viel zu wenige Menschen von Balkonkraftwerken wissen. Für mich war klar, dass diese Technologie bekannter werden musste und meine Mission stand fest: Ich möchte jedem eine erschwingliche und einfache Möglichkeit bieten, um günstig Strom beziehen zu können und sich gleichzeitig unabhängiger von externer Stromversorgung sowie von energiepolitischen Entscheidungen zu machen! Diese Idee und diese Mission mussten sofort umgesetzt werden! Kurze Zeit später wurde Balkonstrom® ins Leben gerufen.\"</em></p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17852456009992__5299325d-86d1-4e6c-b4e6-09b0ed4d8813-1681662380b37908bc-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "mh_multicolumn_EPdmb9": {
+      "type": "mh-multicolumn",
+      "blocks": {
+        "block_zinGVG": {
+          "type": "block",
+          "settings": {
+            "image": "shopify://shop_images/Bild_2024-05-27_150416913_8b90b93b-48f8-4fa4-a668-a92468a3466b.png",
+            "heading": "Hannes",
+            "text": "<p>Mitgründer</p><p><em>\"Der frühe Vogel fängt den Wurm\"</em></p>",
+            "link": "",
+            "link_url": ""
+          }
+        },
+        "block_JwcpMf": {
+          "type": "block",
+          "settings": {
+            "image": "shopify://shop_images/berater-balkonstrom.webp",
+            "heading": "Raphael",
+            "text": "<p>Physiker & Berater</p><p><em>\"Entspannen am besten mit Metal auf den Ohren\"</em></p>",
+            "link": "",
+            "link_url": ""
+          }
+        },
+        "block_KiqeiM": {
+          "type": "block",
+          "settings": {
+            "image": "shopify://shop_images/Beraterin_S.SEI..webp",
+            "heading": "Sarah",
+            "text": "<p>Grafikerin</p><p><em>\"Kaffee ist die Antwort. Egal, was die Frage war.\"</em></p>",
+            "link": "",
+            "link_url": ""
+          }
+        },
+        "block_XrqG7V": {
+          "type": "block",
+          "settings": {
+            "image": "shopify://shop_images/Berater_Platzhalter.webp",
+            "heading": "Alex",
+            "text": "<p>Buchhaltung</p><p><em>\"Am Anfang steht der Mut, am Ende das Glück.\"</em></p>",
+            "link": "",
+            "link_url": ""
+          }
+        },
+        "block_TEjTNQ": {
+          "type": "block",
+          "settings": {
+            "image": "shopify://shop_images/LG_Bild.webp",
+            "heading": "Linda",
+            "text": "<p>Marketing & E-Commerce</p><p><em>\"Yoga & Hunde machen das Leben schön.\"</em></p>",
+            "link": "",
+            "link_url": ""
+          }
+        },
+        "block_TekN3t": {
+          "type": "block",
+          "settings": {
+            "image": "shopify://shop_images/RE.webp",
+            "heading": "Rebecca",
+            "text": "<p>Marketing & Affiliates</p><p><em>\"Meine Checklisten haben Checklisten.\"</em></p>",
+            "link": "",
+            "link_url": ""
+          }
+        },
+        "block_rJGzYW": {
+          "type": "block",
+          "settings": {
+            "image": "shopify://shop_images/Beraterin_MP.webp",
+            "heading": "Max",
+            "text": "<p>Kundenservice</p><p><em>\"Balance is key - zwischen grünen Smoothies und Schoko-Croissants.\"</em></p>",
+            "link": "",
+            "link_url": ""
+          }
+        },
+        "block_YmzgMA": {
+          "type": "block",
+          "settings": {
+            "image": "shopify://shop_images/berater_mb.webp",
+            "heading": "Markus",
+            "text": "<p>Technische Planung und Kundensupport</p><p><em>\"Genieße das Jetzt, später kommt früh genug.\"</em></p>",
+            "link": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "block_zinGVG",
+        "block_JwcpMf",
+        "block_KiqeiM",
+        "block_XrqG7V",
+        "block_TEjTNQ",
+        "block_TekN3t",
+        "block_rJGzYW",
+        "block_YmzgMA"
+      ],
+      "settings": {
+        "heading": "Die Gesichter hinter Balkonstrom®",
+        "heading_custom": false,
+        "heading_font": "assistant_n4",
+        "heading_size": 28,
+        "heading_letter": 0,
+        "heading_height": 130,
+        "heading_align": "left",
+        "heading_mt": 4,
+        "heading_mb": 12,
+        "text": "",
+        "text_custom": false,
+        "text_font": "assistant_n4",
+        "text_size": 26,
+        "text_letter": 0,
+        "text_height": 130,
+        "text_align": "center",
+        "column_mt": 20,
+        "column_direction": "center",
+        "column_gap": 20,
+        "column_gap_mobile": 20,
+        "column_style": "columns",
+        "column_style_mobile": "slider",
+        "column_row": "4",
+        "column_row_mobile": "1",
+        "column_radius": 28,
+        "column_padding_horizontal": 16,
+        "column_padding_top": 24,
+        "column_padding_bottom": 24,
+        "numbers": false,
+        "autoplay": false,
+        "autoplay_speed": 3,
+        "nav_size": 40,
+        "nav_size_mobile": 30,
+        "hide_nav": false,
+        "column_number_custom": false,
+        "column_number_font": "assistant_n4",
+        "column_number_size": 36,
+        "column_heading_custom": false,
+        "column_heading_font": "assistant_n8",
+        "column_heading_size": 22,
+        "column_heading_letter": 0,
+        "column_heading_height": 110,
+        "column_heading_mt": 4,
+        "column_text_custom": false,
+        "column_text_font": "assistant_n4",
+        "column_text_size": 14,
+        "column_text_letter": 0,
+        "column_text_height": 130,
+        "column_text_mt": 8,
+        "column_link_width": "regular",
+        "column_link_max": 170,
+        "column_link_padding_horizontal": 8,
+        "column_link_padding_vertical": 8,
+        "column_link_radius": 16,
+        "column_link_custom": false,
+        "column_link_font": "assistant_n4",
+        "column_link_size": 18,
+        "column_link_letter": 0,
+        "column_link_height": 130,
+        "column_link_mt": 12,
+        "column_link_style": "button",
+        "column_image_max": 200,
+        "column_image_max_mobile": 120,
+        "column_image_radius": 0,
+        "heading_color": "#2d281d",
+        "column_heading_color": "#2d281d",
+        "text_color": "#2d281d",
+        "column_text_color": "#2d281d",
+        "column_link_color": "#ffffff",
+        "column_link_hover_color": "#ffffff",
+        "column_link_bg_color": "#e86940",
+        "column_link_bg_hover_color": "#a04e33",
+        "column_number_color": "#ffffff",
+        "column_number_bg_color": "#e86940",
+        "column_bg_color": "#ffffff",
+        "nav_btn_bg": "#ffffff",
+        "nav_btn_hover_bg": "#caaba1",
+        "nav_border": "#caaba1",
+        "nav_border_hover": "#caaba1",
+        "nav_icon": "#caaba1",
+        "nav_hover_icon": "#ffffff",
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "padding_top": 4,
+        "padding_bottom": 0,
+        "padding_horizontal": 1,
+        "padding_horizontal_mobile": 1,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "full_width": false,
+        "content_width": 190,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "multi_column_fkrmzf": {
+      "type": "multi-column",
+      "blocks": {
+        "item_HccpRe": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Installierte_Solarmodule.webp",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_WDdbtW": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/100_Kabel_Made_in_Germany.webp",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_T7N4P9": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Zufriedene_Kunden.webp",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_HccpRe",
+        "item_WDdbtW",
+        "item_T7N4P9"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "enable_column_padding": false,
+        "column_background": "",
+        "gap": "small",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "Dein Balkonkraftwerk-Experte seit 2020",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "rich_text_wV6MMi": {
+      "type": "rich-text",
+      "blocks": {
+        "button_RMNfKU": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "Zu unseren Balkonkraftwerken",
+            "url": "shopify://collections/balkonkraftwerke",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_RMNfKU"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "06951c88-a3ae-4541-b7d7-04803792023b",
+    "custom_logo_list_jUyNyA",
+    "49854753-a042-43d9-9788-7df219e21b27",
+    "rich_text_fEMgek",
+    "text_with_icons_DtTVi8",
+    "media_with_text_yiMHcb",
+    "rich_text_iMbxDg",
+    "5a459668-df29-49a8-93bc-65055024f11d",
+    "5299325d-86d1-4e6c-b4e6-09b0ed4d8813",
+    "mh_multicolumn_EPdmb9",
+    "multi_column_fkrmzf",
+    "rich_text_wV6MMi"
+  ]
+}

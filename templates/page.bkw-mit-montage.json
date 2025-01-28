@@ -1,0 +1,325 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "100%"
+      }
+    },
+    "image_with_text_overlay_ckVdrU": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_amnKVD": {
+          "type": "heading",
+          "settings": {
+            "text": "Montage für dein Balkonkraftwerk",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_nW9GRf": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Wir liefern und installieren deine Wunschanlage – direkt bei dir zuhause!</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_amnKVD",
+        "richtext_nW9GRf"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "enable_fix_parallax": false,
+        "image_size": "md",
+        "image": "shopify://shop_images/2_391313d9-e395-4fdc-bad5-6a19926a3cfb.webp",
+        "mobile_image": "shopify://shop_images/18.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 45
+      }
+    },
+    "rich_text_HTGzkL": {
+      "type": "rich-text",
+      "blocks": {
+        "image_Ph3FXV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BEKANNT_AUS_2.webp",
+            "width_mode": "custom",
+            "max_width": 740,
+            "mobile_max_width": 400
+          }
+        },
+        "richtext_hmqDE3": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Du wählst deine Wunschanlage und wir erledigen Rest! Wir liefern dir dein Balkonkraftwerk nachhause und montieren es dir an den gewählten Montageort. Wir legen Wert auf Sorgfalt, Zuverlässigkeit und Sicherheit. Daher wird deine Anlage von ausgebildeten Monteuren installiert.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "image_Ph3FXV",
+        "richtext_hmqDE3"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "text_with_icons_9Cx4Me": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_PLnrfq": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/icon-solar.png",
+            "mobile_icon_width": 24,
+            "icon_width": 40,
+            "icon_background_type": "circle",
+            "icon_background": "#eee9e3",
+            "icon_color": "",
+            "subtitle": "",
+            "title": "Balkonkraftwerk deiner Wahl",
+            "content": ""
+          }
+        },
+        "item_6qyqDy": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/iconship.png",
+            "mobile_icon_width": 24,
+            "icon_width": 40,
+            "icon_background_type": "circle",
+            "icon_background": "#eee9e3",
+            "icon_color": "",
+            "subtitle": "",
+            "title": "Lieferung direkt nach Hause",
+            "content": ""
+          }
+        },
+        "item_MVULkN": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/icon-montage.png",
+            "mobile_icon_width": 24,
+            "icon_width": 40,
+            "icon_background_type": "circle",
+            "icon_background": "#eee9e3",
+            "icon_color": "",
+            "subtitle": "",
+            "title": "Fachmännische Montage",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_PLnrfq",
+        "item_6qyqDy",
+        "item_MVULkN"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": true,
+        "title": "",
+        "heading_tag": "h4",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "#f7f7f7",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "contact": {
+      "type": "contact",
+      "blocks": {
+        "435f74af-0695-491a-801c-42d0daf75878": {
+          "type": "text",
+          "settings": {
+            "title": "Telefonnummer",
+            "use_long_text": false,
+            "required": true
+          }
+        },
+        "e5229122-e3a5-4068-a5d6-e11a8c5ea587": {
+          "type": "text",
+          "settings": {
+            "title": "Straße und Hausnummer",
+            "use_long_text": false,
+            "required": true
+          }
+        },
+        "c9651393-7e0f-47ab-9325-431536d94b31": {
+          "type": "text",
+          "settings": {
+            "title": "PLZ und Ort",
+            "use_long_text": false,
+            "required": true
+          }
+        }
+      },
+      "block_order": [
+        "435f74af-0695-491a-801c-42d0daf75878",
+        "e5229122-e3a5-4068-a5d6-e11a8c5ea587",
+        "c9651393-7e0f-47ab-9325-431536d94b31"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "Wir machen deine Anlage startklar!",
+        "title": "",
+        "content": "<p>Du benötigst fachmännische Unterstützung bei der Montage deines Balkonkraftwerks? <strong>Wir übernehmen das gerne für dich</strong> und machen deine Anlage am gewählten Montageort* einsatzbereit!</p><p>Schreibe uns einfach über das nebenstehende Kontaktfeld eine Nachricht und wir melden uns mit einem individuellen Angebot bei dir.</p>",
+        "text_position": "start",
+        "contact_form_size": "large",
+        "custom_contact_form": true,
+        "default_contact_form": false,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "",
+        "contact_text_color": "",
+        "button_background": "#f0c417",
+        "button_text_color": "#1a1a1a"
+      }
+    },
+    "rich_text_hPX6nh": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_yd3Tmm": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>*Bitte beachte, dass wir die Montage ausschließlich in einem Radius von 150 km von unserem Standort Uettingen entfernt vornehmen.</strong> </p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_yd3Tmm"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_kaixfx": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "enable_fix_parallax": false,
+        "image_size": "sm",
+        "image": "shopify://shop_images/3_8d0034b0-9fa6-431b-a414-cb3ed784555b.webp",
+        "mobile_image": "shopify://shop_images/19.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "seo_section_M3ANrK": {
+      "type": "seo-section",
+      "blocks": {
+        "fullwidthblock_ReiQAL": {
+          "type": "fullwidthblock",
+          "settings": {
+            "full_width_heading": "Balkonkraftwerke mit Montage",
+            "full_width_description": "<p>Balkonkraftwerke sind eine kostengünstige und einfache Möglichkeit, um eigenen Strom zu erzeugen und sich somit unabhängiger von externer Stromversorgung zu machen. Die kleinen Anlagen können fast überall installiert werden und benötigen nur wenig Platz. Deshalb sind die besonders attraktiv für Mieter und Eigentümer von Eigentumswohnungen, lohnen sich aber selbstverständlich genauso für Hauseigentümer.</p>",
+            "full_width_heading_color": "#040404",
+            "gradient": "",
+            "full_width_description_color": "#040404",
+            "full_width_heading_size": "h1"
+          }
+        },
+        "leftblock_d8i636": {
+          "type": "leftblock",
+          "settings": {
+            "left_block_heading": "Die Montage",
+            "left_block_description": "<p>Die Montage von Balkonkraftwerken ist unkompliziert und grundsätzlich ohne Handwerker oder Elektriker möglich. Balkonkraftwerke leben vom Do-it-yourself-Gedanken, denn gerade die einfache Montage macht sie so attraktiv. Wer sich die Montage allerdings nicht zutraut kann auf Handwerker oder Experten für Balkonkraftwerke wie die von Balkonstrom® zurückgreifen, die in der Installation der kleinen Anlagen geübt sind.</p>",
+            "left_block_heading_color": "#040404",
+            "gradient": "",
+            "left_block_description_color": "#040404",
+            "left_block_heading_size": "h1"
+          }
+        },
+        "rightblock_cALAcY": {
+          "type": "rightblock",
+          "settings": {
+            "right_block_heading": "Tipps zur Montage",
+            "right_block_description": "<p>Bei Balkonstrom® erhältst du eine Schritt-für-Schritt-Montageanleitung, die exakt auf dein Balkonkraftwerk zugeschnitten ist. Bei der Montage ist echt wichtig, die einzelnen Schritte einzuhalten, um sicherzustellen, dass das Balkonkraftwerk ordnungsgemäß installiert wird. Zudem solltest du darauf achten, die Solarmodule optimal zu positionieren, da die Ausrichtung deiner Anlage einen Einfluss auf deinen Stromertrag hat.</p>",
+            "right_block_heading_color": "#040404",
+            "gradient": "",
+            "right_block_description_color": "#040404",
+            "right_block_heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "fullwidthblock_ReiQAL",
+        "leftblock_d8i636",
+        "rightblock_cALAcY"
+      ],
+      "settings": {
+        "full_width": true,
+        "page_width": 1200,
+        "link_color": "#040404",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_with_text_overlay_6cpwmG": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "enable_fix_parallax": false,
+        "image_size": "sm",
+        "image": "shopify://shop_images/4_623e10a4-c1f5-4952-880f-f4cde43d8016.webp",
+        "mobile_image": "shopify://shop_images/20.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_ckVdrU",
+    "rich_text_HTGzkL",
+    "text_with_icons_9Cx4Me",
+    "contact",
+    "rich_text_hPX6nh",
+    "image_with_text_overlay_kaixfx",
+    "seo_section_M3ANrK",
+    "image_with_text_overlay_6cpwmG"
+  ]
+}

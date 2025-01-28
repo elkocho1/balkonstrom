@@ -1,0 +1,517 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "100%"
+      }
+    },
+    "image_with_text_overlay_p6tfBA": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_3dFEet": {
+          "type": "heading",
+          "settings": {
+            "text": "39 Seiten, 100 % Mehrwert, komplett kostenlos!",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_NHqdNz": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Unser Balkonstrom®-Ratgeber mit allem, was du zum Thema Balkonkraftwerke wissen solltest!</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_3dFEet",
+        "richtext_NHqdNz"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "enable_fix_parallax": false,
+        "image_size": "md",
+        "image": "shopify://shop_images/ratgeber_balkonstrom.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 40
+      }
+    },
+    "custom_logo_list_6zXCPj": {
+      "type": "custom-logo-list",
+      "blocks": {
+        "logo_image_kPpGqg": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/Untitled_design_80.png"
+          }
+        },
+        "logo_image_g4KNz8": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_1_6ad045c6-a6af-43bc-8772-088fda3e65c1.png"
+          }
+        },
+        "logo_image_mHJgAQ": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_68bc6b1f-9cde-4e28-90d9-010389d4b518.png"
+          }
+        },
+        "logo_image_MceTcg": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_4.png"
+          }
+        },
+        "logo_image_i9bViz": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_3_eccce761-16d6-41a5-aab7-1b94750e6ae5.png"
+          }
+        },
+        "logo_image_gmKyeQ": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_2_a6e3afea-7afd-46b9-9542-a2b05fba13c9.png"
+          }
+        }
+      },
+      "block_order": [
+        "logo_image_kPpGqg",
+        "logo_image_g4KNz8",
+        "logo_image_mHJgAQ",
+        "logo_image_MceTcg",
+        "logo_image_i9bViz",
+        "logo_image_gmKyeQ"
+      ],
+      "settings": {
+        "enable_mobile_slider": true,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "media_with_text_eMUcYw": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_bjBbBi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Ratgeber_3D_web_1.webp",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "100 % Mehrwehrt - komplett kostenlos",
+            "title": "Balkonstrom®-Ratgeber sichern!",
+            "content": "<p>Finde wertvolle Tipps und Antworten für deinen Balkonkraftwerk-Kauf auf 39 Seiten.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f7f7f7",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_bjBbBi"
+      ],
+      "custom_css": [
+        ".prose * + :is(p, div, ul, ol) {margin-block-start: 5px;}",
+        ".prose * + :is(p, div, ul, ol) {margin-block-start: 15px;}"
+      ],
+      "settings": {
+        "show_klaviyo_form": true,
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "text_with_icons_QTUCnr": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_BrRn6C": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-document",
+            "custom_icon": "shopify://shop_images/icon-book.png",
+            "mobile_icon_width": 24,
+            "icon_width": 40,
+            "icon_background_type": "circle",
+            "icon_background": "#eee9e3",
+            "icon_color": "",
+            "subtitle": "",
+            "title": "39 Seiten Leitfaden",
+            "content": ""
+          }
+        },
+        "item_XmWtaq": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-validation",
+            "custom_icon": "shopify://shop_images/icon-expert.png",
+            "mobile_icon_width": 24,
+            "icon_width": 40,
+            "icon_background_type": "circle",
+            "icon_background": "#eee9e3",
+            "icon_color": "",
+            "subtitle": "",
+            "title": "Expertenberatung",
+            "content": ""
+          }
+        },
+        "item_PyU8k6": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-shield",
+            "custom_icon": "shopify://shop_images/icon-legal.png",
+            "mobile_icon_width": 24,
+            "icon_width": 40,
+            "icon_background_type": "circle",
+            "icon_background": "#eee9e3",
+            "icon_color": "",
+            "subtitle": "",
+            "title": "Rechtliche Hinweise",
+            "content": ""
+          }
+        },
+        "item_NmtC86": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-money",
+            "custom_icon": "shopify://shop_images/icon-performance_opt.png",
+            "mobile_icon_width": 24,
+            "icon_width": 40,
+            "icon_background_type": "circle",
+            "icon_background": "#eee9e3",
+            "icon_color": "",
+            "subtitle": "",
+            "title": "Tools zur Ertragskontrolle",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_BrRn6C",
+        "item_XmWtaq",
+        "item_PyU8k6",
+        "item_NmtC86"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "title": "",
+        "heading_tag": "h4",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "#f7f7f7",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_html_tynrbc": {
+      "type": "custom-html",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<p style=\"text-align: center;\"><a href=\"https://www.balkonstrom.com/collections/balkonkraftwerke\" class=\"button\"><span class=\"NormalTextRun SCXW4322749 BCX8\">Entdecke unsere Balkonkraftwerke</span></a><br class=\"SCXW4322749 BCX8\"></p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "multi_column_tRr7RM": {
+      "type": "multi-column",
+      "blocks": {
+        "item_B9nUKr": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Funktionsweise & Vorteile",
+            "heading_tag": "h4",
+            "content": "<p>Erhalte Einblicke in die <strong>Technologie von Balkonkraftwerken.</strong> Wir zeigen dir, mit welchen Ersparnissen du rechnen kannst.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_CKgkHp": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Montage",
+            "heading_tag": "h4",
+            "content": "<p>Erfahre, wie du dein Balkonkraftwerk an verschiedenen Montageorten selbst installieren kannst. Mit <strong>Schritt-für-Schritt-Anleitungen</strong>!</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_H8bbLz": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Rechtliche Aspekte",
+            "heading_tag": "h4",
+            "content": "<p>Informiere dich über die notwendigen rechtlichen Schritte, Registrierung, <strong>Fördermöglichkeiten</strong> und Sicherheitsvorkehrungen.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_B9nUKr",
+        "item_CKgkHp",
+        "item_H8bbLz"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": true,
+        "enable_column_padding": false,
+        "column_background": "",
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "In diesem Ratgeber erfährst du alles über:",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "rich_text_LijjAK": {
+      "type": "rich-text",
+      "blocks": {
+        "image_X63taw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Logos.png",
+            "width_mode": "custom",
+            "max_width": 350,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "image_X63taw"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "media_with_text_Rn7BNy": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_RdQb3z": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Ratgeber_Balkonstrom_2.webp",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Alles über Balkonkraftwerke!",
+            "content": "<ul><li>39 Seiten Leitfaden</li><li>Expertenrat und wertvolle Tipps</li><li>Tools und Methoden zur Ertragskontrolle</li><li>5 Fehler, die du vermeiden solltest</li></ul>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f7f7f7",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_RdQb3z"
+      ],
+      "custom_css": [
+        ".prose * + :is(p, div, ul, ol) {margin-block-start: 5px;}",
+        ".prose * + :is(p, div, ul, ol) {margin-block-start: 15px;}"
+      ],
+      "settings": {
+        "show_klaviyo_form": true,
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "mh_multicolumn_GfbTbn": {
+      "type": "mh-multicolumn",
+      "blocks": {
+        "block_f8LXte": {
+          "type": "block",
+          "settings": {
+            "image": "shopify://shop_images/berater-balkonstrom.webp",
+            "heading": "Raphael Ehehalt",
+            "text": "<p>Physiker und Berater bei Balkonstrom®</p>",
+            "link": "",
+            "link_url": ""
+          }
+        },
+        "block_E87Dje": {
+          "type": "block",
+          "settings": {
+            "image": "shopify://shop_images/Beraterin_S.SEI..webp",
+            "heading": "Sarah Seibel",
+            "text": "<p>Grafikerin bei Balkonstrom®</p>",
+            "link": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "block_f8LXte",
+        "block_E87Dje"
+      ],
+      "settings": {
+        "heading": "Die Experten hinter unserem Balkonkraftwerk-Ratgeber",
+        "heading_custom": false,
+        "heading_font": "assistant_n4",
+        "heading_size": 40,
+        "heading_letter": 0,
+        "heading_height": 130,
+        "heading_align": "center",
+        "heading_mt": 4,
+        "heading_mb": 12,
+        "text": "Unsere Mission bei Balkonstrom® ist es, jedem eine erschwingliche und einfache Möglichkeit zu bieten, um günstig Strom zu beziehen und sich unabhängiger von externer Stromversorgung zu machen. Mit unserem Balkonkraftwerk-Ratgeber beantworten wir dir alle Fragen rund um Balkonkraftwerke und geben dir hilfreiche Tipps mit an die Hand.",
+        "text_custom": false,
+        "text_font": "assistant_n4",
+        "text_size": 16,
+        "text_letter": 1.1,
+        "text_height": 150,
+        "text_align": "center",
+        "column_mt": 20,
+        "column_direction": "center",
+        "column_gap": 20,
+        "column_gap_mobile": 20,
+        "column_style": "columns",
+        "column_style_mobile": "columns",
+        "column_row": "3",
+        "column_row_mobile": "1",
+        "column_radius": 28,
+        "column_padding_horizontal": 16,
+        "column_padding_top": 24,
+        "column_padding_bottom": 24,
+        "numbers": false,
+        "autoplay": false,
+        "autoplay_speed": 3,
+        "nav_size": 40,
+        "nav_size_mobile": 30,
+        "hide_nav": false,
+        "column_number_custom": false,
+        "column_number_font": "assistant_n4",
+        "column_number_size": 36,
+        "column_heading_custom": false,
+        "column_heading_font": "assistant_n4",
+        "column_heading_size": 24,
+        "column_heading_letter": 0,
+        "column_heading_height": 110,
+        "column_heading_mt": 4,
+        "column_text_custom": false,
+        "column_text_font": "assistant_n4",
+        "column_text_size": 18,
+        "column_text_letter": 0,
+        "column_text_height": 130,
+        "column_text_mt": 8,
+        "column_link_width": "regular",
+        "column_link_max": 170,
+        "column_link_padding_horizontal": 8,
+        "column_link_padding_vertical": 8,
+        "column_link_radius": 16,
+        "column_link_custom": false,
+        "column_link_font": "assistant_n4",
+        "column_link_size": 18,
+        "column_link_letter": 0,
+        "column_link_height": 130,
+        "column_link_mt": 12,
+        "column_link_style": "button",
+        "column_image_max": 200,
+        "column_image_max_mobile": 120,
+        "column_image_radius": 0,
+        "heading_color": "#2d281d",
+        "column_heading_color": "#2d281d",
+        "text_color": "#2d281d",
+        "column_text_color": "#2d281d",
+        "column_link_color": "#ffffff",
+        "column_link_hover_color": "#ffffff",
+        "column_link_bg_color": "#e86940",
+        "column_link_bg_hover_color": "#a04e33",
+        "column_number_color": "#ffffff",
+        "column_number_bg_color": "#e86940",
+        "column_bg_color": "#ffffff",
+        "nav_btn_bg": "#ffffff",
+        "nav_btn_hover_bg": "#caaba1",
+        "nav_border": "#caaba1",
+        "nav_border_hover": "#caaba1",
+        "nav_icon": "#caaba1",
+        "nav_hover_icon": "#ffffff",
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "full_width": false,
+        "content_width": 190,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "custom_liquid_fB4QBp": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div class=\"klaviyo-form-WFRxGN\"></div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_p6tfBA",
+    "custom_logo_list_6zXCPj",
+    "media_with_text_eMUcYw",
+    "text_with_icons_QTUCnr",
+    "custom_html_tynrbc",
+    "multi_column_tRr7RM",
+    "rich_text_LijjAK",
+    "media_with_text_Rn7BNy",
+    "mh_multicolumn_GfbTbn",
+    "custom_liquid_fB4QBp"
+  ]
+}

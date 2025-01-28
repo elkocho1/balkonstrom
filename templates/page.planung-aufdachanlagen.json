@@ -1,0 +1,273 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "fb8de8f8-32c3-4a63-a644-72c576f61a6f": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17927707132168__fb8de8f8-32c3-4a63-a644-72c576f61a6f-1680806333d5da1659-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "Deine Wunschanlage"
+          }
+        },
+        "template--17927707132168__fb8de8f8-32c3-4a63-a644-72c576f61a6f-1680806333d5da1659-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Planung von Aufdachanlagen",
+            "heading_tag": "h1",
+            "text_color": "#f0c417",
+            "gradient": ""
+          }
+        },
+        "template--17927707132168__fb8de8f8-32c3-4a63-a644-72c576f61a6f-1680806333d5da1659-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Du planst eine Aufdachanlage und wünschst ein individuelles Angebot mit unseren Empfehlungen? Teile uns über das folgende Formular deine Vorstellungen und die Rahmenbedingungen deines Projekts mit. Wir planen für dich deine Anlage. </p><p><strong>Alternativ kannst du dir das Formular auch als </strong><a href=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Anfragebogen_Aufdachanlage.pdf?v=1680275471\" target=\"_blank\" title=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Anfragebogen_Aufdachanlage.pdf?v=1680275471\"><strong>PDF</strong></a><strong> herunterladen und uns ausgefüllt per E-Mail zusenden. Hierin findest du auch eine Skizze, die dir bei den Angaben deiner Dachmaße behilflich sein könnte.</strong></p><p>Starte dein Projekt jetzt!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17927707132168__fb8de8f8-32c3-4a63-a644-72c576f61a6f-1680806333d5da1659-0",
+        "template--17927707132168__fb8de8f8-32c3-4a63-a644-72c576f61a6f-1680806333d5da1659-1",
+        "template--17927707132168__fb8de8f8-32c3-4a63-a644-72c576f61a6f-1680806333d5da1659-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "center",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "047838ad-89c0-4d72-b099-c0425c44b1cc": {
+      "type": "contact",
+      "blocks": {
+        "12cdc61a-0669-4a8f-979d-344db6c288ab": {
+          "type": "text",
+          "settings": {
+            "title": "Telefon*",
+            "use_long_text": false
+          }
+        },
+        "7948d5de-bc9a-4985-aad6-06e7b6786644": {
+          "type": "text",
+          "settings": {
+            "title": "Projektadresse (Monatgeort)*",
+            "use_long_text": false
+          }
+        },
+        "693140f7-5f99-4cee-b9de-fc4c695c30aa": {
+          "type": "dropdown",
+          "settings": {
+            "title": "Dachart*",
+            "values": "Satteldach, Pultdach, Walmdach, Krüppelwalmdach, Zeltdach, Flachdach"
+          }
+        },
+        "95f40826-45a3-4265-aeb3-782350b07997": {
+          "type": "text",
+          "settings": {
+            "title": "Dachlänge (in m)*",
+            "use_long_text": false
+          }
+        },
+        "116db63c-950b-4c64-a37f-428ef5dfd81b": {
+          "type": "text",
+          "settings": {
+            "title": "Länge der Traufe (in m)*",
+            "use_long_text": false
+          }
+        },
+        "1d6262cc-be4b-4915-8678-749d04743b2a": {
+          "type": "text",
+          "settings": {
+            "title": "Traufhöhe (in m)*",
+            "use_long_text": false
+          }
+        },
+        "0862e67e-96ad-4097-b97e-690d9133b2fa": {
+          "type": "text",
+          "settings": {
+            "title": "Dachneigung (in Grad)*",
+            "use_long_text": false
+          }
+        },
+        "ddfe03b7-40d1-45b1-94b5-a6945cdb7e71": {
+          "type": "text",
+          "settings": {
+            "title": "Firsthöhe (in m)*",
+            "use_long_text": false
+          }
+        },
+        "cab7942d-b7c5-4c9f-840e-7907730e35d6": {
+          "type": "text",
+          "settings": {
+            "title": "Gewünschter Hersteller Module (optional)",
+            "use_long_text": false
+          }
+        },
+        "bb50a87b-414d-46c2-840e-9df7559ae2be": {
+          "type": "text",
+          "settings": {
+            "title": "Modulanzahl (optional)",
+            "use_long_text": false
+          }
+        },
+        "7434bce3-39e9-4cda-9901-e9f1100de0b0": {
+          "type": "text",
+          "settings": {
+            "title": "Modellbezeichnung Module (optional)",
+            "use_long_text": false
+          }
+        },
+        "3a405acc-be78-497d-8104-ae6ac32999f9": {
+          "type": "text",
+          "settings": {
+            "title": "Modulleistung (in kWp)*",
+            "use_long_text": false
+          }
+        },
+        "4a28d315-2450-4ecd-8b00-e9448058144c": {
+          "type": "text",
+          "settings": {
+            "title": "Modullänge (in mm) (optional)",
+            "use_long_text": false
+          }
+        },
+        "fefe93f5-9cd8-444b-8683-f62294387542": {
+          "type": "text",
+          "settings": {
+            "title": "Modulbreite (in mm) (optional)",
+            "use_long_text": false
+          }
+        },
+        "8771df00-a8b0-428e-9878-2bf231ae8f04": {
+          "type": "text",
+          "settings": {
+            "title": "Modulhöhe (in mm) (optional)",
+            "use_long_text": false
+          }
+        },
+        "2e76b399-375a-452c-bd3e-1ef11898f1fd": {
+          "type": "text",
+          "settings": {
+            "title": "Modulgewicht (in kg) (optional)",
+            "use_long_text": false
+          }
+        },
+        "eff5071c-11eb-4ffa-9630-280a42cd4434": {
+          "type": "text",
+          "settings": {
+            "title": "Gewünschter Hersteller Wechselrichter*",
+            "use_long_text": false
+          }
+        },
+        "aac8603d-6690-4110-a392-950b2530ddfe": {
+          "type": "text",
+          "settings": {
+            "title": "Modellbezeichnung Wechselrichter (optional)",
+            "use_long_text": false
+          }
+        },
+        "d20ad2c7-11a5-4d6c-84c0-000df1b88a8b": {
+          "type": "text",
+          "settings": {
+            "title": "Anzahl Wechselrichter (optional)",
+            "use_long_text": false
+          }
+        },
+        "2c9cfcf5-1018-496f-ae1e-a55d8c154d76": {
+          "type": "dropdown",
+          "settings": {
+            "title": "Batteriespeicher gewünscht",
+            "values": "Ja, Nein"
+          }
+        },
+        "6373c768-e46c-4377-86b0-29b50b66f57f": {
+          "type": "text",
+          "settings": {
+            "title": "Gewünschte Speicherkapazität (in Abhängigkeit von vorangehender Antwort optional)",
+            "use_long_text": false
+          }
+        }
+      },
+      "block_order": [
+        "12cdc61a-0669-4a8f-979d-344db6c288ab",
+        "7948d5de-bc9a-4985-aad6-06e7b6786644",
+        "693140f7-5f99-4cee-b9de-fc4c695c30aa",
+        "95f40826-45a3-4265-aeb3-782350b07997",
+        "116db63c-950b-4c64-a37f-428ef5dfd81b",
+        "1d6262cc-be4b-4915-8678-749d04743b2a",
+        "0862e67e-96ad-4097-b97e-690d9133b2fa",
+        "ddfe03b7-40d1-45b1-94b5-a6945cdb7e71",
+        "cab7942d-b7c5-4c9f-840e-7907730e35d6",
+        "bb50a87b-414d-46c2-840e-9df7559ae2be",
+        "7434bce3-39e9-4cda-9901-e9f1100de0b0",
+        "3a405acc-be78-497d-8104-ae6ac32999f9",
+        "4a28d315-2450-4ecd-8b00-e9448058144c",
+        "fefe93f5-9cd8-444b-8683-f62294387542",
+        "8771df00-a8b0-428e-9878-2bf231ae8f04",
+        "2e76b399-375a-452c-bd3e-1ef11898f1fd",
+        "eff5071c-11eb-4ffa-9630-280a42cd4434",
+        "aac8603d-6690-4110-a392-950b2530ddfe",
+        "d20ad2c7-11a5-4d6c-84c0-000df1b88a8b",
+        "2c9cfcf5-1018-496f-ae1e-a55d8c154d76",
+        "6373c768-e46c-4377-86b0-29b50b66f57f"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "text_position": "start",
+        "contact_form_size": "large",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "",
+        "contact_text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "167991476192e3ff7b": {
+      "type": "apps",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "fb8de8f8-32c3-4a63-a644-72c576f61a6f",
+    "047838ad-89c0-4d72-b099-c0425c44b1cc",
+    "167991476192e3ff7b"
+  ]
+}

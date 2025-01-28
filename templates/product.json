@@ -1,0 +1,274 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h1"
+          }
+        },
+        "badges": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": true
+          }
+        },
+        "judgeme_preview_badge_product_page_d744d652": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_mode": "dropdown",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "148dad59-c12c-4692-8234-be9caa1bb426": {
+          "type": "inventory",
+          "settings": {
+            "low_inventory_threshold": 15
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "ff3b9575-1d4c-459b-8415-06fd2833a73f": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Lieferumfang",
+            "content": "<p>{{ product.metafields.my_fields.lieferumfang | metafield_tag }}</p>",
+            "icon": "picto-coupon"
+          }
+        },
+        "collapsible_button_daWNxp": {
+          "type": "collapsible_button",
+          "settings": {
+            "title": "Collapsible Button",
+            "button_link": "shopify://products/premium-balcony-1200",
+            "icon": "picto-coupon"
+          }
+        },
+        "customer_support_8xCTkc": {
+          "type": "customer_support",
+          "settings": {
+            "customer_title": "Du hast noch Fragen? Frag Hannes!",
+            "employe": "shopify://shop_images/Gruendergarantie_67c1630a-f355-45ac-bc24-977e702be01d.webp",
+            "details": "<p><a href=\"tel:089/37037384\" title=\"tel:089/37037384\">089/37037384</a> 9-16 Uhr werktags<br/>oder schreib uns:<br/><a href=\"mailto:hello@bakon-strom.com\" title=\"mailto:hello@bakon-strom.com\">hello@bakon-strom.com</a></p>",
+            "customer_background": "#f5f5f6",
+            "customer_color": "#020912"
+          }
+        },
+        "0277e5bd-bb76-4850-92c4-3fec59cd5f3e": {
+          "type": "share_buttons",
+          "settings": {
+            "alignment": "start"
+          }
+        },
+        "29f94868-b81b-474e-a091-c355d5d18f74": {
+          "type": "sku",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title",
+        "badges",
+        "price",
+        "judgeme_preview_badge_product_page_d744d652",
+        "payment_terms",
+        "separator",
+        "description",
+        "variant_picker",
+        "quantity_selector",
+        "148dad59-c12c-4692-8234-be9caa1bb426",
+        "buy_buttons",
+        "ff3b9575-1d4c-459b-8415-06fd2833a73f",
+        "collapsible_button_daWNxp",
+        "customer_support_8xCTkc",
+        "0277e5bd-bb76-4850-92c4-3fec59cd5f3e",
+        "29f94868-b81b-474e-a091-c355d5d18f74"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": true,
+        "enable_upsell": false,
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "judgeme_section_review_widget_32dd": {
+      "type": "apps",
+      "blocks": {
+        "judgeme_review_widget_32e6e654": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judgeme_review_widget_32e6e654"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "1603289e-16d7-4816-9659-3d8f925d8604": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17391985950984__1603289e-16d7-4816-9659-3d8f925d8604-1675801885eb3c1210-0": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--17391985950984__1603289e-16d7-4816-9659-3d8f925d8604-1675801885eb3c1210-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Beschreibung",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--17391985950984__1603289e-16d7-4816-9659-3d8f925d8604-1675801885eb3c1210-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>{{ product.metafields.my_fields.beschreibung | metafield_tag }}</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17391985950984__1603289e-16d7-4816-9659-3d8f925d8604-1675801885eb3c1210-0",
+        "template--17391985950984__1603289e-16d7-4816-9659-3d8f925d8604-1675801885eb3c1210-1",
+        "template--17391985950984__1603289e-16d7-4816-9659-3d8f925d8604-1675801885eb3c1210-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "568129a7-1c54-43ec-b0ba-89481022874d": {
+      "type": "accordion-content",
+      "blocks": {
+        "template--17391985950984__568129a7-1c54-43ec-b0ba-89481022874d-1677338724a8864b74-0": {
+          "type": "item",
+          "settings": {
+            "title": "{{ product.metafields.custom.detailinformation_1_titel.value }}",
+            "content": "<p>{{ product.metafields.custom.detailinformation_1_text | metafield_tag }}</p>"
+          }
+        },
+        "template--17391985950984__568129a7-1c54-43ec-b0ba-89481022874d-1677338724a8864b74-1": {
+          "type": "item",
+          "settings": {
+            "title": "{{ product.metafields.custom.detailinformation_2_titel.value }}",
+            "content": "<p>{{ product.metafields.custom.detailinformation_2_text | metafield_tag }}</p>"
+          }
+        },
+        "template--17391985950984__568129a7-1c54-43ec-b0ba-89481022874d-1677338724a8864b74-2": {
+          "type": "item",
+          "settings": {
+            "title": "{{ product.metafields.custom.detailinformation_3_titel.value }}",
+            "content": "<p>{{ product.metafields.custom.detailinformation_3_text | metafield_tag }}</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17391985950984__568129a7-1c54-43ec-b0ba-89481022874d-1677338724a8864b74-0",
+        "template--17391985950984__568129a7-1c54-43ec-b0ba-89481022874d-1677338724a8864b74-1",
+        "template--17391985950984__568129a7-1c54-43ec-b0ba-89481022874d-1677338724a8864b74-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Details",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "judgeme_section_review_widget_32dd",
+    "1603289e-16d7-4816-9659-3d8f925d8604",
+    "568129a7-1c54-43ec-b0ba-89481022874d"
+  ]
+}

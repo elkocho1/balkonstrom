@@ -1,0 +1,446 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "collection-banner",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "enable_parallax": false,
+        "show_collection_title": true,
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "collection_title_size": "h1",
+        "image_size": "auto",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "featured_product": "",
+        "featured_product_heading": "Featured product",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 15
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "custom_css": [
+        ".circle-chevron {background: #e5e5e5;}"
+      ],
+      "settings": {
+        "products_per_page": 24,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "filter_layout": "horizontal",
+        "show_sort_by": false,
+        "show_filters": false,
+        "show_filter_group_name": true,
+        "show_color_swatch": false,
+        "show_empty_filter_values": false,
+        "show_filter_values_count": false,
+        "open_first_filter_group": false
+      }
+    },
+    "image_with_text_overlay_fkHjTT": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_WhAk8d": {
+          "type": "heading",
+          "settings": {
+            "text": "Balkonkraftwerke für dein Flachdach",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_JqFWCB": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Komplettsets mit einfacher und flexibler Montage für Flachdächer</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_WhAk8d",
+        "richtext_JqFWCB"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "enable_fix_parallax": false,
+        "image_size": "md",
+        "image": "shopify://shop_images/1920x1080.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 56
+      }
+    },
+    "custom_logo_list_ad73fg": {
+      "type": "custom-logo-list",
+      "blocks": {
+        "logo_image_YVa6Jm": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/Untitled_design_80.png"
+          }
+        },
+        "logo_image_wKhgp3": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_1_6ad045c6-a6af-43bc-8772-088fda3e65c1.png"
+          }
+        },
+        "logo_image_NBJfbX": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_68bc6b1f-9cde-4e28-90d9-010389d4b518.png"
+          }
+        },
+        "logo_image_D8iMdW": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_4.png"
+          }
+        },
+        "logo_image_exFBRy": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_3_eccce761-16d6-41a5-aab7-1b94750e6ae5.png"
+          }
+        },
+        "logo_image_4N6D7w": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_2_a6e3afea-7afd-46b9-9542-a2b05fba13c9.png"
+          }
+        }
+      },
+      "block_order": [
+        "logo_image_YVa6Jm",
+        "logo_image_wKhgp3",
+        "logo_image_NBJfbX",
+        "logo_image_D8iMdW",
+        "logo_image_exFBRy",
+        "logo_image_4N6D7w"
+      ],
+      "settings": {
+        "enable_mobile_slider": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection_PPq66i": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "flachdach-basic",
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Flachdach - Basic",
+        "content": "",
+        "link_url": "shopify://collections/flachdach-basic",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "text_with_icons_Yq6ctm": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_RdmHtn": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/icon-montage.png",
+            "mobile_icon_width": 24,
+            "icon_width": 40,
+            "icon_background_type": "circle",
+            "icon_background": "#eee9e3",
+            "icon_color": "",
+            "subtitle": "",
+            "title": "Einfache Selbstmontage",
+            "content": ""
+          }
+        },
+        "item_zHNzTi": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/icon-lebensdauer.png",
+            "mobile_icon_width": 24,
+            "icon_width": 40,
+            "icon_background_type": "circle",
+            "icon_background": "#eee9e3",
+            "icon_color": "",
+            "subtitle": "",
+            "title": "Langlebig & effizient",
+            "content": ""
+          }
+        },
+        "item_rpdy8b": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/icon-robust.png",
+            "mobile_icon_width": 24,
+            "icon_width": 40,
+            "icon_background_type": "circle",
+            "icon_background": "#eee9e3",
+            "icon_color": "",
+            "subtitle": "",
+            "title": "Hochwertige Komplettsets",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_RdmHtn",
+        "item_zHNzTi",
+        "item_rpdy8b"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "title": "",
+        "heading_tag": "h4",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "#f7f7f7",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "featured_collection_dKfmcn": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "flachdach-premium",
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Flachdach - Premium",
+        "content": "",
+        "link_url": "shopify://collections/flachdach-premium",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "media_with_text_nYU6cq": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_iEAWNj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Kein_Titel_1600_x_1600_px_444.webp",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Basic oder Premium Set - Der Unterschied",
+            "content": "<p>Vergleiche unsere Basic- und Premium-Sets und entscheide selbst, was zu dir passt!</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f7f7f7",
+            "background_gradient": "",
+            "text_color": "#040404",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_iEAWNj"
+      ],
+      "settings": {
+        "show_klaviyo_form": false,
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "faq_mLKXBL": {
+      "type": "faq",
+      "blocks": {
+        "item_MWgnXM": {
+          "type": "item",
+          "settings": {
+            "title": "Muss ich für die Befestigung in das Dach bohren?",
+            "content": "<p>Nein. Unsere Halterungen werden mit 30x30 cm Betonplatten ballastiert, was eine sichere Montage gewährleistet.</p>"
+          }
+        },
+        "item_Vgjzb8": {
+          "type": "item",
+          "settings": {
+            "title": "Muss der Aufstellungsort nach Süden ausgerichtet sein?",
+            "content": "<p>Nein, eine Ausrichtung nach Süden ist nicht zwingend erforderlich. Auch eine Ausrichtung nach Osten oder Westen kann hohe Erträge liefern.</p>"
+          }
+        },
+        "item_jq4rpV": {
+          "type": "item",
+          "settings": {
+            "title": "Wo wird der Wechselrichter montiert?",
+            "content": "<p>Der Wechselrichter wird direkt hinter dem Modul am Modulrahmen mit zwei Befestigungsklemmen montiert. Dadurch sind die Kabelwege zwischen Solarmodul und Wechselrichter möglichst kurz.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_MWgnXM",
+        "item_Vgjzb8",
+        "item_jq4rpV"
+      ],
+      "settings": {
+        "full_width": false,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "<p>Du hast Fragen rund um das Thema Balkonkraftwerke und Mini-PV-Anlagen? Für eine Zusammenstellung der häufig gestellten Fragen schaue gerne bei unseren FAQ vorbei.</p>",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "rich_text_LMaM3w": {
+      "type": "rich-text",
+      "blocks": {
+        "image_wBjTkn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Logos.png",
+            "width_mode": "custom",
+            "max_width": 350,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "image_wBjTkn"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "seo_section_UWxVec": {
+      "type": "seo-section",
+      "blocks": {
+        "fullwidthblock_AGW8AG": {
+          "type": "fullwidthblock",
+          "settings": {
+            "full_width_heading": "Unsere Balkonstrom® Balkon-Solaranlagen als flexible und zuverlässige Stromquelle",
+            "full_width_description": "<p>Balkonkraftwerke sind eine platzsparende und umweltfreundliche Möglichkeit, um bereits auf kleinen Freiflächen eigenen Strom zu erzeugen und seine Stromkosten signifikant und langfristig zu reduzieren. Dabei spielt es keine Rolle, ob man in einer Mietwohnung lebt oder ein Eigenheim besitzt. Denn aufgrund der flexiblen Montagemöglichkeiten finden Balkonkraftwerke unter fast allen Ausgangsbedingungen einen geeigneten Platz. <br/></p>",
+            "full_width_heading_color": "#040404",
+            "gradient": "",
+            "full_width_description_color": "#040404",
+            "full_width_heading_size": "h2"
+          }
+        },
+        "leftblock_nXYrhq": {
+          "type": "leftblock",
+          "settings": {
+            "left_block_heading": "Einfache Installation von Balkon-Solaranlagen auf dem Flachdach",
+            "left_block_description": "<p>Die Installation eines Balkonkraftwerks auf einem Flachdach ist die einfachste Montageart und äußerst unkompliziert, da die Anlage ohne großen Aufwand aufgebaut werden kann. Die Module werden jeweils an zwei Aluminiumstützen angebracht, in einem Neigungswinkel von 20° aufgeständert und mit den mitgelieferten Kabeln verbunden. Zuletzt werden die Module ausgerichtet und den Anforderungen des Montageortes entsprechend ballastiert. Dazu können zum Beispiel handelsübliche Gehwegplatten verwendet werden. Wie die Ballastierung funktioniert und was zu beachten ist, erklären wir im Detail in unserer Schritt-für-Schritt-Montageanleitung für Balkonkraftwerke zur Montage auf dem Flachdach. Damit sind alle Balkonkraftwerke, besonders aber die zur Montage auf Flachdächern, von Laien ohne Probleme selbst installierbar.</p>",
+            "left_block_heading_color": "#040404",
+            "gradient": "",
+            "left_block_description_color": "#040404",
+            "left_block_heading_size": "h3"
+          }
+        },
+        "leftblock_aVLmk3": {
+          "type": "leftblock",
+          "settings": {
+            "left_block_heading": "Warum Balkonkraftwerke?",
+            "left_block_description": "<p>Durch die Nutzung von Balkonkraftwerken kannst du vor allem deine eigenen Stromkosten deutlich senken und dich so unabhängiger von der Preispolitik externer Stromanbieter machen. Den erzeugten Strom kannst du entweder direkt verwenden oder bei einem Stromüberschuss in einem Stromspeicher zwischenlagern und später verbrauchen. Sogar kleine Anlagen können dir so helfen, einen Teil deines Strombedarfs durch erneuerbare und kostenlose Energie zu decken. Dabei stellen Balkonkraftwerke eine flexiblere und kostengünstigere Alternative zu herkömmlichen Solaranlagen dar. Aufgrund ihrer kompakten Größe ist es auch ganz einfach möglich, nach einer gewissen Zeit den Montageort zu wechseln, sollte dies erforderlich sein. So kannst du beispielsweise ein Balkonkraftwerk von einem Flachdach ganz einfach in deinem Garten oder auch auf deiner Terrasse aufstellen, ohne dafür eine neue Unterkonstruktion kaufen zu müssen.<br/></p>",
+            "left_block_heading_color": "#040404",
+            "gradient": "",
+            "left_block_description_color": "#040404",
+            "left_block_heading_size": "h3"
+          }
+        },
+        "rightblock_mAPdim": {
+          "type": "rightblock",
+          "settings": {
+            "right_block_heading": "Unsere Balkonkraftwerke für das Flachdach",
+            "right_block_description": "<p>Unsere Balkonkraftwerke zur Montage auf dem Flachdach kannst du in der Basic- und in der Premium-Variante mit Made in Germany Solarmodulen erwerben. Beide Ausführungen sind mit unseren Made in Germany AC-Anschlusskabeln und MC-4-Verlängerungskabeln ausgestattet. Wir garantieren so eine hohe Qualität unserer Anlagen bis ins letzte Detail. Unsere Kabel werden exklusiv für unsere Solaranlagen von unserem Partner in Deutschland  gefertigt und im Herstellungsprozess verschiedenen Qualitätstests unterzogen. Zusätzlich zu den Solarmodulen und den Kabeln kommen unsere Balkonkraftwerke für das Flachdach mit einem Hoymiles Wechselrichter, dessen Leistung zu der Größe der Anlage passt, und dem Montagesystem für das Flachdach. Die Unterkonstruktion kann auf allen ebenen Flächen verwendet werden (z.B. Garten, Terrasse, Garage etc.).</p>",
+            "right_block_heading_color": "#040404",
+            "gradient": "",
+            "right_block_description_color": "#040404",
+            "right_block_heading_size": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "fullwidthblock_AGW8AG",
+        "leftblock_nXYrhq",
+        "leftblock_aVLmk3",
+        "rightblock_mAPdim"
+      ],
+      "settings": {
+        "full_width": false,
+        "page_width": 1000,
+        "link_color": "#040404",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "main",
+    "image_with_text_overlay_fkHjTT",
+    "custom_logo_list_ad73fg",
+    "featured_collection_PPq66i",
+    "text_with_icons_Yq6ctm",
+    "featured_collection_dKfmcn",
+    "media_with_text_nYU6cq",
+    "faq_mLKXBL",
+    "rich_text_LMaM3w",
+    "seo_section_UWxVec"
+  ]
+}

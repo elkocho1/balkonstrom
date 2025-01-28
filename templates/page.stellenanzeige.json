@@ -1,0 +1,64 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "449420bb-1ab6-4a2c-840a-1304416168c3": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17993392521480__449420bb-1ab6-4a2c-840a-1304416168c3-1684004283c4a08ff3-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/collection-und-startseite-bilder-1.webp",
+            "mobile_image": "shopify://shop_images/13_39ce70c9-24db-45cc-95dd-befd3ae1435b.webp",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17993392521480__449420bb-1ab6-4a2c-840a-1304416168c3-1684004283c4a08ff3-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": true,
+        "image_size": "lg",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#ffffff",
+        "background_gradient": ""
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "content_width": "120ch"
+      }
+    }
+  },
+  "order": [
+    "449420bb-1ab6-4a2c-840a-1304416168c3",
+    "main"
+  ]
+}

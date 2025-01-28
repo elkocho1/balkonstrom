@@ -1,0 +1,323 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "100%"
+      }
+    },
+    "63e7ae41-a067-4ba9-aa48-4491e5af23b8": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--18284114247944__63e7ae41-a067-4ba9-aa48-4491e5af23b8-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Balkonkraftwerk Würzburg",
+            "heading_tag": "h1"
+          }
+        },
+        "template--18284114247944__63e7ae41-a067-4ba9-aa48-4491e5af23b8-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Erlebe mit uns gemeinsam Photovoltaik. Vor Ort kannst du deine Bestellung abholen oder dich zum Thema Balkonkraftwerke und Photovoltaik beraten lassen.</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18284114247944__63e7ae41-a067-4ba9-aa48-4491e5af23b8-heading-1",
+        "template--18284114247944__63e7ae41-a067-4ba9-aa48-4491e5af23b8-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "enable_fix_parallax": false,
+        "image_size": "md",
+        "image": "shopify://shop_images/Design_without_Title.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_Hkcbra": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_jnqL7P": {
+          "type": "heading",
+          "settings": {
+            "text": "Bekannt aus:",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "image_NKVcgP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/logo_2_6d993f56-8e87-483a-a3df-ff31210f3718.png",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "heading_jnqL7P",
+        "image_NKVcgP"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "text_with_icons_bRNVid": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_8Yki6y": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/berater-balkonstrom.webp",
+            "mobile_icon_width": 120,
+            "icon_width": 120,
+            "icon_background_type": "circle",
+            "icon_background": "#ffffff",
+            "icon_color": "",
+            "subtitle": "Raphael Ehehalt, Physiker",
+            "title": "Beratung gefällig? Sprich mit unserem Experten!",
+            "content": "<p>Raphael Ehehalt ist Physiker und arbeitete in der Produktion organischer Photovoltaik-Module. Seine Expertise setzt er heute als Berater bei Balkonstrom® ein.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_8Yki6y"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "title": "",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "1512dcec-2211-4d2b-be0e-d29f9737edae": {
+      "type": "multi-column",
+      "blocks": {
+        "template--18284114247944__1512dcec-2211-4d2b-be0e-d29f9737edae-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/1_8d024467-67f6-4b9e-9c9f-13cf31a12107.jpg",
+            "column_size": "3",
+            "title": "Beratung vor Ort",
+            "heading_tag": "h4",
+            "content": "<p>Wir erklären dir die Funktionsweise, den Aufbau und das Montagesystem anschaulich und verständlich.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--18284114247944__1512dcec-2211-4d2b-be0e-d29f9737edae-item-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Design_without_Title_cfa63da9-7360-4da4-abc2-78dee3b1583e.png",
+            "column_size": "3",
+            "title": "Produkte erleben",
+            "heading_tag": "h4",
+            "content": "<p>Schau dir die Module, Wechselrichter, Kabel und Montagesysteme direkt vor Ort an.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--18284114247944__1512dcec-2211-4d2b-be0e-d29f9737edae-item-3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/3_f3d7c5dd-1092-4454-abc5-a21134bf58df.jpg",
+            "column_size": "3",
+            "title": "Versandkosten sparen",
+            "heading_tag": "h4",
+            "content": "<p>Finde dein passendes Balkonkraftwerk und nimm es gleich mit zu dir nach Hause. </p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "template--18284114247944__1512dcec-2211-4d2b-be0e-d29f9737edae-item-1",
+        "template--18284114247944__1512dcec-2211-4d2b-be0e-d29f9737edae-item-2",
+        "template--18284114247944__1512dcec-2211-4d2b-be0e-d29f9737edae-item-3"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "enable_column_padding": false,
+        "column_background": "",
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "4e9fff02-197e-48ea-9cd4-300bf06e653f": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18284114247944__4e9fff02-197e-48ea-9cd4-300bf06e653f-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2>Anfahrt & Parken</h2><p>📍Mittlere Stämmig 3, 97292 Uettingen.</p><p>Hierzu kannst du im Bestellprozess Abholung auswählen. Im Anschluss erhältst du eine E-Mail in der du einen freien Termin auswählen kannst. Bitte beachte unbedingt, die Modulmaße deines Balkonkraftwerkes und miss deinen PKW oder Anhänger vor der Abholung aus. Zum Transport empfiehlt sich die Mitnahme von Decken zur Polsterung. Beim Einladen helfen wir dir gerne. Es reicht also auch aus, wenn du allein zur Abholung erscheinst. </p>"
+          }
+        },
+        "a0650811-2309-4990-bf8a-6a86f7a37dc4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/X_1600x800_ee66dbba-4a08-43f8-b42a-73aa41e9603f.jpg",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "8da04c5e-7fd3-44d3-bb79-7a1ff3a8ea10": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<h2>Maße unserer PV-Module:</h2><p><strong>Meyer Burger Black</strong></p><p>Modulabmessung H x B x T: 1767 x 1041 x 35 mm</p><p></p><p><strong>JA Solar Deep Blue 3.0 Light</strong></p><p>Modulabmessung H x B x T: 1722 X 1134 X 30 mm</p><p></p><p><strong>Trina Solar Vertex S</strong></p><p>Modulabmessung H x B x T: 1.762 × 1.134 × 30 mm</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18284114247944__4e9fff02-197e-48ea-9cd4-300bf06e653f-richtext-1",
+        "a0650811-2309-4990-bf8a-6a86f7a37dc4",
+        "8da04c5e-7fd3-44d3-bb79-7a1ff3a8ea10"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "c6e12d64-da96-40aa-a7bf-35ddf5d5437b": {
+      "type": "custom-html",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<!-- Calendly Inline-Widget Beginn -->\n<div class=\"calendly-inline-widget\" data-url=\"https://calendly.com/balkonstrom-abholung/30min?hide_gdpr_banner=1\" style=\"min-width:320px;height:700px;\"></div>\n<script type=\"text/javascript\" src=\"https://assets.calendly.com/assets/external/widget.js\" async></script>\n<!-- Calendly Inline-Widget Ende -->",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "fd390c5e-84fb-4feb-8147-efb9377e07c4": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18284114247944__fd390c5e-84fb-4feb-8147-efb9377e07c4-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2>Werksabholung in Uettingen —  Dein Balkonkraftwerk zum Sparpreis</h2><p>Du kommst aus der Umgebung von Würzburg und möchtest mit einem <a href=\"/collections/balkonkraftwerke\" title=\"Balkonkraftwerke\">Balkonkraftwerk</a> eigenen Strom erzeugen, um deine Stromkosten zu reduzieren? Dann bist du bei uns genau richtig! Wir bieten dir hochwertige Balkonkraftwerke mit Made in Germany Komponenten zu unschlagbaren Preisen. Unsere Balkonkraftwerke sind die perfekte Lösung für alle, die in städtischen Mietwohnungen leben und keinen Zugang zu einem eigenen Dach oder Garten haben. Insbesondere Eigentümer, denen unterschiedliche Montageörtlichkeiten und ausreichend Platz zur Verfügung stehen, haben bei uns die Qual der Wahl. Unsere Anlagen sind einfach zu installieren und benötigen keine aufwendige Genehmigung oder Installation durch einen Elektriker.</p><h3>Profitieren Sie von unserer Expertise: Beratung und Werksabholung in Uettingen</h3><p>Mit unserer Werksabholung kannst du dein <a href=\"/collections/balkonkraftwerke\" title=\"Balkonkraftwerke\">Balkonkraftwerk</a> direkt vor Ort abholen. So sparst du dir nicht nur die Liefergebühren und die Versandzeit, sondern kannst dich vor Ort von Experten beraten lassen und unsere Produkte live erleben. So fällt es dir sicher leichter dich für eine Anlage zu entscheiden.</p><p>Derzeit kannst du<strong> jeden Samstag zwischen 9-15 Uhr ohne Termin bei uns vorbeikommen</strong>. Wir zeigen dir gerne die Unterschiede der zur Auswahl stehenden Komponenten und erklären dir, wie du dein Balkonkraftwerk am besten installierst. So kannst du sicher sein, dass du das beste Produkt für deine Bedürfnisse auswählst und optimal von deinem Balkonkraftwerk profitierst.</p><h3>Qualität erleben mit Balkonkraftwerken von Balkonstrom – inklusive Vor-Ort-Beratung</h3><p>Unsere Werksabholung in Uettingen lohnt sich vor allem für Kunden aus der Umgebung von Würzburg, Mainfranken und dem Rhein-Main-Gebiet, die schnell und unkompliziert an ihr Balkonkraftwerk gelangen möchten. Selbstverständlich sind auch Kunden aus anderen Regionen herzlich willkommen, unser Lager zu besuchen und sich vor Ort von unseren Produkten zu überzeugen.</p><p>Also zögere nicht länger und besuche uns! Wir freuen uns darauf, dich persönlich kennenzulernen und dir bei der Auswahl deiner Wunschanlage zu helfen!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18284114247944__fd390c5e-84fb-4feb-8147-efb9377e07c4-richtext-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "0f921b8f-92e8-48d8-b0ab-2ca6002e6368": {
+      "type": "seo-section",
+      "blocks": {
+        "template--18732287361288__0f921b8f-92e8-48d8-b0ab-2ca6002e6368-fullwidthblock-1": {
+          "type": "fullwidthblock",
+          "settings": {
+            "full_width_heading": "Werksabholung in Uettingen —  Dein Balkonkraftwerk zum Sparpreis",
+            "full_width_description": "<p>Du kommst aus der Umgebung von Würzburg und möchtest mit einem <a href=\"/collections/balkonkraftwerke\" title=\"Balkonkraftwerke\">Balkonkraftwerk</a> eigenen Strom erzeugen, um deine Stromkosten zu reduzieren? Dann bist du bei uns genau richtig! Wir bieten dir hochwertige Balkonkraftwerke mit Made in Germany Komponenten zu unschlagbaren Preisen. Unsere Balkonkraftwerke sind die perfekte Lösung für alle, die in städtischen Mietwohnungen leben und keinen Zugang zu einem eigenen Dach oder Garten haben. Insbesondere Eigentümer, denen unterschiedliche Montageörtlichkeiten und ausreichend Platz zur Verfügung stehen, haben bei uns die Qual der Wahl. Unsere Anlagen sind einfach zu installieren und benötigen keine aufwendige Genehmigung oder Installation durch einen Elektriker.</p>",
+            "full_width_heading_color": "#040404",
+            "gradient": "",
+            "full_width_description_color": "#040404",
+            "full_width_heading_size": "h2"
+          }
+        },
+        "template--18732287361288__0f921b8f-92e8-48d8-b0ab-2ca6002e6368-leftblock-1": {
+          "type": "leftblock",
+          "settings": {
+            "left_block_heading": "Profitiere von unserer Expertise: Beratung und Werksabholung in Uettingen",
+            "left_block_description": "<p>Mit unserer Werksabholung kannst du dein <a href=\"/collections/balkonkraftwerke\" title=\"Balkonkraftwerke\">Balkonkraftwerk</a> direkt vor Ort abholen. So sparst du dir nicht nur die Liefergebühren und die Versandzeit, sondern kannst dich vor Ort von Experten beraten lassen und unsere Produkte live erleben. So fällt es dir sicher leichter dich für eine Anlage zu entscheiden.</p><p>Derzeit kannst du<strong> jeden Samstag zwischen 9-13 Uhr ohne Termin bei uns vorbeikommen</strong>. Wir zeigen dir gerne die Unterschiede der zur Auswahl stehenden Komponenten und erklären dir, wie du dein Balkonkraftwerk am besten installierst. So kannst du sicher sein, dass du das beste Produkt für deine Bedürfnisse auswählst und optimal von deinem Balkonkraftwerk profitierst.</p><h3>Qualität erleben mit Balkonkraftwerken von Balkonstrom – inklusive Vor-Ort-Beratung</h3><p>Unsere Werksabholung in Uettingen lohnt sich vor allem für Kunden aus der Umgebung von Würzburg, Mainfranken und dem Rhein-Main-Gebiet, die schnell und unkompliziert an ihr Balkonkraftwerk gelangen möchten. Selbstverständlich sind auch Kunden aus anderen Regionen herzlich willkommen, unser Lager zu besuchen und sich vor Ort von unseren Produkten zu überzeugen.</p><p>Also zögere nicht länger und besuche uns! Wir freuen uns darauf, dich persönlich kennenzulernen und dir bei der Auswahl deiner Wunschanlage zu helfen!</p>",
+            "left_block_heading_color": "#040404",
+            "gradient": "",
+            "left_block_description_color": "#040404",
+            "left_block_heading_size": "h3"
+          }
+        },
+        "template--18732287361288__0f921b8f-92e8-48d8-b0ab-2ca6002e6368-rightblock-1": {
+          "type": "rightblock",
+          "settings": {
+            "right_block_heading": "Qualität erleben mit Balkonkraftwerken von Balkonstrom – inklusive Vor-Ort-Beratung",
+            "right_block_description": "<p>Unsere Werksabholung in Uettingen lohnt sich vor allem für Kunden aus der Umgebung von Würzburg, Mainfranken und dem Rhein-Main-Gebiet, die schnell und unkompliziert an ihr Balkonkraftwerk gelangen möchten. Selbstverständlich sind auch Kunden aus anderen Regionen herzlich willkommen, unser Lager zu besuchen und sich vor Ort von unseren Produkten zu überzeugen.</p><p>Also zögere nicht länger und besuche uns! Wir freuen uns darauf, dich persönlich kennenzulernen und dir bei der Auswahl deiner Wunschanlage zu helfen!</p>",
+            "right_block_heading_color": "#040404",
+            "gradient": "",
+            "right_block_description_color": "#040404",
+            "right_block_heading_size": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "template--18732287361288__0f921b8f-92e8-48d8-b0ab-2ca6002e6368-fullwidthblock-1",
+        "template--18732287361288__0f921b8f-92e8-48d8-b0ab-2ca6002e6368-leftblock-1",
+        "template--18732287361288__0f921b8f-92e8-48d8-b0ab-2ca6002e6368-rightblock-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "page_width": 1600,
+        "link_color": "#040404",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "63e7ae41-a067-4ba9-aa48-4491e5af23b8",
+    "rich_text_Hkcbra",
+    "text_with_icons_bRNVid",
+    "1512dcec-2211-4d2b-be0e-d29f9737edae",
+    "4e9fff02-197e-48ea-9cd4-300bf06e653f",
+    "c6e12d64-da96-40aa-a7bf-35ddf5d5437b",
+    "fd390c5e-84fb-4feb-8147-efb9377e07c4",
+    "0f921b8f-92e8-48d8-b0ab-2ca6002e6368"
+  ]
+}

@@ -1,0 +1,135 @@
+{%- comment -%}
+----------------------------------------------------------------------------------------------------------------------
+ACCORDION COMPONENT
+----------------------------------------------------------------------------------------------------------------------
+
+This component is used to create an accordion (also called as collapsible). It internally uses the "details" HTML
+tag so that it can also be used without any JavaScript.
+
+********************************************
+Supported parameters
+********************************************
+
+* title: the title to use for the toggle button
+* icon: an optional icon attached to the title
+* content: the hidden content inside the accordion
+* open: if set to true the accordion is open by default
+* size: if set to "lg", the font is and spacing is bigger
+* class: any additional class
+* id: an optional ID for the accordion
+* url: optional URL to make the title a clickable link
+
+
+
+
+{%- endcomment -%}
+
+
+<details {% if id %}id="{{ id | escape }}"{% endif %} class="{{ class }} accordion {% if size %}accordion--{{ size }}{% endif %} group" aria-expanded="{% if open %}true{% else %}false{% endif %}" is="accordion-disclosure" {% if open %}open{% endif %} {{ block.shopify_attributes }}>
+  <summary>
+    {%- comment -%}iOS 14 does not support flex on the summary itself, so we have to use this extra div{%- endcomment -%}
+    <div class="accordion__toggle bold">
+      {%- if icon -%}
+        <div class="text-with-icon">
+          {%- render 'icon' with icon -%}
+          <span {% if size == 'lg' %}class="h6"{% endif %}>{{- title | escape -}}</span>
+        </div>
+      {%- else -%}
+        <span {% if size == 'lg' %}class="h6"{% endif %}>{{- title | escape -}}</span>
+      {%- endif -%}
+      <span class="square-chevron group-hover:colors group-expanded:colors group-expanded:rotate">{%- render 'icon' with 'plus-largue-icon' -%}</span>
+    </div>
+  </summary>
+  
+
+  <div class="accordion__content">
+     {{- content -}}
+
+
+    <div class="link-list" style="padding:10px;">
+  <!-- Link 1 -->
+  {% if block.settings.link_label_1 and block.settings.link_url_1 %}
+    <a href="{{ block.settings.link_url_1 }}" target="_blank" style="display: flex; align-items: center;">
+      <!-- Label -->
+      <span style="margin-right: 10px;">{{ block.settings.link_label_1 }}</span>
+
+      <!-- Icon -->
+      <span>
+        <img src="https://cdn.shopify.com/s/files/1/0609/9481/4140/files/download_2.png?v=1726776882" alt="Link 1 Icon" width="18" height="18" />
+      </span>
+    </a>
+  {% endif %}
+
+  <!-- Link 2 -->
+  {% if block.settings.link_label_2 and block.settings.link_url_2 %}
+    <a href="{{ block.settings.link_url_2 }}" target="_blank" style="display: flex; align-items: center;">
+      <!-- Label -->
+      <span style="margin-right: 10px;">{{ block.settings.link_label_2 }}</span>
+
+      <!-- Icon -->
+      <span>
+        <img src="https://cdn.shopify.com/s/files/1/0609/9481/4140/files/download_2.png?v=1726776882" alt="Link 2 Icon" width="18" height="18" />
+      </span>
+    </a>
+  {% endif %}
+
+  <!-- Link 3 -->
+  {% if block.settings.link_label_3 and block.settings.link_url_3 %}
+    <a href="{{ block.settings.link_url_3 }}" target="_blank" style="display: flex; align-items: center;">
+      <!-- Label -->
+      <span style="margin-right: 10px;">{{ block.settings.link_label_3 }}</span>
+
+      <!-- Icon -->
+      <span>
+        <img src="https://cdn.shopify.com/s/files/1/0609/9481/4140/files/download_2.png?v=1726776882" alt="Link 3 Icon" width="18" height="18" />
+      </span>
+    </a>
+  {% endif %}
+
+  <!-- Link 4 -->
+  {% if block.settings.link_label_4 and block.settings.link_url_4 %}
+    <a href="{{ block.settings.link_url_4 }}" target="_blank" style="display: flex; align-items: center;">
+      <!-- Label -->
+      <span style="margin-right: 10px;">{{ block.settings.link_label_4 }}</span>
+
+      <!-- Icon -->
+      <span>
+        <img src="https://cdn.shopify.com/s/files/1/0609/9481/4140/files/download_2.png?v=1726776882" alt="Link 4 Icon" width="18" height="18" />
+      </span>
+    </a>
+  {% endif %}
+
+  <!-- Link 5 -->
+  {% if block.settings.link_label_5 and block.settings.link_url_5 %}
+    <a href="{{ block.settings.link_url_5 }}" target="_blank" style="display: flex; align-items: center;">
+      <!-- Label -->
+      <span style="margin-right: 10px;">{{ block.settings.link_label_5 }}</span>
+
+      <!-- Icon -->
+      <span>
+        <img src="https://cdn.shopify.com/s/files/1/0609/9481/4140/files/download_2.png?v=1726776882" alt="Link 5 Icon" width="18" height="18" />
+      </span>
+    </a>
+  {% endif %}
+
+  <!-- Link 6 -->
+  {% if block.settings.link_label_6 and block.settings.link_url_6 %}
+    <a href="{{ block.settings.link_url_6 }}" target="_blank" style="display: flex; align-items: center;">
+      <!-- Label -->
+      <span style="margin-right: 10px;">{{ block.settings.link_label_6 }}</span>
+
+      <!-- Icon -->
+      <span>
+        <img src="https://cdn.shopify.com/s/files/1/0609/9481/4140/files/download_2.png?v=1726776882" alt="Link 6 Icon" width="18" height="18" />
+      </span>
+    </a>
+  {% endif %}
+</div>
+
+
+
+
+    
+  </div>
+   
+</details>

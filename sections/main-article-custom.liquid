@@ -1,0 +1,715 @@
+{%- render 'section-spacing-collapsing' -%}
+
+{%- assign background_color = article.metafields.banner.background_color.value | default: section.settings.banner_background -%}
+{%- assign text_color = article.metafields.banner.text_color.value | default: section.settings.banner_text_color -%}
+{%- assign article_image = section.settings.image | default: article.image -%}
+
+<style>
+  #shopify-section-{{ section.id }} .article-banner {
+    --article-banner-background: {%- if background_color != blank -%}{{ background_color.rgb }}{%- else -%}var(--text-color) / 0.05{%- endif -%};
+    --article-banner-badge-background: var(--text-color) / 0.12;
+
+    {% if text_color != blank %}
+      --text-color: {{ text_color.rgb }};
+    {% endif %}
+   }
+  
+  #shopify-section-{{ section.id }} {
+    --article-max-width: {{ section.settings.content_width }};
+    --article-banner-column-gap: var(--spacing-10);
+    --article-banner-grid: auto / auto;
+    --article-banner-before-height: 100%;
+    --article-banner-max-width: var(--container-max-width);
+    --article-banner-content-padding-block-start: {% if section.settings.allow_transparent_header %}var(--spacing-5){% else %}var(--spacing-10){% endif %};
+    --article-banner-content-padding-block-end: var(--spacing-10);
+    --article-banner-content-padding-inline: var(--container-gutter);
+    --article-banner-image-overlay: {% if section.settings.layout == 'image_text_overlay' %}{{ section.settings.overlay_color.rgb }} / {{ section.settings.overlay_opacity | divided_by: 100.0 }}{% else %}0 0 0 / 0{% endif %};
+
+    {%- if section.settings.allow_transparent_header -%}
+      --article-banner-padding-block-start: var(--header-height);
+
+      margin-block-start: calc(-1 * var(--header-height) * var(--section-is-first));
+    {%- endif -%}
+  }
+
+  {%- if article_image == blank -%}
+    #shopify-section-{{ section.id }} {
+      --article-banner-grid-area: auto;
+    }
+
+    @media screen and (min-width: 700px) {
+      #shopify-section-{{ section.id }} {
+        --article-banner-content-padding-block-start: {% if section.settings.allow_transparent_header %}var(--spacing-4){% else %}var(--spacing-12){% endif %};
+        --article-banner-content-padding-block-end: var(--spacing-12);
+      }
+    }
+  {%- endif -%}
+
+  {%- if article_image != blank -%}
+    @media screen and (min-width: 1150px) {
+      #shopify-section-{{ section.id }} {
+        --article-banner-before-height: calc(100% - (var(--article-banner-image-offset) * min(100vw, var(--container-max-width))));
+        --article-banner-image-offset: {% if section.settings.layout == 'content_first' %}0.12{% else %}0.07{% endif %};
+        --article-banner-grid: {% if section.settings.layout == 'image_left_text_right' %}"image content" / {% if article_image.aspect_ratio <= 1 %}5fr 7fr{% else %}7fr 5fr{% endif %}{% elsif section.settings.layout == 'image_text_overlay' %}auto{% endif %};
+
+        {% unless section.settings.allow_transparent_header %}
+          --article-banner-padding-block-start: var(--spacing-9);
+        {% endunless %}
+
+        {%- if section.settings.layout == 'image_text_overlay' or section.settings.layout == 'content_first' -%}
+          --article-banner-grid-area: {% if section.settings.layout == 'image_text_overlay' %}1 / -1{% elsif section.settings.layout == 'content_first' %}auto{% endif %};
+        {%- endif -%}
+
+        {%- unless section.settings.layout == 'image_text_overlay' -%}
+          --article-banner-content-padding-inline: 0;
+        {%- endunless -%}
+
+        {%- if section.settings.layout == 'image_left_text_right' -%}
+          --article-banner-vertical-alignement: start;
+          --article-banner-meta-vertical-alignment: flex-start;
+          --article-banner-horizontal-alignement: flex-end;
+          --article-banner-content-padding-block-end: calc((100% - var(--article-banner-before-height)) + var(--spacing-10));
+        {%- elsif section.settings.layout == 'image_text_overlay' -%}
+          --article-banner-badge-background: 0 0 0 / 0 ;
+        {%- else-%}
+          {% if section.settings.allow_transparent_header %}
+            --article-banner-content-padding-block-start: var(--spacing-12)
+          {% endif %};
+
+          --article-banner-max-width: 1000px;
+        {%- endif -%}
+      }
+    }
+    
+    @media screen and (min-width: 1400px) {
+      #shopify-section-{{ section.id }} {
+        {%- if section.settings.layout == 'image_left_text_right' -%}
+          --article-banner-column-gap: var(--spacing-16);
+          --article-banner-content-padding-block-end: calc((100% - var(--article-banner-before-height)) + var(--spacing-20));
+        {%- endif -%}
+      }
+    }
+  {%- endif -%}
+</style>
+
+<div class="article" {% if section.settings.allow_transparent_header %}allow-transparent-header{% endif %}>
+  {%- render 'article-banner-new', section: section, show_date: section.settings.show_date, show_author: section.settings.show_author, show_comments_count: section.settings.show_comments_count, layout: section.settings.layout, article_image: article_image -%}
+
+        </div>
+  <div class="container">
+    <div class="article-content-wrap">
+      {%- for block in section.blocks -%}
+        {%- case block.type -%}
+          {%- when 'article_description' -%}
+            <div class="article-content v-stack gap-8 sm:gap-10">
+              <div class="article-navigation-left">
+                <ul>
+                  {% assign Forloop = 0 %}
+                  {% for list in article.metafields.custom.listing_content.value %}
+                    {% assign ForloopIndex = Forloop | plus: 1 %}
+                      <li class="{% if ForloopIndex == 1 %}active{% endif %}"><a href="javascript:void(0)" data-href="{{ list | downcase | replace: " ", "-" | replace: ".", "" }}">{{ list }}</a></li>
+                    {% assign Forloop = ForloopIndex %}
+                  {% endfor %}
+                </ul>
+              </div>
+              <div class="prose">
+                {{ article.content }}
+                
+                {%- assign accordion_count = 0 -%}
+                {%- for block in section.blocks -%}
+                  {%- if block.type == 'accordion' -%}
+                    {%- assign accordion_count = accordion_count | plus: 1 -%}
+                  {%- endif -%}
+                {%- endfor -%}
+
+                {%- if accordion_count > 0 -%}
+                  <div class="accordion-box rounded bg-secondary">
+                    {%- for block in section.blocks -%}
+                      {%- case block.type -%}
+                        {%- when 'accordion' -%}
+                        
+                          {%- if block.settings.title != blank and block.settings.content != blank -%}
+                            {%- capture accordion_content -%}
+                              <div class="prose">{{ block.settings.content }}</div>
+                            {%- endcapture -%}
+              
+                            {%- render 'accordion', title: block.settings.title, content: accordion_content, block: block -%}
+                          {%- endif -%}
+                      {% endcase %}
+                    {% endfor %}
+                  </div>
+                {%- endif -%}
+              </div>
+              <div class="only-desktop">
+                {%- if section.settings.show_share_buttons -%}
+                  <div class="share-buttons gap-3">
+                    {%- assign share_label = 'general.social.share' | t -%}
+                    {%- assign share_url = shop.url | append: article.url -%}
+          
+                    <button class="button button--subdued button--lg w-full h-stack gap-3 align-center justify-center sm:hidden" is="share-button" style="--button-background: 0 0 0 / 0" share-url="{{ share_url | escape }}" share-title="{{ article.title | escape }}">
+                      {%- render 'icon' with 'share', with: 18, height: 18 -%}
+                      {{- 'general.social.share' | t -}}
+                    </button>
+          
+                    {% comment %}<span class="bold sm-max:hidden">{{- share_label -}}</span>{% endcomment %}
+          
+                    <ul class="h-stack gap-3" role="list">
+                      <li><a href="{% render 'share-link', host: 'facebook', title: article.title, url: article.url %}" class="share-buttons__item" aria-label="{{ 'general.social.share_on' | t: social_media: 'Facebook' }}">{%- render 'icon' with 'facebook', width: 24, height: 24 -%}</a></li>
+                      <li><a href="{% render 'share-link', host: 'twitter', title: article.title, url: article.url %}" class="share-buttons__item" aria-label="{{ 'general.social.share_on' | t: social_media: 'Twitter' }}">{%- render 'icon' with 'twitter', width: 24, height: 24 -%}</a></li>
+                      <li><a href="{% render 'share-link', host: 'pinterest', title: article.title, url: article.url %}" class="share-buttons__item" aria-label="{{ 'general.social.share_on' | t: social_media: 'Pinterest' }}">{%- render 'icon' with 'pinterest', width: 24, height: 24 -%}</a></li>
+                      <li><a href="{% render 'share-link', host: 'email', title: article.title, url: article.url %}" class="share-buttons__item" aria-label="{{ 'general.social.share_email' | t }}">{%- render 'icon' with 'email' -%}</a></li>
+                    </ul>
+                  </div>
+                {%- endif -%}
+              </div>
+          </div>
+          {% when '@app' %}
+          {% render block %}
+
+         {%- when 'article_newsletter' -%}
+          <div class="article-newletter">
+            {%- capture newsletter_content -%}
+              <div class="newsletter-content {% unless block.settings.image %}text-center justify-items-center{% endunless %}">
+                {%- if block.settings.show_icon -%}
+                  {%- render 'icon' with 'picto-at-sign', width: 32, height: 32, class: 'newsletter-content__icon' -%}
+                {%- endif -%}
+            
+                {%- if block.settings.title != blank or block.settings.content -%}
+                  <div class="prose">
+                    {%- if block.settings.title != blank -%}
+                      <h2 class="h2">{{ block.settings.title }}</h2>
+                    {%- endif -%}
+            
+                    {{- block.settings.content -}}
+                  </div>
+                {%- endif -%}
+            
+                {%- assign newsletter_form_id = 'newsletter-form-' | append: block.id -%}
+            
+                {%- form 'customer', id: newsletter_form_id, class: 'form' -%}
+                  {%- if form.posted_successfully? -%}
+                    {%- assign success_message = 'general.newsletter.subscribed_successfully' | t -%}
+                    {%- render 'banner', content: success_message, status: 'success' -%}
+                  {%- else -%}
+                    {%- if form.errors -%}
+                      {%- capture error_message -%}{{ form.errors.translated_fields['email'] }} {{ form.errors.messages['email'] }}{%- endcapture -%}
+                      {%- render 'banner', content: error_message, status: 'error' -%}
+                    {%- endif -%}
+            
+                    <input type="hidden" name="contact[tags]" value="newsletter">
+            
+                    <div class="fieldset-with-submit">
+                      {%- capture label -%}{{ 'general.newsletter.email' | t }}{%- endcapture -%}
+                      {%- render 'input', name: 'contact[email]', label: label, type: 'email', required: true, autocomplete: 'email', enterkeyhint: 'send' -%}
+                      {%- render 'button', type: 'submit', content: block.settings.button_text, size: 'xl', icon: 'picto-envelope', background: section.settings.button_background, text_color: section.settings.button_text_color -%}
+                    </div>
+                  {%- endif -%}
+            
+                  {%- if block.settings.subtext != blank -%}
+                    <p class="text-xs text-subdued">{{ block.settings.subtext | escape }}</p>
+                  {%- endif -%}
+                {%- endform -%}
+              </div>
+            {%- endcapture -%}
+            
+            <div {% render 'section-properties' %}>
+              {%- if block.settings.image != blank -%}
+                <div class="newsletter">
+                  {%- capture sizes -%}(max-width: 999px) 100vw, min(50vw, {{ settings.page_width }}px / 2){%- endcapture -%}
+                  {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: loading: 'lazy', sizes: sizes, class: 'h-full object-cover' -}}
+            
+                  <div {% render 'surface', class: 'newsletter-box', background: block.settings.background, background_gradient: block.settings.background_gradient, background_fallback: 'bg-secondary', text_color: section.settings.text_color %}>
+                    {{- newsletter_content -}}
+                  </div>
+                </div>
+              
+            {%- else -%}
+              {{- newsletter_content -}}
+            {%- endif -%}
+
+          </div>
+          </div>
+        {% endcase %}
+      {% endfor %}
+
+      <div class="only-mobile">
+        {%- if section.settings.show_share_buttons -%}
+          <div class="share-buttons gap-3">
+            {%- assign share_label = 'general.social.share' | t -%}
+            {%- assign share_url = shop.url | append: article.url -%}
+      
+            <button class="button button--subdued button--lg w-full h-stack gap-3 align-center justify-center sm:hidden" is="share-button" style="--button-background: 0 0 0 / 0" share-url="{{ share_url | escape }}" share-title="{{ article.title | escape }}">
+              {%- render 'icon' with 'share', with: 18, height: 18 -%}
+              {{- 'general.social.share' | t -}}
+            </button>
+      
+            {% comment %}<span class="bold sm-max:hidden">{{- share_label -}}</span>{% endcomment %}
+      
+            <ul class="h-stack gap-3" role="list">
+              <li><a href="{% render 'share-link', host: 'facebook', title: article.title, url: article.url %}" class="share-buttons__item" aria-label="{{ 'general.social.share_on' | t: social_media: 'Facebook' }}">{%- render 'icon' with 'facebook', width: 24, height: 24 -%}</a></li>
+              <li><a href="{% render 'share-link', host: 'twitter', title: article.title, url: article.url %}" class="share-buttons__item" aria-label="{{ 'general.social.share_on' | t: social_media: 'Twitter' }}">{%- render 'icon' with 'twitter', width: 24, height: 24 -%}</a></li>
+              <li><a href="{% render 'share-link', host: 'pinterest', title: article.title, url: article.url %}" class="share-buttons__item" aria-label="{{ 'general.social.share_on' | t: social_media: 'Pinterest' }}">{%- render 'icon' with 'pinterest', width: 24, height: 24 -%}</a></li>
+              <li><a href="{% render 'share-link', host: 'email', title: article.title, url: article.url %}" class="share-buttons__item" aria-label="{{ 'general.social.share_email' | t }}">{%- render 'icon' with 'email' -%}</a></li>
+            </ul>
+          </div>
+        {%- endif -%}
+        </div>
+      
+    {%- for block in section.blocks -%}
+      {%- case block.type -%}
+        {%- when 'navigation' -%}
+          {%- render 'article-navigation', show_date: section.settings.show_date, show_author: section.settings.show_author, show_comments_count: section.settings.show_comments_count, block_attributes: block.shopify_attributes -%}
+
+        {%- when 'comments' -%}
+          {%- render 'article-comments', show_gravatar: block.settings.show_gravatar, comments_pagination: block.settings.comments_per_page, block_attributes: block.shopify_attributes -%}
+      {%- endcase -%}
+    {%- endfor -%}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Blog post",
+  "class": "shopify-section--main-article custom-main-article",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "allow_transparent_header",
+      "label": "Allow transparent header",
+      "info": "This setting only applies when this section is the first one.",
+      "default": false
+    },
+    {
+      "type": "header",
+      "content": "Banner"
+    },
+    {
+      "type": "select",
+      "id": "layout",
+      "label": "Layout",
+      "options": [
+        {
+          "label": "Content first",
+          "value": "content_first"
+        },
+        {
+          "label": "Image with text overlay",
+          "value": "image_text_overlay"
+        },
+        {
+          "label": "Image left content right",
+          "value": "image_left_text_right"
+        }
+      ],
+      "default": "content_first"
+    },
+    {
+      "type": "select",
+      "id": "header_alignment",
+      "label": "Header Alignment",
+      "options": [
+        {
+          "label": "Left",
+          "value": "left"
+        },
+        {
+          "label": "Center",
+          "value": "center"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image",
+      "info": "If none is set, blog post image is used."
+    },
+    {
+      "type": "checkbox",
+      "id": "show_author",
+      "label": "Show author",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_date",
+      "label": "Show date",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_comments_count",
+      "label": "Show comments count",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_share_buttons",
+      "label": "Show share buttons",
+      "default": true
+    },
+    {
+      "type": "color",
+      "id": "banner_background",
+      "label": "Background"
+    },
+    {
+      "type": "color",
+      "id": "banner_text_color",
+      "label": "Text"
+    },
+    {
+      "type": "color",
+      "id": "overlay_color",
+      "label": "Overlay",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "overlay_opacity",
+      "label": "Overlay opacity",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "%",
+      "default": 0
+    },
+    {
+      "type": "header",
+      "content": "Body"
+    },
+    {
+      "type": "select",
+      "id": "content_width",
+      "label": "Content width",
+      "options": [
+        {
+          "label": "Small",
+          "value": "750px"
+        },
+        {
+          "label": "Medium",
+          "value": "950px"
+        },
+        {
+          "label": "Large",
+          "value": "1150px"
+        }
+      ],
+      "default": "750px"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "@app"
+    },
+    {
+      "type": "article_tag",
+      "name": "Article tag"
+    },
+    {
+      "type": "heading_header",
+      "name": "Heading"
+    },
+    {
+      "type": "text_with_icon",
+      "name": "Icon with text",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Title"
+        },
+        {
+          "type": "richtext",
+          "id": "description",
+          "label": "Description"
+        }
+      ]
+    },
+    {
+      "type": "banner_image",
+      "name": "Banner Image"
+    },
+    {
+      "type": "article_description",
+      "name": "Article description"
+    },
+    {
+      "type": "list_titles",
+      "name": "List title",
+      "settings": [
+        {
+          "type": "text",
+          "id": "list_text_1",
+          "label": "List 1"
+        },
+        {
+          "type": "text",
+          "id": "list_text_2",
+          "label": "List 2"
+        },
+        {
+          "type": "text",
+          "id": "list_text_3",
+          "label": "List 3"
+        },
+        {
+          "type": "text",
+          "id": "list_text_4",
+          "label": "List 4"
+        },
+        {
+          "type": "text",
+          "id": "list_text_5",
+          "label": "List 5"
+        },
+        {
+          "type": "text",
+          "id": "list_text_6",
+          "label": "List 6"
+        },
+        {
+          "type": "text",
+          "id": "list_text_7",
+          "label": "List 7"
+        },
+        {
+          "type": "text",
+          "id": "list_text_8",
+          "label": "List 8"
+        },
+        {
+          "type": "text",
+          "id": "list_text_9",
+          "label": "List 9"
+        },
+        {
+          "type": "text",
+          "id": "list_text_10",
+          "label": "List 10" 
+        }
+      ]
+    },
+    {
+      "type": "listing_content",
+      "name": "Include Content Listing",
+      "settings": [
+        {
+          "type": "select",
+          "id": "heading_style",
+          "label": "Heading Style",
+          "options": [
+            {
+              "value": "h1",
+              "label": "H1"
+            },
+            {
+              "value": "h2",
+              "label": "H2"
+            },
+            {
+              "value": "h3",
+              "label": "H3"
+            },
+            {
+              "value": "h4",
+              "label": "H4"
+            },
+            {
+              "value": "h5",
+              "label": "H5"
+            },
+            {
+              "value": "h6",
+              "label": "H6"
+            }
+          ],
+          "default": "h3"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Title"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "content",
+          "label": "Content"
+        }
+      ]
+    },
+    {
+      "type": "title_with_description",
+      "name": "Title with Description",
+      "settings": [
+        {
+          "type": "select",
+          "id": "heading_style",
+          "label": "Heading Style",
+          "options": [
+            {
+              "value": "h1",
+              "label": "H1"
+            },
+            {
+              "value": "h2",
+              "label": "H2"
+            },
+            {
+              "value": "h3",
+              "label": "H3"
+            },
+            {
+              "value": "h4",
+              "label": "H4"
+            },
+            {
+              "value": "h5",
+              "label": "H5"
+            },
+            {
+              "value": "h6",
+              "label": "H6"
+            }
+          ],
+          "default": "h3"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Title"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "description",
+          "label": "Description"
+        }
+      ]
+    },
+    {
+      "type": "only_button",
+      "name": "Only button",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Text"
+        },
+        {
+          "type": "url",
+          "id": "btn_url",
+          "label": "URL"
+        }
+      ]
+    },
+    {
+      "type": "article_newsletter",
+      "name": "Article Newsletter",
+      "settings": [
+       {
+          "type": "paragraph",
+          "content": "Customers who subscribe will have their email address added to the \"accepts marketing\" [customer list](/admin/customers?query=&accepts_marketing=1)."
+        },
+        {
+          "type": "checkbox",
+          "id": "full_width",
+          "label": "Full width",
+          "default": true
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image",
+          "info": "1500 x 1000px .jpg recommended"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_icon",
+          "label": "Show icon",
+          "default": true
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Newsletter"
+        },
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "Content",
+          "default": "<p>Write something about what your customers will receive by subscribing to your newsletter.</p>"
+        },
+        {
+          "type": "text",
+          "id": "button_text",
+          "label": "Button",
+          "default": "Subscribe"
+        },
+        {
+          "type": "text",
+          "id": "subtext",
+          "label": "Subtext"
+        }
+      ]
+    },
+    {
+      "type": "navigation",
+      "name": "Prev/next blog posts",
+      "limit": 1
+    },
+    {
+      "type": "comments",
+      "name": "Comments",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "paragraph",
+          "content": "Configure your blog to allow comments. [Learn more](https://help.shopify.com/en/manual/online-store/blogs/managing-comments#allow-or-disable-comments-on-a-blog)"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_gravatar",
+          "label": "Show comments gravatar",
+          "default": true
+        },
+        {
+          "type": "range",
+          "id": "comments_per_page",
+          "label": "Comments per page",
+          "min": 5,
+          "max": 50,
+          "step": 5,
+          "default": 5
+        }
+      ]
+    },
+    {
+      "name": "Accordion",
+      "type": "accordion",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Title"
+        },
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "Content",
+          "default": "<p>Write content to help your customers to better understand your products or policies.</p>"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,743 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product-custom",
+      "blocks": {
+        "discount_highlight_tCYPQB": {
+          "type": "discount_highlight",
+          "disabled": true,
+          "settings": {
+            "title": "100€ Rabatt & Einsparung verdoppeln:",
+            "description": "Bestelle zusätzlich einen Speicher für deinen Strom & erhalte automatisch 100€ Direktrabatt auf deine Bestellung."
+          }
+        },
+        "trusted_by_FmnNwi": {
+          "type": "trusted_by",
+          "settings": {
+            "image": "shopify://shop_images/patrick.webp",
+            "title": "<strong>Patrick</strong> und über <strong>5.000+</strong> Kunden sparen gemeinsam Strom mit uns."
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h1"
+          }
+        },
+        "text_c4EmbA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ product.metafields.custom.neu_teaser_produktbeschreibung | metafield_tag }} </p>"
+          }
+        },
+        "icon_with_text_nYbi7p": {
+          "type": "icon_with_text",
+          "settings": {
+            "item_heading": "Produkt-Vorteile im Überblick",
+            "item_image_1": "shopify://shop_images/germany-flag-png-xl.jpg",
+            "item_text_1": "<p>Erstklassige Solarmodule mit 25 Jahren Garantie</p>",
+            "item_image_2": "shopify://shop_images/hammer__1_-removebg-preview.png",
+            "item_text_2": "<p>Einfache Montage mit Schritt-für-Schritt Anleitung</p>",
+            "item_image_3": "shopify://shop_images/Exzellenter_Kundenservice_39f2dab1-b8d1-4ab5-b572-a94d4bdc4c91-removebg-preview.png",
+            "item_text_3": "<p>Exzellenter Kundenservice</p>"
+          }
+        },
+        "benefits_hLLEbM": {
+          "type": "benefits",
+          "settings": {
+            "title_1": "{{ product.metafields.custom.leistungsgarantie.value }} Jahre Garantie",
+            "description_1": "auf den Speicher",
+            "title_2": "25 Jahre Garantie",
+            "description_2": "auf die Module",
+            "title_3": "Bis zu {{ product.metafields.custom.j_hrliche_ersparnis_in_euro.value }}€",
+            "description_3": "Ersparnis im Jahr"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "first_varint_name": "Wähle dein",
+            "varint_name": "Wähle deine",
+            "varint_tooltip_title": "Was ist die Gesamtkapazität?",
+            "varint_tooltip_text": "Durch das modulare Design der Anker Solix 2 E1600 PRO kannst du den Speicher ganz einfach um zusätzliche Akkus erweitern und von einer Speicherkapazität von bis 9,6 kWh profitieren",
+            "varint_tooltip_title-2": "Wo ist der Montageort?",
+            "varint_tooltip_text-2": "Wähle die passende Halterung für deinen gewünschten Montageort auf dem Dach, im Garten, am Balkon oder flexibel ohne Halterung.",
+            "varint_tooltip_title-3": "",
+            "varint_tooltip_text-3": "",
+            "upsell_heading": "Speicher hinzufügen – empfohlen",
+            "tooltip_title": "Vertikale oder horizontale Montage?",
+            "tooltip_content": "",
+            "badge_heading": "Empfohlen!",
+            "badge_saving_text": "Sparen Sie [save_price]",
+            "badge_description": "",
+            "hide_sold_out_variants": true,
+            "stack_blocks": false,
+            "selector_mode": "dropdown",
+            "color_mode": "block",
+            "size_chart_page": ""
+          }
+        },
+        "button_7kDakf": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "link": "https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Montageort-Check_alleMontageorte.pdf?v=1718544692",
+            "text": "Ist mein Montageort geeignet?",
+            "size": "base",
+            "style": "fill",
+            "stretch": true,
+            "background": "#7cff8f",
+            "text_color": ""
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": true
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": false,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "in_stock_block_T4QRp4": {
+          "type": "in_stock_block",
+          "settings": {}
+        },
+        "klarna_on_site_messaging_app_block_LaGVpf": {
+          "type": "shopify://apps/klarna-on-site-messaging/blocks/app-block/b95936a9-74b6-4a95-8103-6a1b6459c25e",
+          "settings": {
+            "data_key": "top-strip-promotion-badge",
+            "locale_option": "geolocation",
+            "locale_fallback": "",
+            "theme": "default",
+            "topPadding": "0",
+            "bottomPadding": "0",
+            "messagePrefix": ""
+          }
+        },
+        "liquid_yrwKqV": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div\n    data-pp-message\ndata-pp-buyercountry=\"DE\"\n    data-pp-style-layout=\"text\"\n    data-pp-style-logo-type=\"alternative\"\n    data-pp-style-text-color=\"black\"\ndata-pp-style-text-align=\"center\"\n    data-pp-amount=\"product.selected_variant.price\">\n</div>"
+          }
+        },
+        "liquid_RBLcPy": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "liquid": "<div style=\"background-color: #FAFAFA; border-radius: 0px 0px 0px 0px; width: 100%; text-align: center; padding: 10px;\">\n\n  <div style=\"max-width: 65%; margin: 0 auto; display: flex; justify-content: space-between; align-items: center;\">\n\n    <!-- Erstes Logo -->\n    <img src=\"https://cdn.shopify.com/s/files/1/0726/7939/1562/files/436_1.png?v=1715800927\" alt=\"Logo 1\" style=\"max-width: 33%;\">\n\n    <!-- Zweites Logo -->\n    <img src=\"https://cdn.shopify.com/s/files/1/0726/7939/1562/files/333_3445.png?v=1715800927\" alt=\"Logo 2\" style=\"max-width: 33%;\">\n\n    <!-- Drittes Logo -->\n    <img src=\"https://cdn.shopify.com/s/files/1/0726/7939/1562/files/23333_1.png?v=1715800927\" alt=\"Logo 3\" style=\"max-width: 33%;\">\n\n  </div>\n\n</div>"
+          }
+        },
+        "consultant_DgEDnN": {
+          "type": "consultant",
+          "settings": {
+            "image": "shopify://shop_images/Design_ohne_Titel_1_2e3e9877-c8f3-484d-857e-785662da356c.webp",
+            "title": "Unser Berater Hannes ist da, um dich zu unterstützen und zu beraten.",
+            "show_only_mobile": true,
+            "heading": "Möchten Sie, dass unser Experte ermittelt, ob dies das richtige Produkt für Sie ist?",
+            "subheading": "Noch Fragen? Hannes ist da, um dich zu unterstützen und zu beraten.",
+            "link_telephone": "tel:+49 9369 9848130",
+            "text_telephone": "+49 9369 9848130",
+            "size_telephone": "sm",
+            "style_telephone": "outline",
+            "background_telephone": "",
+            "text_color_telephone": "#040404",
+            "link_email": "mailto:info@balkonstrom.com",
+            "text_email": "info@balkonstrom.com",
+            "size_email": "sm",
+            "style_email": "outline",
+            "background_email": "",
+            "text_color_email": "#040404"
+          }
+        },
+        "accordion_title_JLDftJ": {
+          "type": "accordion_title",
+          "settings": {
+            "accordion_heading": "Alles über das Produkt"
+          }
+        },
+        "collapsible_text_DMyFmk": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Technische Details",
+            "content": "<p>{{ product.metafields.custom.detailinformation_1_text | metafield_tag }}</p>",
+            "icon": "none",
+            "link_label_1": "Link",
+            "link_url_1": "",
+            "link_label_2": "Link",
+            "link_url_2": "",
+            "link_label_3": "Link",
+            "link_url_3": "",
+            "link_label_4": "Link",
+            "link_url_4": "",
+            "link_label_5": "Link",
+            "link_url_5": "",
+            "link_label_6": "Link",
+            "link_url_6": ""
+          }
+        },
+        "collapsible_text_i7wxYb": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Zertifizierungen",
+            "content": "<p> </p>",
+            "icon": "none",
+            "link_label_1": "{{ product.metafields.custom.zertifizierung_label_1.value }}",
+            "link_url_1": "{{ product.metafields.custom.neu_zertifizierungslink_1.value }}",
+            "link_label_2": "{{ product.metafields.custom.zertifizierung_label_2.value }}",
+            "link_url_2": "{{ product.metafields.custom.neu_zertifizierungslink_2.value }}",
+            "link_label_3": "{{ product.metafields.custom.zertifizierung_label_3.value }}",
+            "link_url_3": "{{ product.metafields.custom.neu_zertifizierungslink_3.value }}",
+            "link_label_4": "{{ product.metafields.custom.zertifizierung_label_4.value }}",
+            "link_url_4": "{{ product.metafields.custom.neu_zertifizierungslink_4.value }}",
+            "link_label_5": "{{ product.metafields.custom.zertifizierung_label_5.value }}",
+            "link_url_5": "{{ product.metafields.custom.neu_zertifizierungslink_5.value }}",
+            "link_label_6": "{{ product.metafields.custom.zertifizierung_label_6.value }}",
+            "link_url_6": "{{ product.metafields.custom.neu_zertifizierungslink_6.value }}"
+          }
+        },
+        "collapsible_text_fMb6Ub": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Versandinformationen",
+            "content": "<p>Deine Bestellung ist in 2-4 Werktagen bei dir. </p><p>Balkonkraftwerke werden per Spedition versendet. Du wirst von der Spedition zwecks Terminabsprache telefonisch kontaktiert, sobald die Ware in deinem Zustelldepot angekommen ist. Wir bitten dich deshalb, nach deiner Bestellung unter deiner angegebenen Telefonnummer erreichbar zu sein. </p>",
+            "icon": "none",
+            "link_label_1": "Link",
+            "link_url_1": "",
+            "link_label_2": "Link",
+            "link_url_2": "",
+            "link_label_3": "Link",
+            "link_url_3": "",
+            "link_label_4": "Link",
+            "link_url_4": "",
+            "link_label_5": "Link",
+            "link_url_5": "",
+            "link_label_6": "Link",
+            "link_url_6": ""
+          }
+        },
+        "collapsible_text_47NXPm": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Im Lieferumfang enthalten",
+            "content": "<p>{{ product.metafields.my_fields.lieferumfang | metafield_tag }}</p>",
+            "icon": "none",
+            "link_label_1": "Link",
+            "link_url_1": "",
+            "link_label_2": "Link",
+            "link_url_2": "",
+            "link_label_3": "Link",
+            "link_url_3": "",
+            "link_label_4": "Link",
+            "link_url_4": "",
+            "link_label_5": "Link",
+            "link_url_5": "",
+            "link_label_6": "Link",
+            "link_url_6": ""
+          }
+        },
+        "offer_cxnPgA": {
+          "type": "offer",
+          "settings": {
+            "text_alignment": "center",
+            "icon_position": "aligned",
+            "icon": "none",
+            "custom_icon": "shopify://shop_images/Design_ohne_Titel_13.png",
+            "icon_width": 20,
+            "title": "",
+            "content": "<p>Befindet sich dein Speicher mehr als 3 m von den Solarmodulen entfernt, benötigst du jeweils ein Paar zusätzliche MC4-Verlängerungskabel.</p>",
+            "background": "#f7f7f7",
+            "text_color": "#040404"
+          }
+        },
+        "icon_with_text_box_3nF746": {
+          "type": "icon_with_text_box",
+          "settings": {
+            "item_icon_1": "shopify://shop_images/Frame_927.png",
+            "item_label_1": "Made in Germany",
+            "item_description_1": "<p>Erlebe deutsche Qualität und Zuverlässigkeit.</p>",
+            "item_icon_2": "shopify://shop_images/icons8-niedriger-preis_-euro-100.png",
+            "item_label_2": "Kostenersparnis",
+            "item_description_2": "<p>Spare langfristig Stromkosten mit Solartechnologie.</p>",
+            "item_icon_3": "shopify://shop_images/icons8-blatt-100.png",
+            "item_label_3": "Unabhängigkeit",
+            "item_description_3": "<p>Bleib unabhängig von steigenden Strompreisen.</p>",
+            "item_icon_4": "shopify://shop_images/icons8-stapel-papier-100.png",
+            "item_label_4": "Keine Bürokratie",
+            "item_description_4": "<p>Einfache Installation ohne bürokratische Hürden.</p>"
+          }
+        },
+        "image_block_zkQ7kE": {
+          "type": "image_block",
+          "settings": {
+            "image_1": "shopify://shop_images/image_2_89fe41a8-8b50-46e3-812d-142e602801e6.png",
+            "image_2": "shopify://shop_images/image_1_9f744b79-e0dd-4c0f-9d3d-3dc286d6cc0e.png",
+            "image_3": "shopify://shop_images/image_3_b23da760-1ff3-4c32-86bb-f9bfd3310fa2.png"
+          }
+        }
+      },
+      "block_order": [
+        "discount_highlight_tCYPQB",
+        "trusted_by_FmnNwi",
+        "title",
+        "text_c4EmbA",
+        "icon_with_text_nYbi7p",
+        "benefits_hLLEbM",
+        "variant_picker",
+        "button_7kDakf",
+        "price",
+        "buy_buttons",
+        "in_stock_block_T4QRp4",
+        "klarna_on_site_messaging_app_block_LaGVpf",
+        "liquid_yrwKqV",
+        "liquid_RBLcPy",
+        "consultant_DgEDnN",
+        "accordion_title_JLDftJ",
+        "collapsible_text_DMyFmk",
+        "collapsible_text_i7wxYb",
+        "collapsible_text_fMb6Ub",
+        "collapsible_text_47NXPm",
+        "offer_cxnPgA",
+        "icon_with_text_box_3nF746",
+        "image_block_zkQ7kE"
+      ],
+      "custom_css": [
+        ".button {border-radius: 6px;}",
+        ".border {border-width: 0px;}",
+        ".h-stack {padding-left: 15px;}",
+        ".container {border-style: none !important; border-width: 0 !important; border-color: transparent !important;}",
+        ".shopify-block {margin-left: 10px; margin-right: 10px;}",
+        ".product-info__inventory {display: flex; justify-content: center; align-items: center; height: 100%; text-align: center;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": true,
+        "enable_upsell": false,
+        "enable_mobile_top_data": true,
+        "desktop_media_width": 60,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "hide_thumbnails",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": false,
+        "max_image_zoom_level": 3,
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "#ffffff",
+        "input_text_color": ""
+      }
+    },
+    "timeline_fMehM9": {
+      "type": "timeline",
+      "blocks": {
+        "slide_Hadwdn": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/A7407436.png",
+            "navigation_label": "Kauf",
+            "subheading": "",
+            "title": "3 Schritte bis zum eigenen Strom",
+            "content": "<p>Bei unseren Balkonkraftwerken ist für jeden Bedarf das richtige Set dabei. Wähle einfach deine Wunschanlage aus, die du bei uns abholen oder dir zuschicken lassen kannst.</p>"
+          }
+        },
+        "slide_UU9Kjp": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/A7407598.png",
+            "navigation_label": "1. Montage",
+            "subheading": "",
+            "title": "Montage",
+            "content": "<p>Bei dir zu Hause musst du dein Balkonkraftwerk nur noch montieren und in die Steckdose stecken. Passend zu deiner Anlage erhältst du eine detaillierte Schritt-für-Schritt-Anleitung, bei der keine Fragen offenbleiben.</p>"
+          }
+        },
+        "slide_Agmbxg": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Strom_sparen_66aa905b-1b5f-44c9-925d-cc1962f1ee56.png",
+            "navigation_label": "2. Anmeldung",
+            "subheading": "",
+            "title": "Anmeldung",
+            "content": "<p>Zuletzt musst du dein Balkonkraftwerk nur noch im Marktstammdatenregister anmelden. Mit unserer <a href=\"https://www.balkonstrom.com/pages/balkonkraftwerk-anmeldeverfahren\" target=\"_blank\" title=\"https://www.balkonstrom.com/pages/balkonkraftwerk-anmeldeverfahren\">Anleitung zur Anmeldung</a> hast du das in nur 6 Minuten erledigt.</p>"
+          }
+        },
+        "slide_pHKXre": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/A7407689.png",
+            "navigation_label": "3. Strom sparen",
+            "subheading": "",
+            "title": "Strom sparen",
+            "content": "<p>Jetzt kann das Sparen losgehen! Dein Balkonkraftwerk wandelt nun die Sonnenstrahlen in Strom um, mit dem du deine Haushaltsgeräte versorgen kannst. So sparst du bares Geld und bist unabhängiger von externer Stromversorgung!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "slide_Hadwdn",
+        "slide_UU9Kjp",
+        "slide_Agmbxg",
+        "slide_pHKXre"
+      ],
+      "settings": {
+        "full_width": true,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "multi_column_custom_dRpEjC": {
+      "type": "multi-column-custom",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "enable_column_padding": true,
+        "column_background": "#f7f8fa",
+        "gap": "small",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "Im Lieferumfang",
+        "content": "",
+        "column_size": "2",
+        "heading_tag": "h4",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "im_lieferumfang_nMcapT": {
+      "type": "im-lieferumfang",
+      "settings": {}
+    },
+    "media_with_text_BCXzc3": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_YeJhVg": {
+          "type": "image",
+          "settings": {
+            "image": "{{ product.metafields.custom.neu_image_with_text.value }}",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "{{ product.metafields.custom.speicher_seo_section_heading1.value }}",
+            "content": "<p>{{ product.metafields.custom.speicher_seo_section_content1 | metafield_tag }}</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f7f7f7",
+            "background_gradient": "",
+            "text_color": "#040404",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_YeJhVg"
+      ],
+      "settings": {
+        "show_klaviyo_form": false,
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "text_with_icons_FGdLjM": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_YgVKxq": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-leaf",
+            "custom_icon": "shopify://shop_images/icons8-blatt-100.png",
+            "mobile_icon_width": 52,
+            "icon_width": 52,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "subtitle": "",
+            "title": "Unabhängigkeit",
+            "content": "<p>Unabhängig von steigenden Strompreisen.</p>"
+          }
+        },
+        "item_maTgMJ": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-money",
+            "custom_icon": "shopify://shop_images/icons8-niedriger-preis_-euro-100.png",
+            "mobile_icon_width": 52,
+            "icon_width": 52,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "subtitle": "",
+            "title": "Kostenersparnis",
+            "content": "<p>Langfristig weniger Stromkosten durch effiziente Solartechnologie.</p>"
+          }
+        },
+        "item_VVAVAw": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-document",
+            "custom_icon": "shopify://shop_images/icons8-stapel-papier-100.png",
+            "mobile_icon_width": 52,
+            "icon_width": 52,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "subtitle": "",
+            "title": "0 Bürokratie",
+            "content": "<p>Einfache Installation ohne bürokratische Hürden.</p>"
+          }
+        },
+        "item_Bp47mD": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-beer",
+            "custom_icon": "shopify://shop_images/Frame_927.png",
+            "mobile_icon_width": 52,
+            "icon_width": 52,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "subtitle": "",
+            "title": "Made in Germany",
+            "content": "<p>Höchste Qualität und Zuverlässigkeit, aus Deutschland.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_YgVKxq",
+        "item_maTgMJ",
+        "item_VVAVAw",
+        "item_Bp47mD"
+      ],
+      "custom_css": [
+        ".text-with-icons {margin-top: 50px; margin-bottom: 50px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "title": "",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "media_with_text_4mhhBp": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_RcPJN3": {
+          "type": "image",
+          "settings": {
+            "image": "{{ product.metafields.custom.neu_media_with_text_solarmodul.value }}",
+            "media_width": 45,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "{{ product.metafields.custom.speicher_seo_section_heading2.value }}",
+            "content": "<p>{{ product.metafields.custom.speicher_seo_section_content2 | metafield_tag }}</p>",
+            "link_text": "{{ product.metafields.custom.datenblatt.value }}",
+            "link_url": "",
+            "background": "#f7f7f7",
+            "background_gradient": "",
+            "text_color": "#040404",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_RcPJN3"
+      ],
+      "settings": {
+        "show_klaviyo_form": false,
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "17170619975e338020": {
+      "type": "apps",
+      "blocks": {
+        "google_reviews_plus_app_block_9Jbnga": {
+          "type": "shopify://apps/rocket-google-reviews/blocks/app-block/d11c8893-a181-4aff-a280-7446d42cec3b",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "google_reviews_plus_app_block_9Jbnga"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "media_with_text_Gq7LF8": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_6kdX6g": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/anker-speicher-solix-pro.webp",
+            "media_width": 45,
+            "media_position": "start",
+            "text_position": "place-self-end-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "{{ product.metafields.custom.neu_speicher_image_with_text_heading.value }}",
+            "content": "<p>{{ product.metafields.custom.neu_speicher_image_with_text_content | metafield_tag }}</p>",
+            "link_text": "{{ product.metafields.custom.testtext.value }}",
+            "link_url": "",
+            "background": "#f7f7f7",
+            "background_gradient": "",
+            "text_color": "#040404",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_6kdX6g"
+      ],
+      "settings": {
+        "show_klaviyo_form": false,
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "media_with_text_RGBxAc": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_63Xhq3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Gruendergarantie_ec8b10e4-f7e8-44c6-bde5-b7f1527cbe52.webp",
+            "media_width": 30,
+            "media_position": "end",
+            "text_position": "place-self-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Unsere Gründergarantie",
+            "content": "<p>Unsere Balkonkraftwerke sind das Ergebnis von Leidenschaft, Hingabe und genauer Auslese. Seit der Gründung von Balkonstrom® legen wir einen besonders hohen Wert auf Qualität. Uns ist es wichtig, dass jede Anlage, die unser Lager verlässt, den hohen Standards entspricht, die unsere Kunden an unseren Balkonkraftwerken schätzen. <br/><br/>Mit ausgewählten Modulen, Wechselrichtern und unseren exklusiven Made in Germany Kabeln bieten wir dir zuverlässige und hochwertige Komponenten bis ins aller letzte Detail!<br/><br/>Wir sind stolz darauf, dass die Qualität unserer Produkte ein Versprechen ist, das wir Tag für Tag einlösen! Profitiere auch du von unseren langlebigen Balkonkraftwerken und spare langfristig Stromkosten ein!</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f7f7f7",
+            "background_gradient": "",
+            "text_color": "#040404",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_63Xhq3"
+      ],
+      "settings": {
+        "show_klaviyo_form": false,
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "accordion_content_epRUPc": {
+      "type": "accordion-content",
+      "blocks": {
+        "item_j3qtxG": {
+          "type": "item",
+          "settings": {
+            "title": "Wie hoch sind die Versandkosten?",
+            "content": "<p>Bei einem Set von bis zu 2 Solarmodulen liegen die Versandkosten bei 49,- € und bei einem Set ab 3 Modulen zahlst du 59,- €. Bei anderen Produkten werden die Liefergebühren im Warenkorb angezeigt.</p>"
+          }
+        },
+        "item_TaFWJn": {
+          "type": "item",
+          "settings": {
+            "title": "Wie werde ich über den Liefertermin informiert?",
+            "content": "<p>Nach dem Versand meldet sich die Spedition telefonisch bei dir um einen passenden Zustelltermin zu vereinbaren.</p>"
+          }
+        },
+        "item_HEe9Tp": {
+          "type": "item",
+          "settings": {
+            "title": "Welche Ausrichtung eignet sich für die Aufstellung?",
+            "content": "<p>Hohe Erträge kannst du bei einer Ausrichtung nach Süden, Osten und Westen erzielen. Der Neigungswinkel ist bei jeder unserer Halterung über 15 Grad. Dies ist wichtig, damit der sogenannte Selbstreinigungseffekt eintritt und starke Verunreinigungen wie Vogelkot durch Regen gereinigt werden kann.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_j3qtxG",
+        "item_TaFWJn",
+        "item_HEe9Tp"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "timeline_fMehM9",
+    "multi_column_custom_dRpEjC",
+    "im_lieferumfang_nMcapT",
+    "media_with_text_BCXzc3",
+    "text_with_icons_FGdLjM",
+    "media_with_text_4mhhBp",
+    "17170619975e338020",
+    "media_with_text_Gq7LF8",
+    "media_with_text_RGBxAc",
+    "accordion_content_epRUPc"
+  ]
+}

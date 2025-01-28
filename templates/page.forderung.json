@@ -1,0 +1,2019 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "100%"
+      }
+    },
+    "image_with_text_overlay_p6tfBA": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_3dFEet": {
+          "type": "heading",
+          "settings": {
+            "text": "Staatliche Förderung für Balkonkraftwerke",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_JEhVW7": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Profitiere von attraktiven Zuschüssen für dein Balkonkraftwerk!</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_3dFEet",
+        "richtext_JEhVW7"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "enable_fix_parallax": false,
+        "image_size": "md",
+        "image": "shopify://shop_images/Bundestag_Foerderung.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 40
+      }
+    },
+    "custom_logo_list_TmLMDj": {
+      "type": "custom-logo-list",
+      "blocks": {
+        "logo_image_CBFTmN": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/Untitled_design_80.png"
+          }
+        },
+        "logo_image_CeDBrC": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_1_6ad045c6-a6af-43bc-8772-088fda3e65c1.png"
+          }
+        },
+        "logo_image_kP6TGB": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_68bc6b1f-9cde-4e28-90d9-010389d4b518.png"
+          }
+        },
+        "logo_image_WWwPXB": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_4.png"
+          }
+        },
+        "logo_image_WV4HmX": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_3_eccce761-16d6-41a5-aab7-1b94750e6ae5.png"
+          }
+        },
+        "logo_image_d7xJ3j": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_2_a6e3afea-7afd-46b9-9542-a2b05fba13c9.png"
+          }
+        }
+      },
+      "block_order": [
+        "logo_image_CBFTmN",
+        "logo_image_CeDBrC",
+        "logo_image_kP6TGB",
+        "logo_image_WWwPXB",
+        "logo_image_WV4HmX",
+        "logo_image_d7xJ3j"
+      ],
+      "settings": {
+        "enable_mobile_slider": true,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "before_after_image_hWqCkH": {
+      "type": "before-after-image",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Attraktive Preise für dein Balkonkraftwerk",
+        "content": "<p>Vor dem Kauf deines Balkonkraftwerks lohnt es sich, einen Blick auf die möglichen Förderungen in deiner Region oder Stadt zu werfen! So wird die Investition noch attraktiver. Ziehe den Schieberegler im Bild nach links, um die Preisänderung zu sehen.</p>",
+        "button_text": "Zum Produkt",
+        "button_url": "shopify://products/premium-balcony-400",
+        "before_image": "shopify://shop_images/Before_Foerderung.webp",
+        "after_image": "shopify://shop_images/After_Foerderung.webp",
+        "expand_image": false,
+        "text_position": "start",
+        "before_after_text_position": "bottom",
+        "before_text": "Ohne Förderung",
+        "after_text": "Mit Förderung",
+        "drag_initial_position": 50,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "before_text_color": "#ffffff",
+        "after_text_color": "#ffffff",
+        "drag_cursor_background": "#f2c315",
+        "drag_cursor_color": "#000000"
+      }
+    },
+    "featured_collection_eYrjmq": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "products": [
+          "premium-balcony-800",
+          "premium-roof-800-ziegeldach",
+          "basic-wall-1800-bifazial",
+          "basic-flat-1800-bifazial"
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 4,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Balkonkraftwerke entdecken",
+        "content": "",
+        "link_url": "shopify://collections/balkonkraftwerke",
+        "link_text": "Mehr ansehen",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "contact": {
+      "type": "contact",
+      "blocks": {
+        "435f74af-0695-491a-801c-42d0daf75878": {
+          "type": "text",
+          "settings": {
+            "title": "Telefonnummer",
+            "use_long_text": false,
+            "required": false
+          }
+        }
+      },
+      "block_order": [
+        "435f74af-0695-491a-801c-42d0daf75878"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Erhalte dein individuelles Angebot für eine Förderung in deiner Stadt!",
+        "content": "<p>Einige Städte und Gemeinden unterstützen die Anschaffung eines Balkonkraftwerks durch spezielle Förderprogramme. Für viele Förderungen ist <strong>vorerst ein personalisiertes Angebot</strong> nötig. Über dieses Kontaktformular kannst du uns informieren, welches Angebot du gerne erhalten möchtest, um beispielsweise eine <strong>Förderung in deiner Stadt zu beantragen</strong>.</p>",
+        "text_position": "start",
+        "contact_form_size": "large",
+        "custom_contact_form": true,
+        "default_contact_form": false,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "",
+        "contact_text_color": "",
+        "button_background": "#f0c417",
+        "button_text_color": "#1a1a1a"
+      }
+    },
+    "images_with_text_scrolling_B6qnmQ": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "item_nbjGb9": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Foerderung_pruefen.webp",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Förderung prüfen",
+            "content": "<p>Informiere dich über aktuelle Förderprogramme für Balkonkraftwerke in deiner Stadt oder Region. Beachte: In manchen Bundesländern muss die Förderung vor Erwerb der Solaranlage beantragt und genehmigt werden.</p>"
+          }
+        },
+        "item_ERWYtQ": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Antrag_einreichen.webp",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Antrag einreichen",
+            "content": "<p>Bereite alle notwendigen Unterlagen für die Antragsstellung vor. Dazu gehören Nachweise über die geplante Anlage, Kostenvoranschläge und möglicherweise technische Datenblätter. Reiche den Förderantrag bei der zuständigen Behörde oder Institution ein, die das jeweilige Programm verwaltet.</p>"
+          }
+        },
+        "item_6rhc86": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/BKW_installieren.webp",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Balkonkraftwerk installieren",
+            "content": "<p>Nach Genehmigung des Antrags kannst du dein Balkonkraftwerk installieren und deinen eigenen Strom produzieren. Reiche anschließend die erforderlichen Nachweise über die ordnungsgemäße Installation und Inbetriebnahme ein, um die Auszahlung der Fördermittel zu erhalten.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_nbjGb9",
+        "item_ERWYtQ",
+        "item_6rhc86"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": true,
+        "show_counter": true,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "rich_text_6AEpzx": {
+      "type": "rich-text",
+      "blocks": {
+        "button_kVWkYn": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "Entdecke unsere Balkonkraftwerke",
+            "url": "shopify://collections/800-watt-balkonkraftwerk",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_kVWkYn"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "rich_text_aU9AH6": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_xTfQ79": {
+          "type": "heading",
+          "settings": {
+            "text": "Welche Förderung gilt für dein Balkonkraftwerk?",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_ieJVYi": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Die Förderprogramme für Balkonkraftwerke in Deutschland sind je nach Bundesland, Landkreis und Stadt unterschiedlich geregelt. Dadurch entstehen variierende Anforderungen und Voraussetzungen für die Förderung. Finde deine Region oder deine Stadt und erfahre mehr über die Förderung für dein Mini-Solaranlage.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_xTfQ79",
+        "richtext_ieJVYi"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "feature_chart_rXjcPk": {
+      "type": "feature-chart",
+      "blocks": {
+        "headings_DLafP6": {
+          "type": "headings",
+          "settings": {
+            "heading_1": "Aschaffenburg",
+            "heading_2": "Augsburg",
+            "heading_3": "Buckenhof",
+            "heading_4": "Coburg",
+            "heading_5": "Erlangen",
+            "heading_6": "Forchheim",
+            "heading_7": "Fürth",
+            "heading_8": "Großenseebach",
+            "heading_9": "Günzburg",
+            "heading_10": "Höchstadt",
+            "heading_11": "Marolffstein",
+            "heading_12": "Moosburg",
+            "heading_13": "München",
+            "heading_14": "Regensburg",
+            "heading_15": "Spardorf",
+            "heading_16": "Unterschleißheim",
+            "heading_17": "Vilseck",
+            "heading_18": "Weilheim in Oberbayern",
+            "heading_19": "Würzburg Landkreis",
+            "heading_20": "Würzburg Stadt"
+          }
+        },
+        "values_U9MxU4": {
+          "type": "values",
+          "settings": {
+            "product": "",
+            "value_1": "<p>Pauschal 120 € nach dem Kauf.</p>",
+            "value_2": "<p>Pauschal 200 € vor dem Kauf. </p>",
+            "value_3": "<p>50 € pro 100Wp Modulleistung, max. 200 € vor dem Kauf.</p>",
+            "value_4": "<p>Pauschal 250 € nach dem Kauf.</p>",
+            "value_5": "<p>50 € pro 100Wp Modulleistung, max. 300 € vor dem Kauf.</p>",
+            "value_6": "<p>100 € (pro angefange kWp) nach dem Kauf.</p>",
+            "value_7": "<p>Pauschal 100 € nach dem Kauf.</p>",
+            "value_8": "<p>Pauschal 50 € nach dem Kauf.</p>",
+            "value_9": "<p>Pauschal 100 € vor dem Kauf.</p>",
+            "value_10": "<p>Pauschal 50 € vor dem Kauf.</p>",
+            "value_11": "<p>50 € pro 100Wp Modulleistung, max. 200 € vor dem Kauf.</p>",
+            "value_12": "<p>50% der Kosten, max 200 € nach dem Kauf.</p>",
+            "value_13": "<p>40ct pro 1Wp Modulleistung, max. 50% der Kosten nach dem Kauf.</p>",
+            "value_14": "<p>Pauschal 150 € vor dem Kauf.</p>",
+            "value_15": "<p>50 € je 100Wp Modulleistung, max. 200 € vor dem Kauf.</p>",
+            "value_16": "<p>25% der Kosten, max. 200 € nach dem Kauf.</p>",
+            "value_17": "<p>Pauschal 150 € nach dem Kauf (bei Anlagen unter 300W Wechselrichterleistung nur 100 €).</p>",
+            "value_18": "<p>25% der Kosten, max. 200 € vor dem Kauf.</p>",
+            "value_19": "<p>50% der Kosten, max. 200 € vor dem Kauf.</p>",
+            "value_20": "<p>Pauschal 200 € nach dem Kauf (Anschluss durch Elektro-Fachfirma).</p>",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        },
+        "values_UqzVTd": {
+          "type": "values",
+          "settings": {
+            "product": "",
+            "value_1": "<p><a href=\"https://www.aschaffenburg.de/Buerger-in-Aschaffenburg/Umwelt--und-Verbraucherschutz/Energie/Foerderprogramme/DE_index_3801.html\" target=\"_blank\" title=\"https://www.aschaffenburg.de/Buerger-in-Aschaffenburg/Umwelt--und-Verbraucherschutz/Energie/Foerderprogramme/DE_index_3801.html\">Zur Förderung</a></p>",
+            "value_2": "<p><a href=\"https://www.augsburg.de/umwelt-soziales/umwelt/klima-energie/solaroffensive-augsburg/solarfoerderprogramm\" target=\"_blank\" title=\"https://www.augsburg.de/umwelt-soziales/umwelt/klima-energie/solaroffensive-augsburg/solarfoerderprogramm\">Zur Förderung</a></p>",
+            "value_3": "<p><a href=\"https://www.augsburg.de/umwelt-soziales/umwelt/klima-energie/solaroffensive-augsburg/solarfoerderprogramm\" target=\"_blank\" title=\"https://www.augsburg.de/umwelt-soziales/umwelt/klima-energie/solaroffensive-augsburg/solarfoerderprogramm\">Zur Förderung</a></p>",
+            "value_4": "<p><a href=\"https://www.mein-coburg.de/stadt-coburg-foerdert-regenerative-energien-mit-bis-zu-500-000-e-pro-jahr/#toggle-id-5\" target=\"_blank\" title=\"https://www.mein-coburg.de/stadt-coburg-foerdert-regenerative-energien-mit-bis-zu-500-000-e-pro-jahr/#toggle-id-5\">Zur Förderung</a></p>",
+            "value_5": "<p><a href=\"https://erlangen.de/service/98103\" target=\"_blank\" title=\"https://erlangen.de/service/98103\">Zur Förderung</a></p>",
+            "value_6": "<p><a href=\"https://www.lra-fo.de/site/2_aufgabenbereiche/Energie_Klima/Klimafonds/Foerderrichtlinie_Saeule_B_PV-Anlage_Juni-2022.pdf\" target=\"_blank\" title=\"https://www.lra-fo.de/site/2_aufgabenbereiche/Energie_Klima/Klimafonds/Foerderrichtlinie_Saeule_B_PV-Anlage_Juni-2022.pdf\">Zur Förderung</a></p>",
+            "value_7": "<p><a href=\"https://www.infra-fuerth.de/privatkunden/infothek/klimaoffensive\" target=\"_blank\" title=\"https://www.infra-fuerth.de/privatkunden/infothek/klimaoffensive\">Zur Förderung</a></p>",
+            "value_8": "<p><a href=\"https://www.grossenseebach.de/aktuelles/2023/2023-01/gemeinderat-beschliesst-foerderung-von-pv-anlagen-antragsformular-verfuegbar\" target=\"_blank\" title=\"https://www.grossenseebach.de/aktuelles/2023/2023-01/gemeinderat-beschliesst-foerderung-von-pv-anlagen-antragsformular-verfuegbar\">Zur Förderung</a></p>",
+            "value_9": "<p><a href=\"https://www.guenzburg.de/umwelt-mobilitaet/klimaschutz-energie/solarkampagne/\" target=\"_blank\" title=\"https://www.guenzburg.de/umwelt-mobilitaet/klimaschutz-energie/solarkampagne/\">Zur Förderung</a></p>",
+            "value_10": "<p><a href=\"https://www.hoechstadt.de/wirtschaft/wirtschaft-und-entwicklung/foerderprogramm-zur-nutzung-regenerativer-energiequellen-fuer-private-wohngebaeude-der-stadt-hoechstadt\" target=\"_blank\" title=\"https://www.hoechstadt.de/wirtschaft/wirtschaft-und-entwicklung/foerderprogramm-zur-nutzung-regenerativer-energiequellen-fuer-private-wohngebaeude-der-stadt-hoechstadt\">Zur Förderung</a></p>",
+            "value_11": "<p><a href=\"https://marloffstein.vg-uttenreuth.de/umwelt-mobilitaet/umwelt/foerderungen/photovoltaikanlagen/\" target=\"_blank\" title=\"https://marloffstein.vg-uttenreuth.de/umwelt-mobilitaet/umwelt/foerderungen/photovoltaikanlagen/\">Zur Förderung</a></p>",
+            "value_12": "<p><a href=\"https://www.moosburg.de/foerderprogramm-fuer-solarstrom-nav\" target=\"_blank\" title=\"https://www.moosburg.de/foerderprogramm-fuer-solarstrom-nav\">Zur Förderung</a></p>",
+            "value_13": "<p><a href=\"https://stadt.muenchen.de/infos/foerderprogramm-klimaneutrale-gebaeude.html\" target=\"_blank\" title=\"https://stadt.muenchen.de/infos/foerderprogramm-klimaneutrale-gebaeude.html\">Zur Förderung</a></p>",
+            "value_14": "<p><a href=\"https://www.greendeal-regensburg.de/foerderprogramm-regensburg-effizient/photovoltaik\" target=\"_blank\" title=\"https://www.greendeal-regensburg.de/foerderprogramm-regensburg-effizient/photovoltaik\">Zur Förderung</a></p>",
+            "value_15": "<p><a href=\"https://spardorf.vg-uttenreuth.de/umwelt-mobilitaet/foerderungen/solarenergie/\" target=\"_blank\" title=\"https://spardorf.vg-uttenreuth.de/umwelt-mobilitaet/foerderungen/solarenergie/\">Zur Förderung</a></p>",
+            "value_16": "<p><a href=\"https://www.unterschleissheim.de/planen-bauen-wohnen-klimaschutz/klimaschutz/staedtische-foerderprogramme.html\" target=\"_blank\" title=\"https://www.unterschleissheim.de/planen-bauen-wohnen-klimaschutz/klimaschutz/staedtische-foerderprogramme.html\">Zur Förderung</a></p>",
+            "value_17": "<p><a href=\"https://www.vilseck.de/pdf/foerderrichtlinie_balkon-pv-anlagen_endfassung_dez2022.pdf\" target=\"_blank\" title=\"https://www.vilseck.de/pdf/foerderrichtlinie_balkon-pv-anlagen_endfassung_dez2022.pdf\">Zur Förderung</a></p>",
+            "value_18": "<p><a href=\"https://www.weilheim.de/mein-weilheim/buergerservice/rathaus/stadtverwaltung/stadtbauamt/umwelt-und-klimaschutz/9882-start-der-staedtischen-foerderung-die-stadt-weilheim-gibt-bis-zu-200-euro-zuschuss-zu-stecker-solargeraeten#:~:text=Diese%20kleinen%20Photovoltaiksysteme%20werden%20oft,%2DSolarger%C3%A4ts%2C%20maximal%20200%20Euro.\" target=\"_blank\" title=\"https://www.weilheim.de/mein-weilheim/buergerservice/rathaus/stadtverwaltung/stadtbauamt/umwelt-und-klimaschutz/9882-start-der-staedtischen-foerderung-die-stadt-weilheim-gibt-bis-zu-200-euro-zuschuss-zu-stecker-solargeraeten#:~:text=Diese%20kleinen%20Photovoltaiksysteme%20werden%20oft,%2DSolarger%C3%A4ts%2C%20maximal%20200%20Euro.\">Zur Förderung</a></p>",
+            "value_19": "<p><a href=\"https://www.landkreis-wuerzburg.de/Wirtschaft-Regionalmanagement/Klima-I-Energie/F%C3%B6rderung-von-Stecker-Solarger%C3%A4ten/\" target=\"_blank\" title=\"https://www.landkreis-wuerzburg.de/Wirtschaft-Regionalmanagement/Klima-I-Energie/F%C3%B6rderung-von-Stecker-Solarger%C3%A4ten/\">Zur Förderung</a></p>",
+            "value_20": "<p><a href=\"https://www.wuerzburg.de/themen/umwelt-klima/klimaundenergie/solarenergie/539232.Sichern-Sie-sich-jetzt-Ihre-Photovoltaik-Foerderung-2023.html\" target=\"_blank\" title=\"https://www.wuerzburg.de/themen/umwelt-klima/klimaundenergie/solarenergie/539232.Sichern-Sie-sich-jetzt-Ihre-Photovoltaik-Foerderung-2023.html\">Zur Förderung</a></p>",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "headings_DLafP6",
+        "values_U9MxU4",
+        "values_UqzVTd"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Bayern",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "max_rows": 5,
+        "view_all_text": "Alle ansehen",
+        "view_less_text": "Weniger ansehen",
+        "view_product": "Ansehen",
+        "viewing_product": "",
+        "show_product_swatch": true,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "chart_background": "",
+        "chart_text_color": "",
+        "chart_true_false_color": ""
+      }
+    },
+    "feature_chart_kAGhpn": {
+      "type": "feature-chart",
+      "blocks": {
+        "headings_Fr6hzL": {
+          "type": "headings",
+          "settings": {
+            "heading_1": "Dettingen unter Teck",
+            "heading_2": "Fellbach",
+            "heading_3": "Filderstadt",
+            "heading_4": "Friolzheim",
+            "heading_5": "Hochdorf",
+            "heading_6": "Kornwestheim",
+            "heading_7": "Leinfelden-Echterdingen",
+            "heading_8": "Ludwigsburg",
+            "heading_9": "Neubulach",
+            "heading_10": "Ostfildern",
+            "heading_11": "Plochingen",
+            "heading_12": "Schwaikheim",
+            "heading_13": "Stuttgart",
+            "heading_14": "",
+            "heading_15": "",
+            "heading_16": "",
+            "heading_17": "",
+            "heading_18": "",
+            "heading_19": "",
+            "heading_20": ""
+          }
+        },
+        "values_RAUngC": {
+          "type": "values",
+          "settings": {
+            "product": "",
+            "value_1": "<p>50 € pro Modul, max. 100 € nach dem Kauf.</p>",
+            "value_2": "<p>Pauschal 100 € nach dem Kauf.</p>",
+            "value_3": "<p>Pauschal 150 € nach dem Kauf (nur Mieter und Wohnungseigentümer).</p>",
+            "value_4": "<p>Pauschal 100 € nach dem Kauf (nur Installation und Anschlusskosten, Wieland-Stecker).</p>",
+            "value_5": "<p>75 € pro Modul, max. 150 € nach dem Kauf.</p>",
+            "value_6": "<p>Pauschal 200 € nach dem Kauf.</p>",
+            "value_7": "<p>125 € pro Modul, max. 250 € nach dem Kauf.</p>",
+            "value_8": "<p>Pauschal 300 € vor oder nach dem Kauf (mit Ludwigsburg-Card bis zu 1450€ Förderung).</p>",
+            "value_9": "<p>Pauschal 100 € vor dem Kauf (Wieland-Stecker).</p>",
+            "value_10": "<p>30% der Kosten, max. 200 € nach dem Kauf.</p>",
+            "value_11": "<p>Pauschal 100 € nach dem Kauf.</p>",
+            "value_12": "<p>Pauschal 200 € vor oder nach dem Kauf.</p>",
+            "value_13": "<p>Pauschal 200 € nach dem Kauf (mit \"Bonuscard+Kultur\" auch 300 €)</p>",
+            "value_14": "",
+            "value_15": "",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        },
+        "values_U7GdPU": {
+          "type": "values",
+          "settings": {
+            "product": "",
+            "value_1": "<p><a href=\"https://www.dettingen-teck.de/media/files/balkonkraftwerk/foerderrichtlinie-balkonsolarkraftwerke.pdf\" target=\"_blank\" title=\"https://www.dettingen-teck.de/media/files/balkonkraftwerk/foerderrichtlinie-balkonsolarkraftwerke.pdf\">Zur Förderung</a></p>",
+            "value_2": "<p><a href=\"https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjZmPfA3_yBAxUBtqQKHaYyACEQFnoECCsQAQ&url=https%3A%2F%2Fwww.fellbach.de%2Fceasy%2Fresource%2F%3Fid%3D9357%26download%3D1&usg=AOvVaw26hNsAzBqiluiJjJWO_BpD&opi=89978449\" target=\"_blank\" title=\"https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjZmPfA3_yBAxUBtqQKHaYyACEQFnoECCsQAQ&url=https%3A%2F%2Fwww.fellbach.de%2Fceasy%2Fresource%2F%3Fid%3D9357%26download%3D1&usg=AOvVaw26hNsAzBqiluiJjJWO_BpD&opi=89978449\">Zur Förderung</a></p>",
+            "value_3": "<p><a href=\"https://www.filderstadt.de/start/service/balkonkraftwerke+_+foerderung.html\" target=\"_blank\" title=\"https://www.filderstadt.de/start/service/balkonkraftwerke+_+foerderung.html\">Zur Förderung</a></p>",
+            "value_4": "<p><a href=\"https://www.friolzheim.de/verwaltung/wegweiser/verfahren/B/balkonkraftwerke-id_122/\" target=\"_blank\" title=\"https://www.friolzheim.de/verwaltung/wegweiser/verfahren/B/balkonkraftwerke-id_122/\">Zur Förderung</a></p>",
+            "value_5": "<p><a href=\"https://www.hochdorf.de/klimaschutz/energie/balkon-pv-steckeranlage\" target=\"_blank\" title=\"https://www.hochdorf.de/klimaschutz/energie/balkon-pv-steckeranlage\">Zur Förderung</a></p>",
+            "value_6": "<p><a href=\"https://www.kornwestheim.de/site/Kornwestheim_Internet/get/params_E-1779334808/17399312/Flyer%20F%C3%B6rderprogramm%20Wir%20st%C3%A4rken%20Klima.pdf\" target=\"_blank\" title=\"https://www.kornwestheim.de/site/Kornwestheim_Internet/get/params_E-1779334808/17399312/Flyer%20F%C3%B6rderprogramm%20Wir%20st%C3%A4rken%20Klima.pdf\">Zur Förderung</a></p>",
+            "value_7": "<p><a href=\"https://www.leinfelden-echterdingen.de/Startseite/Stadtentwicklung/beratungsangebote+_+foerderprogramme.html\" target=\"_blank\" title=\"https://www.leinfelden-echterdingen.de/Startseite/Stadtentwicklung/beratungsangebote+_+foerderprogramme.html\">Zur Förderung</a></p>",
+            "value_8": "<p><a href=\"https://www.ludwigsburg.de/start/leben+in+ludwigsburg/klimabonus+ludwigsburg.html\" target=\"_blank\" title=\"https://www.ludwigsburg.de/start/leben+in+ludwigsburg/klimabonus+ludwigsburg.html\">Zur Förderung</a></p>",
+            "value_9": "<p><a href=\"https://www.neubulach.de/de/Wirtschaft-Wohnen/Foerderung-Mini-PV-Anlage\" target=\"_blank\" title=\"https://www.neubulach.de/de/Wirtschaft-Wohnen/Foerderung-Mini-PV-Anlage\">Zur Förderung</a></p>",
+            "value_10": "<p><a href=\"https://www.ostfildern.de/steckersolar.html\" target=\"_blank\" title=\"https://www.ostfildern.de/steckersolar.html\">Zur Förderung</a></p>",
+            "value_11": "<p><a href=\"https://www.plochingen.de/start/leben+_+wohnen/Umwelt-+und+Klimaschutz.html\" target=\"_blank\" title=\"https://www.plochingen.de/start/leben+_+wohnen/Umwelt-+und+Klimaschutz.html\">Zur Förderung</a></p>",
+            "value_12": "<p><a href=\"https://www.plochingen.de/start/leben+_+wohnen/Umwelt-+und+Klimaschutz.html\" target=\"_blank\" title=\"https://www.plochingen.de/start/leben+_+wohnen/Umwelt-+und+Klimaschutz.html\">Zur Förderung</a></p>",
+            "value_13": "<p><a href=\"https://www.stuttgart.de/leben/umwelt/energie/foerderprogramme/solaroffensive.php\" target=\"_blank\" title=\"https://www.stuttgart.de/leben/umwelt/energie/foerderprogramme/solaroffensive.php\">Zur Förderung</a></p>",
+            "value_14": "",
+            "value_15": "",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "headings_Fr6hzL",
+        "values_RAUngC",
+        "values_U7GdPU"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Baden-Württemberg (Raum Stuttgart)",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "max_rows": 5,
+        "view_all_text": "Alle ansehen",
+        "view_less_text": "Weniger ansehen",
+        "view_product": "Ansehen",
+        "viewing_product": "",
+        "show_product_swatch": true,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "chart_background": "",
+        "chart_text_color": "",
+        "chart_true_false_color": ""
+      }
+    },
+    "feature_chart_PNBNcz": {
+      "type": "feature-chart",
+      "blocks": {
+        "headings_F6K38E": {
+          "type": "headings",
+          "settings": {
+            "heading_1": "Bühl",
+            "heading_2": "Freiburg im Breisgau",
+            "heading_3": "Friedrichshafen",
+            "heading_4": "Heddesheim",
+            "heading_5": "Heidelberg",
+            "heading_6": "Kehl",
+            "heading_7": "Konstanz",
+            "heading_8": "Lörrach",
+            "heading_9": "Malsch",
+            "heading_10": "Nürtingen",
+            "heading_11": "Schwetzingen",
+            "heading_12": "Tübingen",
+            "heading_13": "Ulm",
+            "heading_14": "Walldorf",
+            "heading_15": "Weinheim",
+            "heading_16": "",
+            "heading_17": "",
+            "heading_18": "",
+            "heading_19": "",
+            "heading_20": ""
+          }
+        },
+        "values_dxpqmy": {
+          "type": "values",
+          "settings": {
+            "product": "",
+            "value_1": "<p>Pauschal 300 € vor oder nach dem Kauf (Wieland-Stecker, Zwei-Richtungszähler).</p>",
+            "value_2": "<p>Pauschal 200 € nach dem Kauf.</p>",
+            "value_3": "<p>Pauschal 200 €.</p>",
+            "value_4": "<p>100 € pro Modul, max. 200 € nach dem Kauf.</p>",
+            "value_5": "<p>50% der Kosten, max. 750 € vor dem Kauf (Mit Heidelbergpass werden volle Kosten gefördert (max. 1450€) mit einem Eigenanteil von 50€). </p>",
+            "value_6": "<p>Pauschal 200 € vor dem Kauf (mit Nachweis zur Tafelberechtigung, Sozialpass, etc. auch 300 €).</p>",
+            "value_7": "<p>Pauschal 200 € nach dem Kauf.</p>",
+            "value_8": "<p>Pauschal 200 € vor dem Kauf (Wieland-Stecker).</p>",
+            "value_9": "<p>Pauschal 50 € nach dem Kauf (auf 20 Anträge begrenzt).</p>",
+            "value_10": "<p>50 € pro 100Wp Modulleistung, max. 300 € nach dem Kauf (nur Mieter und Wohnungseigentümer, keine Gebäudeeigentümer)</p>",
+            "value_11": "<p>30% der Kosten, max. 300 € nach dem Kauf.</p>",
+            "value_12": "<p>30% der Kosten, max. 250 € nach dem Kauf (mit \"KreisBonusCard\" auch 75%, max. 800 €)</p>",
+            "value_13": "<p>50% der Kosten, max. 250 € vor oder nach dem Kauf.</p>",
+            "value_14": "<p>300 €, max. 50% der Kosten vor dem Kauf.</p>",
+            "value_15": "<p>50 € pro Modul, max. 100 € vor dem Kauf.</p>",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        },
+        "values_Y3Bgbj": {
+          "type": "values",
+          "settings": {
+            "product": "",
+            "value_1": "<p><a href=\"https://www.buehl.de/de/Stadt-Buerger/Umwelt-Mobilitaet/Klimaschutz/Nachhaltigkeitsfonds/Foerderprogramm-Solar\" target=\"_blank\" title=\"https://www.buehl.de/de/Stadt-Buerger/Umwelt-Mobilitaet/Klimaschutz/Nachhaltigkeitsfonds/Foerderprogramm-Solar\">Zur Förderung</a></p>",
+            "value_2": "<p><a href=\"https://www.freiburg.de/pb/232441.html\" target=\"_blank\" title=\"https://www.freiburg.de/pb/232441.html\">Zur Förderung</a></p>",
+            "value_3": "<p><a href=\"https://www.friedrichshafen.de/buerger-stadt/rathaus-buergerservice/foerderprogramme/\" target=\"_blank\" title=\"https://www.friedrichshafen.de/buerger-stadt/rathaus-buergerservice/foerderprogramme/\">Zur Förderung</a></p>",
+            "value_4": "<p><a href=\"https://www.heddesheim.de/de/Wirtschaft-und-Bauen/Umwelt-Klimaschutz/Umweltfoerderprogramm\" target=\"_blank\" title=\"https://www.heddesheim.de/de/Wirtschaft-und-Bauen/Umwelt-Klimaschutz/Umweltfoerderprogramm\">Zur Förderung</a></p>",
+            "value_5": "<p><a href=\"https://www.heidelberg.de/HD/Presse/17_08_2022+heidelberg+foerdert+balkonmodule+ab+1_+september.html\" target=\"_blank\" title=\"https://www.heidelberg.de/HD/Presse/17_08_2022+heidelberg+foerdert+balkonmodule+ab+1_+september.html\">Zur Förderung</a></p>",
+            "value_6": "<p><a href=\"https://www.kehl.de/leben+in+kehl/umwelt+und+klima/foerdermoeglichkeiten\" target=\"_blank\" title=\"https://www.kehl.de/leben+in+kehl/umwelt+und+klima/foerdermoeglichkeiten\">Zur Förderung</a></p>",
+            "value_7": "<p><a href=\"https://www.konstanz-info.com/news/foerderung-von-balkon-photovoltaikanlagen\" target=\"_blank\" title=\"https://www.konstanz-info.com/news/foerderung-von-balkon-photovoltaikanlagen\">Zur Förderung</a></p>",
+            "value_8": "<p><a href=\"https://www.loerrach.de/balkonsolaranlagen#:~:text=Die%20F%C3%B6rderung%20betr%C3%A4gt%20pauschal%20200,einen%20Antrag%20f%C3%BCr%20Balkonsolaranlagen%20stellen.\" target=\"_blank\" title=\"https://www.loerrach.de/balkonsolaranlagen#:~:text=Die%20F%C3%B6rderung%20betr%C3%A4gt%20pauschal%20200,einen%20Antrag%20f%C3%BCr%20Balkonsolaranlagen%20stellen.\">Zur Förderung</a></p>",
+            "value_9": "<p><a href=\"https://www.malsch-weinort.de/buerger/aktuell/default-07e383a48b0db87ca230ff1cd90eaf1e/\" target=\"_blank\" title=\"https://www.malsch-weinort.de/buerger/aktuell/default-07e383a48b0db87ca230ff1cd90eaf1e/\">Zur Förderung</a></p>",
+            "value_10": "<p><a href=\"https://www.nuertingen.de/de/nuertingen-fuer-alle/stadt-nuertingen/klimaschutz/photovoltaik-foerderprogramm\" target=\"_blank\" title=\"https://www.nuertingen.de/de/nuertingen-fuer-alle/stadt-nuertingen/klimaschutz/photovoltaik-foerderprogramm\">Zur Förderung</a></p>",
+            "value_11": "<p><a href=\"https://www.schwetzingen.de/startseite/stadtentwicklung/foerderprogramme.html\" target=\"_blank\" title=\"https://www.schwetzingen.de/startseite/stadtentwicklung/foerderprogramme.html\">Zur Förderung</a></p>",
+            "value_12": "<p><a href=\"https://www.tuebingen.de/tuebingen-macht-blau/33179.html\" target=\"_blank\" title=\"https://www.tuebingen.de/tuebingen-macht-blau/33179.html\">Zur Förderung</a></p>",
+            "value_13": "<p><a href=\"https://www.ulm.de/leben-in-ulm/bauen-und-wohnen/finanzielle-hilfen-und-f%C3%B6rderprogramme\" target=\"_blank\" title=\"https://www.ulm.de/leben-in-ulm/bauen-und-wohnen/finanzielle-hilfen-und-f%C3%B6rderprogramme\">Zur Förderung</a></p>",
+            "value_14": "<p><a href=\"https://www.walldorf.de/nachhaltigkeit/umweltfoerderprogramme\" target=\"_blank\" title=\"https://www.walldorf.de/nachhaltigkeit/umweltfoerderprogramme\">Zur Förderung</a></p>",
+            "value_15": "<p><a href=\"https://www.weinheim.de/startseite/stadtthemen/foerderung.html\" target=\"_blank\" title=\"https://www.weinheim.de/startseite/stadtthemen/foerderung.html\">Zur Förderung</a></p>",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "headings_F6K38E",
+        "values_dxpqmy",
+        "values_Y3Bgbj"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Baden-Württemberg",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "max_rows": 5,
+        "view_all_text": "Alle ansehen",
+        "view_less_text": "Weniger ansehen",
+        "view_product": "Ansehen",
+        "viewing_product": "",
+        "show_product_swatch": true,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "chart_background": "",
+        "chart_text_color": "",
+        "chart_true_false_color": ""
+      }
+    },
+    "feature_chart_Bg37af": {
+      "type": "feature-chart",
+      "blocks": {
+        "headings_yr6exU": {
+          "type": "headings",
+          "settings": {
+            "heading_1": "Berlin",
+            "heading_2": "",
+            "heading_3": "",
+            "heading_4": "",
+            "heading_5": "",
+            "heading_6": "",
+            "heading_7": "",
+            "heading_8": "",
+            "heading_9": "",
+            "heading_10": "",
+            "heading_11": "",
+            "heading_12": "",
+            "heading_13": "",
+            "heading_14": "",
+            "heading_15": "",
+            "heading_16": "",
+            "heading_17": "",
+            "heading_18": "",
+            "heading_19": "",
+            "heading_20": ""
+          }
+        },
+        "values_wHjUmP": {
+          "type": "values",
+          "settings": {
+            "product": "",
+            "value_1": "<p>Bis zu 500 € vor dem Kauf (Abwicklung über ibb-business, Vor allem für Mieter und selbst nutzende Eigentümer).</p>",
+            "value_2": "",
+            "value_3": "",
+            "value_4": "",
+            "value_5": "",
+            "value_6": "",
+            "value_7": "",
+            "value_8": "",
+            "value_9": "",
+            "value_10": "",
+            "value_11": "",
+            "value_12": "",
+            "value_13": "",
+            "value_14": "",
+            "value_15": "",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        },
+        "values_NJ3Pk6": {
+          "type": "values",
+          "settings": {
+            "product": "",
+            "value_1": "<p><a href=\"https://www.ibb-business-team.de/steckersolargeraete/\" target=\"_blank\" title=\"https://www.ibb-business-team.de/steckersolargeraete/\">Zur Förderung</a></p>",
+            "value_2": "",
+            "value_3": "",
+            "value_4": "",
+            "value_5": "",
+            "value_6": "",
+            "value_7": "",
+            "value_8": "",
+            "value_9": "",
+            "value_10": "",
+            "value_11": "",
+            "value_12": "",
+            "value_13": "",
+            "value_14": "",
+            "value_15": "",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "headings_yr6exU",
+        "values_wHjUmP",
+        "values_NJ3Pk6"
+      ],
+      "custom_css": [
+        ".button {margin: 0 auto;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Berlin",
+        "content": "",
+        "button_text": "Mehr über das Förderprogramm in Berlin erfahren",
+        "button_url": "https://www.balkonstrom.com/pages/foerderung-balkonkraftwerke-in-berlin",
+        "text_position": "start",
+        "max_rows": 5,
+        "view_all_text": "View all",
+        "view_less_text": "View less",
+        "view_product": "View",
+        "viewing_product": "",
+        "show_product_swatch": true,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "chart_background": "",
+        "chart_text_color": "",
+        "chart_true_false_color": ""
+      }
+    },
+    "feature_chart_W7NtgC": {
+      "type": "feature-chart",
+      "blocks": {
+        "headings_9RY763": {
+          "type": "headings",
+          "settings": {
+            "heading_1": "Brandenburg",
+            "heading_2": "",
+            "heading_3": "",
+            "heading_4": "",
+            "heading_5": "",
+            "heading_6": "",
+            "heading_7": "",
+            "heading_8": "",
+            "heading_9": "",
+            "heading_10": "",
+            "heading_11": "",
+            "heading_12": "",
+            "heading_13": "",
+            "heading_14": "",
+            "heading_15": "",
+            "heading_16": "",
+            "heading_17": "",
+            "heading_18": "",
+            "heading_19": "",
+            "heading_20": ""
+          }
+        },
+        "values_8FKHLy": {
+          "type": "values",
+          "settings": {
+            "product": "",
+            "value_1": "<p>Pauschal 250 € vor dem Kauf (Wieland-Stecker).</p>",
+            "value_2": "",
+            "value_3": "",
+            "value_4": "",
+            "value_5": "",
+            "value_6": "",
+            "value_7": "",
+            "value_8": "",
+            "value_9": "",
+            "value_10": "",
+            "value_11": "",
+            "value_12": "",
+            "value_13": "",
+            "value_14": "",
+            "value_15": "",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        },
+        "values_BQ3dXW": {
+          "type": "values",
+          "settings": {
+            "product": "",
+            "value_1": "<p><a href=\"https://www.potsdam.de/de/content/foerderrichtlinie-unterstuetzt-gezieltes-handeln-fuer-klimaschutz-und-klimafolgenanpassung\" target=\"_blank\" title=\"https://www.potsdam.de/de/content/foerderrichtlinie-unterstuetzt-gezieltes-handeln-fuer-klimaschutz-und-klimafolgenanpassung\">Zur Förderung</a></p>",
+            "value_2": "",
+            "value_3": "",
+            "value_4": "",
+            "value_5": "",
+            "value_6": "",
+            "value_7": "",
+            "value_8": "",
+            "value_9": "",
+            "value_10": "",
+            "value_11": "",
+            "value_12": "",
+            "value_13": "",
+            "value_14": "",
+            "value_15": "",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "headings_9RY763",
+        "values_8FKHLy",
+        "values_BQ3dXW"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Brandenburg",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "max_rows": 5,
+        "view_all_text": "View all",
+        "view_less_text": "View less",
+        "view_product": "View",
+        "viewing_product": "",
+        "show_product_swatch": true,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "chart_background": "",
+        "chart_text_color": "",
+        "chart_true_false_color": ""
+      }
+    },
+    "feature_chart_V4AGqR": {
+      "type": "feature-chart",
+      "blocks": {
+        "headings_z6iQa4": {
+          "type": "headings",
+          "settings": {
+            "heading_1": "Darmstadt",
+            "heading_2": "Eschborn",
+            "heading_3": "Lahnau",
+            "heading_4": "Lampertheim",
+            "heading_5": "Main-Taunus-Kreis",
+            "heading_6": "Mörfelden-Walldorf",
+            "heading_7": "Nidda",
+            "heading_8": "Schwalm-Eder-Kreis",
+            "heading_9": "Wiesbaden",
+            "heading_10": "",
+            "heading_11": "",
+            "heading_12": "",
+            "heading_13": "",
+            "heading_14": "",
+            "heading_15": "",
+            "heading_16": "",
+            "heading_17": "",
+            "heading_18": "",
+            "heading_19": "",
+            "heading_20": ""
+          }
+        },
+        "values_D4MChw": {
+          "type": "values",
+          "settings": {
+            "product": "",
+            "value_1": "<p>200 € pro Modul, max. 400 € nach dem Kauf.</p>",
+            "value_2": "<p>Pauschal 400 € vor dem Kauf (Installation durch Elektro-Fachfirma).</p>",
+            "value_3": "<p>Pauschal 200 € vor dem Kauf (Wieland-Stecker, Installation durch Elektro-Fachfirma, bei 300W Wechselrichter nur 100 €).</p>",
+            "value_4": "<p>60% der Kosten, max 500 € vor dem Kauf.</p>",
+            "value_5": "<p>Pauschal 100 € pro Wohnung.</p>",
+            "value_6": "<p>20 % der Kosten.</p>",
+            "value_7": "<p>30 % der Kosten, max. 200 € vor dem Kauf.</p>",
+            "value_8": "<p>Pauschal 150 € (zusätzlich 50 € bei Installation einer Wieland-Steckdose) nach dem Kauf.</p>",
+            "value_9": "<p>Pauschal 300 € vor dem Kauf (Installation durch Elektro-Fachfirma).</p>",
+            "value_10": "",
+            "value_11": "",
+            "value_12": "",
+            "value_13": "",
+            "value_14": "",
+            "value_15": "",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        },
+        "values_PwK4CX": {
+          "type": "values",
+          "settings": {
+            "product": "",
+            "value_1": "<p><a href=\"https://www.darmstadt.de/leben-in-darmstadt/klimaschutz/foerderprogramme-und-beratungsangebote/foerderprogramm-photovoltaik\" target=\"_blank\" title=\"https://www.darmstadt.de/leben-in-darmstadt/klimaschutz/foerderprogramme-und-beratungsangebote/foerderprogramm-photovoltaik\">Zur Förderung</a></p>",
+            "value_2": "<p><a href=\"https://www.eschborn.de/stadt-kultur-und-tourismusinformationen/klimaschutz-in-eschborn/solarkampagne#:~:text=Auch%20Mieter%20k%C3%B6nnen%20auf%20Solar,Projekten%20im%20Haus%20zu%20profitieren.\" target=\"_blank\" title=\"https://www.eschborn.de/stadt-kultur-und-tourismusinformationen/klimaschutz-in-eschborn/solarkampagne#:~:text=Auch%20Mieter%20k%C3%B6nnen%20auf%20Solar,Projekten%20im%20Haus%20zu%20profitieren.\">Zur Förderung</a></p>",
+            "value_3": "<p><a href=\"https://www.lahnau.de/Leben-in-Lahnau/Klima-und-Energie/\" target=\"_blank\" title=\"https://www.lahnau.de/Leben-in-Lahnau/Klima-und-Energie/\">Zur Förderung</a></p>",
+            "value_4": "<p><a href=\"https://www.lampertheim.de/de/bauen-umwelt/foerderprogramme/foerderprogramme-klimafreundliches-lampertheim.php\" target=\"_blank\" title=\"https://www.lampertheim.de/de/bauen-umwelt/foerderprogramme/foerderprogramme-klimafreundliches-lampertheim.php\">Zur Förderung</a></p>",
+            "value_5": "<p><a href=\"https://www.mtk.org/Forderung-Mini-PV-Module-10429.htm?adb_sid=223111aa-a7aa-4d4a-bd0f-1b8750e49546\" target=\"_blank\" title=\"https://www.mtk.org/Forderung-Mini-PV-Module-10429.htm?adb_sid=223111aa-a7aa-4d4a-bd0f-1b8750e49546\">Zur Förderung</a></p>",
+            "value_6": "<p><a href=\"https://mowa-az-07-2020-klimatipp5-nachhaltig-modernisieren-final.pdf (moerfelden-walldorf.de)\" target=\"_blank\" title=\"https://mowa-az-07-2020-klimatipp5-nachhaltig-modernisieren-final.pdf (moerfelden-walldorf.de)\">Zur Förderung</a></p>",
+            "value_7": "<p><a href=\"https://www.nidda.de/news/news-archiv/1-quartal-2023/pv-foerderung/?adb_sid=223111aa-a7aa-4d4a-bd0f-1b8750e49546\" target=\"_blank\" title=\"https://www.nidda.de/news/news-archiv/1-quartal-2023/pv-foerderung/?adb_sid=223111aa-a7aa-4d4a-bd0f-1b8750e49546\">Zur Förderung</a></p>",
+            "value_8": "<p><a href=\"https://www.schwalm-eder-kreis.de/Energie-und-Klimaschutz/Foerderprogramme-und-Preise/Mini-PV-Anlagen.htm?\" target=\"_blank\" title=\"https://www.schwalm-eder-kreis.de/Energie-und-Klimaschutz/Foerderprogramme-und-Preise/Mini-PV-Anlagen.htm?\">Zur Förderung</a></p>",
+            "value_9": "<p><a href=\"https://www.wiesbaden.de/leben-in-wiesbaden/umwelt/energie/solarstrom-vom-balkon.php\" target=\"_blank\" title=\"https://www.wiesbaden.de/leben-in-wiesbaden/umwelt/energie/solarstrom-vom-balkon.php\">Zur Förderung</a></p>",
+            "value_10": "",
+            "value_11": "",
+            "value_12": "",
+            "value_13": "",
+            "value_14": "",
+            "value_15": "",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "headings_z6iQa4",
+        "values_D4MChw",
+        "values_PwK4CX"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Hessen",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "max_rows": 5,
+        "view_all_text": "Alle ansehen",
+        "view_less_text": "Weniger ansehen",
+        "view_product": "Ansehen",
+        "viewing_product": "",
+        "show_product_swatch": true,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "chart_background": "",
+        "chart_text_color": "",
+        "chart_true_false_color": ""
+      }
+    },
+    "feature_chart_qreiyD": {
+      "type": "feature-chart",
+      "blocks": {
+        "headings_6qwWmU": {
+          "type": "headings",
+          "settings": {
+            "heading_1": "Mecklenburg-Vorpommern",
+            "heading_2": "",
+            "heading_3": "",
+            "heading_4": "",
+            "heading_5": "",
+            "heading_6": "",
+            "heading_7": "",
+            "heading_8": "",
+            "heading_9": "",
+            "heading_10": "",
+            "heading_11": "",
+            "heading_12": "",
+            "heading_13": "",
+            "heading_14": "",
+            "heading_15": "",
+            "heading_16": "",
+            "heading_17": "",
+            "heading_18": "",
+            "heading_19": "",
+            "heading_20": ""
+          }
+        },
+        "values_JQdyxg": {
+          "type": "values",
+          "settings": {
+            "product": "",
+            "value_1": "<p>Bis zu 500 € nach dem Kauf.</p>",
+            "value_2": "",
+            "value_3": "",
+            "value_4": "",
+            "value_5": "",
+            "value_6": "",
+            "value_7": "",
+            "value_8": "",
+            "value_9": "",
+            "value_10": "",
+            "value_11": "",
+            "value_12": "",
+            "value_13": "",
+            "value_14": "",
+            "value_15": "",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        },
+        "values_XbHUxz": {
+          "type": "values",
+          "settings": {
+            "product": "",
+            "value_1": "<p><a href=\"https://www.lfi-mv.de/foerderfinder/mini-solaranlagen/\" target=\"_blank\" title=\"https://www.lfi-mv.de/foerderfinder/mini-solaranlagen/\">Zur Förderung</a></p>",
+            "value_2": "",
+            "value_3": "",
+            "value_4": "",
+            "value_5": "",
+            "value_6": "",
+            "value_7": "",
+            "value_8": "",
+            "value_9": "",
+            "value_10": "",
+            "value_11": "",
+            "value_12": "",
+            "value_13": "",
+            "value_14": "",
+            "value_15": "",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "headings_6qwWmU",
+        "values_JQdyxg",
+        "values_XbHUxz"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Mecklenburg-Vorpommern",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "max_rows": 5,
+        "view_all_text": "View all",
+        "view_less_text": "View less",
+        "view_product": "View",
+        "viewing_product": "",
+        "show_product_swatch": true,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "chart_background": "",
+        "chart_text_color": "",
+        "chart_true_false_color": ""
+      }
+    },
+    "feature_chart_L6WCcW": {
+      "type": "feature-chart",
+      "blocks": {
+        "headings_H9LdfH": {
+          "type": "headings",
+          "settings": {
+            "heading_1": "Braunschweig",
+            "heading_2": "Burgwedel",
+            "heading_3": "Friesoythe",
+            "heading_4": "Göttingen",
+            "heading_5": "Jever",
+            "heading_6": "Lüneburg",
+            "heading_7": "Norden",
+            "heading_8": "Oldenburg-Landkreis",
+            "heading_9": "Samtgemeinde-Scharnebeck",
+            "heading_10": "Wunstdorf",
+            "heading_11": "",
+            "heading_12": "",
+            "heading_13": "",
+            "heading_14": "",
+            "heading_15": "",
+            "heading_16": "",
+            "heading_17": "",
+            "heading_18": "",
+            "heading_19": "",
+            "heading_20": ""
+          }
+        },
+        "values_Q4M3iY": {
+          "type": "values",
+          "settings": {
+            "product": "",
+            "value_1": "<p>Pauschal 400 € vor dem Kauf (bei Wechselrichterleistung unter 400W beträgt die Förderung 250 €).</p>",
+            "value_2": "<p>Bis zu 200 € nach dem Kauf (Wieland-Stecker).</p>",
+            "value_3": "<p>Pauschal 150 € vor dem Kauf.</p>",
+            "value_4": "<p>180 € pro Modul, max. 360 € vor dem Kauf (Wieland-Stecker, Anschluss durch Elektro-Fachfirma).</p>",
+            "value_5": "<p>125 € pro Modul, max. 250 € vor dem Kauf.</p>",
+            "value_6": "<p>Pauschal 150 € plus 30% der Kosten vor dem Kauf (Wieland-Stecker).</p>",
+            "value_7": "<p>Pauschal 100 € nach dem Kauf.</p>",
+            "value_8": "<p>Pauschal 200 € nach dem Kauf (für Wechselrichter mit 600W bis 800W Leistung gibt es 250 €).</p>",
+            "value_9": "<p>Pauschal 75 € nach dem Kauf.</p>",
+            "value_10": "<p>Pauschal 250 € nach dem Kauf.</p>",
+            "value_11": "",
+            "value_12": "",
+            "value_13": "",
+            "value_14": "",
+            "value_15": "",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        },
+        "values_Ydm7RW": {
+          "type": "values",
+          "settings": {
+            "product": "",
+            "value_1": "<p><a href=\"https://www.braunschweig.de/vv/produkte/VIII/68/68_3/foerderprogramm-fuer-regenerative-energien-und-effizienzmassnahmen.php\" target=\"_blank\" title=\"https://www.braunschweig.de/vv/produkte/VIII/68/68_3/foerderprogramm-fuer-regenerative-energien-und-effizienzmassnahmen.php\">Zur Förderung</a></p>",
+            "value_2": "<p><a href=\"https://www.burgwedel.de/leben-in-burgwedel/klima-umwelt/energie-klimaschutz/solarenergie/stecker-solaranlagen/?adb_sid=223111aa-a7aa-4d4a-bd0f-1b8750e49546\" target=\"_blank\" title=\"https://www.burgwedel.de/leben-in-burgwedel/klima-umwelt/energie-klimaschutz/solarenergie/stecker-solaranlagen/?adb_sid=223111aa-a7aa-4d4a-bd0f-1b8750e49546\">Zur Förderung</a></p>",
+            "value_3": "<p><a href=\"https://www.friesoythe.de/wirtschaft-bauen/bauen-und-wohnen/balkonkraftwerke/?adb_sid=223111aa-a7aa-4d4a-bd0f-1b8750e49546\" target=\"_blank\" title=\"https://www.friesoythe.de/wirtschaft-bauen/bauen-und-wohnen/balkonkraftwerke/?adb_sid=223111aa-a7aa-4d4a-bd0f-1b8750e49546\">Zur Förderung</a></p>",
+            "value_4": "<p><a href=\"https://nachhaltigkeit.goettingen.de/portal/seiten/foerderung-fuer-solaranlagen-900000937-25480.html\" target=\"_blank\" title=\"https://nachhaltigkeit.goettingen.de/portal/seiten/foerderung-fuer-solaranlagen-900000937-25480.html\">Zur Förderung</a></p>",
+            "value_5": "<p><a href=\"https://www.stadt-jever.de/portal/seiten/foerderung-von-balkonkraftwerken-in-jever-903000634-20820.html\" target=\"_blank\" title=\"https://www.stadt-jever.de/portal/seiten/foerderung-von-balkonkraftwerken-in-jever-903000634-20820.html\">Zur Förderung</a></p>",
+            "value_6": "<p><a href=\"https://www.hansestadt-lueneburg.de/klimaschutz-und-umwelt/foerderprogramme.html\" target=\"_blank\" title=\"https://www.hansestadt-lueneburg.de/klimaschutz-und-umwelt/foerderprogramme.html\">Zur Förderung</a></p>",
+            "value_7": "<p><a href=\"https://www.norden.de/Umwelt-Verkehr/Klimaschutz/F%C3%B6rderprogramme/\" target=\"_blank\" title=\"https://www.norden.de/Umwelt-Verkehr/Klimaschutz/F%C3%B6rderprogramme/\">Zur Förderung</a></p>",
+            "value_8": "<p><a href=\"https://www.oldenburg-kreis.de/portal/seiten/foerderprogramme-des-landkreises-oldenburgs-900001600-21700.html\" target=\"_blank\" title=\"https://www.oldenburg-kreis.de/portal/seiten/foerderprogramme-des-landkreises-oldenburgs-900001600-21700.html\">Zur Förderung</a></p>",
+            "value_9": "<p><a href=\"https://klimaschutz-scharnebeck.de/\" target=\"_blank\" title=\"https://klimaschutz-scharnebeck.de/\">Zur Förderung</a></p>",
+            "value_10": "<p><a href=\"https://www.wunstorf.de/portal/seiten/foerderung-von-balkonsolaranlagen-in-wunstorf-922001311-20550.html\" target=\"_blank\" title=\"https://www.wunstorf.de/portal/seiten/foerderung-von-balkonsolaranlagen-in-wunstorf-922001311-20550.html\">Zur Förderung</a></p>",
+            "value_11": "",
+            "value_12": "",
+            "value_13": "",
+            "value_14": "",
+            "value_15": "",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "headings_H9LdfH",
+        "values_Q4M3iY",
+        "values_Ydm7RW"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Niedersachsen",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "max_rows": 5,
+        "view_all_text": "Alle ansehen",
+        "view_less_text": "Weniger ansehen",
+        "view_product": "Ansehen",
+        "viewing_product": "",
+        "show_product_swatch": true,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "chart_background": "",
+        "chart_text_color": "",
+        "chart_true_false_color": ""
+      }
+    },
+    "feature_chart_Ghanyt": {
+      "type": "feature-chart",
+      "blocks": {
+        "headings_HKr8GU": {
+          "type": "headings",
+          "settings": {
+            "heading_1": "Castrop-Rauxel",
+            "heading_2": "Essen",
+            "heading_3": "Gelsenkirchen",
+            "heading_4": "Gladbeck",
+            "heading_5": "Recklinghausen",
+            "heading_6": "Voerde am Niederrhein",
+            "heading_7": "Wesel",
+            "heading_8": "",
+            "heading_9": "",
+            "heading_10": "",
+            "heading_11": "",
+            "heading_12": "",
+            "heading_13": "",
+            "heading_14": "",
+            "heading_15": "",
+            "heading_16": "",
+            "heading_17": "",
+            "heading_18": "",
+            "heading_19": "",
+            "heading_20": ""
+          }
+        },
+        "values_RKGrae": {
+          "type": "values",
+          "settings": {
+            "product": "",
+            "value_1": "<p>Pauschal 100 € vor dem Kauf.</p>",
+            "value_2": "<p>Pauschal 200 € vor dem Kauf. </p>",
+            "value_3": "<p>Pauschal 100 €.</p>",
+            "value_4": "<p>Pauschal 150 €.</p>",
+            "value_5": "<p>Pauschal 100 € nach dem Kauf. </p>",
+            "value_6": "<p>Pauschal 100 € vor dem Kauf.</p>",
+            "value_7": "<p>50 % der Kosten, max. 200 € nach dem Kauf.</p>",
+            "value_8": "",
+            "value_9": "",
+            "value_10": "",
+            "value_11": "",
+            "value_12": "",
+            "value_13": "",
+            "value_14": "",
+            "value_15": "",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        },
+        "values_Uc9r8R": {
+          "type": "values",
+          "settings": {
+            "product": "",
+            "value_1": "<p><a href=\"https://www.castrop-rauxel.de/inhalte/wohnen_wirtschaft/umwelt_und_gruen/umweltschutz/klimafit_ruhr/_richtlinie_steckerpv_2022_final%20%20f-rderung%20pv%20anlage%20klimafit.pdf\" target=\"_blank\" title=\"https://www.castrop-rauxel.de/inhalte/wohnen_wirtschaft/umwelt_und_gruen/umweltschutz/klimafit_ruhr/_richtlinie_steckerpv_2022_final%20%20f-rderung%20pv%20anlage%20klimafit.pdf\">Zur Förderung</a></p>",
+            "value_2": "<p><a href=\"https://www.essen.de/leben/umwelt/klima/klimaschutz/solarfoederung.de.html\" target=\"_blank\" title=\"https://www.essen.de/leben/umwelt/klima/klimaschutz/solarfoederung.de.html\">Zur Förderung</a></p>",
+            "value_3": "<p><a href=\"https://www.gelsenkirchen.de/de/_meta/buergerservice/1508-foerderung-von-photovoltaik-anlagen-im-stadtgebiet-von-gelsenkirchen\" target=\"_blank\" title=\"https://www.gelsenkirchen.de/de/_meta/buergerservice/1508-foerderung-von-photovoltaik-anlagen-im-stadtgebiet-von-gelsenkirchen\">Zur Förderung</a></p>",
+            "value_4": "<p><a href=\"https://www.gladbeck.de/Leben_Wohnen/Klima_in_Gladbeck/_solarmetropole.asp?adb_sid=223111aa-a7aa-4d4a-bd0f-1b8750e49546\" target=\"_blank\" title=\"https://www.gladbeck.de/Leben_Wohnen/Klima_in_Gladbeck/_solarmetropole.asp?adb_sid=223111aa-a7aa-4d4a-bd0f-1b8750e49546\">Zur Förderung</a></p>",
+            "value_5": "<p><a href=\"https://www.recklinghausen.de/inhalte/startseite/klima_mobilitaet/_details.asp?form=detail&db=513&id=27496#:~:text=Gute%20Neuigkeiten%20f%C3%BCr%20klimabewusste%20B%C3%BCrger,und%20Mieter*innen%20von%20Mehrfamilienh%C3%A4usern.\" target=\"_blank\" title=\"https://www.recklinghausen.de/inhalte/startseite/klima_mobilitaet/_details.asp?form=detail&db=513&id=27496#:~:text=Gute%20Neuigkeiten%20f%C3%BCr%20klimabewusste%20B%C3%BCrger,und%20Mieter*innen%20von%20Mehrfamilienh%C3%A4usern.\">Zur Förderung</a></p>",
+            "value_6": "<p><a href=\"https://www.voerde.de/de/inhalt/solarmetropole-ruhr/\" target=\"_blank\" title=\"https://www.voerde.de/de/inhalt/solarmetropole-ruhr/\">Zur Förderung</a></p>",
+            "value_7": "<p><a href=\"https://www.wesel.de/wirtschaft-planen/klimaschutz/foerderprogramme-zum-klimaschutz/foerderprogramm-fuer-stecker?adb_sid=223111aa-a7aa-4d4a-bd0f-1b8750e49546\" target=\"_blank\" title=\"https://www.wesel.de/wirtschaft-planen/klimaschutz/foerderprogramme-zum-klimaschutz/foerderprogramm-fuer-stecker?adb_sid=223111aa-a7aa-4d4a-bd0f-1b8750e49546\">Zur Förderung</a></p>",
+            "value_8": "",
+            "value_9": "",
+            "value_10": "",
+            "value_11": "",
+            "value_12": "",
+            "value_13": "",
+            "value_14": "",
+            "value_15": "",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "headings_HKr8GU",
+        "values_RKGrae",
+        "values_Uc9r8R"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Nordrhein-Westfalen (Ruhrgebiet)",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "max_rows": 5,
+        "view_all_text": "Alle ansehen",
+        "view_less_text": "Weniger ansehen",
+        "view_product": "Ansehen",
+        "viewing_product": "",
+        "show_product_swatch": true,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "chart_background": "",
+        "chart_text_color": "",
+        "chart_true_false_color": ""
+      }
+    },
+    "feature_chart_U8TP4B": {
+      "type": "feature-chart",
+      "blocks": {
+        "headings_3CPPFY": {
+          "type": "headings",
+          "settings": {
+            "heading_1": "Aachen",
+            "heading_2": "Aachen-Städteregion",
+            "heading_3": "Ahaus",
+            "heading_4": "Bönen",
+            "heading_5": "Bonn",
+            "heading_6": "Borgentreich",
+            "heading_7": "Düsseldorf",
+            "heading_8": "Freudenberg",
+            "heading_9": "Fröndenberg",
+            "heading_10": "Gronau",
+            "heading_11": "Halver",
+            "heading_12": "Hiddenhausen",
+            "heading_13": "Kirchlengern",
+            "heading_14": "Köln",
+            "heading_15": "Langenfeld",
+            "heading_16": "Löhne",
+            "heading_17": "Lüdenscheid",
+            "heading_18": "Olsberg",
+            "heading_19": "Rheinisch-Bergischer-Kreis",
+            "heading_20": "Rietberg"
+          }
+        },
+        "values_67Pmrx": {
+          "type": "values",
+          "settings": {
+            "product": "",
+            "value_1": "<p>Pauschal 200 € nach dem Kauf.</p>",
+            "value_2": "<p>Pauschal 200 € nach dem Kauf.</p>",
+            "value_3": "<p>50% der Kosten, max. 200 € nach dem Kauf. </p>",
+            "value_4": "<p>Pauschal 100 € nach dem Kauf.</p>",
+            "value_5": "<p>180 €/360 €/480 € für Eigentümer/Mieter/Bonn-Ausweis nach dem Kauf.</p>",
+            "value_6": "<p>Pauschal 100 € nach dem Kauf.</p>",
+            "value_7": "<p>50% der Kosten, max. 600 € vor dem Kauf (für Einkommensschwache Haushalte ist eine Förderung von 800 € möglich).</p>",
+            "value_8": "<p>Pauschal 150 €.</p>",
+            "value_9": "<p>Pauschal 200 € nach dem Kauf (für 300W Wechselrichter nur 100 €).</p>",
+            "value_10": "<p>250 € pro Modul, max. 60% der Kosten vor dem Kauf (Wieland-Stecker). </p>",
+            "value_11": "<p>Pauschal 100 € nach dem Kauf.</p>",
+            "value_12": "<p>Pauschal 150 €, mit Speicher 300 € vor dem Kauf.</p>",
+            "value_13": "<p>Pauschal 300 € nach dem Kauf (Installation durch Elektro-Fachfirma).</p>",
+            "value_14": "<p>Pauschal 300 € vor dem Kauf (mit \"Köln-Pass\" 600 €, die Anlage muss als Gesamtpaket gekauft werden).</p>",
+            "value_15": "<p>Pauschal 150 € vor dem Kauf (zusätzlich 50 € für Installation von Wieland-Steckdose).</p>",
+            "value_16": "<p>Pauschal mit 150 € vor dem Kauf.</p>",
+            "value_17": "<p>Pauschal 200 € nach dem Kauf.</p>",
+            "value_18": "<p>Pauschal 200 € vor dem Kauf. </p>",
+            "value_19": "<p>10% der Kosten vor dem Kauf.</p>",
+            "value_20": "<p>80 € pro Modul, max. 160 € vor oder nach dem Kauf.</p>",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        },
+        "values_KxiNe6": {
+          "type": "values",
+          "settings": {
+            "product": "",
+            "value_1": "<p><a href=\"https://www.aachen.de/DE/stadt_buerger/energie/erneuerbare_energien/solarkataster/foerderung_verguetung_kosten/2023_02_06_SolarFoerderrichtlinie.pdf\" target=\"_blank\" title=\"https://www.aachen.de/DE/stadt_buerger/energie/erneuerbare_energien/solarkataster/foerderung_verguetung_kosten/2023_02_06_SolarFoerderrichtlinie.pdf\">Zur Förderung</a></p>",
+            "value_2": "<p><a href=\"https://bportal.staedteregion-aachen.de/staedteregion-a-z/-/egov-bis-detail/dienstleistung/690240/show\" target=\"_blank\" title=\"https://bportal.staedteregion-aachen.de/staedteregion-a-z/-/egov-bis-detail/dienstleistung/690240/show\">Zur Förderung</a></p>",
+            "value_3": "<p><a href=\"https://www.stadt-ahaus.de/rathaus/planenbauenverkehr/klimaschutz/klimafonds/\" target=\"_blank\" title=\"https://www.stadt-ahaus.de/rathaus/planenbauenverkehr/klimaschutz/klimafonds/\">Zur Förderung</a></p>",
+            "value_4": "<p><a href=\"https://www.boenen.de/bauen-wirtschaft-und-umwelt/foerderprogramme/solarmetropole-ruhr/balkon-pv-und-stecker-solargeraetezuschuss/\" target=\"_blank\" title=\"https://www.boenen.de/bauen-wirtschaft-und-umwelt/foerderprogramme/solarmetropole-ruhr/balkon-pv-und-stecker-solargeraetezuschuss/\">Zur Förderung</a></p>",
+            "value_5": "<p><a href=\"https://www.bonn.de/themen-entdecken/umwelt-natur/foerderprogramm-solares-bonn.php\" target=\"_blank\" title=\"https://www.bonn.de/themen-entdecken/umwelt-natur/foerderprogramm-solares-bonn.php\">Zur Förderung</a></p>",
+            "value_6": "<p><a href=\"https://www.borgentreich.de/Wirtschaft-Bauen/Service/F%C3%B6rderung-Stecker-Solar-Ger%C3%A4te/\" target=\"_blank\" title=\"https://www.borgentreich.de/Wirtschaft-Bauen/Service/F%C3%B6rderung-Stecker-Solar-Ger%C3%A4te/\">Zur Förderung</a></p>",
+            "value_7": "<p><a href=\"https://www.duesseldorf.de/umweltamt/projekte/klimafreundliches-wohnen-und-arbeiten/\" target=\"_blank\" title=\"https://www.duesseldorf.de/umweltamt/projekte/klimafreundliches-wohnen-und-arbeiten/\">Zur Förderung</a></p>",
+            "value_8": "<p><a href=\"https://www.freudenberg-stadt.de/Quicknavigation/Startseite/F%C3%B6rderkontingent-f%C3%BCr-Stecker-Solaranlagen-erreicht.php?object=tx%2C2998.5&ModID=7&FID=2998.8530.1#:~:text=F%C3%BCr%20das%20Jahr%202024%20wird,ab%20dem%2001.01.2024%20beantragen.\" target=\"_blank\" title=\"https://www.freudenberg-stadt.de/Quicknavigation/Startseite/F%C3%B6rderkontingent-f%C3%BCr-Stecker-Solaranlagen-erreicht.php?object=tx%2C2998.5&ModID=7&FID=2998.8530.1#:~:text=F%C3%BCr%20das%20Jahr%202024%20wird,ab%20dem%2001.01.2024%20beantragen.\">Zur Förderung</a></p>",
+            "value_9": "<p><a href=\"https://www.froendenberg.de/leben-in-froendenbergruhr/klimaschutz/foerderprogramme/\" target=\"_blank\" title=\"https://www.froendenberg.de/leben-in-froendenbergruhr/klimaschutz/foerderprogramme/\">Zur Förderung</a></p>",
+            "value_10": "<p><a href=\"https://www.gronau.de/leben-in-gronau/stadtplanung-und-stadtentwicklung/klima-und-umweltschutz/klimaschutz/energiesparfoerderung/foerderbereich-3-energie-erzeugen/\" target=\"_blank\" title=\"https://www.gronau.de/leben-in-gronau/stadtplanung-und-stadtentwicklung/klima-und-umweltschutz/klimaschutz/energiesparfoerderung/foerderbereich-3-energie-erzeugen/\">Zur Förderung</a></p>",
+            "value_11": "<p><a href=\"https://www.halver.de/fileadmin/user_upload/Dokumente/Wirtschaft_und_Bauen/Balkonkraftwerk_Richtlinie.pdf\" target=\"_blank\" title=\"https://www.halver.de/fileadmin/user_upload/Dokumente/Wirtschaft_und_Bauen/Balkonkraftwerk_Richtlinie.pdf\">Zur Förderung</a></p>",
+            "value_12": "<p><a href=\"https://www.hiddenhausen.de/Direkt/Team/Brau/index.php?object=tx,2483.1412.1&NavID=2483.411&La=1\" target=\"_blank\" title=\"https://www.hiddenhausen.de/Direkt/Team/Brau/index.php?object=tx,2483.1412.1&NavID=2483.411&La=1\">Zur Förderung</a></p>",
+            "value_13": "<p><a href=\"https://www.kirchlengern.de/index.php?object=tx%7C3158.31&ModID=10&FID=3158.2.1&ort=393.2&k_sub=1&sfwort=1\" target=\"_blank\" title=\"https://www.kirchlengern.de/index.php?object=tx%7C3158.31&ModID=10&FID=3158.2.1&ort=393.2&k_sub=1&sfwort=1\">Zur Förderung</a></p>",
+            "value_14": "<p><a href=\"https://www.stadt-koeln.de/leben-in-koeln/klima-umwelt-tiere/klima/photovoltaik-klimafreundliches-wohnen\" target=\"_blank\" title=\"https://www.stadt-koeln.de/leben-in-koeln/klima-umwelt-tiere/klima/photovoltaik-klimafreundliches-wohnen\">Zur Förderung</a></p>",
+            "value_15": "<p><a href=\"https://www.langenfeld.de/Seiten/Foerderprogramm-Stecker-Photovoltaik.html\" target=\"_blank\" title=\"https://www.langenfeld.de/Seiten/Foerderprogramm-Stecker-Photovoltaik.html\">Zur Förderung</a></p>",
+            "value_16": "<p><a href=\"https://www.loehne.de/Wirtschaft-Bauen/Planen-und-Entwickeln/F%C3%B6rderprogramme/?adb_sid=223111aa-a7aa-4d4a-bd0f-1b8750e49546\" target=\"_blank\" title=\"https://www.loehne.de/Wirtschaft-Bauen/Planen-und-Entwickeln/F%C3%B6rderprogramme/?adb_sid=223111aa-a7aa-4d4a-bd0f-1b8750e49546\">Zur Förderung</a></p>",
+            "value_17": "<p><a href=\"https://www.luedenscheid.de/buerger/umwelt-natur/klimaschutz/Buergerprojekte.php\" target=\"_blank\" title=\"https://www.luedenscheid.de/buerger/umwelt-natur/klimaschutz/Buergerprojekte.php\">Zur Förderung</a></p>",
+            "value_18": "<p><a href=\"https://www.olsberg.de/_rathaus/117100100000026970.php#:~:text=Die%20Stadt%20Olsberg%20bezuschusst%20die,mit%20einmalig%20200%20%E2%82%AC%20gef%C3%B6rdert.\" target=\"_blank\" title=\"https://www.olsberg.de/_rathaus/117100100000026970.php#:~:text=Die%20Stadt%20Olsberg%20bezuschusst%20die,mit%20einmalig%20200%20%E2%82%AC%20gef%C3%B6rdert.\">Zur Förderung</a></p>",
+            "value_19": "<p><a href=\"https://www.rbk-direkt.de/solarfoerderung-auf-dem-weg-zum-solarkreis.aspx\" target=\"_blank\" title=\"https://www.rbk-direkt.de/solarfoerderung-auf-dem-weg-zum-solarkreis.aspx\">Zur Förderung</a></p>",
+            "value_20": "<p><a href=\"https://www.rietberg.de/rathaus/klimaschutz-energie/foerderprogramme.html\" target=\"_blank\" title=\"https://www.rietberg.de/rathaus/klimaschutz-energie/foerderprogramme.html\">Zur Förderung</a></p>",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "headings_3CPPFY",
+        "values_67Pmrx",
+        "values_KxiNe6"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Nordrhein-Westfalen",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "max_rows": 5,
+        "view_all_text": "Alle ansehen",
+        "view_less_text": "Weniger ansehen",
+        "view_product": "Ansehen",
+        "viewing_product": "",
+        "show_product_swatch": true,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "chart_background": "",
+        "chart_text_color": "",
+        "chart_true_false_color": ""
+      }
+    },
+    "feature_chart_c3JBf6": {
+      "type": "feature-chart",
+      "blocks": {
+        "headings_HkMjBV": {
+          "type": "headings",
+          "settings": {
+            "heading_1": "Buchholz",
+            "heading_2": "Ingelheim am Rhein",
+            "heading_3": "Koblenz",
+            "heading_4": "Pirmasens",
+            "heading_5": "Urmitz",
+            "heading_6": "",
+            "heading_7": "",
+            "heading_8": "",
+            "heading_9": "",
+            "heading_10": "",
+            "heading_11": "",
+            "heading_12": "",
+            "heading_13": "",
+            "heading_14": "",
+            "heading_15": "",
+            "heading_16": "",
+            "heading_17": "",
+            "heading_18": "",
+            "heading_19": "",
+            "heading_20": ""
+          }
+        },
+        "values_rxeWqR": {
+          "type": "values",
+          "settings": {
+            "product": "",
+            "value_1": "<p>Pauschal 300 € vor dem Kauf.</p>",
+            "value_2": "<p>Pauschal 100 € nach dem Kauf.</p>",
+            "value_3": "<p>70 € pro Modul, max. 20% der Kosten vor dem Kauf.</p>",
+            "value_4": "<p>Pauschal 150 € nach dem Kauf (bei Wechselrichterleistung unter 325W nur 75 €).</p>",
+            "value_5": "<p>100 € pro Modul, max. 200 € vor dem Kauf.</p>",
+            "value_6": "",
+            "value_7": "",
+            "value_8": "",
+            "value_9": "",
+            "value_10": "",
+            "value_11": "",
+            "value_12": "",
+            "value_13": "",
+            "value_14": "",
+            "value_15": "",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        },
+        "values_XqwaMx": {
+          "type": "values",
+          "settings": {
+            "product": "",
+            "value_1": "<p><a href=\"https://www.buchholz.de/portal/seiten/foerderprogramm-stadtklima-buchholz-903000624-20101.html\" target=\"_blank\" title=\"https://www.buchholz.de/portal/seiten/foerderprogramm-stadtklima-buchholz-903000624-20101.html\">Zur Förderung</a></p>",
+            "value_2": "<p><a href=\"https://www.ingelheim.de/wohnen-umwelt/umwelt-und-klima/foerderprogramme-umwelt-und-klima/#accordion-1-1\" target=\"_blank\" title=\"https://www.ingelheim.de/wohnen-umwelt/umwelt-und-klima/foerderprogramme-umwelt-und-klima/#accordion-1-1\">Zur Förderung</a></p>",
+            "value_3": "<p><a href=\"https://www.koblenz.de/umwelt-und-planung/klimaschutz/500-daecher-programm/\" target=\"_blank\" title=\"https://www.koblenz.de/umwelt-und-planung/klimaschutz/500-daecher-programm/\">Zur Förderung</a></p>",
+            "value_4": "<p><a href=\"https://www.stadtwerke-pirmasens.de/de/Service/Aktionen-Foerderungen/\" target=\"_blank\" title=\"https://www.stadtwerke-pirmasens.de/de/Service/Aktionen-Foerderungen/\">Zur Förderung</a></p>",
+            "value_5": "<p><a href=\"https://www.urmitz.de/de/umweltfonds\" target=\"_blank\" title=\"https://www.urmitz.de/de/umweltfonds\">Zur Förderung</a></p>",
+            "value_6": "",
+            "value_7": "",
+            "value_8": "",
+            "value_9": "",
+            "value_10": "",
+            "value_11": "",
+            "value_12": "",
+            "value_13": "",
+            "value_14": "",
+            "value_15": "",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "headings_HkMjBV",
+        "values_rxeWqR",
+        "values_XqwaMx"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Rheinland-Pfalz",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "max_rows": 5,
+        "view_all_text": "Alle ansehen",
+        "view_less_text": "Weniger ansehen",
+        "view_product": "Ansehen",
+        "viewing_product": "",
+        "show_product_swatch": true,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "chart_background": "",
+        "chart_text_color": "",
+        "chart_true_false_color": ""
+      }
+    },
+    "feature_chart_cA3MGA": {
+      "type": "feature-chart",
+      "blocks": {
+        "headings_T4HzzY": {
+          "type": "headings",
+          "settings": {
+            "heading_1": "Leipzig",
+            "heading_2": "Sachsen",
+            "heading_3": "",
+            "heading_4": "",
+            "heading_5": "",
+            "heading_6": "",
+            "heading_7": "",
+            "heading_8": "",
+            "heading_9": "",
+            "heading_10": "",
+            "heading_11": "",
+            "heading_12": "",
+            "heading_13": "",
+            "heading_14": "",
+            "heading_15": "",
+            "heading_16": "",
+            "heading_17": "",
+            "heading_18": "",
+            "heading_19": "",
+            "heading_20": ""
+          }
+        },
+        "values_T7aqTj": {
+          "type": "values",
+          "settings": {
+            "product": "",
+            "value_1": "<p>Geplant 200 € pro Modul, max. 400 €.</p>",
+            "value_2": "<p>Pauschal 300 € nach dem Kauf.</p>",
+            "value_3": "",
+            "value_4": "",
+            "value_5": "",
+            "value_6": "",
+            "value_7": "",
+            "value_8": "",
+            "value_9": "",
+            "value_10": "",
+            "value_11": "",
+            "value_12": "",
+            "value_13": "",
+            "value_14": "",
+            "value_15": "",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        },
+        "values_dRL7JU": {
+          "type": "values",
+          "settings": {
+            "product": "",
+            "value_1": "<p><a href=\"https://www.leipzig.de/news/news/foerderrichtlinie-privater-balkon-solaranlagen-geht-in-den-stadtrat\" target=\"_blank\" title=\"https://www.leipzig.de/news/news/foerderrichtlinie-privater-balkon-solaranlagen-geht-in-den-stadtrat\">Zur Förderung</a></p>",
+            "value_2": "<p><a href=\"https://www.sab.sachsen.de/balkonkraftwerke-stecker-pv-anlagen\" target=\"_blank\" title=\"https://www.sab.sachsen.de/balkonkraftwerke-stecker-pv-anlagen\">Zur Förderung</a></p>",
+            "value_3": "",
+            "value_4": "",
+            "value_5": "",
+            "value_6": "",
+            "value_7": "",
+            "value_8": "",
+            "value_9": "",
+            "value_10": "",
+            "value_11": "",
+            "value_12": "",
+            "value_13": "",
+            "value_14": "",
+            "value_15": "",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "headings_T4HzzY",
+        "values_T7aqTj",
+        "values_dRL7JU"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Sachsen",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "max_rows": 5,
+        "view_all_text": "View all",
+        "view_less_text": "View less",
+        "view_product": "View",
+        "viewing_product": "",
+        "show_product_swatch": true,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "chart_background": "",
+        "chart_text_color": "",
+        "chart_true_false_color": ""
+      }
+    },
+    "feature_chart_4FpMGh": {
+      "type": "feature-chart",
+      "blocks": {
+        "headings_edrYT9": {
+          "type": "headings",
+          "settings": {
+            "heading_1": "Kiel",
+            "heading_2": "Schleswig-Holstein",
+            "heading_3": "",
+            "heading_4": "",
+            "heading_5": "",
+            "heading_6": "",
+            "heading_7": "",
+            "heading_8": "",
+            "heading_9": "",
+            "heading_10": "",
+            "heading_11": "",
+            "heading_12": "",
+            "heading_13": "",
+            "heading_14": "",
+            "heading_15": "",
+            "heading_16": "",
+            "heading_17": "",
+            "heading_18": "",
+            "heading_19": "",
+            "heading_20": ""
+          }
+        },
+        "values_U4jgzd": {
+          "type": "values",
+          "settings": {
+            "product": "",
+            "value_1": "<p>Pauschal 100 € vor dem Kauf.</p>",
+            "value_2": "<p>Pauschal 200 € nach dem Kauf (Wieland-Stecker, der Förderbetrag erhöht sich um 150 € bei Bürgergeldbezug, Grundsicherung oder Wohngeld).</p>",
+            "value_3": "",
+            "value_4": "",
+            "value_5": "",
+            "value_6": "",
+            "value_7": "",
+            "value_8": "",
+            "value_9": "",
+            "value_10": "",
+            "value_11": "",
+            "value_12": "",
+            "value_13": "",
+            "value_14": "",
+            "value_15": "",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        },
+        "values_GHRF6H": {
+          "type": "values",
+          "settings": {
+            "product": "",
+            "value_1": "<p><a href=\"https://www.sab.sachsen.de/balkonkraftwerke-stecker-pv-anlagen\" target=\"_blank\" title=\"https://www.sab.sachsen.de/balkonkraftwerke-stecker-pv-anlagen\">Zur Förderung</a></p>",
+            "value_2": "<p><a href=\"https://www.schleswig-holstein.de/DE/landesregierung/themen/umwelt-naturschutz/klimaschutz/klimaschutz_node.html\" target=\"_blank\" title=\"https://www.schleswig-holstein.de/DE/landesregierung/themen/umwelt-naturschutz/klimaschutz/klimaschutz_node.html\">Zur Förderung</a></p>",
+            "value_3": "",
+            "value_4": "",
+            "value_5": "",
+            "value_6": "",
+            "value_7": "",
+            "value_8": "",
+            "value_9": "",
+            "value_10": "",
+            "value_11": "",
+            "value_12": "",
+            "value_13": "",
+            "value_14": "",
+            "value_15": "",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "headings_edrYT9",
+        "values_U4jgzd",
+        "values_GHRF6H"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Schleswig-Holstein",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "max_rows": 5,
+        "view_all_text": "View all",
+        "view_less_text": "View less",
+        "view_product": "View",
+        "viewing_product": "",
+        "show_product_swatch": true,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "chart_background": "",
+        "chart_text_color": "",
+        "chart_true_false_color": ""
+      }
+    },
+    "feature_chart_cWLRBJ": {
+      "type": "feature-chart",
+      "blocks": {
+        "headings_VQ8VzY": {
+          "type": "headings",
+          "settings": {
+            "heading_1": "Jena",
+            "heading_2": "",
+            "heading_3": "",
+            "heading_4": "",
+            "heading_5": "",
+            "heading_6": "",
+            "heading_7": "",
+            "heading_8": "",
+            "heading_9": "",
+            "heading_10": "",
+            "heading_11": "",
+            "heading_12": "",
+            "heading_13": "",
+            "heading_14": "",
+            "heading_15": "",
+            "heading_16": "",
+            "heading_17": "",
+            "heading_18": "",
+            "heading_19": "",
+            "heading_20": ""
+          }
+        },
+        "values_YpteLq": {
+          "type": "values",
+          "settings": {
+            "product": "",
+            "value_1": "<p>25% der Kosten, max 200 € vor dem Kauf (75% der Kosten, max. 600 € für \"Jenabonus\"-Berechtigte und Wohngeld- oder Bafög-Empfänger, Antragsstopp für 25% Anträge).</p>",
+            "value_2": "",
+            "value_3": "",
+            "value_4": "",
+            "value_5": "",
+            "value_6": "",
+            "value_7": "",
+            "value_8": "",
+            "value_9": "",
+            "value_10": "",
+            "value_11": "",
+            "value_12": "",
+            "value_13": "",
+            "value_14": "",
+            "value_15": "",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        },
+        "values_YUQtEe": {
+          "type": "values",
+          "settings": {
+            "product": "",
+            "value_1": "<p><a href=\"https://service.jena.de/de/photovoltaik-anlagen-foerderung-beantragen\" target=\"_blank\" title=\"https://service.jena.de/de/photovoltaik-anlagen-foerderung-beantragen\">Zur Förderung</a></p>",
+            "value_2": "",
+            "value_3": "",
+            "value_4": "",
+            "value_5": "",
+            "value_6": "",
+            "value_7": "",
+            "value_8": "",
+            "value_9": "",
+            "value_10": "",
+            "value_11": "",
+            "value_12": "",
+            "value_13": "",
+            "value_14": "",
+            "value_15": "",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "headings_VQ8VzY",
+        "values_YpteLq",
+        "values_YUQtEe"
+      ],
+      "custom_css": [
+        ".button {margin: 0 auto;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Thüringen",
+        "content": "",
+        "button_text": "Vereinbare einen kostenlosen Beratungstermin",
+        "button_url": "https://www.balkonstrom.com/pages/beratungstermin",
+        "text_position": "start",
+        "max_rows": 5,
+        "view_all_text": "View all",
+        "view_less_text": "View less",
+        "view_product": "View",
+        "viewing_product": "",
+        "show_product_swatch": true,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "chart_background": "",
+        "chart_text_color": "",
+        "chart_true_false_color": ""
+      }
+    },
+    "faq_JUXQbE": {
+      "type": "faq",
+      "blocks": {
+        "item_GCV9nP": {
+          "type": "item",
+          "settings": {
+            "title": "Sind die Balkonkraftwerke von Balkonstrom® förderfähig?",
+            "content": "<p>Ja wir halten alle Bestimmungen ein wodurch jedes unserer Balkonkraftwerke die deutschlandweit geltenden Förderbedingungen erfüllt.</p>"
+          }
+        },
+        "item_EX8gwb": {
+          "type": "item",
+          "settings": {
+            "title": "Welche Voraussetzungen müssen erfüllt sein, um eine staatliche Förderung zu erhalten?",
+            "content": "<p>Die Voraussetzungen können je nach Förderprogramm variieren. Allgemein gilt jedoch, dass die Anlage bestimmte technische Standards erfüllen muss und der Antragsteller nachweisen kann, dass die Solaranlage ordnungsgemäß installiert wurde. Die Wechselrichterleistung deines Balkonkraftwerks darf maximal 800 Watt betragen.</p>"
+          }
+        },
+        "item_CPdGqn": {
+          "type": "item",
+          "settings": {
+            "title": "Wie hoch sind die möglichen Zuschüsse für Balkonkraftwerke?",
+            "content": "<p>In einigen Bundesländern und Kommunen erhältst du Zuschüsse von bis zu 500 Euro. Es lohnt sich daher, die spezifischen Programme in deiner Region zu überprüfen, da die Fördersummen und Bedingungen unterschiedlich sein können.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_GCV9nP",
+        "item_EX8gwb",
+        "item_CPdGqn"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "<p>Du hast Fragen rund um das Thema Förderungen für Balkonkraftwerke und Mini-PV-Anlagen? Für eine Zusammenstellung der häufig gestellten Fragen schaue gerne bei unseren FAQ vorbei.</p>",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_p6tfBA",
+    "custom_logo_list_TmLMDj",
+    "before_after_image_hWqCkH",
+    "featured_collection_eYrjmq",
+    "contact",
+    "images_with_text_scrolling_B6qnmQ",
+    "rich_text_6AEpzx",
+    "rich_text_aU9AH6",
+    "feature_chart_rXjcPk",
+    "feature_chart_kAGhpn",
+    "feature_chart_PNBNcz",
+    "feature_chart_Bg37af",
+    "feature_chart_W7NtgC",
+    "feature_chart_V4AGqR",
+    "feature_chart_qreiyD",
+    "feature_chart_L6WCcW",
+    "feature_chart_Ghanyt",
+    "feature_chart_U8TP4B",
+    "feature_chart_c3JBf6",
+    "feature_chart_cA3MGA",
+    "feature_chart_4FpMGh",
+    "feature_chart_cWLRBJ",
+    "faq_JUXQbE"
+  ]
+}

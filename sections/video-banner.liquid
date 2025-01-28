@@ -1,0 +1,1233 @@
+{%- liquid
+  assign margin_top = section.settings.margin_top
+  assign margin_bottom = section.settings.margin_bottom
+-%}
+<style>
+    #shopify-section-{{ section.id }} {
+      margin-top: {{ margin_top }}px;
+      margin-bottom: {{ margin_bottom }}px;
+    }
+
+    .section-{{ section.id }}-padding {
+      padding-top: var(--pt);
+      padding-bottom: var(--pb);
+      position: relative;
+    }
+
+    @media screen and (min-width: 750px) {
+      .section-{{ section.id }}-padding {
+        padding-top: var(--pt-desktop);
+        padding-bottom: var(--pb-desktop);
+      }
+    }
+    .ab-banner-{{ section.id }} {
+      height: var(--mobile-height);
+      position: relative;
+    }
+    @media screen and (min-width: 750px) {
+      .ab-banner-{{ section.id }} {
+        height: var(--desktop-height);
+      }
+    }
+
+    .ab-banner-button-wrapper-{{ section.id }} {
+      display: flex;
+      flex-direction: row;
+      justify-content: var(--align-items);
+      gap: 12px;
+      width: 100%;
+    }
+
+    .ab-banner-slide-{{ section.id }} {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      transition: opacity 0.5s ease-in-out;
+    }
+    .ab-banner-slide-{{ section.id }}--active {
+      opacity: 1;
+      z-index: 1;
+    }
+    .ab-banner-image-{{ section.id }} {
+      width: 100%;
+      height: 100%;
+      object-fit: {{ section.settings.image_object_fit }};
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    .ab-banner-image-{{ section.id }}--desktop {
+      display: none;
+    }
+    @media screen and (min-width: 750px) {
+      .ab-banner-image-{{ section.id }}--desktop {
+        display: block;
+      }
+      .ab-banner-image-{{ section.id }}--mobile {
+        display: none;
+      }
+    }
+    .ab-banner-content-{{ section.id }} {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100%;
+      max-width: var(--max-width);
+      margin: 0 auto;
+      height: 100%;
+      z-index: 2;
+      display: flex;
+      flex-direction: column;
+      justify-content: var(--justify-content);
+      align-items: var(--align-items);
+      padding: 30px 24px;
+      line-height: 1;
+      pointer-events: none;
+    }
+
+    @media screen and (min-width: 750px) {
+      .ab-banner-content-{{ section.id }} {
+        padding:60px;
+      }
+
+      .ab-banner-button-wrapper-{{ section.id }} {
+          gap: 20px;
+      }
+    }
+    .ab-banner-title-{{ section.id }} {
+      font-size: var( --font-size ,1.5rem);
+      font-weight: 400;
+      margin-bottom: 1rem;
+      line-height:1.2;
+      font-family:var(--heading-font-family);
+    }
+    .ab-banner-subtitle-{{ section.id }} {
+      font-size: var( --font-size ,1.5rem);
+      margin-bottom: 24px;
+      line-height:1.4;
+      font-weight: 500;
+      line-height: 1.3em;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      padding-left:5px;
+    }
+
+    .ab-banner-button-{{ section.id }} {
+      pointer-events: all;
+      display: block;
+      height: 48px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: var(--button-width);
+      padding: 1rem 2rem;
+      background-color: var(--button-bg);
+      color: var(--button-color);
+      font-size: var(--button-font-size);
+      font-weight: 700;
+      text-align: center;
+      text-decoration: none;
+      border-radius: var(--border-radius);
+      border: var(--border);
+      transition: all 0.3s ease-in-out;
+
+    }
+    .ab-banner-button-{{ section.id }}:hover {
+      background-color: var(--button-bg-hover);
+      color: var(--button-color-hover);
+    }
+  @media screen and (max-width: 749px){
+   
+    .ab-banner-{{ section.id }}.full_height{
+      min-height: auto!important;
+    }
+    .ab-banner-content-{{ section.id }}{
+      top: 20px;
+    }
+  }
+  @media screen and (max-width: 320px){
+     .ab-banner-title-{{ section.id }}{
+  font-size:14px;
+   }
+    .ab-banner-button-{{ section.id }}{
+      height: 8px;
+          width: 180px;
+
+    }
+    .ab-banner-content-{{ section.id }}{
+      top: -40px;
+    }
+  }
+
+    @media screen and (min-width: 750px) {
+      .ab-banner-title-{{ section.id }},
+      .ab-banner-subtitle-{{ section.id }} {
+        font-size: var( --font-size-desktop);
+      }
+      .ab-banner-button-{{ section.id }} {
+        font-size: var(--button-font-size-desktop);
+      }
+    }
+    .ab-banner-overlay-{{ section.id }} {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: var(--overlay-color);
+      opacity: var(--overlay-opacity);
+      pointer-events: none;
+    }
+    .ab-banner-video-wrapper-{{ section.id }} {
+      position: absolute;
+      top: 0;
+      left: 0;
+      /*object-fit: cover;*/
+    }
+    .ab-banner-video-wrapper-{{ section.id }},
+    .ab-banner-video-{{ section.id }} {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+    .ab-banner-play-button-{{ section.id }} {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 80px;
+      height: 80px;
+      z-index: 3;
+      cursor: pointer;
+      display: none;
+    }
+
+    .as-banner-slide-has-video-{{ section.id }} .ab-banner-play-button-{{ section.id }} {
+      display: block;
+    }
+    .ab-banner-image-wrapper-playing-video-{{ section.id }} .ab-banner-play-button-{{ section.id }} {
+      display: none;
+    }
+    .ab-banner-image-wrapper-playing-video-{{ section.id }} .ab-banner-video-wrapper-{{ section.id }} {
+      display: block;
+    }
+    .ab-banner-image-wrapper-playing-video-{{ section.id }} .ab-banner-image-wrapper-{{ section.id }} {
+      display: none;
+    }
+    .as-banner-slide-has-video-{{ section.id }} .ab-svg-placeholder {
+      display: none;
+    }
+
+    .ab-banner-button-template--18069080670475__d8d475b6-fca7-4fea-b5fa-16e99c6a318b {
+    padding: 30px;
+    line-height: 2rem;
+  }
+
+
+    section.section:has(.section_fullwidth) {
+      padding: 0;
+  }
+
+    .ab-banner-{{ section.id }}.full_height {
+      min-height: calc(100vh - var(--header-height))
+    }
+    .video_cover {
+      height: 100%;
+    }
+    .video_cover.mobile_only {
+      display: none;
+  }
+
+  @media (max-width: 768px) {
+    .ab-banner-button-wrapper-template--18069080670475__d8d475b6-fca7-4fea-b5fa-16e99c6a318b {
+      flex-direction: column;
+      align-items: center;
+    }
+    .ab-banner-button-template--18069080670475__d8d475b6-fca7-4fea-b5fa-16e99c6a318b {
+      padding: 15px;
+      line-height: 1rem;
+      font-size: 13px;
+    }
+    .ab-banner-title-template--18069080670475__d8d475b6-fca7-4fea-b5fa-16e99c6a318b{
+      font-size:25px;
+    }
+    .ab-banner-subtitle-template--18069080670475__d8d475b6-fca7-4fea-b5fa-16e99c6a318b {
+      font-size:13px;
+    }
+
+
+  }
+    @media (max-width: 767px) {
+        .video_cover.desktop_only {
+      display: none;
+  }
+         .video_cover.mobile_only {
+      display: block;
+  }
+    }
+</style>
+
+{% assign play_button_image = section.settings.play_button_image %}
+
+<div
+  id="shopify-section-{{ section.id }}"
+  style="
+    background-color:{{ section.settings.background-color }};
+    --max-width: {{ section.settings.section-width }}rem;
+    --pt: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    --pt-desktop: {{ section.settings.padding_top }}px;
+    --pb: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    --pb-desktop: {{ section.settings.padding_bottom }}px;
+  "
+>
+  <div class="section-{{ section.id }}-padding {% if section.settings.section_fullwidth %} section_fullwidth{% endif %}">
+    <div
+      class="ab-banner-{{ section.id }} {% if section.settings.full_height %} full_height{% endif %}"
+      style="
+        --desktop-height: {{ section.settings.height }}px;
+        --mobile-height: {{ section.settings.height_mobile }}px;
+      "
+      data-interval="{{ section.settings.interval }}000"
+    >
+      {% for block in section.blocks %}
+        {% if block.settings.video != blank or block.settings.video_url.id != blank %}
+          {% assign has_video = true %}
+        {% else %}
+          {% assign has_video = false %}
+        {% endif %}
+        <div
+          class="
+            ab-banner-slide-{{ section.id }}
+            {% if forloop.first %}
+              ab-banner-slide-{{ section.id }}--active
+            {% endif %}
+            {% if has_video == true %}
+              as-banner-slide-has-video-{{ section.id }}
+            {% endif %}
+          "
+          data-index="{{ forloop.index0 }}"
+          {{ block.shopify_attributes }}
+          {% if block.settings.autoplay %}
+            data-autoplay="true"
+          {% endif %}
+        >
+          {% assign video_mobile = block.settings.video_mobile %}
+          {% assign video = block.settings.video %}
+          <div class="ab-banner-video-wrapper-{{ section.id }}">
+            {% if video != blank or video_mobile != blank %}
+              {% assign video_class = 'ab-banner-video-' | append: section.id %}
+              {% comment %} We can't use loop here since it won't trigger the 'end' event loop: true {% endcomment %}
+              {% comment %} And using loop:ture doesn't prevent the black screen effect when the video ends {% endcomment %}
+              <div class="video_cover {% if video_mobile != blank %} desktop_only{% endif %}">
+                {% if section.settings.lazy %}
+                  {{
+                    video
+                    | video_tag:
+                      class: video_class,
+                      muted: true,
+                      playsinline: true,
+                      loading: 'lazy',
+                      preload: 'auto',
+                      image_size: '800x'
+                  }}
+                {% else %}
+                  {{
+                    video
+                    | video_tag: class: video_class, muted: true, playsinline: true, preload: 'auto', image_size: '800x'
+                  }}
+                {% endif %}
+              </div>
+              <!-- Div con fondo negro -->
+              <div class="black_overlay" style="display: block;"></div>
+              <script>
+                // Ocultar el fondo negro después de 2 segundos
+                setTimeout(function() {
+                  document.querySelector('.black_overlay').style.display = 'none';
+                }, 2000);
+              </script>
+              {% if video_mobile != blank %}
+                <div class="video_cover mobile_only">
+                  {% if section.settings.lazy %}
+                    {{
+                      video_mobile
+                      | video_tag:
+                        class: video_class,
+                        muted: true,
+                        playsinline: true,
+                        autoplay: true,
+                        loop: true,
+                        loading: 'lazy',
+                        preload: 'auto',
+                        image_size: '800x'
+                    }}
+                  {% else %}
+                    {{
+                      video_mobile
+                      | video_tag:
+                        class: video_class,
+                        muted: true,
+                        playsinline: true,
+                        autoplay: true,
+                        loop: true,
+                        preload: 'auto',
+                        image_size: '1200x'
+                    }}
+                  {% endif %}
+                </div>
+              {% endif %}
+
+            {% elsif block.settings.video_url.id != blank %}
+              <template data-youtube-template>
+                <div
+                  class="ab-banner-video-{{ section.id }}"
+                  data-video-id="{{ block.settings.video_url.id }}"
+                ></div>
+              </template>
+            {% endif %}
+          </div>
+
+          <div class="ab-banner-image-wrapper-{{ section.id }}">
+            {% assign image = block.settings.image %}
+            {% if image == blank %}
+              {% assign svg_class = 'ab-svg-placeholder ab-banner-image-' | append: section.id %}
+              {{ 'image' | placeholder_svg_tag: svg_class }}
+            {% else %}
+              <img
+                class="
+                  ab-banner-image-{{ section.id }}
+                  {% if block.settings.image_mobile != blank %}
+                    ab-banner-image-{{ section.id }}--desktop
+                  {% endif %}
+                "
+                src="{{ image | img_url: '500x' }}"
+                srcset="
+                  {{ image | img_url: '500x' }} 500w,
+                  {{ image | img_url: '800x' }} 800w,
+                  {{ image | img_url: '1200x' }} 1200w,
+                  {{ image | img_url: '1600x' }} 1600w,
+                  {{ image | img_url: '2000x' }} 2000w,
+                  {{ image | img_url: 'master' }} 2400w
+                "
+                alt="{{ image.alt }}"
+              >
+            {% endif %}
+
+            {% if block.settings.image_mobile != blank %}
+              {% assign image = block.settings.image_mobile %}
+              <img
+                class="ab-banner-image-{{ section.id }} ab-banner-image-{{ section.id }}--mobile"
+                src="{{ image | img_url: '500x' }}"
+                srcset="
+                  {{ image | img_url: '500x' }} 500w,
+                  {{ image | img_url: '800x' }} 800w,
+                  {{ image | img_url: '1200x' }} 1200w,
+                  {{ image | img_url: '1600x' }} 1600w,
+                  {{ image | img_url: '2000x' }} 2000w,
+                  {{ image | img_url: 'master' }} 2400w
+                "
+                alt="{{ image.alt }}"
+              >
+            {% endif %}
+          </div>
+
+          <span
+            class="ab-banner-overlay-{{ section.id }}"
+            style="
+              --overlay-color: {{ block.settings.overlay_color }};
+              --overlay-opacity: {{ block.settings.overlay_opacity | divided_by: 100.0 }};
+            "
+          ></span>
+
+          <div
+            class="ab-banner-play-button-{{ section.id }}"
+          >
+            {% if play_button_image != blank %}
+              <img
+                style="width: 100%;"
+                src="{{ play_button_image | img_url: 'master' }}"
+                alt="Play button"
+              >
+            {% else %}
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                style="width: 100%;"
+                viewBox="0 0 80 81"
+                fill="none"
+              >
+                <g clip-path="url(#clip0_91_1286)">
+                <path d="M80 40.7427C80 18.6513 62.0914 0.742676 40 0.742676C17.9086 0.742676 0 18.6513 0 40.7427C0 62.8341 17.9086 80.7427 40 80.7427C62.0914 80.7427 80 62.8341 80 40.7427Z" fill="white"/>
+                <path d="M54 40.7427L33 52.867V28.6183L54 40.7427Z" fill="#030303"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_91_1286">
+                <rect width="80" height="81" fill="white"/>
+                </clipPath>
+                </defs>
+              </svg>
+            {% endif %}
+          </div>
+
+          <div
+            class="ab-banner-content-{{ section.id }}"
+            style="
+              --justify-content: {{ block.settings.vertical_alignment }}!important;
+              --align-items: {{ block.settings.horizontal_alignment }}!important;
+              text-align: {{ block.settings.horizontal_alignment }}!important;
+            "
+          >
+            <div
+              class="ab-banner-subtitle-{{ section.id }}"
+              style="
+                --font-size: {{ block.settings.subtitle_font_size | times: 0.85 }}px;
+                --font-size-desktop: {{ block.settings.subtitle_font_size }}px;
+                color: {{ block.settings.subtitle_color }};
+              "
+            >
+              {{ block.settings.subtitle }}
+            </div>
+            <div
+              class="ab-banner-title-{{ section.id }}"
+              style="
+                --font-size: {{ block.settings.title_font_size_mobile}}px;
+                --font-size-desktop: {{ block.settings.title_font_size }}px;
+                color: {{ block.settings.title_color }};
+              "
+            >
+              {{ block.settings.title }}
+            </div>
+            <div
+              class="ab-banner-button-wrapper-{{ section.id }}"
+              style="
+                --button-width: {{ block.settings.button_width }}px;
+                --button-color: {{ block.settings.button_color }};
+                --button-bg: {{ block.settings.button_background_color }};
+                --button-color-hover: {{ block.settings.button_color_hover }};
+                --button-bg-hover: {{ block.settings.button_background_color_hover }};
+                --button-font-size: {{ block.settings.button_font_size | times: 0.85 }}px;
+                --button-font-size-desktop: {{ block.settings.button_font_size }}px;
+                --border-radius: {{ block.settings.button_border_radius }}px;
+                --border: {{ block.settings.button_border_thickness }}px {{ block.settings.button_border_color }} solid;
+              "
+            >
+              {% if block.settings.button_text != blank %}
+                <a
+                  href="{{ block.settings.button_link }}"
+                  class="ab-banner-button-{{ section.id }}"
+                >
+                  {{ block.settings.button_text }}
+                </a>
+              {% endif %}
+              {% if block.settings.button_text_2 != blank %}
+                <a
+                  href="{{ block.settings.button_link_2 }}"
+                  class="ab-banner-button-{{ section.id }}"
+                >
+                  {{ block.settings.button_text_2 }}
+                </a>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<script defer src="https://www.youtube.com/iframe_api"></script>
+
+<script>
+  (function () {
+    let slideSwitchTimeoutID;
+    let videoPlayers = {};
+    let hasOnlyOneSlide = false;
+
+    function getNextIndex() {
+      const images = document.querySelectorAll(
+        '.ab-banner-slide-{{ section.id }}'
+      );
+      const activeImage = document.querySelector(
+        '.ab-banner-slide-{{ section.id }}--active'
+      );
+      const activeIndex = Array.prototype.indexOf.call(images, activeImage);
+      const nextIndex = (activeIndex + 1) % images.length;
+      return nextIndex;
+    }
+
+    function autoSlideSwitch(index) {
+      //console.log('autoSlideSwitch', index);
+      const images = document.querySelectorAll(
+        '.ab-banner-slide-{{ section.id }}'
+      );
+      const activeSlide = document.querySelector(
+        '.ab-banner-slide-{{ section.id }}--active'
+      );
+      const activeIndex = Array.prototype.indexOf.call(images, activeSlide);
+      const newActiveSlide = images[index];
+
+      //if (activeIndex === index) return;
+
+      activeSlide.classList.remove('ab-banner-slide-{{ section.id }}--active');
+      newActiveSlide.classList.add('ab-banner-slide-{{ section.id }}--active');
+
+      // TODO: Check if we have any videos in the new active slide
+      // 1. if we have <video>, play it:
+      const oldVideoEl = activeSlide.querySelector('video');
+      if (oldVideoEl) oldVideoEl.pause();
+
+      const newVideoEl = newActiveSlide.querySelector('video');
+      if (newVideoEl) {
+        if (getIfAutoplay(newActiveSlide)) newVideoEl.play();
+        // if the video is not playing, show the play button
+        if (newVideoEl.paused) {
+          handleWhenVideoPaused(newActiveSlide);
+        } else {
+          handleWhenVideoPlay(newActiveSlide);
+        }
+        newVideoEl.addEventListener('ended', () => {
+          if (hasOnlyOneSlide) {
+            newVideoEl.play();
+          } else {
+            handleWhenVideoPaused(activeSlide);
+            autoSlideSwitch(getNextIndex());
+          }
+        });
+      }
+
+      // 2. if we have <template data-youtube-template>, load and unload youtube video
+      const oldYoutubeEl = activeSlide.querySelector(
+        '.ab-banner-video-{{ section.id }}'
+      );
+      //if (oldYoutubeEl) unloadYoutubeVideo(activeSlide); // no need to unload
+
+      const newYoutubeEl = newActiveSlide.querySelector(
+        '[data-youtube-template]'
+      );
+      if (newYoutubeEl) loadYoutubeVideo(newActiveSlide);
+
+      if (newVideoEl || newYoutubeEl) {
+        // have any video, wait for them to finish before we call the next slide
+        //console.log('waiting for video to finish');
+        if (!getIfAutoplay(newActiveSlide)) {
+          const intervalTime = document.querySelector(
+            '.ab-banner-{{ section.id }}'
+          ).dataset.interval;
+          slideSwitchTimeoutID = setTimeout(() => {
+            autoSlideSwitch(getNextIndex());
+          }, intervalTime);
+        }
+      } else {
+        // no video, wait for interval time to call next slide
+        //console.log('no video, wait for interval time');
+        const intervalTime = document.querySelector(
+          '.ab-banner-{{ section.id }}'
+        ).dataset.interval;
+        slideSwitchTimeoutID = setTimeout(() => {
+          autoSlideSwitch(getNextIndex());
+        }, intervalTime);
+      }
+    }
+
+    const videoPlayingClass =
+      'ab-banner-image-wrapper-playing-video-{{ section.id }}';
+    function handleWhenVideoPaused(slideEl) {
+      slideEl.classList.remove(videoPlayingClass);
+    }
+    function handleWhenVideoPlay(slideEl) {
+      slideEl.classList.add(videoPlayingClass);
+    }
+
+    function getIfAutoplay(slideEl) {
+      // check if slideEl has data-autoplay
+      const autoplay = slideEl.dataset.autoplay;
+      if (autoplay) return true;
+      else return false;
+    }
+
+    function loadYoutubeVideo(slideEl) {
+      const index = slideEl.dataset.index;
+      // Check if we have already loaded the video in the videoPlayers:
+      if (videoPlayers[index]) {
+        if (getIfAutoplay(slideEl)) videoPlayers[index].playVideo();
+        return;
+      } else if (typeof YT !== 'undefined' && YT.loaded) {
+        // print all the if statments:
+        const template = slideEl.querySelector('[data-youtube-template]');
+        let childEl = template.content.firstElementChild.cloneNode(true);
+
+        const videoWrapper = slideEl.querySelector(
+          '.ab-banner-video-wrapper-{{ section.id }}'
+        );
+        childEl = videoWrapper.appendChild(childEl);
+
+        const videoId = childEl.dataset.videoId;
+        const player = new YT.Player(childEl, {
+          height: '100%',
+          width: '100%',
+          videoId: videoId,
+          playerVars: {
+            mute: 1,
+            playinline: 1,
+            //loop: 1,
+            //playlist: [videoId],
+            //autoplay: 1,
+            controls: 0,
+          },
+          // on finished, play next video:
+          events: {
+            onReady: () => {
+              if (getIfAutoplay(slideEl)) {
+                player.playVideo();
+              }
+              // check if the video is playing to see if ios is blocking autoplay:
+            },
+            onStateChange: (event) => {
+              if (event.data === YT.PlayerState.PLAYING) {
+                handleWhenVideoPlay(slideEl);
+              } else if (event.data === YT.PlayerState.PAUSED) {
+                handleWhenVideoPaused(slideEl);
+              } else if (event.data === YT.PlayerState.ENDED) {
+                if (hasOnlyOneSlide) {
+                  player.playVideo();
+                } else {
+                  autoSlideSwitch(getNextIndex());
+                  handleWhenVideoPaused(slideEl);
+                }
+              }
+            },
+          },
+        });
+        videoPlayers[index] = player;
+      } else {
+        setTimeout(() => loadYoutubeVideo(slideEl), 300);
+      }
+    }
+    function unloadYoutubeVideo(slideEl) {
+      const iframe = slideEl.querySelector('iframe');
+      if (iframe) {
+        iframe.remove();
+      }
+    }
+
+    function setupPlayButton(slideEl) {
+      const playButton = slideEl.querySelector(
+        '.ab-banner-play-button-{{ section.id }}'
+      );
+      if (!playButton) return;
+      playButton.addEventListener('click', () => {
+        clearTimeout(slideSwitchTimeoutID);
+        handleWhenVideoPlay(slideEl);
+        try {
+          const videoWrapper = slideEl.querySelector(
+            '.ab-banner-video-wrapper-{{ section.id }}'
+          );
+          videoWrapper.classList.add(
+            'ab-banner-video-wrapper-{{ section.id }}--playing'
+          );
+          const videoEl = slideEl.querySelector('video');
+          if (videoEl) {
+            videoEl.play();
+          } else {
+            const youtubeEl = slideEl.querySelector('iframe');
+            if (youtubeEl) {
+              const index = slideEl.dataset.index;
+              videoPlayers[index].playVideo();
+            }
+          }
+        } catch (e) {
+          console.log(e);
+        }
+      });
+    }
+
+    function Init() {
+      const slides = document.querySelectorAll(
+        '.ab-banner-slide-{{ section.id }}'
+      );
+      const size = slides.length;
+      if (size < 1) return;
+      hasOnlyOneSlide = size === 1 ? true : false;
+
+      // setup play button:
+      slides.forEach((slideEl) => {
+        setupPlayButton(slideEl);
+      });
+
+      autoSlideSwitch(0);
+
+      if (window.Shopify && window.Shopify.designMode)
+        document.addEventListener('shopify:section:unload', function (event) {
+          if (event.detail.sectionId !== '{{ section.id }}') return;
+          if (slideSwitchTimeoutID) clearTimeout(slideSwitchTimeoutID);
+          videoPlayers = {};
+        });
+    }
+
+    Init();
+    if (window.Shopify && window.Shopify.designMode) {
+      document.addEventListener('shopify:section:load', function (event) {
+        if (event.detail.sectionId !== '{{ section.id }}') return;
+        Init();
+      });
+    }
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "Video banner",
+  "class": "section",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "section_fullwidth",
+      "label": "Section full width",
+      "default": false
+    },
+    {
+      "type": "image_picker",
+      "id": "play_button_image",
+      "label": "Play button image (optional)",
+      "info": "Overrides the default play button"
+    },
+    {
+      "type": "header",
+      "content": "Image settings"
+    },
+    {
+      "type": "range",
+      "id": "interval",
+      "min": 1,
+      "max": 20,
+      "label": "Image switch interval",
+      "unit": "s",
+      "default": 5,
+      "info": "(For images) The interval between image switches."
+    },
+    {
+          "type": "select",
+          "label": "Image fit",
+          "id": "image_object_fit",
+          "default": "cover",
+          "options": [
+            {
+              "label": "Cover",
+              "value": "cover"
+            },
+            {
+              "label": "Fill",
+              "value": "fill"
+            }
+          ]
+    },
+    {
+      "type": "header",
+      "content": "Section height"
+    },
+    {
+      "type": "checkbox",
+      "id": "full_height",
+      "label": "Full height",
+      "info": "If Full height false then it will take height from below setting",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "height",
+      "min": 100,
+      "max": 1200,
+      "step": 20,
+      "unit": "px",
+      "label": "Height",
+      "default": 700
+    },
+    {
+      "type": "range",
+      "id": "height_mobile",
+      "min": 100,
+      "max": 1200,
+      "step": 20,
+      "unit": "px",
+      "label": "Height mobile",
+      "default": 240
+    },
+    {
+      "type": "header",
+      "content": "Background color"
+    },
+    {
+      "type": "color",
+      "label": "Section background color",
+      "id": "background-color",
+      "default": "#535353"
+    },
+    {
+      "type": "header",
+      "content": "Section padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 0
+    },
+    {
+      "type": "header",
+      "content": "Section margin"
+    },
+    {
+      "type": "range",
+      "id": "margin_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Margin top",
+      "default": 4
+    },
+    {
+      "type": "range",
+      "id": "margin_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Margin bottom",
+      "default": 4
+    },
+    {
+      "type": "header",
+      "content": "Section width"
+    },
+    {
+      "type": "range",
+      "id": "section-width",
+      "min": 80,
+      "max": 200,
+      "step": 5,
+      "unit": "rem",
+      "label": "Section content max width",
+      "default": 120
+    },
+    {
+        "type": "checkbox",
+        "id": "lazy",
+        "label": "Lazy load",
+        "info": "Lazy load images below fold for speed optimisation",
+        "default": false
+    }
+  ],
+  "blocks": [
+    {
+      "type": "slide",
+      "name": "Slide",
+      "settings": [
+        {
+          "type": "header",
+          "content": "Video",
+          "info": "If not set, image will be used instead."
+        },
+        {
+          "type": "checkbox",
+          "id": "autoplay",
+          "label": "Autoplay",
+          "default": true
+        },
+        {
+          "type": "video",
+          "id": "video",
+          "label": "Shopify-hosted video desktop"
+        },
+        {
+          "type": "video",
+          "id": "video_mobile",
+          "label": "Shopify-hosted video mobile",
+          "info": "Desktop video is the default mobile video if mobile video is not selected."
+        },
+        {
+          "type": "video_url",
+          "id": "video_url",
+          "label": "Youtube Video URL",
+          "accept": ["youtube"]
+        },
+        {
+          "type": "header",
+          "content": "Image",
+          "info": "Image if no video, or before pressing play"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_mobile",
+          "label": "Image (Mobile)",
+          "info": "Optional"
+        },
+        {
+          "type": "header",
+          "content": "Overlay:"
+        },
+        {
+          "type": "color",
+          "id": "overlay_color",
+          "label": "Overlay color",
+          "default": "#000000"
+        },
+        {
+          "type": "range",
+          "id": "overlay_opacity",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "%",
+          "label": "Overlay opacity",
+          "default": 0
+        },
+        {
+          "type": "header",
+          "content": "alignment settings:"
+        },
+        {
+          "type": "select",
+          "id": "vertical_alignment",
+          "label": "Vertical alignment",
+          "options": [
+            {
+              "value": "flex-start",
+              "label": "Top"
+            },
+            {
+              "value": "center",
+              "label": "Center"
+            },
+            {
+              "value": "flex-end",
+              "label": "Bottom"
+            }
+          ],
+          "default": "center"
+        },
+        {
+          "type": "select",
+          "id": "horizontal_alignment",
+          "label": "Horizontal alignment",
+          "options": [
+            {
+              "value": "flex-start",
+              "label": "Left"
+            },
+            {
+              "value": "center",
+              "label": "Center"
+            },
+            {
+              "value": "flex-end",
+              "label": "Right"
+            }
+          ],
+          "default": "center"
+        },
+        {
+          "type": "header",
+          "content": "Title settings"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Meet The Perfect Travel Shoes"
+        },
+        {
+          "type": "range",
+          "id": "title_font_size",
+          "min": 12,
+          "max": 80,
+          "step": 2,
+          "unit": "px",
+          "label": "Title font size",
+          "default": 50
+        },
+         {
+          "type": "range",
+          "id": "title_font_size_mobile",
+          "min": 12,
+          "max": 80,
+          "step": 2,
+          "unit": "px",
+          "label": "Title font size mobile",
+          "default": 32
+        },
+        {
+          "type": "color",
+          "id": "title_color",
+          "label": "Title color",
+          "default": "#fff"
+        },
+        {
+          "type": "header",
+          "content": "Subtitle settings"
+        },
+        {
+          "type": "text",
+          "id": "subtitle",
+          "label": "Subtitle",
+          "default": "Super Packable. Versatile. And All-Day (And Night) Adventure Ready."
+        },
+        {
+          "type": "range",
+          "id": "subtitle_font_size",
+          "min": 12,
+          "max": 80,
+          "step": 2,
+          "unit": "px",
+          "label": "Subtitle font size",
+          "default": 16
+        },
+        {
+          "type": "color",
+          "id": "subtitle_color",
+          "label": "Subtitle color",
+          "default": "#fff"
+        },
+        {
+          "type": "header",
+          "content": "Button link + text"
+        },
+        {
+          "type": "text",
+          "id": "button_text",
+          "label": "Button text",
+          "default": "Shop Now"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "Button link",
+          "default": "/collections/all"
+        },
+        {
+          "type": "text",
+          "id": "button_text_2",
+          "label": "Button text 2",
+          "default": "Shop Now"
+        },
+        {
+          "type": "url",
+          "id": "button_link_2",
+          "label": "Button link 2",
+          "default": "/collections/all"
+        },
+        {
+          "type": "header",
+          "content": "Button colors"
+        },
+        {
+          "type": "color",
+          "label": "Button text color",
+          "id": "button_color",
+          "default": "#000000"
+        },
+        {
+          "type": "color",
+          "label": "Button background color",
+          "id": "button_background_color",
+          "default": "#ffffff"
+        },
+        {
+          "type": "color",
+          "label": "Button text color hover",
+          "id": "button_color_hover",
+          "default": "#ffffff"
+        },
+        {
+          "type": "color",
+          "label": "Button background color hover",
+          "id": "button_background_color_hover",
+          "default": "#000000"
+        },
+        {
+          "type": "color",
+          "label": "Button border color",
+          "id": "button_border_color",
+          "default": "#FFFFFF"
+        },
+        {
+          "type": "header",
+          "content": "Button settings"
+        },
+        {
+          "type": "range",
+          "id": "button_width",
+          "min": 100,
+          "max": 500,
+          "step": 10,
+          "unit": "px",
+          "label": "Button width",
+          "default": 200
+        },
+        {
+          "type": "range",
+          "id": "button_font_size",
+          "min": 10,
+          "max": 30,
+          "step": 1,
+          "unit": "px",
+          "label": "Button font size",
+          "default": 16
+        },
+        {
+          "type": "range",
+          "id": "button_border_radius",
+          "min": 0,
+          "max": 100,
+          "step": 2,
+          "unit": "px",
+          "label": "Button radius",
+          "default": 2
+        },
+        {
+          "type": "range",
+          "id": "button_border_thickness",
+          "min": 0,
+          "max": 5,
+          "step": 1,
+          "unit": "px",
+          "label": "Button border thickness",
+          "default": 0
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Video Banner",
+      "blocks": [
+        {
+          "type": "slide"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

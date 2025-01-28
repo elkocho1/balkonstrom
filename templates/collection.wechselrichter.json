@@ -1,0 +1,515 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "collection-banner",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "enable_parallax": false,
+        "show_collection_title": true,
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "collection_title_size": "h1",
+        "image_size": "auto",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "featured_product": "",
+        "featured_product_heading": "Featured product",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 15
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "custom_css": [
+        ".circle-chevron {background: #e5e5e5;}"
+      ],
+      "settings": {
+        "products_per_page": 24,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "filter_layout": "horizontal",
+        "show_sort_by": true,
+        "show_filters": false,
+        "show_filter_group_name": true,
+        "show_color_swatch": false,
+        "show_empty_filter_values": false,
+        "show_filter_values_count": false,
+        "open_first_filter_group": false
+      }
+    },
+    "image_with_text_overlay_aXfMdH": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_JTmwMx": {
+          "type": "heading",
+          "settings": {
+            "text": "Wechselrichter",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_LyG6x6": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Das Herzstück deines Balkonkraftwerkes</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_JTmwMx",
+        "richtext_LyG6x6"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "enable_fix_parallax": false,
+        "image_size": "md",
+        "image": "shopify://shop_images/wechselrichter-kollektion.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 45
+      }
+    },
+    "navigation_section_34cg6t": {
+      "type": "navigation-section",
+      "blocks": {
+        "text_A3UaWF": {
+          "type": "text",
+          "settings": {
+            "title": "Hoymiles",
+            "url": "https://www.balkonstrom.com/collections/wechselrichter#featured_collection_0"
+          }
+        },
+        "text_aEaDf6": {
+          "type": "text",
+          "settings": {
+            "title": "APsystems",
+            "url": "https://www.balkonstrom.com/collections/wechselrichter#featured_collection_1"
+          }
+        },
+        "text_UgHUFi": {
+          "type": "text",
+          "settings": {
+            "title": "SunLit",
+            "url": "https://www.balkonstrom.com/collections/wechselrichter#featured_collection_2"
+          }
+        }
+      },
+      "block_order": [
+        "text_A3UaWF",
+        "text_aEaDf6",
+        "text_UgHUFi"
+      ],
+      "settings": {
+        "hide_on_desktop": false,
+        "text_color": "#000000",
+        "bg_color": "#ffffff",
+        "active_text_color": "#ffffff",
+        "active_bg_color": "#000000",
+        "font_size": 16,
+        "border_radius": 0
+      }
+    },
+    "custom_logo_list_A7TxXy": {
+      "type": "custom-logo-list",
+      "blocks": {
+        "logo_image_eFyiHJ": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/Untitled_design_80.png"
+          }
+        },
+        "logo_image_NtWmaH": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_1_6ad045c6-a6af-43bc-8772-088fda3e65c1.png"
+          }
+        },
+        "logo_image_ckqTt3": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_68bc6b1f-9cde-4e28-90d9-010389d4b518.png"
+          }
+        },
+        "logo_image_gpyi9b": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_4.png"
+          }
+        },
+        "logo_image_xwXAwj": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_3_eccce761-16d6-41a5-aab7-1b94750e6ae5.png"
+          }
+        },
+        "logo_image_N3hFjV": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_2_a6e3afea-7afd-46b9-9542-a2b05fba13c9.png"
+          }
+        }
+      },
+      "block_order": [
+        "logo_image_eFyiHJ",
+        "logo_image_NtWmaH",
+        "logo_image_ckqTt3",
+        "logo_image_gpyi9b",
+        "logo_image_xwXAwj",
+        "logo_image_N3hFjV"
+      ],
+      "settings": {
+        "enable_mobile_slider": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection_ffUrQU": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "products": [
+          "hoymiles-hms-800w-2t",
+          "hoymiles-hms-1800w-4t",
+          "hoymiles-hms-2000w-4t"
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Wechselrichter von Hoymiles",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "text_with_icons_zP4C9h": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_KqWJgC": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/icon-Wifi.png",
+            "mobile_icon_width": 24,
+            "icon_width": 40,
+            "icon_background_type": "circle",
+            "icon_background": "#eee9e3",
+            "icon_color": "",
+            "subtitle": "",
+            "title": "Integriertes WLAN",
+            "content": ""
+          }
+        },
+        "item_k7TXpN": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/icon-lebensdauer.png",
+            "mobile_icon_width": 24,
+            "icon_width": 40,
+            "icon_background_type": "circle",
+            "icon_background": "#eee9e3",
+            "icon_color": "",
+            "subtitle": "",
+            "title": "Lange Lebensdauer",
+            "content": ""
+          }
+        },
+        "item_hb3eKG": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/icon-performance_opt.png",
+            "mobile_icon_width": 24,
+            "icon_width": 40,
+            "icon_background_type": "circle",
+            "icon_background": "#eee9e3",
+            "icon_color": "",
+            "subtitle": "",
+            "title": "Hoher Wirkungsgrad",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_KqWJgC",
+        "item_k7TXpN",
+        "item_hb3eKG"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "title": "",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "#f7f7f7",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "media_with_text_nLCkdX": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_GJFYPw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/hoymiles-hms-2000w-4t.webp",
+            "media_width": 40,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Der HMS-1800W-4T im Überblick",
+            "content": "<ul><li><strong>1800 VA Ausgangsleistung</strong>:  Leistungsstarker Mikro-Wechselrichter.</li><li><strong>4 Anschlüsse: </strong>Bis zu vier Solarmodule für flexible Systemkonfigurationen.</li><li><strong>4 unabhängige MPPT</strong>: Individuelle Leistungsoptimierung jedes Moduls.</li><li><strong>12 Jahre Herstellergarantie: </strong>Langfristige Zuverlässigkeit und Sicherheit für dein Solarsystem.</li><li><strong>Hocheffizient: </strong>Herausragender Spitzenwirkungsgrad von 96,5 %.</li></ul>",
+            "link_text": "Zum Produkt",
+            "link_url": "https://www.balkonstrom.com/products/hoymiles-hms-1800w-4t",
+            "background": "#f7f7f7",
+            "background_gradient": "",
+            "text_color": "#040404",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_GJFYPw"
+      ],
+      "settings": {
+        "show_klaviyo_form": false,
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "custom_logo_list_maFiPg": {
+      "type": "custom-logo-list",
+      "blocks": {
+        "logo_image_w4nnU7": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/Hoymiles_Logo.png"
+          }
+        },
+        "logo_image_JKUJMH": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/APSystems_Logo.png"
+          }
+        },
+        "logo_image_i7H98X": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/SunLit_Logo.png"
+          }
+        }
+      },
+      "block_order": [
+        "logo_image_w4nnU7",
+        "logo_image_JKUJMH",
+        "logo_image_i7H98X"
+      ],
+      "settings": {
+        "enable_mobile_slider": true,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "featured_collection_thc6z8": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "products": [
+          "apsystems-ez1-m-mikrowechselrichter",
+          "apsystems-ez1-d1800-mikrowechselrichter"
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Wechselrichter von APsystems",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "featured_collection_4WHEk6": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "products": [
+          "sunlit-ev3600-bidirektionaler-wechselrichter"
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Wechselrichter von SunLit",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "accordion_content_iGB9tg": {
+      "type": "accordion-content",
+      "blocks": {
+        "item_WcQRMP": {
+          "type": "item",
+          "settings": {
+            "title": "Was genau macht ein Wechselrichter?",
+            "content": "<p>Der Wechselrichter ist das Herzstück jeder Solarstromanlage: Er wandelt den Gleichstrom der PV-Module in haushaltsüblichen Wechselstrom um und speist diesen in das Hausnetz ein. Gleichzeitig steuert und überwacht er die gesamte Anlage.</p>"
+          }
+        },
+        "item_xFEeHf": {
+          "type": "item",
+          "settings": {
+            "title": "Wo wird der Wechselrichter bei einem Balkonkraftwerk montiert?",
+            "content": "<p>Das ist abhängig vom jeweiligen Montagesystem. Bei einer Anlage wie dem Ziegeldach wird der Wechselrichter direkt in der Schiene befestigt.</p><p>Bei einer Anbringung am Balkon oder dem Flachdach wird er hingegen direkt mit passenden Befestigungsklemmen am Rahmen des Solarmoduls befestigt.</p><p>Wichtig ist, dass der Wechselrichter auf keinem brennbaren Flächen aufliegt.</p>"
+          }
+        },
+        "item_GwytzV": {
+          "type": "item",
+          "settings": {
+            "title": "Muss man den Wechselrichter nachts oder im Urlaub ausschalten?",
+            "content": "<p>Nein. Der Wechselrichter schaltet sich in den Abendstunden automatisch aus und läuft nur bei Helligkeit.</p><p>Auch im Urlaub sollte man ihn nicht abschalten, denn die Ersparnis soll sich schließlich dauerhaft auf deinen Haushalt auswirken.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_WcQRMP",
+        "item_xFEeHf",
+        "item_GwytzV"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "<p>Du hast Fragen rund um das Thema Wechselrichter? Für eine Zusammenstellung der häufig gestellten Fragen schaue gerne bei unseren <a href=\"/pages/faq\" title=\"Häufig gestellte Fragen\">FAQ</a> vorbei.</p>",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "99e277c1-19b1-4d9f-b911-bbb6e04a7906": {
+      "type": "seo-section",
+      "blocks": {
+        "template--18732286509320__99e277c1-19b1-4d9f-b911-bbb6e04a7906-fullwidthblock-1": {
+          "type": "fullwidthblock",
+          "settings": {
+            "full_width_heading": "Der Wechselrichter als zentraler Bestandteil von Solaranlagen",
+            "full_width_description": "<p>Der Wechselrichter, der den Gleichstrom (DC), der von Solarmodulen erzeugt wird, in Wechselstrom (AC) umwandelt, ist ein zentraler Bestandteil von Solaranlagen. Das gilt auch für Balkonkraftwerke, denn der Wechselrichter beeinflusst die Effizienz der Energieumwandlung maßgeblich.<br/></p>",
+            "full_width_heading_color": "#040404",
+            "gradient": "",
+            "full_width_description_color": "#040404",
+            "full_width_heading_size": "h2"
+          }
+        },
+        "leftblock_MrbBCW": {
+          "type": "leftblock",
+          "settings": {
+            "left_block_heading": "Die Funktion des Wechselrichters in Balkonkraftwerken",
+            "left_block_description": "<p>In einem Balkonkraftwerk erzeugen die Solarmodule tagsüber aus Sonneneinstrahlung Gleichstrom. Der Wechselrichter hat die Aufgabe, diesen Gleichstrom in Wechselstrom umzuwandeln, der dann entweder genutzt oder ins Stromnetz eingespeist werden kann. Ein qualitativ hochwertiger Wechselrichter sorgt nicht nur für eine effiziente Umwandlung, sondern verfügt auch über zusätzliche Funktionen wie:</p><ul><li>MPPT (Maximum Power Point Tracking): Diese Technologie optimiert die Energieausbeute der Solarmodule, indem sie die Betriebsbedingungen kontinuierlich überwacht und anpasst und die negativen Einflüsse von z.B. Verschattungssituationen reduziert. </li><li>Sicherheitsfunktionen: Viele moderne Wechselrichter sind mit Sicherheitsmechanismen ausgestattet, die bei Störungen oder Überlastungen automatisch greifen.</li><li>Monitoring: Einige Modelle bieten eine Möglichkeit zur Überwachung der Energieproduktion in Echtzeit, was besonders für die Auswertung der Effizienz wichtig ist.<br/></li></ul>",
+            "left_block_heading_color": "#040404",
+            "gradient": "",
+            "left_block_description_color": "#040404",
+            "left_block_heading_size": "h1"
+          }
+        },
+        "rightblock_py9nq9": {
+          "type": "rightblock",
+          "settings": {
+            "right_block_heading": "Auswahl des richtigen Wechselrichters",
+            "right_block_description": "<p>Bei der Auswahl eines Wechselrichters für ein Balkonkraftwerk gibt es mehrere Faktoren zu berücksichtigen:</p><ul><li>Leistung: Die Leistung des Wechselrichters sollte zur Größe der Solaranlage passen. </li><li>Qualität und Hersteller: Achte auf renommierte Hersteller. Ein zuverlässiger Wechselrichter kann die Lebensdauer deines Balkonkraftwerkes erheblich verlängern.</li><li>Zertifizierungen: Achte darauf, dass der Wechselrichter über alle erforderlichen Zertifikate verfügt, um sowohl die Sicherheitsstandards als auch die Anforderungen des örtlichen Stromversorgers zu erfüllen.</li></ul>",
+            "right_block_heading_color": "#040404",
+            "gradient": "",
+            "right_block_description_color": "#040404",
+            "right_block_heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--18732286509320__99e277c1-19b1-4d9f-b911-bbb6e04a7906-fullwidthblock-1",
+        "leftblock_MrbBCW",
+        "rightblock_py9nq9"
+      ],
+      "settings": {
+        "full_width": false,
+        "page_width": 1600,
+        "link_color": "#040404",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "main",
+    "image_with_text_overlay_aXfMdH",
+    "navigation_section_34cg6t",
+    "custom_logo_list_A7TxXy",
+    "featured_collection_ffUrQU",
+    "media_with_text_nLCkdX",
+    "custom_logo_list_maFiPg",
+    "featured_collection_thc6z8",
+    "featured_collection_4WHEk6",
+    "text_with_icons_zP4C9h",
+    "accordion_content_iGB9tg",
+    "99e277c1-19b1-4d9f-b911-bbb6e04a7906"
+  ]
+}

@@ -1,0 +1,100 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "custom.overlay",
+  "name": "Overlay group",
+  "sections": {
+    "newsletter-popup": {
+      "type": "newsletter-popup",
+      "disabled": true,
+      "settings": {
+        "apparition_delay": 5,
+        "show_only_on_index": true,
+        "show_only_for_visitors": true,
+        "show_only_once": true,
+        "title": "Signup for our newsletter",
+        "button_text": "Subscribe",
+        "subtext": "Describe what your customers will receive when subscribing to your newsletter."
+      }
+    },
+    "privacy-banner": {
+      "type": "privacy-banner",
+      "disabled": true,
+      "settings": {
+        "privacy_bar_title": "Cookie policy",
+        "privacy_bar_content": "<p>We use cookies and similar technologies to provide the best experience on our website. Refer to our Privacy Policy for more information.</p>"
+      }
+    },
+    "cart-drawer": {
+      "type": "cart-drawer",
+      "settings": {
+        "show_cart_note": true,
+        "show_shipping_text": true,
+        "show_view_cart_button": false,
+        "show_checkout_button": true,
+        "choose_functionality": "collection_based",
+        "thresold_enable_disable": true,
+        "free_gift_product": "",
+        "free_gift_collection": [],
+        "thresold_for_free_gift": "2000",
+        "free_gift_not_reach_msg": "Free gift not reached yet price add more",
+        "free_gift_reach_msg": "Free gift reached",
+        "thresold_for_free_shipping": "200",
+        "free_shipping_not_reach_msg": "Free shipping price not reached yet",
+        "free_shipping_reach_msg": "Free shipping reached",
+        "recommendation_collection_1": "balkonkraftwerke-fur-cart-upsell",
+        "recommendation_product_1": [
+          "mc-4-verlaengerungskabel-fuer-balkonkraftwerke-600w"
+        ],
+        "recommendation_collection_2": "balkonkraftwerke-mit-speicher",
+        "recommendation_product_2": [
+          "mc-4-verlaengerungskabel-fuer-balkonkraftwerke-600w"
+        ],
+        "recommendation_collection_3": "speicher",
+        "recommendation_product_3": [
+          "shelly-pro-3em"
+        ],
+        "solarbank_recommendations_title": "Für eine individuellere Montage deines Balkonkraftwerks",
+        "recommendations_title": "Für eine individuellere Montage deines Balkonkraftwerks",
+        "products": [
+          "mc-4-verlaengerungskabel-fuer-balkonkraftwerke-600w"
+        ],
+        "recommendations_title_2": "Für eine individuellere Montage deines Balkonkraftwerks",
+        "products_2": [
+          "revolt-strommessgerat"
+        ],
+        "recommendations_title_3": "Du möchtest eine Nulleinspeisung umsetzen und die Einspeiseleistung automatisieren?",
+        "products_3": [],
+        "product_card_background": "#fffcf0",
+        "product_card_text_color": "",
+        "success_msg_heading": "Gute Wahl! 🎉",
+        "success_msg_content": "Nutze die Sonne und reduziere Deine Stromkosten.",
+        "success_msg_background": "#e9f4dd",
+        "success_msg_color": "#040404"
+      }
+    },
+    "search-drawer": {
+      "type": "search-drawer",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "show_article_category": true,
+        "search_menu": "",
+        "search_menu_show_title": true
+      }
+    }
+  },
+  "order": [
+    "newsletter-popup",
+    "privacy-banner",
+    "cart-drawer",
+    "search-drawer"
+  ]
+}

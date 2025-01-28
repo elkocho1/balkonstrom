@@ -1,0 +1,519 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "collection-banner",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "show_collection_title": true,
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "collection_title_size": "h1",
+        "image_size": "sm",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "featured_product": "",
+        "featured_product_heading": "Featured product",
+        "text_color": "#eeece5",
+        "overlay_color": "#000000",
+        "overlay_opacity": 15
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "products_per_page": 24,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "filter_layout": "horizontal",
+        "show_sort_by": false,
+        "show_filters": false,
+        "show_filter_group_name": false,
+        "show_color_swatch": false,
+        "show_empty_filter_values": false,
+        "show_filter_values_count": false,
+        "open_first_filter_group": false
+      }
+    },
+    "image_with_text_overlay_DfHxWf": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_fiKBDw": {
+          "type": "heading",
+          "settings": {
+            "text": "Balkonkraftwerke für deinen Balkon",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_Ut8G67": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Komplettpakete – perfekt für die Montage an deinem Balkon!</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_fiKBDw",
+        "richtext_Ut8G67"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "enable_fix_parallax": false,
+        "image_size": "md",
+        "image": "shopify://shop_images/Balkon3Blackv2.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 49
+      }
+    },
+    "custom_logo_list_7Q8njd": {
+      "type": "custom-logo-list",
+      "blocks": {
+        "logo_image_tF6WKG": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/Untitled_design_80.png"
+          }
+        },
+        "logo_image_mNpmQw": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_1_6ad045c6-a6af-43bc-8772-088fda3e65c1.png"
+          }
+        },
+        "logo_image_ztwmP4": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_68bc6b1f-9cde-4e28-90d9-010389d4b518.png"
+          }
+        },
+        "logo_image_gKHA8X": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_4.png"
+          }
+        },
+        "logo_image_Qr8ceT": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_3_eccce761-16d6-41a5-aab7-1b94750e6ae5.png"
+          }
+        },
+        "logo_image_kEMDNp": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_2_a6e3afea-7afd-46b9-9542-a2b05fba13c9.png"
+          }
+        }
+      },
+      "block_order": [
+        "logo_image_tF6WKG",
+        "logo_image_mNpmQw",
+        "logo_image_ztwmP4",
+        "logo_image_gKHA8X",
+        "logo_image_Qr8ceT",
+        "logo_image_kEMDNp"
+      ],
+      "settings": {
+        "enable_mobile_slider": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection_q86xzJ": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "balkon-basic",
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Basic",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "featured_collection_yh4h4z": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "balkon-premium",
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Premium",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "text_with_icons_EJYHEk": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_RWbzeG": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/icon-montage.png",
+            "mobile_icon_width": 24,
+            "icon_width": 40,
+            "icon_background_type": "circle",
+            "icon_background": "#eee9e3",
+            "icon_color": "",
+            "subtitle": "",
+            "title": "Einfache Selbstmontage",
+            "content": ""
+          }
+        },
+        "item_E3FFCL": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/balkon_1.png",
+            "mobile_icon_width": 24,
+            "icon_width": 40,
+            "icon_background_type": "circle",
+            "icon_background": "#eee9e3",
+            "icon_color": "",
+            "subtitle": "",
+            "title": "Ideal für kleine Balkone",
+            "content": ""
+          }
+        },
+        "item_6za7D9": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/icon-lebensdauer.png",
+            "mobile_icon_width": 24,
+            "icon_width": 40,
+            "icon_background_type": "circle",
+            "icon_background": "#eee9e3",
+            "icon_color": "",
+            "subtitle": "",
+            "title": "Langlebig & effizient",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_RWbzeG",
+        "item_E3FFCL",
+        "item_6za7D9"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "title": "",
+        "heading_tag": "h4",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "#f7f7f7",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "media_with_text_7kENbi": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_GT9pDF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Kein_Titel_1600_x_1600_px_444.png",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Basic oder Premium Set - Der Unterschied",
+            "content": "<p>Vergleiche unsere Basic- und Premium-Sets und entscheide selbst, was zu dir passt!</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f7f7f7",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_GT9pDF"
+      ],
+      "settings": {
+        "show_klaviyo_form": false,
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "09df8a39-86d5-4eab-a510-9aa283582fe0": {
+      "type": "faq",
+      "blocks": {
+        "template--18109074047240__09df8a39-86d5-4eab-a510-9aa283582fe0-item-1": {
+          "type": "item",
+          "settings": {
+            "title": "Woher weiß ich ob mein Balkon geeignet ist?",
+            "content": "<p>Unsere <a href=\"/collections/balkonkraftwerke\" title=\"Balkonkraftwerke\">Balkonkraftwerke </a>eignen sich insbesondere für den Einsatz an Gitterbalkonen oder Betonbalkonen mit einem runden oder eckigen Handlauf.</p><p>Auf der <a href=\"/collections/balkon\" title=\"Solaranlagen für deinen Balkon\">Produktseite</a> kannst du einen Balkoncheck durchführen und überprüfen ob auch dein Balkon geeignet ist.</p>"
+          }
+        },
+        "template--18109074047240__09df8a39-86d5-4eab-a510-9aa283582fe0-item-2": {
+          "type": "item",
+          "settings": {
+            "title": "Muss eine Steckdose auf meinem Balkon vorhanden sein?",
+            "content": "<p>Ja, für die Einspeisung in dein Hausnetz ist eine Steckdose notwendig. Sofern du keine Steckdose auf deinem Balkon zur Verfügung hast kann durch einen Elektriker schnell und einfach eine Steckdose nachträglich installiert werden.</p>"
+          }
+        },
+        "template--18109074047240__09df8a39-86d5-4eab-a510-9aa283582fe0-item-3": {
+          "type": "item",
+          "settings": {
+            "title": "Dürfen eure Balkon-Solaranlagen auch in über 4m Höhe installiert werden?",
+            "content": "<p>Ja! Denn laut dem Deutschen Institut für Bautechnik sind <a href=\"/collections/balkonkraftwerke\" title=\"Balkonkraftwerke\">Balkonkraftwerke</a> <strong>keine Bauprodukte </strong>i.S.d. § 2 Abs. 10 Nr. 1 MBO und dürfen auch in Höhe von über 4m installiert werden. Dies bringt den Vorteil mit sich, dass unsere Kunden nicht auf kurzlebige Leichtmodule zurückgreifen müssen.</p>"
+          }
+        },
+        "a7d01820-ade9-4f49-96a2-cf60add901f9": {
+          "type": "item",
+          "settings": {
+            "title": "Kann ich den Neigungswinkel selbst einstellen?",
+            "content": "<p>Ja durch unsere Halterung hast du die Möglichkeit den Neigungswinkel anzupassen um den Ertrag zu optimieren. Eine zu starke Aufständerung ist mit unserer Halterung bewusst nicht möglich um auch höheren Windlasten stand zu halten. </p>"
+          }
+        },
+        "4169eda3-aa04-4044-ab93-060f35ad24a9": {
+          "type": "item",
+          "settings": {
+            "title": "Kann ich das Balkonkraftwerk auch direkt bei euch abholen?",
+            "content": "<p>Gerne kannst du deine Anlage auch kostenlos bei uns vor Ort abholen und sparst dir so die Lieferzeit und die Lieferkosten deiner Bestellung. Im Anschluss an deine Bestellung kannst du dich einfach in ein freies Zeitfenster zur Abholung einbuchen.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18109074047240__09df8a39-86d5-4eab-a510-9aa283582fe0-item-1",
+        "template--18109074047240__09df8a39-86d5-4eab-a510-9aa283582fe0-item-2",
+        "template--18109074047240__09df8a39-86d5-4eab-a510-9aa283582fe0-item-3",
+        "a7d01820-ade9-4f49-96a2-cf60add901f9",
+        "4169eda3-aa04-4044-ab93-060f35ad24a9"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "<p>Du hast Fragen rund um das Thema Balkonkraftwerke und Mini-PV-Anlagen? Für eine Zusammenstellung der häufig gestellten Fragen schaue gerne bei unseren FAQ vorbei.</p>",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "rich_text_CYcNpJ": {
+      "type": "rich-text",
+      "blocks": {
+        "image_Kinq7b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Logos.png",
+            "width_mode": "custom",
+            "max_width": 350,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "image_Kinq7b"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "aa3ba5ba-f5c6-418e-8256-401cc436afa2": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18109074047240__aa3ba5ba-f5c6-418e-8256-401cc436afa2-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Erneuerbare Energie direkt vor deiner Tür: Montiere eine Balkon-Solaranlage auf deinem Balkon",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--18109074047240__aa3ba5ba-f5c6-418e-8256-401cc436afa2-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Du bist auf der Suche nach einer einfachen Möglichkeit, deine Stromkosten zu reduzieren? Dann bist du bei uns genau richtig! Unsere Balkonkraftwerke sind als Komplettset erhältlich und können einfach in die Steckdose gesteckt werden. Mit einer Balkon-Solaranlage kannst du ganz unkompliziert deinen eigenen Strom erzeugen und auf diesem Wege langfristig bares Geld sparen. </p><h3>Sparen mit Stil – Komplettsets von Balkonstrom</h3><p>All unsere Balkonkraftwerke kommen als Komplettsets bei dir an. Das heißt, du bekommst von uns mit einer Bestellung alle notwendigen Komponenten, die du für die Inbetriebnahme deiner Solaranlage an deinem Balkon brauchst. Unsere Balkonkraftwerke sind einfach zu montieren und können ohne Handwerker und Elektriker angeschlossen werden. So kannst du sofort mit der Stromerzeugung starten und Stromkosten sparen. Ihr modernes Design, macht unsere Balkonkraftwerke zudem zu einem echten Hingucker!</p><p>Unsere Balcony Sets sind speziell auf den Einsatz am Balkon konzipiert. Dabei ist es egal, ob du einen Gitterbalkon oder einen normalen Balkon mit Handlauf hast – unsere Balkonkraftwerke passen an nahezu jeden Balkon. Um sicherzugehen, dass das von dir ausgewählte Set an deinen Balkon passt, haben wir dir <a href=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Balkoncheck.pdf?v=1694785925\" target=\"_blank\" title=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Balkoncheck.pdf?v=1694785925\">hier</a> einen Check erstellt. <br/></p><h3>Balkonkraftwerke 800 Watt mit Kabeln Made in Germany</h3><p>In unseren Sets erhältst du entweder den Hoymiles HM-400 oder den Hoymiles HM-800. Den HM-800 kannst du ganz einfach in seiner Leistung auf die derzeit für das vereinfachte Verfahren zulässigen 600 Watt drosseln. Somit erhältst du bei uns Solaranlagen mit 600 Watt, die du, sollten die entsprechenden Regelungen in Kraft treten, ganz einfach auf eine Leistung von 800 Watt steigern kannst. Dank hochwertiger Komponenten können wir dir eine hohe Langlebigkeit garantieren. Auch bei den kleinsten Komponenten, den Kabeln, möchten wir dir nur das Beste bieten, und lassen deshalb <a href=\"https://www.balkonstrom.com/blogs/news/herstellung-und-produktion-der-kabel-fur-unsere-balkonkraftwerke\" target=\"_blank\" title=\"https://www.balkonstrom.com/blogs/news/herstellung-und-produktion-der-kabel-fur-unsere-balkonkraftwerke\">unsere AC-Anschlusskabel und MC-4 Verlängerungskabel</a> von unserem Partner in Deutschland fertigen.<br/></p><h3>Stromerzeugung auf kleinstem Raum </h3><p>Wir bieten dir ausgewählte Anlagen in verschiedenen Leistungsstärken und Ausführungen an. Unsere Balkon-Solaranlagen eignen sich für alle, die an ihrem Balkon Platz für mindestens ein Solarmodul haben. Unsere Anlagen sind witterungsbeständig und werden mit einer stabilen Halterung geliefert, die eine sichere Montage gewährleistet. Bei der hochwertigen Unterkonstruktion der Balkon-Solaranlage ist es möglich, den Neigungswinkel flexibel  einzustellen, um den freien Platz an deinem Balkon bestmöglich zu nutzen. Indem du die Ausrichtung deines Balkonkraftwerkes zur Sonne optimierst, kannst du den Stromertrag deiner Anlage steigern. <br/></p><h3>Balkonkraftwerke – Eine Technologie mit unzähligen Vorteilen</h3><p>Mit einem Balkonkraftwerk kannst du ganz einfach mittels Sonnenenergie deinen eigenen Strom erzeugen und langfristig bares Geld sparen. Balkonkraftwerke bieten eine Reihe an Vorteilen. Zum einen sind sie im Vergleich zu einer großen Photovoltaik-Anlage erschwinglicher und bereits für geringes Budget erhältlich. Zum anderen brauchst du nicht viel Platz für die Installation eines Balkonkraftwerkes. Sobald du Platz für mindestens ein Solarmodul hast, kann es für dich losgehen. Dabei bist du hinsichtlich des Montageortes mit einem Balkonkraftwerk maximal flexibel, denn du kannst die Anlage im Grunde überall montieren. Außerdem ist die Installation unkompliziert und bereits auf die Montage durch den Laien ausgelegt – du brauchst also weder einen Handwerker noch einen Elektriker. Ist die Anlage einmal montiert, ist nichts mehr zu tun und dein eigener Strom fließt in dein Hausnetz.</p><h3>Mit unseren Balkonkraftwerken hoch hinaus</h3><p>Unsere Balkon-Solaranlagen eigenen sich für die Montage in allen Höhen. Die vermeidlich existierende Regelung, dass Balkonkraftwerke in maximal 4 Metern Höhe angebracht werden dürfen, wurde im Oktober 2023 durch das Deutsche Institut für Bautechnik eindeutig verneint. Das Institut stellte klar, dass es sich bei Balkonkraftwerken nicht um Bauprodukte im Sinne der Musterbauordnung handelt. Diese Klarstellung verdeutlicht, dass du dein Balkonkraftwerk bedenkenlos in jeder Höhe anbringen kannst und <strong>nicht</strong> verpflichtet bist, auf Folienmodule, die häufig eine schlechtere Verarbeitung aufweisen als herkömmliche Glas-Folie-Module, zurückzugreifen. In unseren Sets erhältst du ausschließlich hochwertige Glas-Folie-Module für die Montage an deinem Balkon.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18109074047240__aa3ba5ba-f5c6-418e-8256-401cc436afa2-heading-1",
+        "template--18109074047240__aa3ba5ba-f5c6-418e-8256-401cc436afa2-richtext-1"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "d0e824a9-8761-4feb-a810-7bad5e9cb71b": {
+      "type": "seo-section",
+      "blocks": {
+        "template--18732286050568__d0e824a9-8761-4feb-a810-7bad5e9cb71b-fullwidthblock-1": {
+          "type": "fullwidthblock",
+          "settings": {
+            "full_width_heading": "Erneuerbare Energie direkt vor deiner Tür: Montiere eine Balkon-Solaranlage auf deinem Balkon",
+            "full_width_description": "<p>Du bist auf der Suche nach einer einfachen Möglichkeit, deine Stromkosten zu reduzieren? Dann bist du bei uns genau richtig! Unsere Balkonkraftwerke sind als Komplettset erhältlich und können einfach in die Steckdose gesteckt werden. Mit einer Balkon-Solaranlage kannst du ganz unkompliziert deinen eigenen Strom erzeugen und auf diesem Wege langfristig bares Geld sparen.</p>",
+            "full_width_heading_color": "#040404",
+            "gradient": "",
+            "full_width_description_color": "#040404",
+            "full_width_heading_size": "h2"
+          }
+        },
+        "template--18732286050568__d0e824a9-8761-4feb-a810-7bad5e9cb71b-leftblock-1": {
+          "type": "leftblock",
+          "settings": {
+            "left_block_heading": "Sparen mit Stil – Komplettsets von Balkonstrom®",
+            "left_block_description": "<p>All unsere Balkonkraftwerke kommen als Komplettsets bei dir an. Das heißt, du bekommst von uns mit einer Bestellung alle notwendigen Komponenten, die du für die Inbetriebnahme deiner Solaranlage an deinem Balkon brauchst. Unsere Balkonkraftwerke sind einfach zu montieren und können ohne Handwerker und Elektriker angeschlossen werden. So kannst du sofort mit der Stromerzeugung starten und Stromkosten sparen. Ihr modernes Design, macht unsere Balkonkraftwerke zudem zu einem echten Hingucker!</p><p>Unsere Balcony Sets sind speziell auf den Einsatz am Balkon konzipiert. Dabei ist es egal, ob du einen Gitterbalkon oder einen normalen Balkon mit Handlauf hast – unsere Balkonkraftwerke passen an nahezu jeden Balkon. Um sicherzugehen, dass das von dir ausgewählte Set an deinen Balkon passt, haben wir dir einen <a href=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Balkoncheck_e97c40b4-aca2-4340-aea7-df879b12c6fc.pdf?v=1704834664\" title=\"https://cdn.shopify.Balkonstrom Balkonkraftwerk Balkon Check/s/files/1/0609/9481/4140/files/Balkoncheck_e97c40b4-aca2-4340-aea7-df879b12c6fc.pdf?v=1704834664\">Check</a> erstellt.</p>",
+            "left_block_heading_color": "#040404",
+            "gradient": "",
+            "left_block_description_color": "#040404",
+            "left_block_heading_size": "h3"
+          }
+        },
+        "template--18732286050568__d0e824a9-8761-4feb-a810-7bad5e9cb71b-rightblock-1": {
+          "type": "rightblock",
+          "settings": {
+            "right_block_heading": "Balkonanlage 800 Watt mit Kabeln Made in Germany",
+            "right_block_description": "<p>In unseren Sets erhältst du entweder den Hoymiles HM-400 oder den Hoymiles HM-800. Den HM-800 kannst du ganz einfach in seiner Leistung auf die derzeit für das vereinfachte Verfahren zulässigen 600 Watt drosseln. Somit erhältst du bei uns Solaranlagen mit 600 Watt, die du, sollten die entsprechenden Regelungen in Kraft treten, ganz einfach auf eine Leistung von 800 Watt steigern kannst. Dank hochwertiger Komponenten können wir dir eine hohe Langlebigkeit garantieren. Auch bei den kleinsten Komponenten, den Kabeln, möchten wir dir nur das Beste bieten, und lassen deshalb <a href=\"https://www.balkonstrom.com/blogs/news/herstellung-und-produktion-der-kabel-fur-unsere-balkonkraftwerke\" target=\"_blank\" title=\"https://www.balkonstrom.com/blogs/news/herstellung-und-produktion-der-kabel-fur-unsere-balkonkraftwerke\">unsere AC-Anschlusskabel und MC-4 Verlängerungskabel</a> von unserem Partner in Deutschland fertigen.</p>",
+            "right_block_heading_color": "#040404",
+            "gradient": "",
+            "right_block_description_color": "#040404",
+            "right_block_heading_size": "h3"
+          }
+        },
+        "4b17715c-5ce5-4246-ab34-b989927364c1": {
+          "type": "leftblock",
+          "settings": {
+            "left_block_heading": "Stromerzeugung auf kleinstem Raum mit einer Balkon PV Anlage",
+            "left_block_description": "<p>Wir bieten dir ausgewählte Anlagen in verschiedenen Leistungsstärken und Ausführungen an. Unsere Balkon-Solaranlagen eignen sich für alle, die an ihrem Balkon Platz für mindestens ein Solarmodul haben. Unsere Anlagen sind witterungsbeständig und werden mit einer stabilen Halterung geliefert, die eine sichere Montage gewährleistet. Bei der hochwertigen Unterkonstruktion der Balkon-Solaranlage ist es möglich, den Neigungswinkel flexibel  einzustellen, um den freien Platz an deinem Balkon bestmöglich zu nutzen. Indem du die Ausrichtung deines Balkonkraftwerkes zur Sonne optimierst, kannst du den Stromertrag deiner Anlage steigern. </p>",
+            "left_block_heading_color": "#040404",
+            "gradient": "",
+            "left_block_description_color": "#040404",
+            "left_block_heading_size": "h3"
+          }
+        },
+        "833e0ac7-9148-4d7a-a342-3884e4a5dd10": {
+          "type": "rightblock",
+          "settings": {
+            "right_block_heading": "Balkonkraftwerke – Eine Technologie mit unzähligen Vorteilen",
+            "right_block_description": "<p>Mit einem Balkonkraftwerk kannst du ganz einfach mittels Sonnenenergie deinen eigenen Strom erzeugen und langfristig bares Geld sparen. Balkonkraftwerke bieten eine Reihe an Vorteilen. Zum einen sind sie im Vergleich zu einer großen Photovoltaik-Anlage erschwinglicher und bereits für geringes Budget erhältlich. Zum anderen brauchst du nicht viel Platz für die Installation eines Balkonkraftwerkes. Sobald du Platz für mindestens ein Solarmodul hast, kann es für dich losgehen. Dabei bist du hinsichtlich des Montageortes mit einem Balkonkraftwerk maximal flexibel, denn du kannst die Anlage im Grunde überall montieren. Außerdem ist die Installation unkompliziert und bereits auf die Montage durch den Laien ausgelegt – du brauchst also weder einen Handwerker noch einen Elektriker. Ist die Anlage einmal montiert, ist nichts mehr zu tun und dein eigener Strom fließt in dein Hausnetz.</p>",
+            "right_block_heading_color": "#040404",
+            "gradient": "",
+            "right_block_description_color": "#040404",
+            "right_block_heading_size": "h3"
+          }
+        },
+        "fae0a1f5-58bf-4146-a6ec-b13a7a9591cd": {
+          "type": "leftblock",
+          "settings": {
+            "left_block_heading": "Mit unseren Balkonkraftwerken hoch hinaus",
+            "left_block_description": "<p>Unsere Balkon-Solaranlagen eigenen sich für die Montage in allen Höhen. Die vermeidlich existierende Regelung, dass Balkonkraftwerke in maximal 4 Metern Höhe angebracht werden dürfen, wurde im Oktober 2023 durch das Deutsche Institut für Bautechnik eindeutig verneint. Das Institut stellte klar, dass es sich bei Balkonkraftwerken nicht um Bauprodukte im Sinne der Musterbauordnung handelt. Diese Klarstellung verdeutlicht, dass du dein Balkonkraftwerk bedenkenlos in jeder Höhe anbringen kannst und <strong>nicht</strong> verpflichtet bist, auf Folienmodule, die häufig eine schlechtere Verarbeitung aufweisen als herkömmliche Glas-Folie-Module, zurückzugreifen. In unseren Sets erhältst du ausschließlich hochwertige Glas-Folie-Module für die Montage an deinem Balkon.</p>",
+            "left_block_heading_color": "#040404",
+            "gradient": "",
+            "left_block_description_color": "#040404",
+            "left_block_heading_size": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "template--18732286050568__d0e824a9-8761-4feb-a810-7bad5e9cb71b-fullwidthblock-1",
+        "template--18732286050568__d0e824a9-8761-4feb-a810-7bad5e9cb71b-leftblock-1",
+        "template--18732286050568__d0e824a9-8761-4feb-a810-7bad5e9cb71b-rightblock-1",
+        "4b17715c-5ce5-4246-ab34-b989927364c1",
+        "833e0ac7-9148-4d7a-a342-3884e4a5dd10",
+        "fae0a1f5-58bf-4146-a6ec-b13a7a9591cd"
+      ],
+      "settings": {
+        "full_width": true,
+        "page_width": 1600,
+        "link_color": "#040404",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "main",
+    "image_with_text_overlay_DfHxWf",
+    "custom_logo_list_7Q8njd",
+    "featured_collection_q86xzJ",
+    "featured_collection_yh4h4z",
+    "text_with_icons_EJYHEk",
+    "media_with_text_7kENbi",
+    "09df8a39-86d5-4eab-a510-9aa283582fe0",
+    "rich_text_CYcNpJ",
+    "aa3ba5ba-f5c6-418e-8256-401cc436afa2",
+    "d0e824a9-8761-4feb-a810-7bad5e9cb71b"
+  ]
+}

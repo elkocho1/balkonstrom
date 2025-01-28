@@ -1,0 +1,493 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "100%"
+      }
+    },
+    "63e7ae41-a067-4ba9-aa48-4491e5af23b8": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--18284114247944__63e7ae41-a067-4ba9-aa48-4491e5af23b8-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Individuelle und kostenfreie Beratung - Jetzt Termin vereinbaren!",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--18284114247944__63e7ae41-a067-4ba9-aa48-4491e5af23b8-heading-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "enable_fix_parallax": false,
+        "image_size": "md",
+        "image": "shopify://shop_images/Bifazial_Basic_Balkonkraftwerk_03a4e4d6-a047-4619-a377-6626f678499d.webp",
+        "mobile_image": "shopify://shop_images/Bifazial_Basic_Balkonkraftwerk_mobile.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 20
+      }
+    },
+    "custom_logo_list_m36Kfw": {
+      "type": "custom-logo-list",
+      "blocks": {
+        "logo_image_X8HjPM": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/Untitled_design_80.png"
+          }
+        },
+        "logo_image_qKLdX9": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_1_6ad045c6-a6af-43bc-8772-088fda3e65c1.png"
+          }
+        },
+        "logo_image_t6PWKK": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_68bc6b1f-9cde-4e28-90d9-010389d4b518.png"
+          }
+        },
+        "logo_image_rGFqHk": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_4.png"
+          }
+        },
+        "logo_image_QzMnct": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_3_eccce761-16d6-41a5-aab7-1b94750e6ae5.png"
+          }
+        },
+        "logo_image_3AV7y6": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_2_a6e3afea-7afd-46b9-9542-a2b05fba13c9.png"
+          }
+        }
+      },
+      "block_order": [
+        "logo_image_X8HjPM",
+        "logo_image_qKLdX9",
+        "logo_image_t6PWKK",
+        "logo_image_rGFqHk",
+        "logo_image_QzMnct",
+        "logo_image_3AV7y6"
+      ],
+      "settings": {
+        "enable_mobile_slider": true,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "text_with_icons_7GKYpq": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_3CU9gP": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-award-gift",
+            "mobile_icon_width": 24,
+            "icon_width": 36,
+            "icon_background_type": "circle",
+            "icon_background": "#eee9e3",
+            "icon_color": "",
+            "subtitle": "",
+            "title": "Kostenfreie Beratung",
+            "content": "<p>Erhalte maßgeschneiderte Empfehlungen, die zu deiner individuellen Ausgangslage passen</p>"
+          }
+        },
+        "item_CeMwdN": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-comment",
+            "mobile_icon_width": 24,
+            "icon_width": 36,
+            "icon_background_type": "circle",
+            "icon_background": "#eee9e3",
+            "icon_color": "",
+            "subtitle": "",
+            "title": "Produktinformationen",
+            "content": "<p>Erfahre mehr über unsere Balkonkraftwerke – Wir beantworten all deine Fragen</p>"
+          }
+        },
+        "item_aNgWec": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-like",
+            "mobile_icon_width": 24,
+            "icon_width": 36,
+            "icon_background_type": "circle",
+            "icon_background": "#eee9e3",
+            "icon_color": "",
+            "subtitle": "",
+            "title": "Planungsunterstützung",
+            "content": "<p>Profitiere von unserer langjährigen Expertise bei der Planung deiner Anlage und der zu erwartenden Stromerträge</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_3CU9gP",
+        "item_CeMwdN",
+        "item_aNgWec"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "title": "",
+        "heading_tag": "h4",
+        "text_alignment": "center",
+        "icon_spacing": "large",
+        "background": "#f7f7f7",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "rich_text_nGTDKN": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_bJt3Kw": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Individuelle und kostenfreie Beratung",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_YheVMT": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Du möchtest dir ein Balkonkraftwerk kaufen, bist dir aber unsicher, welche Anlage zu deinen Bedarfen passt und was du bei der Planung deiner Anlage beachten musst? Wir helfen dir sehr gerne weiter! Buche dich einfach in einen freien Termin für ein kostenfreies und individuelles Beratungsgespräch mit unseren Experten ein. Wir freuen uns auf dich!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_bJt3Kw",
+        "richtext_YheVMT"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "text_with_icons_gNFmHf": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_QrVMhA": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/berater-balkonstrom.webp",
+            "mobile_icon_width": 120,
+            "icon_width": 120,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "subtitle": "Raphael Ehehalt, Physiker",
+            "title": "Beratung gefällig? Sprich mit unserem Experten!",
+            "content": "<p>Raphael Ehehalt ist Physiker und arbeitete in der Produktion organischer Photovoltaik-Module. Seine Expertise setzt er heute als Berater bei Balkonstrom® ein.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_QrVMhA"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "title": "",
+        "heading_tag": "h2",
+        "text_alignment": "center",
+        "icon_spacing": "large",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "c6e12d64-da96-40aa-a7bf-35ddf5d5437b": {
+      "type": "custom-html",
+      "custom_css": [
+        ".Es8downQlxiASDyltHtn {overflow: hidden !important;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<!-- Calendly Inline-Widget Beginn -->\n<div class=\"calendly-inline-widget\" data-url=\"https://calendly.com/balkonstrom-abholung/erstberatung-balkonkraftwerk?hide_gdpr_banner=1\" style=\"min-width:320px;height:700px;\"></div>\n<script type=\"text/javascript\" src=\"https://assets.calendly.com/assets/external/widget.js\" async=\"\"></script>\n<!-- Calendly Inline-Widget Ende -->",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "images_with_text_scrolling_PYzzgf": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "item_dgnLBK": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/beratungsseite-bilder.webp",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Finde dein Perfect Match!",
+            "content": "<p>Bereits über 3.000 Kunden kamen durch unsere Beratung zu ihrer Wunschanlage, die perfekt auf ihre Bedürfnisse zugeschnitten ist. Gemeinsam mit unseren Experten sprichst du über deinen individuellen Bedarf und deine Fragen. Unser Anspruch ist es, dass du deine Wunschanlage findest!</p><p><strong>Unser Versprechen</strong>: Nach nur 15 Minuten Gespräch, weißt du genau, wie viel Euro du mit deinem Balkonkraftwerk sparen wirst und welches perfekt für deinen Strombedarf passt!</p>"
+          }
+        },
+        "item_6phwKy": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/solarmodule.webp",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Kostenfrei und unverbindlich!",
+            "content": "<p>Unser Gespräch ist für dich komplett kostenfrei und unverbindlich! Wir sind davon überzeugt, dass sich die Anschaffung eines Balkonkraftwerks für jeden lohnt. Ohne eine vorherige Beratung über deine individuelle Situation, können Fehlkäufe aber nicht ausgeschlossen werden. Wir möchten daher jedem eine einfache Möglichkeit bieten, sich vorab mit einem Experten kostenfrei auszutauschen und offene Fragen zu klären.</p>"
+          }
+        },
+        "item_gLabPd": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Ortsunabhaengige_Beratung.webp",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Ortsunabhängige Beratung",
+            "content": "<p>Unsere Experten beraten dich entweder telefonisch oder online. Somit kannst du von überall von unserer Beratung profitieren!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_dgnLBK",
+        "item_6phwKy",
+        "item_gLabPd"
+      ],
+      "settings": {
+        "full_width": false,
+        "stack_on_mobile": true,
+        "show_counter": true,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "multi_column_HMd4nr": {
+      "type": "multi-column",
+      "blocks": {
+        "item_DqmB4q": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "1. Terminauswahl",
+            "heading_tag": "h4",
+            "content": "<p>Wähle einen für dich passenden Termin aus in unserem Kalender.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_xfNBhy": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "2. Persönliche Angaben",
+            "heading_tag": "h4",
+            "content": "<p>Gib deine Kontaktinformationen ein, damit wir dich erreichen können.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_X3ypen": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "3. Vorab-Fragebogen",
+            "heading_tag": "h4",
+            "content": "<p>Fülle einen kurzen Fragebogen aus, damit wir deine Beratung perfekt vorbereiten können.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_DqmB4q",
+        "item_xfNBhy",
+        "item_X3ypen"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": true,
+        "enable_column_padding": false,
+        "column_background": "",
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "Wie funktioniert es?",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "faq_hLCUe7": {
+      "type": "faq",
+      "blocks": {
+        "item_PdVVYP": {
+          "type": "item",
+          "settings": {
+            "title": "Wie lange dauert die Beratung?",
+            "content": "<p>Die Beratung dauert in der Regel 15 Minuten. Sollten wir mehr Zeit benötigen, nehmen wir uns diese natürlich! Uns ist es wichtig, dass all deine Fragen beantwortet werden.</p>"
+          }
+        },
+        "item_iax7hW": {
+          "type": "item",
+          "settings": {
+            "title": "Was kostet die Beratung?",
+            "content": "<p>Unsere Beratung ist für dich komplett kostenlos und unverbindlich.</p>"
+          }
+        },
+        "item_KUkbRr": {
+          "type": "item",
+          "settings": {
+            "title": "Muss ich mich auf das Gespräch vorbereiten?",
+            "content": "<p>Es ist hilfreich, wenn du deine aktuelle Stromrechnung und Informationen zum Installationsort bereithältst.</p>"
+          }
+        },
+        "item_W7xRLC": {
+          "type": "item",
+          "settings": {
+            "title": "Warum ist das Beratungsgespräch kostenfrei?",
+            "content": "<p>Die Informationsflut zum Thema Balkonkraftwerke kann überfordernd sein und enthält an einigen Stellen Falschinformationen. Wir empfehlen Kunden daher eine individuelle Vorab-Beratung, damit sie sich für eine Anlage entscheiden, mit der sie langfristig glücklich sind. Um dir dies zu ermöglichen, bieten wir dir die Möglichkeit einer kostenfreien Beratung.</p>"
+          }
+        },
+        "item_7TagnY": {
+          "type": "item",
+          "settings": {
+            "title": "Was bringt mir das Beratungsgespräch?",
+            "content": "<p>In dem Beratungsgespräch wirst du folgendes erfahren:</p><p>1. Wie viel Stromkosten du einsparen kannst</p><p>2. Welches Balkonkraftwerk zu deinen Bedürfnissen passt</p><p>3. Ob sich ein Speicher für dich lohnt</p><p>4. Wichtige Montagetipps</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_PdVVYP",
+        "item_iax7hW",
+        "item_KUkbRr",
+        "item_W7xRLC",
+        "item_7TagnY"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "0f921b8f-92e8-48d8-b0ab-2ca6002e6368": {
+      "type": "seo-section",
+      "blocks": {
+        "template--18732287361288__0f921b8f-92e8-48d8-b0ab-2ca6002e6368-fullwidthblock-1": {
+          "type": "fullwidthblock",
+          "settings": {
+            "full_width_heading": "Werksabholung in Uettingen —  Dein Balkonkraftwerk zum Sparpreis",
+            "full_width_description": "<p>Du kommst aus der Umgebung von Würzburg und möchtest mit einem <a href=\"/collections/balkonkraftwerke\" title=\"Balkonkraftwerke\">Balkonkraftwerk</a> eigenen Strom erzeugen, um deine Stromkosten zu reduzieren? Dann bist du bei uns genau richtig! Wir bieten dir hochwertige Balkonkraftwerke mit Made in Germany Komponenten zu unschlagbaren Preisen. Unsere Balkonkraftwerke sind die perfekte Lösung für alle, die in städtischen Mietwohnungen leben und keinen Zugang zu einem eigenen Dach oder Garten haben. Insbesondere Eigentümer, denen unterschiedliche Montageörtlichkeiten und ausreichend Platz zur Verfügung stehen, haben bei uns die Qual der Wahl. Unsere Anlagen sind einfach zu installieren und benötigen keine aufwendige Genehmigung oder Installation durch einen Elektriker.</p>",
+            "full_width_heading_color": "#040404",
+            "gradient": "",
+            "full_width_description_color": "#040404",
+            "full_width_heading_size": "h2"
+          }
+        },
+        "template--18732287361288__0f921b8f-92e8-48d8-b0ab-2ca6002e6368-leftblock-1": {
+          "type": "leftblock",
+          "settings": {
+            "left_block_heading": "Profitiere von unserer Expertise: Beratung und Werksabholung in Uettingen",
+            "left_block_description": "<p>Mit unserer Werksabholung kannst du dein <a href=\"/collections/balkonkraftwerke\" title=\"Balkonkraftwerke\">Balkonkraftwerk</a> direkt vor Ort abholen. So sparst du dir nicht nur die Liefergebühren und die Versandzeit, sondern kannst dich vor Ort von Experten beraten lassen und unsere Produkte live erleben. So fällt es dir sicher leichter dich für eine Anlage zu entscheiden.</p><p>Derzeit kannst du<strong> jeden Samstag zwischen 9-13 Uhr ohne Termin bei uns vorbeikommen</strong>. Wir zeigen dir gerne die Unterschiede der zur Auswahl stehenden Komponenten und erklären dir, wie du dein Balkonkraftwerk am besten installierst. So kannst du sicher sein, dass du das beste Produkt für deine Bedürfnisse auswählst und optimal von deinem Balkonkraftwerk profitierst.</p><h3>Qualität erleben mit Balkonkraftwerken von Balkonstrom – inklusive Vor-Ort-Beratung</h3><p>Unsere Werksabholung in Uettingen lohnt sich vor allem für Kunden aus der Umgebung von Würzburg, Mainfranken und dem Rhein-Main-Gebiet, die schnell und unkompliziert an ihr Balkonkraftwerk gelangen möchten. Selbstverständlich sind auch Kunden aus anderen Regionen herzlich willkommen, unser Lager zu besuchen und sich vor Ort von unseren Produkten zu überzeugen.</p><p>Also zögere nicht länger und besuche uns! Wir freuen uns darauf, dich persönlich kennenzulernen und dir bei der Auswahl deiner Wunschanlage zu helfen!</p>",
+            "left_block_heading_color": "#040404",
+            "gradient": "",
+            "left_block_description_color": "#040404",
+            "left_block_heading_size": "h3"
+          }
+        },
+        "template--18732287361288__0f921b8f-92e8-48d8-b0ab-2ca6002e6368-rightblock-1": {
+          "type": "rightblock",
+          "settings": {
+            "right_block_heading": "Qualität erleben mit Balkonkraftwerken von Balkonstrom – inklusive Vor-Ort-Beratung",
+            "right_block_description": "<p>Unsere Werksabholung in Uettingen lohnt sich vor allem für Kunden aus der Umgebung von Würzburg, Mainfranken und dem Rhein-Main-Gebiet, die schnell und unkompliziert an ihr Balkonkraftwerk gelangen möchten. Selbstverständlich sind auch Kunden aus anderen Regionen herzlich willkommen, unser Lager zu besuchen und sich vor Ort von unseren Produkten zu überzeugen.</p><p>Also zögere nicht länger und besuche uns! Wir freuen uns darauf, dich persönlich kennenzulernen und dir bei der Auswahl deiner Wunschanlage zu helfen!</p>",
+            "right_block_heading_color": "#040404",
+            "gradient": "",
+            "right_block_description_color": "#040404",
+            "right_block_heading_size": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "template--18732287361288__0f921b8f-92e8-48d8-b0ab-2ca6002e6368-fullwidthblock-1",
+        "template--18732287361288__0f921b8f-92e8-48d8-b0ab-2ca6002e6368-leftblock-1",
+        "template--18732287361288__0f921b8f-92e8-48d8-b0ab-2ca6002e6368-rightblock-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "page_width": 1600,
+        "link_color": "#040404",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "63e7ae41-a067-4ba9-aa48-4491e5af23b8",
+    "custom_logo_list_m36Kfw",
+    "text_with_icons_7GKYpq",
+    "rich_text_nGTDKN",
+    "text_with_icons_gNFmHf",
+    "c6e12d64-da96-40aa-a7bf-35ddf5d5437b",
+    "images_with_text_scrolling_PYzzgf",
+    "multi_column_HMd4nr",
+    "faq_hLCUe7",
+    "0f921b8f-92e8-48d8-b0ab-2ca6002e6368"
+  ]
+}

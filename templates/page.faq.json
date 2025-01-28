@@ -1,0 +1,522 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "content_width": "100%"
+      }
+    },
+    "d562d34f-32b5-4cc7-894d-74094c4184a4": {
+      "type": "faq",
+      "blocks": {
+        "template--17391986114824__d562d34f-32b5-4cc7-894d-74094c4184a4-167613652568a18b13-0": {
+          "type": "item",
+          "settings": {
+            "title": "Was ist ein Balkonkraftwerk?",
+            "content": "<p>Ein <a href=\"/collections/balkonkraftwerke\" title=\"Balkonkraftwerke\">Balkonkraftwerk</a> besteht meist aus ein bis zwei Photovoltaik-Modulen und einem Wechselrichter, welcher mittels Schukostecker in die Steckdose eingesteckt werden kann. Ein Balkonkraftwerk kann an den unterschiedlichsten Orten montiert werden, so zum Beispiel im Garten, auf dem Hausdach, auf der Garage oder an einer Fassade. Die erzeugte Leistung wird direkt in das Hausnetz eingespeist und kann unmittelbar von den Verbrauchern genutzt werden. Balkonkraftwerke unter 800 Watt Ausgangsleistung des Wechselrichters sind genehmigungsfrei.</p>"
+          }
+        },
+        "template--17391986114824__d562d34f-32b5-4cc7-894d-74094c4184a4-167613652568a18b13-1": {
+          "type": "item",
+          "settings": {
+            "title": "Wie funktioniert ein Balkonkraftwerk?",
+            "content": "<p>Der Wechselrichter wandelt den durch die Solarzellen produzierten Strom von Gleichstrom in Wechselstrom um. Durch das Anschlusskabel mit einem Schukostecker gelangt der Strom in dein Hausnetz. Dieser Strom kann dann im Haushalt verwendet werden. Deine im Haus befindlichen Geräte wie dein Kühlschrank oder deine Waschmaschine verwenden den produzierten Strom dann ganz automatisch, denn Strom nimmt immer den Weg des geringsten Widerstands.</p>"
+          }
+        },
+        "template--17391986114824__d562d34f-32b5-4cc7-894d-74094c4184a4-167613652568a18b13-2": {
+          "type": "item",
+          "settings": {
+            "title": "Wie viel kWh kann mein Balkonkraftwerk im Jahr erzeugen?",
+            "content": "<p>Wie viel kWh ein Balkonkraftwerk Made in Germany jährlich generiert, hängt von vielen Faktoren ab. Bei optimaler Ausrichtung an einem verschattungsfreien Montageort lassen sich mit einem Balkonkraftwerk bestehend aus zwei Photovoltaik-Modulen 800-1000 kWh in einem Jahr erzeugen. Die tatsächlich erreichte Ersparnis hängt insbesondere vom eigenen Verbrauchsverhalten ab. </p>"
+          }
+        },
+        "e41e3558-db95-4fbc-b5ca-14dcda6ce8a5": {
+          "type": "item",
+          "settings": {
+            "title": "Wie lange dauert es, bis sich mein Balkonkraftwerk amortisiert hat?",
+            "content": "<p>Eine Kilowattstunde Strom kostet im Jahr 2023 durchschnittlich 42 Cent. Wenn du den erzeugten Strom komplett selbst verbrauchst, würdest du zwischen 300 bis 400 Euro jährlich einsparen. Wenn du nur 2/3 des produzierten Stroms selbst verbrauchst, sparst du in etwa 200-300 Euro an jährlichen Stromkosten. Die Amortisationszeit liegt somit zwischen zwei bis vier Jahren. </p>"
+          }
+        },
+        "01511af8-50de-415f-9537-5a08df34cdec": {
+          "type": "item",
+          "settings": {
+            "title": "Wie kann ich überprüfen, wie viel Strom meine Anlage erzeugt?",
+            "content": "<p>Wir empfehlen dir hierfür ein Energiemessgerät, wie z.B. einen WLAN-Zwischenstecker oder die Hoymiles DTU WLite. Hierdurch kannst du entweder auf deinem Handy in einer App oder manuell auf dem Gerät die erzeugte Leistung deines Balkonkraftwerkes 800 Watt überwachen. </p>"
+          }
+        },
+        "093433bb-fab1-4eb7-9a17-a6cc1f7d45b0": {
+          "type": "item",
+          "settings": {
+            "title": "Muss ich darauf achten, auf welcher Phase mein Balkonkraftwerk einspeist?",
+            "content": "<p>Nein, in der Regel nicht. Fast alle Stromzähler in Deutschland sind phasensaldierend. Das bedeutet, dass Verbräuche und Erträge aller drei Phasen noch vor der Anzeige auf dem Stromzähler miteinander verrechnet werden. Der durch das Balkonkraftwerk erzeugte Strom kann somit auf allen drei Phasen genutzt werden. </p>"
+          }
+        },
+        "95ccfc10-d8d9-4bdf-a902-46f4471a3b91": {
+          "type": "item",
+          "settings": {
+            "title": "Kann mein Balkonkraftwerk auch bei einem Blackout oder Stromausfall Strom erzeugen?",
+            "content": "<p>Nein, der Wechselrichter benötigt eine Netzfrequenz von 50 Hertz. Diese Netzfrequenz liegt bei beiden Szenarien nicht mehr vor, sodass ein Balkonkraftwerk dann keinen Strom mehr produzieren kann. </p>"
+          }
+        },
+        "002fa085-89a1-4d39-a928-0819d38a5dd5": {
+          "type": "item",
+          "settings": {
+            "title": "Was passiert, wenn mein Balkonkraftwerk mehr Strom erzeugt als ich verbrauchen kann?",
+            "content": "<p>Sobald dies der Fall ist, wird der von deiner Solaranlage produzierte Strom kostenlos ins öffentliche Netz eingespeist. Du kannst für diesen Strom eine Einspeisevergütung erhalten. Da diese jedoch gering ist und mit großem bürokratischem Aufwand verbunden ist, solltest du dir überlegen, ob sich der Aufwand für dich lohnt. Bedenke, dass es eher selten der Fall sein dürfte, dass du mit deinem Balkonkraftwerk mehr erzeugst als du verbrauchst.</p>"
+          }
+        },
+        "d20f3c65-c342-4097-b0a2-ce5bf1636e59": {
+          "type": "item",
+          "settings": {
+            "title": "Wie lange halten die einzelnen Komponenten meiner Solaranlage wie der Wechselrichter und die Solarmodule?",
+            "content": "<p>Die Leistungsgarantie von Solarmodulen beträgt in den meisten Fällen 25 bis 30 Jahre. Auf Wechselrichter geben die Hersteller 12 Jahre Garantie. Die meisten Komponenten überleben diesen Zeitraum jedoch. So gibt es beispielsweise Solarmodule, welche bereits seit mehr als 35 Jahren Strom erzeugen. Auch unsere Made in Germany <a href=\"/products/1-paar-mc4-verlangerungskabel-4mm-fur-balkonkraftwerke-600w-0-4-m\" title=\"Paar MC-4 Verlängerungskabel\">MC-4 Verlängerungskabel</a> und <a href=\"/products/schuko-anschlusskabel-made-in-germany\" title=\"Schuko-Anschlusskabel Made in Germany\">AC-Anschlusskabel</a> geben wir eine 10 Jährige Garantie.</p>"
+          }
+        },
+        "bdff3d08-6fe6-4524-a201-6aedf71d3419": {
+          "type": "item",
+          "settings": {
+            "title": "Muss ich mein Balkonkraftwerk warten lassen?",
+            "content": "<p>Nein, Balkonkraftwerke sind grundsätzlich wartungsfrei. Bei extremen Verschmutzungen (z.B. durch Vogelkot) empfehlen wir dir, die Module mit einem nassen Lappen zu säubern.</p>"
+          }
+        },
+        "96c4f5de-fff1-4859-8c1c-6acf2e6f8891": {
+          "type": "item",
+          "settings": {
+            "title": "Sind Regen oder Frost schädlich für meine Solaranlage?",
+            "content": "<p>Nein, die Solarmodule sind wasserdicht und für extreme Temperaturen zwischen -40 und +80 Grad Celsius ausgelegt. Insofern kommt es durch extreme Witterungseinflüsse zu keinerlei Schäden an deinen Solarmodulen bzw. deiner Solaranlage.</p>"
+          }
+        },
+        "1633194a-9415-4320-a19a-952377defd20": {
+          "type": "item",
+          "settings": {
+            "title": "Ist mein Balkonkraftwerk hagelsicher?",
+            "content": "<p>Ja, alle in unseren Balkonkraftwerken angebotenen Solarmodule sind bis zu einem bestimmten Hagelkorn-Durchmesser hagelsicher. Meyer Burger Module  beispielsweise halten Hagelkörner von einer Größe von bis zu 55 Millimetern aus.</p>"
+          }
+        },
+        "4f49d571-8c15-4c3d-953e-e472bec7a8f7": {
+          "type": "item",
+          "settings": {
+            "title": "Ab wann gilt die neue Bagatellgrenze von 800 Watt für Balkonkraftwerke?",
+            "content": "<p>Seit Mai 2024 sind Balkonkraftwerke mit einem 800 Watt Wechselrichter erlaubt.</p>"
+          }
+        },
+        "fbf80229-8a92-40ce-b019-f2f4d2adfdba": {
+          "type": "item",
+          "settings": {
+            "title": "Wird durch mein Balkonkraftwerk auch im Winter Strom erzeugt?",
+            "content": "<p>Ja unsere Solarmodule sind sehr effizient und erzeugen auch an bewölkten und dunklen Tagen verhältnismäßig viel Strom. Im Verhältnis erzielt dein Balkonkraftwerk im Sommer natürlich einen höheren Ertrag.</p>"
+          }
+        },
+        "63c2ed15-b152-47ac-8410-76e160cef577": {
+          "type": "item",
+          "settings": {
+            "title": "Ist das Betreiben einer Stecker-Solaranlage steuerfrei?",
+            "content": "<p>Ja der Betrieb eines Balkonkraftwerkes ist vollkommen steuerfrei.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17391986114824__d562d34f-32b5-4cc7-894d-74094c4184a4-167613652568a18b13-0",
+        "template--17391986114824__d562d34f-32b5-4cc7-894d-74094c4184a4-167613652568a18b13-1",
+        "template--17391986114824__d562d34f-32b5-4cc7-894d-74094c4184a4-167613652568a18b13-2",
+        "e41e3558-db95-4fbc-b5ca-14dcda6ce8a5",
+        "01511af8-50de-415f-9537-5a08df34cdec",
+        "093433bb-fab1-4eb7-9a17-a6cc1f7d45b0",
+        "95ccfc10-d8d9-4bdf-a902-46f4471a3b91",
+        "002fa085-89a1-4d39-a928-0819d38a5dd5",
+        "d20f3c65-c342-4097-b0a2-ce5bf1636e59",
+        "bdff3d08-6fe6-4524-a201-6aedf71d3419",
+        "96c4f5de-fff1-4859-8c1c-6acf2e6f8891",
+        "1633194a-9415-4320-a19a-952377defd20",
+        "4f49d571-8c15-4c3d-953e-e472bec7a8f7",
+        "fbf80229-8a92-40ce-b019-f2f4d2adfdba",
+        "63c2ed15-b152-47ac-8410-76e160cef577"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Allgemeines",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "#f0c417",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "#ffffff",
+        "accordion_text_color": ""
+      }
+    },
+    "c552c42f-31b8-444b-abe1-116d8f87c5bb": {
+      "type": "faq",
+      "blocks": {
+        "template--17391986114824__c552c42f-31b8-444b-abe1-116d8f87c5bb-167613652568a18b13-0": {
+          "type": "item",
+          "settings": {
+            "title": "Darf ich mein Balkonkraftwerk selbst anschließen?",
+            "content": "<p>Ja, dein Balkonkraftwerk kannst du eigenständig anschließen. Die DIN VDE 0100-551-1:2016.09 besagt, dass nicht zertifizierte Endverbraucher den Anschluss an einer entsprechenden Steckdose vornehmen dürfen. Der Anschluss muss also nicht durch einen Elektriker erfolgen.</p>"
+          }
+        },
+        "template--17391986114824__c552c42f-31b8-444b-abe1-116d8f87c5bb-167613652568a18b13-1": {
+          "type": "item",
+          "settings": {
+            "title": "Gibt es bestimmte Anforderungen an die Elektroinstallation?",
+            "content": "<p>Ja. Das Hausnetz muss eine Spannung von 230 Volt bei 50 Hz haben. Dies ist jedoch ein allgemeiner Standard, welcher in Deutschland, Österreich und weiteren europäischen Ländern gegeben ist.</p>"
+          }
+        },
+        "template--17391986114824__c552c42f-31b8-444b-abe1-116d8f87c5bb-167613652568a18b13-2": {
+          "type": "item",
+          "settings": {
+            "title": "Darf ich meine normale haushaltsübliche Steckdose verwenden?",
+            "content": "<p>Ja, du kannst eine normale Steckdose verwenden. Sowohl die Deutsche Gesellschaft für Sonnenenergie (DGS) als auch der Verband der Elektrotechnik, Elektronik und Informationstechnik (VDE) sehen keinerlei Probleme darin, ein  Balkonkraftwerk mit einem Schukostecker zu betreiben.</p>"
+          }
+        },
+        "feeb7177-5e75-40c4-9d8f-e69aaf3d12aa": {
+          "type": "item",
+          "settings": {
+            "title": "Kann ich mehrere Balkonkraftwerke über eine Mehrfachsteckdose betreiben?",
+            "content": "<p>Nein, das solltest du auf keinen Fall tun!</p><p>Durch den Anschluss mehrerer Balkonkraftwerke kann es zu einer Überlastung der Stromleitung kommen. Das könnte im schlimmsten Fall einen Brand auslösen.</p>"
+          }
+        },
+        "72fb15ad-4bd1-4c1e-aed4-c8ac30979413": {
+          "type": "item",
+          "settings": {
+            "title": "Ist der Betrieb eines Balkonkraftwerkes sicher?",
+            "content": "<p>Ja. Bei mehr als 250.000 in Europa installierten Anlagen, welche an Schutzkontaktsteckdosen betrieben werden, sind keinerlei durch die Komponenten der Balkonkraftwerke verursachten Schäden bekannt. Die installierte Ausgangsleistung von 800 Watt ist nicht in der Lage, eine normale Elektroinstallation zu überlasten. </p>"
+          }
+        },
+        "92c03dc6-a899-4e09-9f7f-061056b7a011": {
+          "type": "item",
+          "settings": {
+            "title": "Bekomme ich einen Stromschlag, wenn ich die Pole des Steckers berühre?",
+            "content": "<p>Nein. Die vorgeschriebene, selbst wirkende Freischaltstelle unserer Wechselrichter verhindert dies. Durch diese Vorrichtung wird sichergestellt, dass nur dann Strom fließt, wenn zeitgleich Netzspannung besteht. Ziehst du den Stecker aus der Steckdose, so wird der Stromfluss innerhalb von Millisekunden abgeschaltet. </p>"
+          }
+        },
+        "d58a89bf-dca2-4c4c-9c00-55d06acfe9dd": {
+          "type": "item",
+          "settings": {
+            "title": "Muss ich bei einem Balkonkraftwerk mit mehr als 800 Watt Leistung die Sicherung tauschen?",
+            "content": "<p>Ja, bei dieser Anlagengröße empfehlen wir dir, die entsprechende Sicherung von 16 auf 10 Ampere zu reduzieren.</p>"
+          }
+        },
+        "f20cf4ba-bbd9-4ec5-84c1-889b18d17340": {
+          "type": "item",
+          "settings": {
+            "title": "Sind eure Kabel wasserdicht und wo werden diese gefertigt?",
+            "content": "<p>Ja, alle unsere Kabel sind wasserdicht. Sowohl unsere MC-4 Verlängerungskabel als auch die AC-Anschlusskabel lassen wir für höchste Qualitätsstandards und fairen Lohn in Deutschland fertigen. Durch die Qualitätskontrollen der Kabel können wir zuverlässige Erträge unserer Balkonkraftwerke sicherstellen. Diese Kontrollen finden bei zahlreichen importierten Kabeln nicht statt. Zudem werden stellenweise Materialien von unzureichender Qualität verwendet.</p>"
+          }
+        },
+        "51d683e4-97fc-44f1-a334-9f1e8d532993": {
+          "type": "item",
+          "settings": {
+            "title": "Ich besitze eine große PV-Anlage darf ich dennoch ein Balkonkraftwerk betreiben?",
+            "content": "<p>Ja, dies ist seit der neusten gesetzlichen Änderung durch das Solarpaket 1 gestattet.</p>"
+          }
+        },
+        "e245af90-3ff8-458d-bae0-d4fa2af2ce05": {
+          "type": "item",
+          "settings": {
+            "title": "Wo kann ich mein Balkonkraftwerk montieren?",
+            "content": "<p>Du kannst ein Balkonkraftwerk an nahezu jeder Örtlichkeit montieren. Die Module sollten optimalerweise nach Osten, Westen oder Süden ausgerichtet sein. Zu den häufigsten Montageorten gehören Balkongeländer, Hausfassaden, Schräg- und Flachdächer, Gartenhütten, Gärten oder auch Terrassen.</p>"
+          }
+        },
+        "item_nc74ch": {
+          "type": "item",
+          "settings": {
+            "title": "Wie erhalte ich die Zertifikate und Datenblätter?",
+            "content": "<p>Ja, du findest alle Datenblätter und Zertifikate in unserem <a href=\"https://www.solakon.de/pages/downloadbereich\">Downloadbereich</a>. Zudem findest du den Link zum Download direkt auf der Rechnung.</p>"
+          }
+        },
+        "item_nXigek": {
+          "type": "item",
+          "settings": {
+            "title": "Wie entferne ich Schnee von den Solarmodulen?",
+            "content": "<p>Bitte verwende keinen Besen oder einen spitzen Gegenstand, sondern ein weiches Tuch um den Schnee von den Modulen zu entfernen. Bitte nutze keine kochendes Wasser oder Reinigungsmittel um Beschädigungen auszuschließen.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17391986114824__c552c42f-31b8-444b-abe1-116d8f87c5bb-167613652568a18b13-0",
+        "template--17391986114824__c552c42f-31b8-444b-abe1-116d8f87c5bb-167613652568a18b13-1",
+        "template--17391986114824__c552c42f-31b8-444b-abe1-116d8f87c5bb-167613652568a18b13-2",
+        "feeb7177-5e75-40c4-9d8f-e69aaf3d12aa",
+        "72fb15ad-4bd1-4c1e-aed4-c8ac30979413",
+        "92c03dc6-a899-4e09-9f7f-061056b7a011",
+        "d58a89bf-dca2-4c4c-9c00-55d06acfe9dd",
+        "f20cf4ba-bbd9-4ec5-84c1-889b18d17340",
+        "51d683e4-97fc-44f1-a334-9f1e8d532993",
+        "e245af90-3ff8-458d-bae0-d4fa2af2ce05",
+        "item_nc74ch",
+        "item_nXigek"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Inbetriebnahme und Sicherheit",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "#f0c417",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "#ffffff",
+        "accordion_text_color": ""
+      }
+    },
+    "31fe007c-727c-49a1-9fd4-32fa59ded027": {
+      "type": "faq",
+      "blocks": {
+        "template--17391986114824__31fe007c-727c-49a1-9fd4-32fa59ded027-167613652568a18b13-0": {
+          "type": "item",
+          "settings": {
+            "title": "Muss ich mein Balkonkraftwerk anmelden?",
+            "content": "<p>Grundsätzlich bist du dazu verpflichtet dein Balkonkraftwerk im Marktstammdatenregister zu registrieren.</p>"
+          }
+        },
+        "template--17391986114824__31fe007c-727c-49a1-9fd4-32fa59ded027-167613652568a18b13-1": {
+          "type": "item",
+          "settings": {
+            "title": "Was passiert, wenn ich die Anmeldung meines Balkonkraftwerks vergessen habe?",
+            "content": "<p>Sollte der Netzbetreiber auf dich zukommen, hole die Anmeldung deiner Solaranlage einfach nach.</p>"
+          }
+        },
+        "template--17391986114824__31fe007c-727c-49a1-9fd4-32fa59ded027-167613652568a18b13-2": {
+          "type": "item",
+          "settings": {
+            "title": "Wie hoch darf die maximale Leistung meines Balkonkraftwerks sein?",
+            "content": "<p>Nach der VDE-AR-N 4105-2018:11 darf die Wechselrichterleistung für die Inanspruchnahme einer vereinfachten Anmeldung maximal 800 Watt betragen. Die Leistung der PV-Module darf 2000 Watt nicht übersteigen.</p>"
+          }
+        },
+        "25a00a0a-9472-4c54-9fc4-691e1ef2f52e": {
+          "type": "item",
+          "settings": {
+            "title": "Darf mein Netzbetreiber eine Wieland-Steckdose vorschreiben?",
+            "content": "<p>Nein, eine derartige Vorgabe kann der Netzbetreiber dir nicht machen. Für ihn ist nur wichtig, dass der VDE 4105 für den NA-Schutz erfüllt ist. Jeder Wechselrichter, den wir in unseren Balkonkraftwerken und Mini-PV-Anlagen anbieten, erfüllt diese Vorgabe. </p>"
+          }
+        },
+        "fcad5d91-72af-4c93-a0f6-ca1383e88b82": {
+          "type": "item",
+          "settings": {
+            "title": "Kann der Netzbetreiber erkennen, dass ich ein Balkonkraftwerk betreibe?",
+            "content": "<p>Dein Netzbetreiber kann nur bei einer Eintragung im Marktstammdatenregister und beim Vorhandensein eines Zweirichtungszählers erkennen, dass du ein Balkonkraftwerk betreibst. </p>"
+          }
+        },
+        "1c368e63-bb02-4cff-96d8-0e9d3989727f": {
+          "type": "item",
+          "settings": {
+            "title": "Ist die Anmeldung im Marktstammdatenregister Pflicht?",
+            "content": "<p>§5 (2) Nr.1 MaStRV besagt, dass eine Registrierung im Marktstammdatenregister bei Stromerzeugungseinheiten, die weder unmittelbar noch mittelbar an das Stromnetz angeschlossen sind, entfallen kann.</p><p>Balkonkraftwerke fallen in der Regel <em>nicht</em> unter diese Ausnahme und sollten daher angemeldet werden. Dies kannst du <a href=\"https://www.marktstammdatenregister.de/MaStR\" target=\"_blank\" title=\"Anmeldung Marktstammdatenregister\">hier</a> vornehmen. </p>"
+          }
+        },
+        "6e18385d-27f4-470d-ac39-9cf3d79dbd58": {
+          "type": "item",
+          "settings": {
+            "title": "Wann brauche ich einen Zähler mit Rücklaufsperre?",
+            "content": "<p>Du musst dir um deinen Zähler seit der neusten gesetzlichen Änderung keine Gedanken mehr machen. Auch alte Ferraris Zähler dürften vorrübergehend rückwärts drehen.</p>"
+          }
+        },
+        "80d3db85-61cc-4f00-9097-2448cdcb8532": {
+          "type": "item",
+          "settings": {
+            "title": "Wie kann ich einen Zähler mit Rücklaufsperre erhalten?",
+            "content": "<p>Einen Zähler mit Rücklaufsperre erhältst du durch deinen Messstellenbetreiber. Das ist in der Regel dein Netzbetreiber. Welcher Netzbetreiber für dich zuständig ist, kannst du <a href=\"https://xn--strungsauskunft-9sb.de/stromausfall\" target=\"_blank\" title=\"Auskunft über den zuständigen Netzbetreiber\">hier</a> durch die Eingabe deines Wohnortes herausfinden. </p>"
+          }
+        },
+        "f3d34179-9376-4fda-bc71-d2b5964b628d": {
+          "type": "item",
+          "settings": {
+            "title": "Könnte ich strafrechtlich verfolgt werden, wenn mein Zähler keine Rücklaufsperre hat?",
+            "content": "<p>Nein da seit Mai 2024 das vorrübergehende Rückwärtslaufen des Stromzählers für 4 Monate geduldet wird.</p>"
+          }
+        },
+        "448ba03a-b087-4744-a10f-edae50ea3b17": {
+          "type": "item",
+          "settings": {
+            "title": "Ist mein Balkonkraftwerk von der Einhaltung der 70 %-Regelung betroffen?",
+            "content": "<p>Alle Photovoltaik-Anlagen bis zu 7 kWp, die ab dem 14.09.2022 in Betrieb genommen wurden, sind nicht von der 70 %-Regelung betroffen. </p>"
+          }
+        },
+        "0759bf17-8e6a-48ac-9499-186d7d6e9ed5": {
+          "type": "item",
+          "settings": {
+            "title": "Muss ich meine Wohnungseigentümergemeinschaft um Erlaubnis fragen, bevor ich mein Balkonkraftwerk montiere?",
+            "content": "<p>Wir empfehlen dir, das Gespräch zu suchen und die Vorteile eines Balkonkraftwerks darzulegen. Seit 2020 reicht eine einfache Mehrheit der Beschlüsse der Eigentümergemeinschaft. </p>"
+          }
+        },
+        "64c3c14f-997c-4698-8f79-8bb5338296a2": {
+          "type": "item",
+          "settings": {
+            "title": "Muss mein Vermieter der Anbringung eines Balkonkraftwerkes am Balkongeländer zustimmen?",
+            "content": "<p>Nein, sofern das Anbringen von Gegenständen in deinem Mietvertrag nicht explizit ausgeschlossen ist. Allerdings: wenn du für die Montage Bohrungen vornehmen musst, könnte der Eigentümer deiner Wohnung die Anbringung eines Balkonkraftwerks ablehnen.</p>"
+          }
+        },
+        "593d893d-c101-43c6-90ee-a29c027da912": {
+          "type": "item",
+          "settings": {
+            "title": "Darf ich das Balkonkraftwerk auch in über 4m Höhe befestigen?",
+            "content": "<p>Ja, im Oktober 2023 hat das Deutsche Institut für Bautechnik festgestellt, dass es sich bei Balkonkraftwerken um keine Bauprodukte handelt. Aus diesem Grund dürfen auch <a href=\"/collections/balkonkraftwerke\" title=\"Balkonkraftwerke\">Balkonkraftwerke </a>herkömmlichen Solarmodule in über 4m Höhe montiert werden. </p>"
+          }
+        },
+        "4084fc40-6fe3-40ce-a1c5-5d856e314cff": {
+          "type": "item",
+          "settings": {
+            "title": "Gibt es eine Förderung für mein Balkonkraftwerk?",
+            "content": "<p>Ja dies ist abhängig wo du wohnhaft bist. Eine ausführliche Übersicht findest du auf unserer <a href=\"/pages/staatliche-forderungen-fur-balkonkraftwerke-mit-800-watt\" title=\"Staatliche Förderungen für Balkonkraftwerke mit 800 Watt\">Förderseite</a>.</p>"
+          }
+        },
+        "deace4d0-f288-4f54-a76f-46afc32bbcf9": {
+          "type": "item",
+          "settings": {
+            "title": "Wer ist für die Garantieabwicklungen zuständig?",
+            "content": "<p>Die Garantien werden durch die Hersteller gewährt. Doch sollte bei deiner Anlage während der Gewährleistung oder Garantiezeit ein Defekt austreten melde dich direkt bei uns unter support@balkonstrom.com per E-Mail.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17391986114824__31fe007c-727c-49a1-9fd4-32fa59ded027-167613652568a18b13-0",
+        "template--17391986114824__31fe007c-727c-49a1-9fd4-32fa59ded027-167613652568a18b13-1",
+        "template--17391986114824__31fe007c-727c-49a1-9fd4-32fa59ded027-167613652568a18b13-2",
+        "25a00a0a-9472-4c54-9fc4-691e1ef2f52e",
+        "fcad5d91-72af-4c93-a0f6-ca1383e88b82",
+        "1c368e63-bb02-4cff-96d8-0e9d3989727f",
+        "6e18385d-27f4-470d-ac39-9cf3d79dbd58",
+        "80d3db85-61cc-4f00-9097-2448cdcb8532",
+        "f3d34179-9376-4fda-bc71-d2b5964b628d",
+        "448ba03a-b087-4744-a10f-edae50ea3b17",
+        "0759bf17-8e6a-48ac-9499-186d7d6e9ed5",
+        "64c3c14f-997c-4698-8f79-8bb5338296a2",
+        "593d893d-c101-43c6-90ee-a29c027da912",
+        "4084fc40-6fe3-40ce-a1c5-5d856e314cff",
+        "deace4d0-f288-4f54-a76f-46afc32bbcf9"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Rechtliches",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "#f0c417",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "#ffffff",
+        "accordion_text_color": ""
+      }
+    },
+    "01c7061c-8638-42b1-8bcf-673767fd4c24": {
+      "type": "faq",
+      "blocks": {
+        "template--17391986114824__01c7061c-8638-42b1-8bcf-673767fd4c24-167613652568a18b13-0": {
+          "type": "item",
+          "settings": {
+            "title": "Kann ich mein Balkonkraftwerk bei euch vor Ort abholen?",
+            "content": "<p>Gerne kannst du deine Anlage auch kostenlos bei uns vor Ort abholen und sparst dir so die Lieferzeit und die Lieferkosten deiner Bestellung. Im Anschluss an deine Bestellung kannst du dich einfach in ein freies Zeitfenster zur <a href=\"/pages/werksabholung\" title=\"Werksabholung\">Abholung einbuchen</a>.</p>"
+          }
+        },
+        "template--17391986114824__01c7061c-8638-42b1-8bcf-673767fd4c24-167613652568a18b13-1": {
+          "type": "item",
+          "settings": {
+            "title": "Was kostet der Versand?",
+            "content": "<p>Wir versenden unsere Balkonkraftwerke deutschlandweit für 49 je Balkonkraftwerk mit 1-2 Modulen. Unsere Balkonkraftwerke ab 3 Modulen versenden wir deutschlandweit für 69 Euro. Bei der Bestellung des Zubehörs findest du die Versandkosten beim jeweiligen Produkt.</p>"
+          }
+        },
+        "fdd1b4c6-575c-4890-8eb2-be28021b6fc6": {
+          "type": "item",
+          "settings": {
+            "title": "Muss ich zum Zeitpunkt der Anlieferung zuhause sein?",
+            "content": "<p>Dies ist abhängig von dem Artikel den du bestellt hast. Bei einem Balkonkraftwerk solltest du oder eine von dir beauftragte Person zuhause sein, da die Anlieferung per Spedition erfolgt. Bei der Bestellung von Zubehörartikel ist deine Anwesenheit nicht zwingend erforderlich.</p>"
+          }
+        },
+        "68d20e1a-3796-4c4f-aaae-9bbb392b2837": {
+          "type": "item",
+          "settings": {
+            "title": "Wann meldet sich die Spedition bei mir?",
+            "content": "<p>Nachdem deine Bestellung versendet wurde wird sich die Spedition telefonisch mit dir in Verbindung setzen und eine Liefertermin vereinbaren.</p>"
+          }
+        },
+        "78bf9c0f-0af7-4098-8eda-6702a70a855b": {
+          "type": "item",
+          "settings": {
+            "title": "Kann ich mich vor Ort beraten lassen?",
+            "content": "<p>Ja, das ist möglich. Jeden Samstag zwischen 09:00 bis 13:00 Uhr kannst du ohne vorherige Terminvereinbarung zur <a href=\"https://www.balkonstrom.com/pages/werksabholung\" title=\"https://www.balkonstrom.com/pages/werksabholung\">Werksabholung</a> bei uns vorbeischauen. Wir freuen uns auf dich!</p>"
+          }
+        },
+        "item_UGLCrN": {
+          "type": "item",
+          "settings": {
+            "title": "Wie lange sind die Lieferzeiten?",
+            "content": "<p>Die Lieferzeiten stehen bei dem jeweiligen Produkt und variieren. Die Lieferzeit eines Balkonkraftwerkes liegt bei 3-6 Werktagen.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17391986114824__01c7061c-8638-42b1-8bcf-673767fd4c24-167613652568a18b13-0",
+        "template--17391986114824__01c7061c-8638-42b1-8bcf-673767fd4c24-167613652568a18b13-1",
+        "fdd1b4c6-575c-4890-8eb2-be28021b6fc6",
+        "68d20e1a-3796-4c4f-aaae-9bbb392b2837",
+        "78bf9c0f-0af7-4098-8eda-6702a70a855b",
+        "item_UGLCrN"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Versand",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "Deine Frage ist nicht dabei? Schreib uns einfach eine Nachricht oder ruf uns an. Wir beantworten dir gerne persönlich deine offenen Fragen.",
+        "answer_time": "",
+        "button_text": "Kontakt",
+        "button_url": "https://www.balkonstrom.com/pages/contact",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "#f0c417",
+        "heading_gradient": "",
+        "button_background": "#f0c417",
+        "button_text_color": "#000000",
+        "accordion_background": "#ffffff",
+        "accordion_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "d562d34f-32b5-4cc7-894d-74094c4184a4",
+    "c552c42f-31b8-444b-abe1-116d8f87c5bb",
+    "31fe007c-727c-49a1-9fd4-32fa59ded027",
+    "01c7061c-8638-42b1-8bcf-673767fd4c24"
+  ]
+}

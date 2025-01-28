@@ -1,0 +1,716 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "products_per_page": 8,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "filter_layout": "horizontal",
+        "show_sort_by": false,
+        "show_filters": false,
+        "show_filter_group_name": false,
+        "show_color_swatch": false,
+        "show_empty_filter_values": false,
+        "show_filter_values_count": false,
+        "open_first_filter_group": false
+      }
+    },
+    "banner": {
+      "type": "collection-banner",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "show_collection_title": true,
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "collection_title_size": "h1",
+        "image_size": "sm",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "featured_product": "",
+        "featured_product_heading": "Featured product",
+        "text_color": "#eeece5",
+        "overlay_color": "#000000",
+        "overlay_opacity": 15
+      }
+    },
+    "image_with_text_overlay_NKT9mz": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_KLPiLU": {
+          "type": "heading",
+          "settings": {
+            "text": "Balkonkraftwerk 2000 Watt",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_WKKnH3": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Solaranlagen-Komplettpakete - der perfekte Einstieg</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_KLPiLU",
+        "richtext_WKKnH3"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "enable_fix_parallax": false,
+        "image_size": "md",
+        "image": "shopify://shop_images/balkonkraftwerk-premium-800_66afdd58-3634-420c-846d-e8270918529a.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 48
+      }
+    },
+    "custom_logo_list_NRw7Kc": {
+      "type": "custom-logo-list",
+      "blocks": {
+        "logo_image_P8PVLP": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/Untitled_design_80.png"
+          }
+        },
+        "logo_image_mT6kiL": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_1_6ad045c6-a6af-43bc-8772-088fda3e65c1.png"
+          }
+        },
+        "logo_image_FJWNp9": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_68bc6b1f-9cde-4e28-90d9-010389d4b518.png"
+          }
+        },
+        "logo_image_WBMDLb": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_4.png"
+          }
+        },
+        "logo_image_cjcfDC": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_3_eccce761-16d6-41a5-aab7-1b94750e6ae5.png"
+          }
+        },
+        "logo_image_BPLgtB": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_2_a6e3afea-7afd-46b9-9542-a2b05fba13c9.png"
+          }
+        }
+      },
+      "block_order": [
+        "logo_image_P8PVLP",
+        "logo_image_mT6kiL",
+        "logo_image_FJWNp9",
+        "logo_image_WBMDLb",
+        "logo_image_cjcfDC",
+        "logo_image_BPLgtB"
+      ],
+      "settings": {
+        "enable_mobile_slider": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "2c4561fc-8168-4c14-a781-918edacf03b9": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "products": [
+          "basic-balcony-860",
+          "premium-balcony-800",
+          "basic-balcony-1350-bifazial",
+          "premium-balcony-1200",
+          "basic-balcony-1800-bifazial",
+          "premium-balcony-1600"
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 8,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Balkon",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "e36ad78a-b6a8-4199-a2f8-aaab4c265692": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "products": [
+          "basic-wall-800",
+          "premium-wall-800",
+          "basic-wall-1350-bifazial",
+          "premium-wall-1200",
+          "basic-wall-1800-bifazial",
+          "premium-wall-1600"
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 8,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Fassade",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "rich_text_RDKTy7": {
+      "type": "rich-text",
+      "blocks": {
+        "button_8bHiBX": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "Balkonkraftwerke mit Stromspeicher entdecken",
+            "url": "shopify://collections/balkonkraftwerke-mit-speicher",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_8bHiBX"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "89ddbf94-b5f4-42a9-ac41-d96bfabed59a": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "products": [
+          "basic-roof-800-ziegeldach",
+          "premium-roof-800-ziegeldach",
+          "basic-roof-1350-bifazial-ziegeldach",
+          "premium-roof-1200-ziegeldach",
+          "basic-roof-1800-bifazial-ziegeldach",
+          "premium-roof-1600-ziegeldach"
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 8,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Ziegeldach",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "text_with_icons_JRKiYa": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_H3rBng": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/icon-robust.png",
+            "mobile_icon_width": 24,
+            "icon_width": 40,
+            "icon_background_type": "circle",
+            "icon_background": "#eee9e3",
+            "icon_color": "",
+            "subtitle": "",
+            "title": "Flexibler Montageort",
+            "content": ""
+          }
+        },
+        "item_NmwwDW": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/icon-book.png",
+            "mobile_icon_width": 24,
+            "icon_width": 40,
+            "icon_background_type": "circle",
+            "icon_background": "#eee9e3",
+            "icon_color": "",
+            "subtitle": "",
+            "title": "Schritt-für-Schritt-Montageanleitung",
+            "content": ""
+          }
+        },
+        "item_y4FWbW": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/eigenverbrauch.png",
+            "mobile_icon_width": 24,
+            "icon_width": 40,
+            "icon_background_type": "circle",
+            "icon_background": "#eee9e3",
+            "icon_color": "",
+            "subtitle": "",
+            "title": "Stecker rein & Strom sparen",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_H3rBng",
+        "item_NmwwDW",
+        "item_y4FWbW"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "title": "",
+        "heading_tag": "h4",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "#f7f7f7",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "362402e3-ef36-4fc3-9254-6a8cd2099e82": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "products": [
+          "basic-roof-800-bitumendach",
+          "premium-roof-800-bitumendach",
+          "basic-roof-1350-bifazial-bitumendach",
+          "premium-roof-1200-bitumendach",
+          "basic-roof-1800-bifazial-bitumendach",
+          "premium-roof-1600-bitumendach"
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 8,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Bitumendach",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "e76596b7-a37f-4981-a091-b5ac5efe0dfd": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "products": [
+          "basic-roof-800-blechdach",
+          "premium-roof-800-blechdach",
+          "basic-roof-1350-bifazial-blechdach",
+          "premium-roof-1200-blechdach",
+          "basic-roof-1800-bifazial-blechdach",
+          "premium-roof-1600-blechdach"
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 8,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Blechdach",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "e25b4b08-603b-4495-b701-0a7de1fcba23": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "products": [
+          "basic-roof-800-flachdach",
+          "premium-roof-800-flachdach",
+          "basic-roof-1350-bifazial-flachdach",
+          "premium-roof-1200-flachdach",
+          "basic-roof-1800-bifazial-flachdach",
+          "premium-roof-1600-flachdach"
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 8,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Flachdach",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "rich_text_8yR7EF": {
+      "type": "rich-text",
+      "blocks": {
+        "button_7dmkHb": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "Finde attraktive Förderungen für Balkonkraftwerke",
+            "url": "shopify://pages/foerderung",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_7dmkHb"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "953a4e04-4748-4f93-8565-887088e18a4b": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "products": [
+          "basic-flat-800",
+          "premium-flat-800",
+          "basic-flat-1350-bifazial",
+          "premium-flat-1200",
+          "basic-flat-1800-bifazial",
+          "premium-flat-1600"
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 8,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Garten",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "ff4e6f2b-599d-4b38-b61b-35c30bb7db4e": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "products": [
+          "basic-pure-800",
+          "premium-pure-800",
+          "basic-pure-1350-bifazial",
+          "premium-pure-1200",
+          "basic-pure-1800-bifazial",
+          "premium-pure-1600"
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 8,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Ohne Halterung",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "media_with_text_AKYPxV": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_KcY8Rh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Kein_Titel_1600_x_1600_px_444.webp",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Basic oder Premium Set - Der Unterschied",
+            "content": "<p>Vergleiche unsere Basic- und Premium-Sets und entscheide selbst, was zu dir passt!</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f7f7f7",
+            "background_gradient": "",
+            "text_color": "#040404",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_KcY8Rh"
+      ],
+      "settings": {
+        "show_klaviyo_form": false,
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "rich_text_7PMm7F": {
+      "type": "rich-text",
+      "blocks": {
+        "image_mMLXNg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Logos.png",
+            "width_mode": "custom",
+            "max_width": 350,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "image_mMLXNg"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "09df8a39-86d5-4eab-a510-9aa283582fe0": {
+      "type": "faq",
+      "blocks": {
+        "template--18109074047240__09df8a39-86d5-4eab-a510-9aa283582fe0-item-1": {
+          "type": "item",
+          "settings": {
+            "title": "Was ist ein Balkonkraftwerk?",
+            "content": "<p>Ein Balkonkraftwerk besteht meist aus ein bis zwei Photovoltaik-Modulen und einem Wechselrichter, welcher mittels Schukostecker in die Steckdose eingesteckt werden kann. Ein Balkonkraftwerk kann an den unterschiedlichsten Orten montiert werden, so zum Beispiel im Garten, auf dem Hausdach, auf der Garage oder an einer Fassade. Die erzeugte Leistung wird direkt in das Hausnetz eingespeist und kann unmittelbar von den Verbrauchern genutzt werden. Balkonkraftwerke unter 600 Watt Ausgangsleistung des Wechselrichters sind genehmigungsfrei. Anlagen mit über 600 Watt Ausgangsleistung werden oft als Mini-PV-Anlagen bezeichnet.</p>"
+          }
+        },
+        "template--18109074047240__09df8a39-86d5-4eab-a510-9aa283582fe0-item-2": {
+          "type": "item",
+          "settings": {
+            "title": "Darf ich mein Balkonkraftwerk selbst anschließen?",
+            "content": "<p>Balkonkraftwerke kannst du eigenständig anschließen. Die DIN VDE 0100-551-1:2016.09 besagt, dass nicht zertifizierte Endverbraucher den Anschluss an einer entsprechenden Steckdose vornehmen dürfen. Der Anschluss muss also nicht durch einen Elektriker erfolgen.</p>"
+          }
+        },
+        "template--18109074047240__09df8a39-86d5-4eab-a510-9aa283582fe0-item-3": {
+          "type": "item",
+          "settings": {
+            "title": "Wie lange kann ich damit Strom erzeugen?",
+            "content": "<p>Die Leistungsgarantie von Solarmodulen beträgt in den meisten Fällen 25 bis 30 Jahre. Auf Wechselrichter geben die Hersteller 12 Jahre Garantie. Die meisten Komponenten überleben diesen Zeitraum jedoch. So gibt es beispielsweise Solarmodule, welche bereits seit mehr als 35 Jahren Strom erzeugen.</p>"
+          }
+        },
+        "a7d01820-ade9-4f49-96a2-cf60add901f9": {
+          "type": "item",
+          "settings": {
+            "title": "Ist das betreiben eines Balkonkraftwerks sicher?",
+            "content": "<p>Ja. Bei mehr als 250.000 in Europa installierten Anlagen, welche an Schutzkontaktsteckdosen betrieben werden, sind keinerlei durch die Komponenten der Balkonkraftwerke verursachten Schäden bekannt. Die installierte Ausgangsleistung von 600 bzw. 800 Watt ist nicht in der Lage, eine normale Elektroinstallation zu überlasten.</p>"
+          }
+        },
+        "4169eda3-aa04-4044-ab93-060f35ad24a9": {
+          "type": "item",
+          "settings": {
+            "title": "Kann ich das Balkonkraftwerk auch direkt bei euch abholen?",
+            "content": "<p>Gerne kannst du deine Anlage auch kostenlos bei uns vor Ort abholen und sparst dir so die Lieferzeit und die Lieferkosten deiner Bestellung. Im Anschluss an deine Bestellung kannst du dich einfach in ein freies Zeitfenster zur Abholung einbuchen.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18109074047240__09df8a39-86d5-4eab-a510-9aa283582fe0-item-1",
+        "template--18109074047240__09df8a39-86d5-4eab-a510-9aa283582fe0-item-2",
+        "template--18109074047240__09df8a39-86d5-4eab-a510-9aa283582fe0-item-3",
+        "a7d01820-ade9-4f49-96a2-cf60add901f9",
+        "4169eda3-aa04-4044-ab93-060f35ad24a9"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "<p>Du hast Fragen rund um das Thema Balkonkraftwerke und Mini-PV-Anlagen? Für eine Zusammenstellung der häufig gestellten Fragen schaue gerne bei unseren FAQ vorbei.</p>",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "ab3ac71e-b843-4c87-9d90-274dcb517c16": {
+      "type": "seo-section",
+      "blocks": {
+        "template--18732286017800__ab3ac71e-b843-4c87-9d90-274dcb517c16-fullwidthblock-1": {
+          "type": "fullwidthblock",
+          "settings": {
+            "full_width_heading": "Hol dir die Energiewende nach Hause: 2000 Watt Balkonkraftwerke mit 4 Modulen von Balkonstrom®",
+            "full_width_description": "<p>Wir von Balkonstrom® sind deine Experten für leistungsstarke Balkonkraftwerke und bieten dir die perfekte Lösung für deinen grünen Strom. Unsere <strong>2000 Watt Balkonkraftwerke bestehen aus einem Balkonkraftwerk mit 4 Modulen</strong>, einem effizienten Wechselrichter und dem passenden Zubehör – alles in einem <strong>Komplettset</strong>. Du erhältst alle Komponenten, die du benötigst, um deine<strong> Anlage einfach selbst zu montieren und sofort in Betrieb zu nehmen.</strong> Kein Elektriker, keine zusätzlichen Kosten – du entscheidest, wann dein DIY-Stromprojekt startet.</p><p>Mit einem <strong>Balkonkraftwerk mit 4 Modulen</strong> profitierst du nicht nur von einem höheren Stromertrag, sondern auch von der Möglichkeit, größere Flächen optimal auszunutzen. Unsere Komplettsets werden aus hochwertigen Komponenten gefertigt, die auf maximale Langlebigkeit und Effizienz ausgelegt sind. Ganz gleich, ob du deine Stromkosten senken oder einen Beitrag zur Energiewende leisten möchtest – unsere Lösungen sind so konzipiert, dass sie sich mühelos in deinen Alltag integrieren lassen und dir langfristig eine nachhaltige Energiequelle bieten.</p><p></p><p></p>",
+            "full_width_heading_color": "#040404",
+            "gradient": "",
+            "full_width_description_color": "#040404",
+            "full_width_heading_size": "h2"
+          }
+        },
+        "template--18732286017800__ab3ac71e-b843-4c87-9d90-274dcb517c16-leftblock-1": {
+          "type": "leftblock",
+          "settings": {
+            "left_block_heading": "Warum bis morgen warten, wenn du heute schon Strom sparen kannst?",
+            "left_block_description": "<p>Mit unseren <strong>2000 Watt Balkonkraftwerken</strong> von Balkonstrom® holst du das Maximum aus deinem Standort heraus. Die neue Regelung von 2024 ermöglicht es dir, die volle Modulleistung von <strong>2000 Watt</strong> zu nutzen, während der Wechselrichter die Einspeisung auf 800 Watt begrenzt. So kannst du bereits jetzt deinen eigenen grünen Strom erzeugen – effizient und zukunftssicher.</p><p>Unser <strong>Balkonkraftwerk mit 4 Modulen</strong> ist ideal für alle, die eine größere Fläche für ihre Solarmodule nutzen können und auf maximalen Ertrag setzen. Ausgestattet mit einem <strong>Hoymiles-Wechselrichter</strong> mit MPPT-Technologie, reduziert unsere Anlage Verluste durch Verschattungen und sorgt für optimale Ergebnisse – selbst bei schwachen Lichtverhältnissen. Mit unseren Komplettsets bist du bestens aufgestellt, um langfristig von sinkenden Stromkosten und einem nachhaltigen Lebensstil zu profitieren.</p>",
+            "left_block_heading_color": "#040404",
+            "gradient": "",
+            "left_block_description_color": "#040404",
+            "left_block_heading_size": "h3"
+          }
+        },
+        "template--18732286017800__ab3ac71e-b843-4c87-9d90-274dcb517c16-rightblock-1": {
+          "type": "rightblock",
+          "settings": {
+            "right_block_heading": "Montage leicht gemacht: Balkonkraftwerke mit 4 Modulen für jeden Platz",
+            "right_block_description": "<p>Unser <strong>Balkonkraftwerk mit 4 Modulen</strong> bietet dir maximale Flexibilität und passt sich an die Gegebenheiten deines Zuhauses an. Egal, ob auf dem Balkon, Flachdach, in deinem Garten oder an der Hauswand – wir haben die passende Unterkonstruktion für dich, die in deinem Komplettset enthalten ist. Viele unserer Systeme lassen sich im Neigungswinkel anpassen, um deinen Stromertrag zu maximieren.</p><p>Die Installation ist kinderleicht: <strong>Plug & Play mit haushaltsüblichen Steckdosen</strong>. Einfach die <strong>4 Module</strong> an den Wechselrichter anschließen, Kabel in die Steckdose stecken – und schon fließt grüner Strom in dein Hausnetz. Alle unsere Anschlusskabel werden exklusiv in Deutschland gefertigt, um dir höchste Qualität zu garantieren. Und das Beste: Solltest du umziehen oder die Anlage anders platzieren wollen, bleibt dein Balkonkraftwerk flexibel und mobil.</p><p>Starte noch heute mit deinem eigenen <strong>2000 Watt Balkonkraftwerk</strong> mit 4 Modulen von Balkonstrom® und werde Teil der Energiewende!</p>",
+            "right_block_heading_color": "#040404",
+            "gradient": "",
+            "right_block_description_color": "#040404",
+            "right_block_heading_size": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "template--18732286017800__ab3ac71e-b843-4c87-9d90-274dcb517c16-fullwidthblock-1",
+        "template--18732286017800__ab3ac71e-b843-4c87-9d90-274dcb517c16-leftblock-1",
+        "template--18732286017800__ab3ac71e-b843-4c87-9d90-274dcb517c16-rightblock-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "page_width": 1400,
+        "link_color": "#000000",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "banner",
+    "image_with_text_overlay_NKT9mz",
+    "custom_logo_list_NRw7Kc",
+    "2c4561fc-8168-4c14-a781-918edacf03b9",
+    "e36ad78a-b6a8-4199-a2f8-aaab4c265692",
+    "rich_text_RDKTy7",
+    "89ddbf94-b5f4-42a9-ac41-d96bfabed59a",
+    "text_with_icons_JRKiYa",
+    "362402e3-ef36-4fc3-9254-6a8cd2099e82",
+    "e76596b7-a37f-4981-a091-b5ac5efe0dfd",
+    "e25b4b08-603b-4495-b701-0a7de1fcba23",
+    "rich_text_8yR7EF",
+    "953a4e04-4748-4f93-8565-887088e18a4b",
+    "ff4e6f2b-599d-4b38-b61b-35c30bb7db4e",
+    "media_with_text_AKYPxV",
+    "rich_text_7PMm7F",
+    "09df8a39-86d5-4eab-a510-9aa283582fe0",
+    "ab3ac71e-b843-4c87-9d90-274dcb517c16"
+  ]
+}

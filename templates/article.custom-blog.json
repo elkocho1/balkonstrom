@@ -1,0 +1,272 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-article-custom",
+      "blocks": {
+        "navigation_kr4PjF": {
+          "type": "navigation",
+          "settings": {}
+        },
+        "text_with_icon_xbrfky": {
+          "type": "text_with_icon",
+          "settings": {
+            "image": "{{ article.metafields.custom.author_image.value }}",
+            "text": "{{ article.metafields.custom.author_name.value }}",
+            "description": "{{ article.metafields.custom.author_description | metafield_tag }}"
+          }
+        },
+        "banner_image_cbf9Mf": {
+          "type": "banner_image",
+          "settings": {}
+        },
+        "article_description_KMPwjh": {
+          "type": "article_description",
+          "settings": {}
+        },
+        "article_newsletter_EyRWcf": {
+          "type": "article_newsletter",
+          "disabled": true,
+          "settings": {
+            "full_width": true,
+            "show_icon": false,
+            "title": "Newsletter",
+            "content": "<p>Erhalten Sie wöchentliche Updates zu unserem Produkt per E-Mail, garantiert kein Spam, versprochen ✌️</p>",
+            "button_text": "Jetzt Abonnieren",
+            "subtext": ""
+          }
+        },
+        "accordion_jjcJp7": {
+          "type": "accordion",
+          "settings": {
+            "title": "{{ article.metafields.custom.faq_frage_1.value }}",
+            "content": "{{ article.metafields.custom.faq_antwort_1 | metafield_tag }}"
+          }
+        },
+        "accordion_RT7U3H": {
+          "type": "accordion",
+          "settings": {
+            "title": "{{ article.metafields.custom.faq_frage_2.value }}",
+            "content": "{{ article.metafields.custom.faq_antwort_2 | metafield_tag }}"
+          }
+        },
+        "accordion_8kUHPc": {
+          "type": "accordion",
+          "settings": {
+            "title": "{{ article.metafields.custom.faq_frage_3.value }}",
+            "content": "{{ article.metafields.custom.faq_antwort_3 | metafield_tag }}"
+          }
+        },
+        "accordion_NcN8tJ": {
+          "type": "accordion",
+          "settings": {
+            "title": "{{ article.metafields.custom.faq_frage_4.value }}",
+            "content": "{{ article.metafields.custom.faq_antwort_4 | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "navigation_kr4PjF",
+        "text_with_icon_xbrfky",
+        "banner_image_cbf9Mf",
+        "article_description_KMPwjh",
+        "article_newsletter_EyRWcf",
+        "accordion_jjcJp7",
+        "accordion_RT7U3H",
+        "accordion_8kUHPc",
+        "accordion_NcN8tJ"
+      ],
+      "custom_css": [],
+      "settings": {
+        "allow_transparent_header": false,
+        "layout": "content_first",
+        "header_alignment": "center",
+        "show_author": true,
+        "show_date": true,
+        "show_comments_count": false,
+        "show_share_buttons": true,
+        "banner_background": "#ffffff",
+        "banner_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "content_width": "950px"
+      }
+    },
+    "rich_text_MtYDW9": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Jx8qCr": {
+          "type": "heading",
+          "settings": {
+            "text": "Erfahre als Erster von neuen Angeboten & Informationen mit dem Balkonstrom® Newsletter!",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "divider_by8kWB": {
+          "type": "divider",
+          "settings": {}
+        },
+        "richtext_ccLMGW": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Bleibe immer auf dem Laufenden über exklusive Angebote, innovative Produkte und spannende Neuigkeiten rund um die Welt der Balkonkraftwerke.</p>"
+          }
+        },
+        "liquid_4FVNVN": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"klaviyo-form-RwdpKp\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Jx8qCr",
+        "divider_by8kWB",
+        "richtext_ccLMGW",
+        "liquid_4FVNVN"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "#f7f7f7",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "cb1b6278-fde3-40c1-b778-1aac68431187": {
+      "type": "collection-list",
+      "blocks": {
+        "template--18094117781768__cb1b6278-fde3-40c1-b778-1aac68431187-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "balkon",
+            "subheading": "",
+            "title": "Balkon",
+            "url": "",
+            "heading_tag": "h3",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10
+          }
+        },
+        "template--18094117781768__cb1b6278-fde3-40c1-b778-1aac68431187-collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "dach",
+            "image": "shopify://shop_images/roof_Dual_panel_1_8a74f1d9-058f-47a3-b45e-b8f1bcc295a0.jpg",
+            "subheading": "",
+            "title": "Dach",
+            "url": "",
+            "heading_tag": "h3",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10
+          }
+        },
+        "template--18094117781768__cb1b6278-fde3-40c1-b778-1aac68431187-collection-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "dach",
+            "image": "shopify://shop_images/Flachdach_Balkonkraftwerk.jpg",
+            "subheading": "",
+            "title": "Flachdach",
+            "url": "",
+            "heading_tag": "h3",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "ddbbafc4-b86e-4eb0-a829-3f228b119a73": {
+          "type": "collection",
+          "settings": {
+            "collection": "fassade",
+            "subheading": "",
+            "title": "Fassade",
+            "url": "",
+            "heading_tag": "h3",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10
+          }
+        },
+        "7d447eb1-635e-404d-b3d4-f2c094d7185f": {
+          "type": "collection",
+          "settings": {
+            "collection": "garten",
+            "subheading": "",
+            "title": "Garten",
+            "url": "",
+            "heading_tag": "h3",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10
+          }
+        },
+        "9b6648c7-8a07-4d45-bf80-8fc2eb5809c4": {
+          "type": "collection",
+          "settings": {
+            "collection": "ohne-halterung",
+            "image": "shopify://shop_images/8.jpg",
+            "subheading": "",
+            "title": "Ohne Halterung",
+            "url": "",
+            "heading_tag": "h3",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10
+          }
+        }
+      },
+      "block_order": [
+        "template--18094117781768__cb1b6278-fde3-40c1-b778-1aac68431187-collection-1",
+        "template--18094117781768__cb1b6278-fde3-40c1-b778-1aac68431187-collection-2",
+        "template--18094117781768__cb1b6278-fde3-40c1-b778-1aac68431187-collection-3",
+        "ddbbafc4-b86e-4eb0-a829-3f228b119a73",
+        "7d447eb1-635e-404d-b3d4-f2c094d7185f",
+        "9b6648c7-8a07-4d45-bf80-8fc2eb5809c4"
+      ],
+      "custom_css": [
+        ".circle-chevron {background: #e5e5e5;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_collections": true,
+        "collections_per_row": 3,
+        "show_progress_bar": false,
+        "subheading": "",
+        "title": "Unsere Balkonkraftwerk-Sets",
+        "content": "<p>Alle Pakete enthalten aufeinander abgestimmte Komponenten, die einfach zusammengesetzt und montiert werden können (Plug & Play).</p>",
+        "link_url": "shopify://collections/balkonkraftwerke",
+        "link_text": "",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_MtYDW9",
+    "cb1b6278-fde3-40c1-b778-1aac68431187"
+  ]
+}

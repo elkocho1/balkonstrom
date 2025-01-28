@@ -1,0 +1,465 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "products_per_page": 8,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "filter_layout": "horizontal",
+        "show_sort_by": false,
+        "show_filters": false,
+        "show_filter_group_name": false,
+        "show_color_swatch": false,
+        "show_empty_filter_values": false,
+        "show_filter_values_count": false,
+        "open_first_filter_group": false
+      }
+    },
+    "banner": {
+      "type": "collection-banner",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "enable_parallax": true,
+        "show_collection_title": true,
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "collection_title_size": "h0",
+        "image_size": "sm",
+        "image": "shopify://shop_images/basic-sets-module_f0b0e191-5238-4bb4-8458-ca007257f8a6.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "featured_product": "",
+        "featured_product_heading": "Featured product",
+        "text_color": "#eeece5",
+        "overlay_color": "#000000",
+        "overlay_opacity": 20
+      }
+    },
+    "image_with_text_overlay_Len9dK": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_Mp4Cdh": {
+          "type": "heading",
+          "settings": {
+            "text": "Balkonstrom® Deals",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_XWrfDJ": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Entdecke exklusive Angebote für Balkonkraftwerke & Speicher!</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Mp4Cdh",
+        "richtext_XWrfDJ"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "enable_fix_parallax": false,
+        "image_size": "md",
+        "image": "shopify://shop_images/basic-sets-module_877be977-c40f-47c3-8340-949b40ec3818.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "custom_logo_list_fXCgPE": {
+      "type": "custom-logo-list",
+      "blocks": {
+        "logo_image_EExkcj": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/Untitled_design_80.png"
+          }
+        },
+        "logo_image_4pawqA": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_1_6ad045c6-a6af-43bc-8772-088fda3e65c1.png"
+          }
+        },
+        "logo_image_bNJmdA": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_68bc6b1f-9cde-4e28-90d9-010389d4b518.png"
+          }
+        },
+        "logo_image_zk3dAP": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_4.png"
+          }
+        },
+        "logo_image_qM4CkY": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_3_eccce761-16d6-41a5-aab7-1b94750e6ae5.png"
+          }
+        },
+        "logo_image_N3iLPx": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_2_a6e3afea-7afd-46b9-9542-a2b05fba13c9.png"
+          }
+        }
+      },
+      "block_order": [
+        "logo_image_EExkcj",
+        "logo_image_4pawqA",
+        "logo_image_bNJmdA",
+        "logo_image_zk3dAP",
+        "logo_image_qM4CkY",
+        "logo_image_N3iLPx"
+      ],
+      "settings": {
+        "enable_mobile_slider": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "70833c5e-fac2-4871-ae6e-e93791256eae": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "products": [
+          "basic-balcony-900-bifazial",
+          "basic-set-1800-bifazial-pro-mit-speicher"
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 8,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Balkonkraftwerke zum Angebotspreis",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "rich_text_CHqM9k": {
+      "type": "rich-text",
+      "blocks": {
+        "button_YDYYdA": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "Entdecke alle Balkonkraftwerke",
+            "url": "shopify://collections/balkonkraftwerke",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_YDYYdA"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "featured_collection_jXartc": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "products": [
+          "anker-solix-bp1600-erweiterungsbatterie",
+          "ecoflow-delta-2-max-powerstation"
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 4,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Angebote für Stromspeicher",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "rich_text_YwTMfy": {
+      "type": "rich-text",
+      "blocks": {
+        "button_nrWqAf": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "Zu unseren Stromspeichern",
+            "url": "shopify://collections/stromspeicher",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_nrWqAf"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "rich_text_dNRwre": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_NcJAwQ": {
+          "type": "heading",
+          "settings": {
+            "text": "Erfahre von den neuesten Angeboten!",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "divider_bM9FBC": {
+          "type": "divider",
+          "settings": {}
+        },
+        "richtext_cKiiDU": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Melde dich jetzt für den Balkonstrom-Newsletter an und verpasse keine Deals und Produktneuheiten mehr!</p>"
+          }
+        },
+        "liquid_nR3xyC": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"klaviyo-form-RwdpKp\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_NcJAwQ",
+        "divider_bM9FBC",
+        "richtext_cKiiDU",
+        "liquid_nR3xyC"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "#f7f7f7",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "09df8a39-86d5-4eab-a510-9aa283582fe0": {
+      "type": "faq",
+      "blocks": {
+        "template--18109074047240__09df8a39-86d5-4eab-a510-9aa283582fe0-item-1": {
+          "type": "item",
+          "settings": {
+            "title": "Was ist ein Balkonkraftwerk?",
+            "content": "<p>Ein Balkonkraftwerk besteht meist aus ein bis zwei Photovoltaik-Modulen und einem Wechselrichter, welcher mittels Schukostecker in die Steckdose eingesteckt werden kann. Ein Balkonkraftwerk kann an den unterschiedlichsten Orten montiert werden, so zum Beispiel im Garten, auf dem Hausdach, auf der Garage oder an einer Fassade. Die erzeugte Leistung wird direkt in das Hausnetz eingespeist und kann unmittelbar von den Verbrauchern genutzt werden. Balkonkraftwerke unter 600 Watt Ausgangsleistung des Wechselrichters sind genehmigungsfrei. Anlagen mit über 600 Watt Ausgangsleistung werden oft als Mini-PV-Anlagen bezeichnet.</p>"
+          }
+        },
+        "template--18109074047240__09df8a39-86d5-4eab-a510-9aa283582fe0-item-2": {
+          "type": "item",
+          "settings": {
+            "title": "Darf ich mein Balkonkraftwerk selbst anschließen?",
+            "content": "<p>Balkonkraftwerke kannst du eigenständig anschließen. Die DIN VDE 0100-551-1:2016.09 besagt, dass nicht zertifizierte Endverbraucher den Anschluss an einer entsprechenden Steckdose vornehmen dürfen. Der Anschluss muss also nicht durch einen Elektriker erfolgen.</p>"
+          }
+        },
+        "template--18109074047240__09df8a39-86d5-4eab-a510-9aa283582fe0-item-3": {
+          "type": "item",
+          "settings": {
+            "title": "Wie lange kann ich damit Strom erzeugen?",
+            "content": "<p>Die Leistungsgarantie von Solarmodulen beträgt in den meisten Fällen 25 bis 30 Jahre. Auf Wechselrichter geben die Hersteller 12 Jahre Garantie. Die meisten Komponenten überleben diesen Zeitraum jedoch. So gibt es beispielsweise Solarmodule, welche bereits seit mehr als 35 Jahren Strom erzeugen.</p>"
+          }
+        },
+        "a7d01820-ade9-4f49-96a2-cf60add901f9": {
+          "type": "item",
+          "settings": {
+            "title": "Ist das betreiben eines Balkonkraftwerks sicher?",
+            "content": "<p>Ja. Bei mehr als 250.000 in Europa installierten Anlagen, welche an Schutzkontaktsteckdosen betrieben werden, sind keinerlei durch die Komponenten der Balkonkraftwerke verursachten Schäden bekannt. Die installierte Ausgangsleistung von 600 bzw. 800 Watt ist nicht in der Lage, eine normale Elektroinstallation zu überlasten.</p>"
+          }
+        },
+        "4169eda3-aa04-4044-ab93-060f35ad24a9": {
+          "type": "item",
+          "settings": {
+            "title": "Kann ich das Balkonkraftwerk auch direkt bei euch abholen?",
+            "content": "<p>Gerne kannst du deine Anlage auch kostenlos bei uns vor Ort abholen und sparst dir so die Lieferzeit und die Lieferkosten deiner Bestellung. Im Anschluss an deine Bestellung kannst du dich einfach in ein freies Zeitfenster zur Abholung einbuchen.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18109074047240__09df8a39-86d5-4eab-a510-9aa283582fe0-item-1",
+        "template--18109074047240__09df8a39-86d5-4eab-a510-9aa283582fe0-item-2",
+        "template--18109074047240__09df8a39-86d5-4eab-a510-9aa283582fe0-item-3",
+        "a7d01820-ade9-4f49-96a2-cf60add901f9",
+        "4169eda3-aa04-4044-ab93-060f35ad24a9"
+      ],
+      "settings": {
+        "full_width": false,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "<p>Finde die häufigsten Fragen rund um Balkonkraftwerke & unsere Antworten!</p>",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "173435145990a4a4c9": {
+      "type": "apps",
+      "blocks": {
+        "google_reviews_plus_app_block_4YMMWU": {
+          "type": "shopify://apps/rocket-google-reviews/blocks/app-block/d11c8893-a181-4aff-a280-7446d42cec3b",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "google_reviews_plus_app_block_4YMMWU"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, #FFC266 0%, #FFA31A 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "1431ac53-6813-4e23-8b7f-aff542e45876": {
+      "type": "seo-section",
+      "blocks": {
+        "template--18732286378248__1431ac53-6813-4e23-8b7f-aff542e45876-fullwidthblock-1": {
+          "type": "fullwidthblock",
+          "settings": {
+            "full_width_heading": "Die besten Angebote für Balkonkraftwerke & Speicher!",
+            "full_width_description": "<p>Bei Balkonstrom® erhältst du hochwertige Balkonkraftwerke mit einem Fokus auf Made in Germany zu kleinen Preisen. Sichere dir die besten Angebote für Balkonkraftwerke und Stromspeicher – kostengünstig und einfach zu installieren! Unsere hochwertigen Komplettpakete für Balkonkraftwerke ermöglichen es dir, deinen eigenen Strom selbst zu erzeugen und langfristig deine Energiekosten zu senken.</p><p>Unsere Mini-Solaranlagen sind perfekt für Haus- und Wohnungseigentümer sowie Mieter, die Platz auf der Terrasse oder am Balkon zur Verfügung haben. Unsere Kunden sind begeistert von Balkonkraftwerken, da sie hierfür im Vergleich zu großen PV-Anlagen keinen Kredit aufnehmen müssen. Durch die Möglichkeit, das Balkonkraftwerk in Eigenregie zu montieren, fällt auch das lange Warten auf einen Handwerker weg, sodass gleich mit der Erzeugung des eigenen Stroms gestartet werden kann. Das heißt, auch mit dem Sparen kannst du direkt beginnen. Je nach Größe deiner Anlage und Stromverbrauch kannst du bis zu 70% deines Strombedarfs selbst decken.</p>",
+            "full_width_heading_color": "#040404",
+            "gradient": "",
+            "full_width_description_color": "#040404",
+            "full_width_heading_size": "h2"
+          }
+        },
+        "template--18732286378248__1431ac53-6813-4e23-8b7f-aff542e45876-leftblock-1": {
+          "type": "leftblock",
+          "settings": {
+            "left_block_heading": "Von wegen von gestern: Hochwertige Balkonkraftwerke zu Angebotspreisen",
+            "left_block_description": "<p>Erhalte Balkonkraftwerk-Komplettsets und Stromspeicher zu unschlagbaren Preisen. Alle Sets enthalten unsere marktführenden MC-4 Verlängerungskabel sowie AC-Anschlusskabel Made in Germany, die du für deine Solaranlage benötigst. Unsere Kabel Made in Germany sind besonders hochwertig sowie langlebig und sorgen dafür, dass dein Balkonkraftwerk einwandfrei funktioniert. Alle Balkonkraftwerke enthalten ausschließlich Module namhafter Hersteller und zeichnen sich durch eine besonders hohe Effizienz aus. Eine hohe Stromausbeute ist dir damit garantiert!</p>",
+            "left_block_heading_color": "#040404",
+            "gradient": "",
+            "left_block_description_color": "#040404",
+            "left_block_heading_size": "h3"
+          }
+        },
+        "leftblock_zeRpDm": {
+          "type": "leftblock",
+          "settings": {
+            "left_block_heading": "Förderungen für dein Balkonkraftwerk",
+            "left_block_description": "<p>Viele Städte und Bundesländer in Deutschland bieten attraktive Förderprogramme für Balkonkraftwerke an, die es dir ermöglichen, die Anschaffungskosten deutlich zu senken. Mit dem SolarPLUS-Programm in Berlin können beispielsweise Zuschüsse von bis zu 500 € beantragt werden. Die Förderungen gelten sowohl für Mieter als auch Eigentümer, was die Nutzung von Balkonsolaranlagen für viele zugänglicher und attraktiver macht. Hier findest du die aktuellen <a href=\"https://www.balkonstrom.com/pages/foerderung\" target=\"_blank\" title=\"https://www.balkonstrom.com/pages/foerderung\">Förderprogramme für Balkonkraftwerke.</a> Durch die Kombination von Förderprogrammen und den Einsatz von Stromspeichern kannst du die Rentabilität deiner Mini-Solaranlage weiter erhöhen. </p>",
+            "left_block_heading_color": "#040404",
+            "gradient": "",
+            "left_block_description_color": "#040404",
+            "left_block_heading_size": "h1"
+          }
+        },
+        "template--18732286378248__1431ac53-6813-4e23-8b7f-aff542e45876-rightblock-1": {
+          "type": "rightblock",
+          "settings": {
+            "right_block_heading": "Solaranlage auf dem Balkon – Günstige Komplettsets und Expertenberatung",
+            "right_block_description": "<p>Du hast noch Fragen zu unseren Produkten oder benötigst Hilfe bei der Auswahl deiner Solaranlage? Kein Problem! Wir stehen dir jederzeit zur Verfügung und beraten dich gerne. <a href=\"https://www.balkonstrom.com/pages/beratungstermin\" target=\"_blank\" title=\"https://www.balkonstrom.com/pages/beratungstermin\">Klicke hier</a>, um einen Online Beratungstermin mit einem unserer Balkonkraftwerk-Experten zu vereinbaren. Wir legen großen Wert auf eine persönliche und individuelle Beratung, damit du genau die Solaranlage findest, die zu deinen Bedürfnissen passt. Für Kunden aus Würzburg, Frankfurt und der Umgebung bietet sich ein Besuch in unserem Lager besonders an. Vor Ort erhältst du eine Beratung und kannst unsere Sets begutachten. Außerdem können Kunden ihre Anlage auch bei uns vor Ort abholen und so Versandkosten einsparen.</p><p>Also worauf wartest du noch? Schau dich jetzt in unserem Balkonkraftwerk-Sale um und sichere dir dein Balkonkraftwerk Komplettset zu einem unschlagbar günstigen Preis! Produziere deinen eigenen Strom mit einem hochwertigen Komplettset von Balkonstrom®! </p>",
+            "right_block_heading_color": "#040404",
+            "gradient": "",
+            "right_block_description_color": "#040404",
+            "right_block_heading_size": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "template--18732286378248__1431ac53-6813-4e23-8b7f-aff542e45876-fullwidthblock-1",
+        "template--18732286378248__1431ac53-6813-4e23-8b7f-aff542e45876-leftblock-1",
+        "leftblock_zeRpDm",
+        "template--18732286378248__1431ac53-6813-4e23-8b7f-aff542e45876-rightblock-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "page_width": 1600,
+        "link_color": "#040404",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "banner",
+    "image_with_text_overlay_Len9dK",
+    "custom_logo_list_fXCgPE",
+    "70833c5e-fac2-4871-ae6e-e93791256eae",
+    "rich_text_CHqM9k",
+    "featured_collection_jXartc",
+    "rich_text_YwTMfy",
+    "rich_text_dNRwre",
+    "09df8a39-86d5-4eab-a510-9aa283582fe0",
+    "173435145990a4a4c9",
+    "1431ac53-6813-4e23-8b7f-aff542e45876"
+  ]
+}

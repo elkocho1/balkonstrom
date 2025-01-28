@@ -1,0 +1,285 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "Header group",
+  "sections": {
+    "eb6fe28b-3673-41a2-b89d-49080365262a": {
+      "type": "Custom-Announcement",
+      "blocks": {
+        "countdown_VcnfrF": {
+          "type": "countdown",
+          "settings": {
+            "date_picker": "01-27-2025",
+            "countdown_heading": "Winter-Sale nur noch",
+            "heading_color": "#040404",
+            "heading_font_size": 12,
+            "timer_completed_text": "<p>Erhalte <strong>25 € Rabatt</strong> für jede Weiterempfehlung! <a href=\"https://balkonstrom.referralcandy.com/join/jan25\" target=\"_blank\" title=\"https://balkonstrom.referralcandy.com/join/jan25\"><strong>Jetzt mit Freunden teilen</strong></a>.</p>",
+            "color_countdown": "#040404",
+            "days_translated": "Tage",
+            "hours_translated": "Std",
+            "minutes_translated": "Min",
+            "seconds_translated": "Sek",
+            "count_button_text": "Jetzt sichern",
+            "count_button_url": "shopify://collections/angebote-balkonkraftwerke-speicher",
+            "count_button_text_color": "#040404",
+            "count_button_bg_color": "#f2c315"
+          }
+        },
+        "text_rYMnHc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>60 Tage Rückgaberecht</p>"
+          }
+        },
+        "text_pNL8g6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>2-4 Tage Lieferzeit </p>"
+          }
+        },
+        "text_Kc8zRt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Rechnungskauf</p>"
+          }
+        }
+      },
+      "block_order": [
+        "countdown_VcnfrF",
+        "text_rYMnHc",
+        "text_pNL8g6",
+        "text_Kc8zRt"
+      ],
+      "custom_css": [],
+      "settings": {
+        "enable_bar": true,
+        "home_page_only": false,
+        "enable_autoplay": true,
+        "enable_arrow": true,
+        "enable_text_blocks": true,
+        "enable_countdown": true,
+        "background": "#f7f7f7",
+        "text_color": "#040404",
+        "reviewimg": "shopify://shop_images/Untitled_design_65.png",
+        "review": "Über 10.000 zufriedene Kunden",
+        "content1": "Kontakt",
+        "link1": "shopify://pages/contact",
+        "content2": "Produktfinder",
+        "link2": "https://www.balkonstrom.com/tools/perfect-product-finder/balkonkraftwerk-quiz#/",
+        "badge1": "shopify://shop_images/TUV-SUD__1_-removebg-preview.png",
+        "badge2": "shopify://shop_images/Google_Reviews.png",
+        "badge3": "shopify://shop_images/image_3.png"
+      }
+    },
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "1662fe8b-6311-43f2-92e0-03f2940fa6d5": {
+          "type": "message",
+          "settings": {
+            "text": "🎉 Erhalte 25 € Rabatt für jede Weiterempfehlung!",
+            "sub_text": "",
+            "button_text": "Jetzt mit Freunden teilen",
+            "button_link": "https://balkonstrom.refr.cc/join/jan25",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "1662fe8b-6311-43f2-92e0-03f2940fa6d5"
+      ],
+      "settings": {
+        "enable_sticky": false,
+        "text_size": "text-base",
+        "navigation_mode": "arrows",
+        "timer": "May 05, 2024 10:00:00",
+        "countdown_text_color": "#040404",
+        "background": "#eeece5",
+        "background_gradient": "",
+        "text_color": "#040404"
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "mega_menu_jmhTza": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "Balkonkraftwerke",
+            "show_new_button": false,
+            "layout": "horizontal_center",
+            "submenu_style": "bold_heading",
+            "image_1": "shopify://shop_images/MeyerBurger800WattBalkonkraftwerk.webp",
+            "show_new_button_image_1": false,
+            "image_heading_1": "Balkon",
+            "image_link_1": "shopify://collections/balkon",
+            "image_text_color_1": "#000000",
+            "image_2": "shopify://shop_images/900WattBalkonkraftwerkBifazial.webp",
+            "show_new_button_image_2": false,
+            "image_heading_2": "Dach",
+            "image_link_2": "shopify://collections/dach",
+            "image_text_color_2": "#000000",
+            "image_3": "shopify://shop_images/Flachdach2-AdobeStock_92868672_8443fc1a-6350-45fe-91c2-4c1cda245b64.webp",
+            "show_new_button_image_3": false,
+            "image_heading_3": "Flachdach",
+            "image_link_3": "shopify://collections/flachdach",
+            "image_text_color_3": "#000000",
+            "image_4": "shopify://shop_images/Premium_Wall_800.webp",
+            "show_new_button_image_4": false,
+            "image_heading_4": "Fassade",
+            "image_link_4": "shopify://collections/fassade",
+            "image_text_color_4": "#000000",
+            "image_5": "shopify://shop_images/premium-flat-800-408309.jpg",
+            "show_new_button_image_5": false,
+            "image_heading_5": "Garten",
+            "image_link_5": "shopify://collections/garten",
+            "image_text_color_5": "#000000",
+            "image_6": "shopify://shop_images/Kategoriebild_Ohne_Halterung.webp",
+            "show_new_button_image_6": false,
+            "image_heading_6": "Ohne Halterung",
+            "image_link_6": "shopify://collections/ohne-halterung",
+            "image_text_color_6": "#000000",
+            "product": "",
+            "product_card_background": "rgba(0,0,0,0)",
+            "product_card_text_color": "",
+            "promo_content_layout": "collage",
+            "stretch_promo": false,
+            "drawer_link_image": "hide"
+          }
+        },
+        "13bfbce4-4402-4e5b-99af-615d56a3128b": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "Zubehör",
+            "show_new_button": false,
+            "layout": "horizontal_center",
+            "submenu_style": "bold_heading",
+            "image_1": "shopify://shop_images/Jurchen_Kabel_Menuebild.webp",
+            "show_new_button_image_1": false,
+            "image_heading_1": "Kabel",
+            "image_link_1": "shopify://collections/kabel",
+            "image_text_color_1": "#000000",
+            "image_2": "shopify://shop_images/Anker_Smart_Meter_Menuebild.webp",
+            "show_new_button_image_2": false,
+            "image_heading_2": "Strommessgeräte",
+            "image_link_2": "shopify://collections/strommessgeraete",
+            "image_text_color_2": "#000000",
+            "image_3": "shopify://shop_images/Erweiterungsset_megamenu_f32b9dd1-e4ec-459a-82cc-769a5d4496e6.webp",
+            "show_new_button_image_3": false,
+            "image_heading_3": "Erweiterungssets",
+            "image_link_3": "shopify://collections/erweiterungssets",
+            "image_text_color_3": "#000000",
+            "image_4": "shopify://shop_images/Hoymiles-HMS-1800-4T-Drosseln-02-Mini-Power.webp",
+            "show_new_button_image_4": false,
+            "image_heading_4": "Wechselrichter",
+            "image_link_4": "shopify://collections/wechselrichter",
+            "image_text_color_4": "#ffffff",
+            "image_5": "shopify://shop_images/Pflege_Wartung.webp",
+            "show_new_button_image_5": false,
+            "image_heading_5": "Pflege & Wartung",
+            "image_link_5": "https://www.balkonstrom.com/products/balkonkraftwerk-reiniger",
+            "image_text_color_5": "#ffffff",
+            "show_new_button_image_6": false,
+            "image_heading_6": "",
+            "image_link_6": "",
+            "image_text_color_6": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "grid",
+            "stretch_promo": false,
+            "drawer_link_image": "hide"
+          }
+        },
+        "mega_menu_Gn7AcH": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "Speicher",
+            "show_new_button": false,
+            "layout": "horizontal_center",
+            "submenu_style": "bold_heading",
+            "image_1": "shopify://shop_images/Anker_Menu.webp",
+            "show_new_button_image_1": false,
+            "image_heading_1": "Stromspeicher",
+            "image_link_1": "shopify://collections/stromspeicher",
+            "image_text_color_1": "#ffffff",
+            "image_2": "shopify://shop_images/BKW_mit_Speicher_Menu.webp",
+            "show_new_button_image_2": false,
+            "image_heading_2": "Balkonkraftwerke mit Speicher",
+            "image_link_2": "shopify://collections/balkonkraftwerke-mit-speicher",
+            "image_text_color_2": "#ffffff",
+            "show_new_button_image_3": false,
+            "image_heading_3": "",
+            "image_link_3": "",
+            "image_text_color_3": "#ffffff",
+            "show_new_button_image_4": false,
+            "image_heading_4": "",
+            "image_link_4": "",
+            "image_text_color_4": "#ffffff",
+            "show_new_button_image_5": false,
+            "image_heading_5": "",
+            "image_link_5": "",
+            "image_text_color_5": "#ffffff",
+            "show_new_button_image_6": false,
+            "image_heading_6": "",
+            "image_link_6": "",
+            "image_text_color_6": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "grid",
+            "stretch_promo": false,
+            "drawer_link_image": "hide"
+          }
+        }
+      },
+      "block_order": [
+        "mega_menu_jmhTza",
+        "13bfbce4-4402-4e5b-99af-615d56a3128b",
+        "mega_menu_Gn7AcH"
+      ],
+      "custom_css": [
+        ".button_new {font-size: 14px;}"
+      ],
+      "settings": {
+        "enable_sticky": true,
+        "hide_on_scroll": true,
+        "hide_black_friday_badge": true,
+        "enable_megamenu_new_style": true,
+        "icon": "shopify://shop_images/anruf.png",
+        "phone_number": "09369-9848130",
+        "logo": "shopify://shop_images/TRANSPARENT_balkonstrom_logo1_black_d3ca7bb2-1c59-4303-9c4f-afae08796b90.png",
+        "logo_max_width": 220,
+        "logo_mobile_max_width": 120,
+        "menu": "balkonstrom-1-5-main",
+        "sidebar_menu": "balkonstrom-1-5-main",
+        "secondary_menu": "",
+        "menu_open_trigger": "hover",
+        "opening_from": "left",
+        "layout": "logo_left_navigation_center",
+        "show_social_media": false,
+        "show_locale_selector": false,
+        "show_country_selector": false,
+        "show_country_flag": false,
+        "show_country_name": false,
+        "transparent_header_text_color": "#ffffff",
+        "reduce_padding": true,
+        "background_opacity": 93,
+        "background_blur_radius": 12
+      }
+    }
+  },
+  "order": [
+    "eb6fe28b-3673-41a2-b89d-49080365262a",
+    "announcement-bar",
+    "header"
+  ]
+}

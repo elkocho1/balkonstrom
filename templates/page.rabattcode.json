@@ -1,0 +1,460 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "100%"
+      }
+    },
+    "63e7ae41-a067-4ba9-aa48-4491e5af23b8": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--18284114247944__63e7ae41-a067-4ba9-aa48-4491e5af23b8-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Die besten Rabatte bei Balkonstrom®",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--18284114247944__63e7ae41-a067-4ba9-aa48-4491e5af23b8-heading-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "enable_fix_parallax": false,
+        "image_size": "md",
+        "image": "shopify://shop_images/Rabattcode_Balkonstrom.webp",
+        "mobile_image": "shopify://shop_images/Rabattcode_Balkonstrom_mobile.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 46
+      }
+    },
+    "custom_logo_list_ecBBmi": {
+      "type": "custom-logo-list",
+      "blocks": {
+        "logo_image_b4CLFT": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/Untitled_design_80.png"
+          }
+        },
+        "logo_image_AzTB6j": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_1_6ad045c6-a6af-43bc-8772-088fda3e65c1.png"
+          }
+        },
+        "logo_image_pDpBQe": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_68bc6b1f-9cde-4e28-90d9-010389d4b518.png"
+          }
+        },
+        "logo_image_i7tBpc": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_4.png"
+          }
+        },
+        "logo_image_Fy9Ydm": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_3_eccce761-16d6-41a5-aab7-1b94750e6ae5.png"
+          }
+        },
+        "logo_image_TMawC3": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_2_a6e3afea-7afd-46b9-9542-a2b05fba13c9.png"
+          }
+        }
+      },
+      "block_order": [
+        "logo_image_b4CLFT",
+        "logo_image_AzTB6j",
+        "logo_image_pDpBQe",
+        "logo_image_i7tBpc",
+        "logo_image_Fy9Ydm",
+        "logo_image_TMawC3"
+      ],
+      "settings": {
+        "enable_mobile_slider": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_qNirLi": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_chw6wr": {
+          "type": "heading",
+          "settings": {
+            "text": "Die besten Deals für dein Balkonkraftwerk",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_VrDLGQ": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Mit einem Balkonkraftwerk von Balkonstrom wirst du unabhängiger von Stromanbietern und <strong>sparst täglich Geld durch deinen eigenen Strom.</strong> Dank unserer Rabattcodes wird die Anschaffung deiner Solaranlage noch günstiger – <strong>so amortisiert sie sich schneller</strong>!</p><p>Balkonkraftwerke sind kompakte Solaranlagen für Balkone oder kleine Flächen. Mit ein bis vier Modulen, die direkt an die Steckdose angeschlossen werden können, sind sie einfach zu installieren – ganz ohne Elektriker.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_chw6wr",
+        "richtext_VrDLGQ"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "rich_text_tjD6F4": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_4t3J84": {
+          "type": "heading",
+          "settings": {
+            "text": "Exklusive Rabatte direkt in dein Postfach!",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "divider_fHNj4i": {
+          "type": "divider",
+          "settings": {}
+        },
+        "richtext_GrYGJr": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Mit unserem Newsletter erfährst du als Erster von neuen Rabattcodes, Sonderaktionen und exklusiven Tipps für Balkonkraftwerke – direkt in deinem E-Mail-Postfach!</p>"
+          }
+        },
+        "liquid_GRywrh": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"klaviyo-form-RjXBAE\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_4t3J84",
+        "divider_fHNj4i",
+        "richtext_GrYGJr",
+        "liquid_GRywrh"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "#f7f7f7",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "multi_column_HMd4nr": {
+      "type": "multi-column",
+      "blocks": {
+        "item_DqmB4q": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "1. Rabattcode erhalten",
+            "heading_tag": "h4",
+            "content": "<p>Melde dich für den Balkonstrom® Newsletter an und kopiere den Rabattcode aus unserer E-Mail.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_xfNBhy": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "2. Produkt auswählen",
+            "heading_tag": "h4",
+            "content": "<p>Wähle das gewünschte Balkonkraftwerk aus und lege das Produkt in den Warenkorb.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_X3ypen": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "3. Preisnachlass erhalten",
+            "heading_tag": "h4",
+            "content": "<p>Gib den Rabattcode im entsprechenden Feld ein - der Betrag wird automatisch abgezogen.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_DqmB4q",
+        "item_xfNBhy",
+        "item_X3ypen"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": true,
+        "enable_column_padding": false,
+        "column_background": "",
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "Wie funktionieren die Balkonstrom® Rabatte?",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "rich_text_rBBT9p": {
+      "type": "rich-text",
+      "blocks": {
+        "image_UhKHwh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Logos_Bewertungen_Balkonstrom.png",
+            "width_mode": "custom",
+            "max_width": 260,
+            "mobile_max_width": 200
+          }
+        }
+      },
+      "block_order": [
+        "image_UhKHwh"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "media_with_text_NRtw74": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_fFMVxp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/bkw-referral.webp",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Empfehle uns weiter!",
+            "content": "<p>Du bist mit deinem Balkonkraftwerk zufrieden? Teile deine Freude: Leite deinen Referral-Link weiter und erhalte <strong>25 € Rabatt für jede Weiterempfehlung.</strong> Deine Freunde bekommen einen 25 € Nachlass auf ihr Balkonkraftwerk.</p>",
+            "link_text": "Freunde werben",
+            "link_url": "https://balkonstrom.referralcandy.com/join/jan25",
+            "background": "#f7f7f7",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_fFMVxp"
+      ],
+      "settings": {
+        "show_klaviyo_form": false,
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "multi_column_AaqnCc": {
+      "type": "multi-column",
+      "blocks": {
+        "item_PtypTx": {
+          "type": "item",
+          "settings": {
+            "column_size": "2",
+            "title": "Kosteneinsparungen",
+            "heading_tag": "h4",
+            "content": "<p>Erzeuge deinen eigenen Strom und <strong>senke deine Stromkosten langfristig</strong>. Gleichzeitig wirst du <strong>unabhängiger von Preisschwankungen </strong>externer Anbieter.</p>",
+            "link_url": "https://www.balkonstrom.com/pages/ertragsrechner",
+            "link_text": "Jetzt Einsparungen berechnen",
+            "link_style": "button"
+          }
+        },
+        "item_cyWUxQ": {
+          "type": "item",
+          "settings": {
+            "column_size": "2",
+            "title": "Flexibilität",
+            "heading_tag": "h4",
+            "content": "<p>Ob Umzug oder eine neue Freifläche – die Anlage <strong>kann einfach umgestellt werden </strong>und passt sich deinen Bedürfnissen an.</p>",
+            "link_url": "https://www.balkonstrom.com/tools/perfect-product-finder/balkonkraftwerk-quiz#/",
+            "link_text": "Finde dein Balkonkraftwerk",
+            "link_style": "button"
+          }
+        },
+        "item_cHhbXf": {
+          "type": "item",
+          "settings": {
+            "column_size": "2",
+            "title": "Einfache Installation",
+            "heading_tag": "h4",
+            "content": "<p>Unsere Balkonkraftwerke sind leicht zu montieren – <strong>ohne Handwerker und ohne Genehmigungen. </strong>Mit unseren Schritt-für-Schritt-Anleitungen gelingt die Installation mühelos.</p>",
+            "link_url": "https://www.balkonstrom.com/pages/downloadcenter",
+            "link_text": "Zu den Anleitungen",
+            "link_style": "button"
+          }
+        },
+        "item_cbw3U7": {
+          "type": "item",
+          "settings": {
+            "column_size": "2",
+            "title": "Höchste Qualität",
+            "heading_tag": "h4",
+            "content": "<p>Unsere Balkonkraftwerke bestehen aus hochwertigen Komponenten und robusten <strong>Made-in-Germany-Kabeln</strong> – für Langlebigkeit und Zuverlässigkeit.</p>",
+            "link_url": "https://www.balkonstrom.com/blogs/news/balkonkraftwerke-bloss-nicht-am-falschen-ende-sparen",
+            "link_text": "Über unsere Kabel",
+            "link_style": "button"
+          }
+        }
+      },
+      "block_order": [
+        "item_PtypTx",
+        "item_cyWUxQ",
+        "item_cHhbXf",
+        "item_cbw3U7"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "enable_column_padding": false,
+        "column_background": "",
+        "gap": "x-large",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "Die Vorteile unserer Balkonkraftwerke",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "faq_hLCUe7": {
+      "type": "faq",
+      "blocks": {
+        "item_dgWWfR": {
+          "type": "item",
+          "settings": {
+            "title": "Ist der Rabattcode mit anderen Rabatten kombinierbar?",
+            "content": "<p>Ja, <strong>mit den meisten bereits reduzierten Rabatten</strong> ist unser Rabattcode kombinierbar. Lediglich bei bereits sehr stark reduzierten Produkten kann der Rabattcode in Einzelfällen ausgeschlossen werden.</p>"
+          }
+        },
+        "item_PdVVYP": {
+          "type": "item",
+          "settings": {
+            "title": "Auf welche Produkte ist der Rabattcode anwendbar?",
+            "content": "<p>Die Anwendbarkeit des Rabattcodes <strong>hängt von den jeweiligen Bedingungen</strong>, wie Mindestbestellwert und die gültigen Produkte, ab. Alle spezifischen <strong>Informationen zu deinem Rabattcode findest du in der E-Mail,</strong> in der der Code gesendet wurde.</p>"
+          }
+        },
+        "item_iax7hW": {
+          "type": "item",
+          "settings": {
+            "title": "Wie erhalte ich einen Rabattcode?",
+            "content": "<p>Wenn du unseren Newsletter abonnierst erhältst du aktuelle Rabattcodes und Aktionen. <a href=\"https://manage.kmail-lists.com/subscriptions/subscribe?a=UpssDX&g=T7a7eK\" target=\"_blank\" title=\"https://manage.kmail-lists.com/subscriptions/subscribe?a=UpssDX&g=T7a7eK\"><strong>Klicke hier</strong></a>, um dich für den Balkonstrom® Newsletter anzumelden.</p>"
+          }
+        },
+        "item_KUkbRr": {
+          "type": "item",
+          "settings": {
+            "title": "Wie lange ist der Rabattcode gültig?",
+            "content": "<p>Ein Rabattcode für unseren Onlineshop verliert erst seine Gültigkeit, <strong>wenn du ihn eingelöst hast</strong>. Es gibt aber auch immer wieder Rabattcodes die ausschließlich während einer <strong>Aktion </strong>oder einem <strong>bestimmten Zeitraum</strong> gültig sind. Diesen Zeitraum geben wir aber immer mit an.</p>"
+          }
+        },
+        "item_fKejdj": {
+          "type": "item",
+          "settings": {
+            "title": "Wie häufig kann ich den Rabattcode verwenden?",
+            "content": "<p>Der Rabattcode kann <strong>einmalig </strong>im Warenkorb verwendet werden.</p>"
+          }
+        },
+        "item_EiirgM": {
+          "type": "item",
+          "settings": {
+            "title": "Wo kann ich den Rabattcode einlösen?",
+            "content": "<p>Du kannst unseren Rabattcode ganz einfach <strong>beim Bezahlen</strong> deiner Bestellung in das Feld \"Rabattcode\" eingeben. Der Betrag wird direkt im Warenkorb abgezogen.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_dgWWfR",
+        "item_PdVVYP",
+        "item_iax7hW",
+        "item_KUkbRr",
+        "item_fKejdj",
+        "item_EiirgM"
+      ],
+      "settings": {
+        "full_width": false,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "<p>Häufige Fragen und unsere Antworten rund um Rabattcodes für Balkonkraftwerke.</p>",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "63e7ae41-a067-4ba9-aa48-4491e5af23b8",
+    "custom_logo_list_ecBBmi",
+    "rich_text_qNirLi",
+    "rich_text_tjD6F4",
+    "multi_column_HMd4nr",
+    "rich_text_rBBT9p",
+    "media_with_text_NRtw74",
+    "multi_column_AaqnCc",
+    "faq_hLCUe7"
+  ]
+}

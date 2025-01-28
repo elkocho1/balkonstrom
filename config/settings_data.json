@@ -1,0 +1,425 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "current": {
+    "page_width": 1300,
+    "section_vertical_spacing": "xsmall",
+    "section_boxed_horizontal_spacing": "small",
+    "button_border_radius": 6,
+    "input_border_radius": 6,
+    "block_border_radius": 20,
+    "block_shadow_opacity": 10,
+    "block_shadow_vertical_offset": 18,
+    "block_shadow_blur": 50,
+    "icon_stroke_width": 1.5,
+    "icon_style": "duo",
+    "button_style": "fill",
+    "button_hover_effect": "fade",
+    "background": "#ffffff",
+    "text_color": "#040404",
+    "success_color": "#008b16",
+    "header_background": "#ffffff",
+    "header_text_color": "#040404",
+    "footer_background": "#f7f7f7",
+    "footer_text_color": "#040404",
+    "primary_button_background": "#f2c315",
+    "primary_button_text_color": "#040404",
+    "secondary_button_background": "#f2c315",
+    "secondary_button_text_color": "#1a1a1a",
+    "product_card_text_color": "#2a555a",
+    "product_on_sale_accent": "#008000",
+    "product_primary_badge_background": "#F2C315",
+    "heading_font": "montserrat_n5",
+    "heading_font_size": "small",
+    "heading_text_transform": "normal",
+    "heading_letter_spacing": 0,
+    "text_font": "montserrat_n3",
+    "text_font_size_mobile": 14,
+    "text_font_size_desktop": 16,
+    "currency_code_enabled": false,
+    "show_page_transition": false,
+    "zoom_image_on_hover": false,
+    "heading_apparition": "split_fade",
+    "show_secondary_image": false,
+    "show_quick_buy": false,
+    "show_product_rating": false,
+    "product_rating_mode": "rating",
+    "show_sold_out_badge": true,
+    "show_discount": true,
+    "discount_mode": "saving",
+    "product_color_display": "hide",
+    "product_info_alignment": "center",
+    "heading": "29,99 € in 30 Tagen bezahlen",
+    "heading1": "{{ product.selected_or_first_available_variant.price | money_without_currency }} {{ cart.currency.symbol }} in 30 Tagen bezahlen",
+    "sub_heading": "Heute kaufen und erst in 30 Tagen bezahlen.",
+    "list_1": "Lege deine(n) Artikel in den Warenkorb",
+    "list_2": "Gehe zur Kasse und bezahle mit",
+    "list_3": "Schau dir deine Bestellung zuerst an und entscheide danach, was du behalten möchtest.",
+    "list_4": "Benutze die Klarna-App oder melde dich auf klarna.de an, um deine Zahlung zu tätigen.",
+    "button_label": "Schließen",
+    "button_link": "#",
+    "cart_type": "drawer",
+    "cart_icon": "tote_bag",
+    "cart_empty_button_link": "shopify://collections/balkonkraftwerk-sets",
+    "cart_show_free_shipping_threshold": true,
+    "shipping_cost": true,
+    "taxes": true,
+    "show_shipping_discount": true,
+    "free_shiping": "",
+    "company_facility": "",
+    "social_facebook": "https://www.facebook.com/balkonstrom",
+    "social_instagram": "https://www.instagram.com/balkonstrom.gmbh/",
+    "social_linkedin": "",
+    "favicon": "shopify://shop_images/Favicon_180x180_24e871d6-1a69-4d46-aed2-5e0e025f18e3.png",
+    "checkout_logo_image": "shopify://shop_images/TRANSPARENT_balkonstrom_logo1_black_4c4d598c-83c9-404c-be97-7707c1de4441.png",
+    "checkout_logo_size": "small",
+    "checkout_accent_color": "#f0c417",
+    "checkout_button_color": "#1a1a1a",
+    "min_order_amount": "150",
+    "discount_amount": "30",
+    "apply_coupon_code": "Abholung30",
+    "company_shiping": "Use company's storage facility (€30 descount when order at least €400)",
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "message": {
+            "type": "message",
+            "settings": {
+              "text": "60 Tage Rückgaberecht",
+              "url": ""
+            }
+          },
+          "1662fe8b-6311-43f2-92e0-03f2940fa6d5": {
+            "type": "message",
+            "settings": {
+              "text": "Ab sofort mit 0% MwSt.",
+              "url": ""
+            }
+          }
+        },
+        "block_order": [
+          "message",
+          "1662fe8b-6311-43f2-92e0-03f2940fa6d5"
+        ],
+        "settings": {
+          "enable_sticky": false,
+          "text_size": "text-xs",
+          "navigation_mode": "scrolling",
+          "background": "#1a1a1a",
+          "background_gradient": "",
+          "text_color": "#ffffff"
+        }
+      },
+      "header": {
+        "type": "header",
+        "blocks": {
+          "13996fe4-f66f-45a1-b480-a6dbae010140": {
+            "type": "mega_menu",
+            "settings": {
+              "menu_item": "Shop",
+              "layout": "horizontal_center",
+              "submenu_style": "bold_heading",
+              "image_heading_1": "",
+              "image_link_1": "",
+              "image_text_color_1": "#ffffff",
+              "image_heading_2": "",
+              "image_link_2": "",
+              "image_text_color_2": "#ffffff",
+              "image_heading_3": "",
+              "image_link_3": "",
+              "image_text_color_3": "#ffffff",
+              "product": "",
+              "product_card_background": "",
+              "product_card_text_color": "",
+              "promo_content_layout": "grid",
+              "stretch_promo": false,
+              "drawer_link_image": "hide"
+            }
+          },
+          "127a76e3-6b99-4255-99a7-1c72d69cf690": {
+            "type": "mega_menu",
+            "settings": {
+              "menu_item": "Über Balkonstrom",
+              "layout": "horizontal_center",
+              "submenu_style": "bold_heading",
+              "image_heading_1": "",
+              "image_link_1": "",
+              "image_text_color_1": "#ffffff",
+              "image_heading_2": "",
+              "image_link_2": "",
+              "image_text_color_2": "#ffffff",
+              "image_heading_3": "",
+              "image_link_3": "",
+              "image_text_color_3": "#ffffff",
+              "product": "",
+              "product_card_background": "",
+              "product_card_text_color": "",
+              "promo_content_layout": "grid",
+              "stretch_promo": false,
+              "drawer_link_image": "hide"
+            }
+          }
+        },
+        "block_order": [
+          "13996fe4-f66f-45a1-b480-a6dbae010140",
+          "127a76e3-6b99-4255-99a7-1c72d69cf690"
+        ],
+        "settings": {
+          "enable_sticky": true,
+          "hide_on_scroll": false,
+          "logo": "shopify://shop_images/Kein_Titel_4472_x_4472_px_1.png",
+          "logo_max_width": 165,
+          "logo_mobile_max_width": 100,
+          "menu": "main-menu",
+          "sidebar_menu": "",
+          "secondary_menu": "",
+          "menu_open_trigger": "click",
+          "opening_from": "bottom",
+          "layout": "logo_left_navigation_center",
+          "show_social_media": true,
+          "show_locale_selector": true,
+          "show_country_selector": true,
+          "show_country_flag": true,
+          "show_country_name": false,
+          "transparent_header_text_color": "#ffffff",
+          "reduce_padding": false,
+          "background_opacity": 100,
+          "background_blur_radius": 0
+        }
+      },
+      "cart-drawer": {
+        "type": "cart-drawer",
+        "settings": {
+          "show_cart_note": true,
+          "show_shipping_text": true,
+          "show_checkout_button": true,
+          "recommendations_title": "Trending this month",
+          "products": [],
+          "product_card_background": "#ffffff",
+          "product_card_text_color": ""
+        }
+      },
+      "search-drawer": {
+        "type": "search-drawer",
+        "settings": {
+          "full_width": true,
+          "show_article_category": true,
+          "search_menu": "",
+          "search_menu_show_title": true
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "newsletter": {
+            "type": "newsletter",
+            "settings": {
+              "image": "{{shop.brand.logo}}",
+              "image_width": 150,
+              "heading_size": "h3",
+              "title": "Sign up for new stories and personal offers",
+              "content": ""
+            }
+          },
+          "links": {
+            "type": "links",
+            "settings": {
+              "menu": "footer",
+              "show_menu_title": true
+            }
+          },
+          "text": {
+            "type": "text",
+            "settings": {
+              "title": "About",
+              "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.</p>"
+            }
+          }
+        },
+        "block_order": [
+          "newsletter",
+          "links",
+          "text"
+        ],
+        "settings": {
+          "show_social_media": true,
+          "show_payment_icons": true,
+          "show_country_selector": true,
+          "show_country_flag": true,
+          "show_country_name": true,
+          "show_locale_selector": true
+        }
+      },
+      "newsletter-popup": {
+        "type": "newsletter-popup",
+        "settings": {
+          "apparition_delay": 5,
+          "show_only_on_index": true,
+          "show_only_for_visitors": true,
+          "show_only_once": true,
+          "title": "Signup for our newsletter",
+          "button_text": "Subscribe",
+          "subtext": "Describe what your customers will receive when subscribing to your newsletter."
+        }
+      }
+    },
+    "content_for_index": [],
+    "blocks": {
+      "12120936241911852800": {
+        "type": "shopify://apps/judge-me-reviews/blocks/reviews_tab/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "disabled": true,
+        "settings": {
+          "position": "right"
+        }
+      },
+      "6279071938380501511": {
+        "type": "shopify://apps/powerful-form-builder/blocks/app-embed/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+        "disabled": false,
+        "settings": {}
+      },
+      "855628211100114053": {
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {}
+      },
+      "15683396631634586217": {
+        "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "disabled": false,
+        "settings": {
+          "button_color": "#f2c315",
+          "secondary_color": "#040404",
+          "ternary_color": "#f2c315",
+          "button_icon": "chat_bubble",
+          "button_text": "no_text",
+          "button_horizontal_position": "bottom_right",
+          "button_vertical_position": "lowest",
+          "greeting_message": "👋 Hi, wenn du Fragen hast, lass es uns wissen. Wir sind gerne für dich da!"
+        }
+      },
+      "judgeme_core_e0bcafdd": {
+        "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "disabled": false,
+        "settings": {}
+      },
+      "10974556588217313781": {
+        "type": "shopify://apps/nabu-for-fb-pixel/blocks/script-block/692d25a0-75b7-4cff-b3eb-8f1d8e1670bf",
+        "disabled": false,
+        "settings": {}
+      }
+    }
+  },
+  "presets": {
+    "Sound": {
+      "section_vertical_spacing": "medium",
+      "button_border_radius": 60,
+      "input_border_radius": 8,
+      "block_border_radius": 24,
+      "block_shadow_opacity": 10,
+      "block_shadow_vertical_offset": 18,
+      "background": "#f0f0f0",
+      "text_color": "#1a1a1a",
+      "header_background": "#f0f0f0",
+      "header_text_color": "#1a1a1a",
+      "footer_background": "#ffffff",
+      "footer_text_color": "#1a1a1a",
+      "primary_button_background": "#1a1a1a",
+      "primary_button_text_color": "#ffffff",
+      "secondary_button_background": "#f0c417",
+      "secondary_button_text_color": "#1a1a1a",
+      "product_card_text_color": "#1a1a1a",
+      "product_primary_badge_background": "#803cee",
+      "heading_font": "din_next_n7",
+      "heading_font_size": "large",
+      "heading_letter_spacing": -2,
+      "text_font": "din_next_n4",
+      "show_page_transition": true,
+      "cart_icon": "shopping_basket",
+      "heading_apparition": "split_fade",
+      "product_color_display": "swatch",
+      "product_info_alignment": "start",
+      "checkout_accent_color": "#f0c417",
+      "checkout_button_color": "#1a1a1a"
+    },
+    "Home": {
+      "section_vertical_spacing": "medium",
+      "section_boxed_horizontal_spacing": "large",
+      "button_hover_effect": "reverse",
+      "background": "#ffffff",
+      "text_color": "#272727",
+      "success_color": "#708a5c",
+      "warning_color": "#e37e16",
+      "error_color": "#aa2826",
+      "header_background": "#ffffff",
+      "header_text_color": "#272727",
+      "footer_background": "#f2f2f2",
+      "footer_text_color": "#272727",
+      "primary_button_background": "#272727",
+      "primary_button_text_color": "#ffffff",
+      "secondary_button_background": "#3c619e",
+      "secondary_button_text_color": "#ffffff",
+      "product_card_text_color": "#272727",
+      "product_on_sale_accent": "#e34f4f",
+      "product_sold_out_badge_background": "#bebdb9",
+      "product_primary_badge_background": "#3c619e",
+      "heading_font": "futura_n7",
+      "heading_font_size": "large",
+      "heading_text_transform": "normal",
+      "heading_letter_spacing": -1,
+      "text_font": "futura_n4",
+      "cart_icon": "shopping_basket",
+      "heading_apparition": "split_rotation",
+      "color_swatch_style": "rectangle",
+      "product_color_display": "swatch",
+      "cart_type": "drawer",
+      "checkout_body_background_color": "#f2f2f2",
+      "checkout_sidebar_background_color": "#ffffff",
+      "checkout_accent_color": "#3c619e",
+      "checkout_button_color": "#3c619e"
+    },
+    "Shape": {
+      "page_width": 1440,
+      "section_vertical_spacing": "small",
+      "section_boxed_horizontal_spacing": "medium",
+      "button_border_radius": 60,
+      "input_border_radius": 8,
+      "block_border_radius": 20,
+      "icon_stroke_width": 1.5,
+      "button_style": "fill",
+      "button_hover_effect": "reverse",
+      "text_color": "#2a555a",
+      "header_background": "#ffffff",
+      "header_text_color": "#2a555a",
+      "footer_background": "#f7f7f7",
+      "footer_text_color": "#2a555a",
+      "primary_button_background": "#2a555a",
+      "primary_button_text_color": "#ffffff",
+      "secondary_button_background": "#d9967e",
+      "product_card_text_color": "#2a555a",
+      "cart_icon": "tote_bag",
+      "heading_font": "itc_berkeley_old_style_n4",
+      "heading_font_size": "large",
+      "heading_text_transform": "normal",
+      "heading_letter_spacing": -1,
+      "text_font": "muli_n4",
+      "text_font_size_desktop": 15,
+      "product_color_display": "swatch",
+      "product_info_alignment": "center"
+    }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      ".Meteor-DesktopNavigation li > a {font-weight: bold;}",
+      ".circle-chevron {background: #e5e5e5;}",
+      ".jdgm-paginate,.jdgm-all-reviews-page__load-more-wrapper {padding-bottom: 16px;}",
+      "@media screen and (min-width: 700px) {.product-info__complementary-products .horizontal-product-list-carousel:not(.separate) {border-width: 0px; }}"
+    ]
+  }
+}

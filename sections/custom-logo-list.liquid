@@ -1,0 +1,140 @@
+{{ 'custom-logo-list.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.50 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="isolate medium-hide large-up-hide">
+  <div class="logo_marquee color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
+    <div class="{% if section.settings.enable_mobile_slider %} swiper mobile_slider_logo {% else %} logo_without_slider {% endif %} custom_logo_slider">
+          <div class="{% if section.settings.enable_mobile_slider %} swiper-wrapper {% else %} logo_without_slider_main {% endif %}">
+             {% for block in section.blocks %}
+              {% case block.type %}
+                {% when 'logo-image' %}
+                  {% if block.settings.logo_img != blank %}
+                  <div class="logo_image_cover {% if section.settings.enable_mobile_slider %} swiper-slide {% else %} logo_without_slider_col {% endif %}">{{ block.settings.logo_img | image_url: width: 1000 | image_tag }}</div>
+                  {% endif %}
+                {% endcase %}
+              {% endfor %}
+          </div>
+    </div>
+  </div>
+</div>
+
+<div class="isolate small-hide">
+  <div class="logo_marquee color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
+    <div class="custom_logo_slider">
+          <div class="desktop_logo">
+             {% for block in section.blocks %}
+              {% case block.type %}
+                {% when 'logo-image' %}
+                  {% if block.settings.logo_img != blank %}
+                  <div class="logo_image_cover">{{ block.settings.logo_img | image_url: width: 1000 | image_tag }}</div>
+                  {% endif %}
+                {% endcase %}
+              {% endfor %}
+          </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+  const swiper = new Swiper('.mobile_slider_logo', {
+    slidesPerView: "auto",
+    loop: true,
+    autoplay: 'true',
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    spaceBetween: 10, // Space between slides
+    breakpoints: {
+      749: {
+    
+        spaceBetween: 0,
+      }
+    },
+  });
+});
+</script>
+
+{% schema %}
+{
+  "name": "Custom logo list",
+  "tag": "section",
+  "class": "logo_image_marquee",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "enable_mobile_slider",
+      "default": true,
+      "label": "Enable Mobile Slider"
+    },
+    {
+      "type": "header",
+      "content": "Padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Padding Top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Padding Bottom",
+      "default": 52
+    }
+  ],
+
+  "blocks": [
+    {
+      "type": "logo-image",
+      "name": "Logo Image",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "logo_img",
+          "label": "Logo Image"
+        }
+      ]
+    }
+  ],
+
+  "presets": [
+    {
+      "name": "Custom logo list",
+      "blocks": [   
+        
+      ]
+    }
+  ]
+}
+{% endschema %}

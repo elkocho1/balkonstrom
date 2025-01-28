@@ -1,0 +1,911 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "new_header_section_NU79ek": {
+      "type": "new-header-section",
+      "blocks": {
+        "image_LddncC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/image_2_89fe41a8-8b50-46e3-812d-142e602801e6.png"
+          }
+        },
+        "heading_NBGTa7": {
+          "type": "heading",
+          "settings": {
+            "text": "Stecker rein, Stromkosten runter",
+            "heading_tag": "h0"
+          }
+        },
+        "subheading_3C8AT4": {
+          "type": "subheading",
+          "settings": {
+            "text": "Jetzt eigenen Strom erzeugen!"
+          }
+        },
+        "button_W8cPyr": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "Zum Balkonkraftwerk-Gutschein",
+            "url": "shopify://products/gutschein",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "button_zztyyi": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "Zu den Balkonkraftwerken",
+            "url": "shopify://collections/balkonkraftwerke",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "icon_with_text_block_iA8JdD": {
+          "type": "icon_with_text_block",
+          "settings": {
+            "icon_with_text_icon": "shopify://shop_images/10_1.png",
+            "icon_with_text_heading": "Einfache Montage <br> ohne Handwerker"
+          }
+        },
+        "icon_with_text_block_jMxd9W": {
+          "type": "icon_with_text_block",
+          "settings": {
+            "icon_with_text_icon": "shopify://shop_images/opt-2-2.svg",
+            "icon_with_text_heading": "Komponenten <br>Made in Germany"
+          }
+        },
+        "icon_with_text_block_cyW6pi": {
+          "type": "icon_with_text_block",
+          "settings": {
+            "icon_with_text_icon": "shopify://shop_images/Vector_2.svg",
+            "icon_with_text_heading": "10.000+ Kunden <br>sparen bereits mit Balkonstrom®"
+          }
+        }
+      },
+      "block_order": [
+        "image_LddncC",
+        "heading_NBGTa7",
+        "subheading_3C8AT4",
+        "button_W8cPyr",
+        "button_zztyyi",
+        "icon_with_text_block_iA8JdD",
+        "icon_with_text_block_jMxd9W",
+        "icon_with_text_block_cyW6pi"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "enable_fix_parallax": false,
+        "image_size": "fill",
+        "image": "shopify://shop_images/Balkonkraftwerk-mobile.jpg",
+        "mobile_text_position": "place-self-center-start text-start",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 20
+      }
+    },
+    "custom_logo_list_mTVnJP": {
+      "type": "custom-logo-list",
+      "blocks": {
+        "logo_image_xWGAB3": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/Untitled_design_80.png"
+          }
+        },
+        "logo_image_ejXyGG": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_1_6ad045c6-a6af-43bc-8772-088fda3e65c1.png"
+          }
+        },
+        "logo_image_x4FBMg": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_68bc6b1f-9cde-4e28-90d9-010389d4b518.png"
+          }
+        },
+        "logo_image_WRTfhp": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_4.png"
+          }
+        },
+        "logo_image_XeCQbR": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_3_eccce761-16d6-41a5-aab7-1b94750e6ae5.png"
+          }
+        },
+        "logo_image_yQwLAm": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_2_a6e3afea-7afd-46b9-9542-a2b05fba13c9.png"
+          }
+        }
+      },
+      "block_order": [
+        "logo_image_xWGAB3",
+        "logo_image_ejXyGG",
+        "logo_image_x4FBMg",
+        "logo_image_WRTfhp",
+        "logo_image_XeCQbR",
+        "logo_image_yQwLAm"
+      ],
+      "settings": {
+        "enable_mobile_slider": true,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "featured_collection_GCdPLV": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "products": [
+          "premium-balcony-800",
+          "basic-roof-900-bifazial-ziegeldach",
+          "premium-roof-800-flachdach",
+          "basic-roof-1800-bifazial-flachdach"
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 4,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Entdecke unsere Bestseller",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "text_with_icons_zVEQat": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_aq88nd": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-gift",
+            "custom_icon": "shopify://shop_images/Icon_deutschland.png",
+            "mobile_icon_width": 52,
+            "icon_width": 84,
+            "icon_background_type": "circle",
+            "icon_background": "#f2c315",
+            "icon_color": "",
+            "subtitle": "",
+            "title": "Made in Germany Komponenten",
+            "content": ""
+          }
+        },
+        "item_pACYQP": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-gift",
+            "custom_icon": "shopify://shop_images/Icon_Gespraech.png",
+            "mobile_icon_width": 52,
+            "icon_width": 84,
+            "icon_background_type": "circle",
+            "icon_background": "#f2c315",
+            "icon_color": "",
+            "subtitle": "",
+            "title": "Individuelle Expertenberatung",
+            "content": ""
+          }
+        },
+        "item_mMyhWE": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-gift",
+            "custom_icon": "shopify://shop_images/Icon_kundenerfahrung.png",
+            "mobile_icon_width": 52,
+            "icon_width": 84,
+            "icon_background_type": "circle",
+            "icon_background": "#f2c315",
+            "icon_color": "",
+            "subtitle": "",
+            "title": "Bis zu 25 Jahre Garantie auf Balkonkraftwerke",
+            "content": ""
+          }
+        },
+        "item_MG4LgK": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-gift",
+            "custom_icon": "shopify://shop_images/Icon_montage.png",
+            "mobile_icon_width": 52,
+            "icon_width": 84,
+            "icon_background_type": "circle",
+            "icon_background": "#f2c315",
+            "icon_color": "",
+            "subtitle": "",
+            "title": "Kinderleichte Selbstmontage",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_aq88nd",
+        "item_pACYQP",
+        "item_mMyhWE",
+        "item_MG4LgK"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "title": "Vorteile, wenn du bei uns bestellst",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "small",
+        "background": "#f7f7f7",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_timeline_kktTjA": {
+      "type": "custom-timeline",
+      "blocks": {
+        "item_CiG7hi": {
+          "type": "item",
+          "settings": {
+            "dots_position": "dots_position_top",
+            "horizontal_position_line": 50,
+            "vertical_position_line": 20,
+            "line_rotete": 0,
+            "dot_possition": "dots_position_bottom",
+            "enable_line2": true,
+            "dots_position2": "dots_position_right2",
+            "horizontal_position_line2": -23,
+            "vertical_position_line2": 100,
+            "line_rotete2": 0,
+            "dot_possition2": "dots_position_left2",
+            "image": "shopify://shop_images/Design_ohne_Titel_3_b577a6c1-7107-4033-98a7-1311e38df505.png",
+            "column_size": "4",
+            "title": "01 Aus Sonne wird Solarstrom",
+            "heading_tag": "h3",
+            "subtitle": "",
+            "subtitle1": "h5",
+            "content": "<p>Sonne trifft Solarmodul. Das Resultat ist dein eigener Strom! Unsere Balkonkraftwerke sind mit hocheffizienten Solarmodulen mit modernster Technologie ausgestattet, sodass du vom maximalen Stromertrag profitierst.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_AVaFBx": {
+          "type": "item",
+          "settings": {
+            "dots_position": "dots_position_top",
+            "horizontal_position_line": 50,
+            "vertical_position_line": 21,
+            "line_rotete": 0,
+            "dot_possition": "dots_position_top",
+            "enable_line2": true,
+            "dots_position2": "dots_position_right2",
+            "horizontal_position_line2": -2,
+            "vertical_position_line2": 100,
+            "line_rotete2": 0,
+            "dot_possition2": "dots_position_left2",
+            "image": "shopify://shop_images/Design_ohne_Titel_577c9b6e-89ca-4d7b-b9c7-e998beba2587.png",
+            "column_size": "4",
+            "title": "02 Stecker rein und der Strom fließt",
+            "heading_tag": "h3",
+            "subtitle": "",
+            "subtitle1": "h4",
+            "content": "<p>Dein Balkonkraftwerk kannst du an jeder üblichen Haushaltssteckdose einstecken. Einfacher geht es kaum! Der produzierte Strom gelangt so direkt in dein Hausnetz, wo ihn deine Haushaltsgeräte unmittelbar nutzen können. Dein Solarstrom wird dabei automatisch zuerst verwendet.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_meRMR4": {
+          "type": "item",
+          "settings": {
+            "dots_position": "dots_position_right",
+            "horizontal_position_line": 0,
+            "vertical_position_line": 74,
+            "line_rotete": 90,
+            "dot_possition": "dots_position_right",
+            "enable_line2": true,
+            "dots_position2": "dots_position_right2",
+            "horizontal_position_line2": -2,
+            "vertical_position_line2": 35,
+            "line_rotete2": 0,
+            "dot_possition2": "dots_position_right2",
+            "image": "shopify://shop_images/Design_ohne_Titel_5_7a110ff3-2c8f-41a2-ab33-0ac6b718deea.png",
+            "column_size": "4",
+            "title": "03 Dein Monitoring für unterwegs.",
+            "heading_tag": "h3",
+            "subtitle": "",
+            "subtitle1": "h4",
+            "content": "<p>Mit der passenden App für dein Smartphone kannst du die Arbeit deines Balkonkraftwerkes jederzeit und von überall aus einsehen. Lass dir mit nur wenigen Klicks anzeigen, wie viel Strom deine Anlage erzeugt, wie viel Strom du verbrauchst und steuere deine Geräte.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_jbkYKi": {
+          "type": "item",
+          "settings": {
+            "dots_position": "dots_position_left",
+            "horizontal_position_line": 100,
+            "vertical_position_line": 40,
+            "line_rotete": 0,
+            "dot_possition": "dots_position_right",
+            "enable_line2": false,
+            "dots_position2": "dots_position_left2",
+            "horizontal_position_line2": 50,
+            "vertical_position_line2": 11,
+            "line_rotete2": 0,
+            "dot_possition2": "dots_position_right2",
+            "image": "shopify://shop_images/Design_ohne_Titel_2_572bc910-3847-4944-b235-c05e5e8a5cc9.png",
+            "column_size": "4",
+            "title": "04 Solarstrom nutzen, Stromkosten reduzieren.",
+            "heading_tag": "h3",
+            "subtitle": "",
+            "subtitle1": "h4",
+            "content": "<p>Noch schöner als dein montiertes Balkonkraftwerk anzusehen, werden deine nächsten Stromrechnungen sein. Spare von nun an Jahr für Jahr signifikant Stromkosten ein und bleibe unabhängig von der Preispolitik externer Stromanbieter!</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_CiG7hi",
+        "item_AVaFBx",
+        "item_meRMR4",
+        "item_jbkYKi"
+      ],
+      "settings": {
+        "full_width": false,
+        "stack_on_mobile": true,
+        "enable_column_padding": false,
+        "column_background": "",
+        "header_text": "center",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "Wie funktioniert’s?",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "impact_text_nCzmnh": {
+      "type": "impact-text",
+      "blocks": {
+        "item_LmFW8j": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "title": "Spare bis zu -100€",
+            "subheading": "auf dein Balkonkraftwerk mit unseren Bundle-Deals. Speichere deinen Strom und spare schon beim Kauf!",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "item_LmFW8j"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 0.5,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "",
+        "heading_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "media_with_text_jiwJRB": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_dH8cNq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Balkonstrom_Vergleich_gross.webp",
+            "media_width": 55,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Vertraue auf Premium-Qualität",
+            "content": "<p>Balkonstrom® liefert dir hochwertige, in Deutschland gefertigte Kabel und individuelle Fachberatung. Dank schneller Lieferung und klarer Schritt-für-Schritt-Anleitung ist dein Balkonkraftwerk sofort einsatzbereit.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f7f7f7",
+            "background_gradient": "",
+            "text_color": "#040404",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_dH8cNq"
+      ],
+      "settings": {
+        "show_klaviyo_form": false,
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "rich_text_k7cTmR": {
+      "type": "rich-text",
+      "blocks": {
+        "image_jD8TEy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Logos_Bewertungen_Balkonstrom.png",
+            "width_mode": "custom",
+            "max_width": 340,
+            "mobile_max_width": 250
+          }
+        }
+      },
+      "block_order": [
+        "image_jD8TEy"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "444f13c6-232b-42f4-ad9e-a86eec044ecd": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18094118273288__444f13c6-232b-42f4-ad9e-a86eec044ecd-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Balkonstrom® Erfolgsgeschichten",
+            "heading_tag": "h2",
+            "text_color": "#040404",
+            "gradient": ""
+          }
+        },
+        "richtext_43CDFM": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Lass dich inspirieren!  Entdecke, wie unsere Balkonkraftwerk-Komplettsets <strong>bei über 10.000 Kunden deutschlandweit</strong> im Einsatz sind. Um direkt zum Produkt zu gelangen, klicke einfach auf das Bild.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18094118273288__444f13c6-232b-42f4-ad9e-a86eec044ecd-heading-1",
+        "richtext_43CDFM"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#f7f7f7",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "ee18ba96-3592-44f1-a777-e756e6d81646": {
+      "type": "media-grid",
+      "blocks": {
+        "template--18094118273288__ee18ba96-3592-44f1-a777-e756e6d81646-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG20230518154844.webp",
+            "title": "Premium Flat 400",
+            "heading_tag": "h6",
+            "link_url": "shopify://products/premium-flat-400",
+            "link_text": "",
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--18094118273288__ee18ba96-3592-44f1-a777-e756e6d81646-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/balkonkraftwerk-premium-800_66afdd58-3634-420c-846d-e8270918529a.webp",
+            "title": "Premium Roof 800 (Ziegeldach)",
+            "heading_tag": "h6",
+            "link_url": "shopify://products/premium-roof-800-ziegeldach",
+            "link_text": "",
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-end sm:text-end",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--18094118273288__ee18ba96-3592-44f1-a777-e756e6d81646-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Trapezblechdach_Greussenheim.webp",
+            "title": "Premium Roof 800",
+            "heading_tag": "h6",
+            "link_url": "shopify://products/premium-roof-800-blechdach",
+            "link_text": "",
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "601d7206-3971-4d5c-ab4a-60fcebe57f20": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Premium_Roof_1200.webp",
+            "title": "Premium Roof 1200",
+            "heading_tag": "h6",
+            "link_url": "shopify://products/premium-roof-1200-blechdach",
+            "link_text": "",
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-end-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "2c05ede8-0816-4c7a-9367-fe47f07bfb5c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Balkonkraftwerk_800_Watt_im_Gruenen_1754c102-24c1-4470-aa36-0a43915b3a63.webp",
+            "title": "Premium Balcony 800",
+            "heading_tag": "h6",
+            "link_url": "shopify://products/premium-balcony-800",
+            "link_text": "",
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-end sm:text-end",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "61117835-e9fe-40ef-81c7-a29e9ce8c510": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG20220806175552.webp",
+            "title": "Basic 900 bifazial Pro",
+            "heading_tag": "h6",
+            "link_url": "shopify://products/basic-set-900-bifazial-pro-mit-speicher",
+            "link_text": "",
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--18094118273288__ee18ba96-3592-44f1-a777-e756e6d81646-image-1",
+        "template--18094118273288__ee18ba96-3592-44f1-a777-e756e6d81646-image-2",
+        "template--18094118273288__ee18ba96-3592-44f1-a777-e756e6d81646-image-3",
+        "601d7206-3971-4d5c-ab4a-60fcebe57f20",
+        "2c05ede8-0816-4c7a-9367-fe47f07bfb5c",
+        "61117835-e9fe-40ef-81c7-a29e9ce8c510"
+      ],
+      "settings": {
+        "full_width": true,
+        "reduce_width": true,
+        "desktop_row_height": 200,
+        "mobile_row_height": 200,
+        "background": "#f7f7f7",
+        "background_gradient": ""
+      }
+    },
+    "contact_icons_AyEJKB": {
+      "type": "contact-icons",
+      "blocks": {
+        "contact_jNELFm": {
+          "type": "contact",
+          "settings": {
+            "icon_image": "shopify://shop_images/Icon_Anruf.png",
+            "heading": "Telefonisch",
+            "subtext": "+49 9369 9848130",
+            "link": "tel:+49 9369 9848130"
+          }
+        },
+        "contact_6BNKNA": {
+          "type": "contact",
+          "settings": {
+            "icon_image": "shopify://shop_images/Icon_Email.png",
+            "heading": "Per E-Mail",
+            "subtext": "info@balkonstrom.com",
+            "link": "mailto:info@balkonstrom.com"
+          }
+        },
+        "contact_xDNk7m": {
+          "type": "contact",
+          "settings": {
+            "icon_image": "shopify://shop_images/Icon_Rueckruf.png",
+            "heading": "Rückruf anfordern",
+            "subtext": "Rückruf anfordern",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "contact_jNELFm",
+        "contact_6BNKNA",
+        "contact_xDNk7m"
+      ],
+      "settings": {
+        "section_title": "Sprich direkt mit uns",
+        "desktop_padding_top": 56,
+        "desktop_padding_bottom": 34,
+        "mobile_padding_top": 22,
+        "mobile_padding_bottom": 22
+      }
+    },
+    "media_with_text_7apQx6": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_zdNndk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Ratgeber_3D_web_1.webp",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "100 % Mehrwehrt - komplett kostenlos",
+            "title": "Balkonstrom®-Ratgeber sichern!",
+            "content": "<p>Finde wertvolle Tipps und Antworten für deinen Balkonkraftwerk-Kauf auf 39 Seiten.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f7f7f7",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_zdNndk"
+      ],
+      "custom_css": [
+        ".prose * + :is(p, div, ul, ol) {margin-block-start: 5px;}",
+        ".prose * + :is(p, div, ul, ol) {margin-block-start: 15px;}"
+      ],
+      "settings": {
+        "show_klaviyo_form": true,
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "1712692704e1141703": {
+      "type": "apps",
+      "blocks": {
+        "google_reviews_plus_app_block_axAJeL": {
+          "type": "shopify://apps/rocket-google-reviews/blocks/app-block/d11c8893-a181-4aff-a280-7446d42cec3b",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "google_reviews_plus_app_block_axAJeL"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "fecf0783-a0a0-4a8d-9c02-08451d007911": {
+      "type": "accordion-content",
+      "blocks": {
+        "template--17852211265800__fecf0783-a0a0-4a8d-9c02-08451d007911-1686491720fa33d90d-0": {
+          "type": "item",
+          "settings": {
+            "title": "Was ist ein Balkonkraftwerk?",
+            "content": "<p>Ein Balkonkraftwerk besteht meist aus ein bis vier Photovoltaik-Modulen und einem Wechselrichter, welcher mittels Schukostecker in die Steckdose eingesteckt werden kann. Ein Balkonkraftwerk kann an den unterschiedlichsten Orten montiert werden, so zum Beispiel im Garten, auf dem Hausdach, auf der Garage oder an einer Fassade. Die erzeugte Leistung wird direkt in das Hausnetz eingespeist und kann unmittelbar von den Verbrauchern genutzt werden. Balkonkraftwerke bis 800 Watt Ausgangsleistung des Wechselrichters sind genehmigungsfrei.</p>"
+          }
+        },
+        "template--17852211265800__fecf0783-a0a0-4a8d-9c02-08451d007911-1686491720fa33d90d-1": {
+          "type": "item",
+          "settings": {
+            "title": "Darf ich mein Balkonkraftwerk selbst anschließen?",
+            "content": "<p>Balkonkraftwerke kannst du eigenständig anschließen. Die DIN VDE 0100-551-1:2016.09 besagt, dass nicht zertifizierte Endverbraucher den Anschluss an einer entsprechenden Steckdose vornehmen dürfen.</p>"
+          }
+        },
+        "template--17852211265800__fecf0783-a0a0-4a8d-9c02-08451d007911-1686491720fa33d90d-2": {
+          "type": "item",
+          "settings": {
+            "title": "Wie lange halten die einzelnen Komponenten meiner Solaranlage wie der Wechselrichter und die Solarmodule?",
+            "content": "<p>Die Leistungsgarantie unserer Solarmodulen beträgt 25 und 30 Jahre. Die Wechselrichter besitzen 12 Jahre Garantie. Die meisten Komponenten überleben diesen Zeitraum jedoch. So existrieren beispielsweise Solarmodule, welche bereits seit mehr als 36 Jahren Strom erzeugen.</p>"
+          }
+        },
+        "d1eda5e8-acbb-46a5-85d5-04718a519f1f": {
+          "type": "item",
+          "settings": {
+            "title": "Ist der Betrieb eines Balkonkraftwerkes sicher?",
+            "content": "<p>Ja. Bei mehr als 400.000 in Europa installierten Anlagen, welche an Schutzkontaktsteckdosen betrieben werden, sind keinerlei durch die Komponenten der Balkonkraftwerke verursachten Schäden bekannt. Die installierte Ausgangsleistung von 800 Watt ist nicht in der Lage, eine normale Elektroinstallation zu überlasten.</p>"
+          }
+        },
+        "d5219dd1-e815-4931-bfcb-564730b178e4": {
+          "type": "item",
+          "settings": {
+            "title": "Kann ich mein Balkonkraftwerk bei euch abholen?",
+            "content": "<p>Gerne kannst du deine Anlage auch kostenlos bei uns vor Ort abholen und sparst dir so die Lieferzeit und die Lieferkosten deiner Bestellung. Im Anschluss an deine Bestellung kannst du dich einfach in ein freies Zeitfenster zur Abholung einbuchen oder telefonisch einen Abholtermin vereinbaren.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17852211265800__fecf0783-a0a0-4a8d-9c02-08451d007911-1686491720fa33d90d-0",
+        "template--17852211265800__fecf0783-a0a0-4a8d-9c02-08451d007911-1686491720fa33d90d-1",
+        "template--17852211265800__fecf0783-a0a0-4a8d-9c02-08451d007911-1686491720fa33d90d-2",
+        "d1eda5e8-acbb-46a5-85d5-04718a519f1f",
+        "d5219dd1-e815-4931-bfcb-564730b178e4"
+      ],
+      "custom_css": [],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "<p>Du hast Fragen rund um das Thema Balkonkraftwerke und Mini-PV-Anlagen? Für eine Zusammenstellung der häufig gestellten Fragen schaue gerne bei unseren FAQ vorbei.</p>",
+        "button_text": "Zu unseren FAQ",
+        "button_url": "shopify://pages/faq",
+        "text_position": "start",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "#000000",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "#f0c417",
+        "button_text_color": "#000000",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "9205b322-485d-4f44-b1d3-95690dfa9c33": {
+      "type": "blog-posts",
+      "blocks": {
+        "template--18087464501512__9205b322-485d-4f44-b1d3-95690dfa9c33-blog-1": {
+          "type": "blog",
+          "settings": {
+            "blog": "news",
+            "posts_count": 3,
+            "stack_items": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18087464501512__9205b322-485d-4f44-b1d3-95690dfa9c33-blog-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_excerpt": true,
+        "show_date": false,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": false,
+        "subheading": "",
+        "title": "Unser Blog",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "solar_calculator": {
+      "type": "solar-calculator",
+      "disabled": true,
+      "settings": {}
+    }
+  },
+  "order": [
+    "new_header_section_NU79ek",
+    "custom_logo_list_mTVnJP",
+    "featured_collection_GCdPLV",
+    "text_with_icons_zVEQat",
+    "custom_timeline_kktTjA",
+    "impact_text_nCzmnh",
+    "media_with_text_jiwJRB",
+    "rich_text_k7cTmR",
+    "444f13c6-232b-42f4-ad9e-a86eec044ecd",
+    "ee18ba96-3592-44f1-a777-e756e6d81646",
+    "contact_icons_AyEJKB",
+    "media_with_text_7apQx6",
+    "1712692704e1141703",
+    "fecf0783-a0a0-4a8d-9c02-08451d007911",
+    "9205b322-485d-4f44-b1d3-95690dfa9c33",
+    "solar_calculator"
+  ]
+}

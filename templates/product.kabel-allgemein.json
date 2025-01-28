@@ -1,0 +1,426 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "trusted_by_kkhLCQ": {
+          "type": "trusted_by",
+          "settings": {
+            "image": "shopify://shop_images/patrick.webp",
+            "title": "<strong>Patrick</strong> und über <strong>10.000+</strong> Kunden sparen gemeinsam Strom mit uns."
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h1"
+          }
+        },
+        "80e933b0-412e-4893-aa54-fafd76717366": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ product.metafields.custom.neu_teaser_produktbeschreibung | metafield_tag }}</p>"
+          }
+        },
+        "badges": {
+          "type": "badges",
+          "disabled": true,
+          "settings": {}
+        },
+        "benefits_V8X4FX": {
+          "type": "benefits",
+          "settings": {
+            "title_1": "Hochwertige",
+            "description_1": "Qualität",
+            "title_2": "Sichere & zuverlässige",
+            "description_2": "Verkabelung",
+            "title_3": "",
+            "description_3": ""
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": true,
+            "stack_blocks": false,
+            "selector_mode": "dropdown",
+            "color_mode": "block",
+            "size_chart_page": ""
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": true
+          }
+        },
+        "148dad59-c12c-4692-8234-be9caa1bb426": {
+          "type": "inventory",
+          "settings": {
+            "low_inventory_threshold": 15
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": false,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "klarna_on_site_messaging_app_block_4pG4PK": {
+          "type": "shopify://apps/klarna-on-site-messaging/blocks/app-block/b95936a9-74b6-4a95-8103-6a1b6459c25e",
+          "settings": {
+            "data_key": "credit-promotion-badge",
+            "locale_option": "geolocation",
+            "locale_fallback": "",
+            "theme": "default",
+            "topPadding": "0",
+            "bottomPadding": "0",
+            "messagePrefix": ""
+          }
+        },
+        "liquid_n8pgwq": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "liquid": "<div id='ss-tabs-icon-insert-block'></div>"
+          }
+        },
+        "liquid_ezEkwm": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div\n    data-pp-message\ndata-pp-buyercountry=\"DE\"\n    data-pp-style-layout=\"text\"\n    data-pp-style-logo-type=\"alternative\"\n    data-pp-style-text-color=\"black\"\ndata-pp-style-text-align=\"center\"\n    data-pp-amount=\"product.selected_variant.price\">\n</div>"
+          }
+        },
+        "consultant_Ez3aGh": {
+          "type": "consultant",
+          "settings": {
+            "image": "shopify://shop_images/Design_ohne_Titel_1_2e3e9877-c8f3-484d-857e-785662da356c.webp",
+            "title": "Unser Berater Hannes ist da, um dich zu unterstützen und zu beraten.",
+            "link_telephone": "tel:093699848130",
+            "text_telephone": "Ruf uns an!",
+            "size_telephone": "sm",
+            "style_telephone": "fill",
+            "background_telephone": "",
+            "text_color_telephone": "",
+            "link_email": "mailto:info@balkonstrom.com",
+            "text_email": "Schreib uns!",
+            "size_email": "sm",
+            "style_email": "fill",
+            "background_email": "",
+            "text_color_email": ""
+          }
+        },
+        "2ee701af-bfcb-4e55-8613-f5463b800794": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Lieferumfang",
+            "content": "<p>{{ product.metafields.my_fields.lieferumfang | metafield_tag }}</p>",
+            "icon": "picto-box"
+          }
+        }
+      },
+      "block_order": [
+        "trusted_by_kkhLCQ",
+        "title",
+        "80e933b0-412e-4893-aa54-fafd76717366",
+        "badges",
+        "benefits_V8X4FX",
+        "variant_picker",
+        "price",
+        "148dad59-c12c-4692-8234-be9caa1bb426",
+        "buy_buttons",
+        "klarna_on_site_messaging_app_block_4pG4PK",
+        "liquid_n8pgwq",
+        "liquid_ezEkwm",
+        "consultant_Ez3aGh",
+        "2ee701af-bfcb-4e55-8613-f5463b800794"
+      ],
+      "custom_css": [
+        ".accordion__toggle span {font-weight: 400;}",
+        ".product-info__inventory {display: flex; justify-content: center; align-items: center; height: 100%; text-align: center;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": true,
+        "enable_upsell": false,
+        "desktop_media_width": 50,
+        "desktop_media_layout": "grid_highlight",
+        "mobile_media_size": "contained",
+        "mobile_carousel_control": "thumbnails",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "icon_with_text_kpW4Br": {
+      "type": "icon-with-text",
+      "blocks": {
+        "tab_wX6gmg": {
+          "type": "tab",
+          "settings": {
+            "tab_block_id": "",
+            "svg_color": "#121212",
+            "icon": "heart",
+            "image": "shopify://shop_images/shield.png",
+            "question": "60 Tage Rückgaberecht",
+            "answer_html": "{{ product.description }}",
+            "liquid": ""
+          }
+        },
+        "tab_8Lpqy6": {
+          "type": "tab",
+          "settings": {
+            "tab_block_id": "",
+            "svg_color": "#121212",
+            "icon": "truck",
+            "image": "shopify://shop_images/document.png",
+            "question": "100 % normkonforme Sets",
+            "answer_html": "",
+            "liquid": ""
+          }
+        },
+        "tab_VCeW9k": {
+          "type": "tab",
+          "settings": {
+            "tab_block_id": "",
+            "svg_color": "#121212",
+            "icon": "truck",
+            "image": "shopify://shop_images/truck_e21d61fe-676f-4f4d-9d5f-094408c2dd1b.png",
+            "question": "Lieferung für {{ product.metafields.custom.ohnehalterunglieferkosten.value }} €",
+            "answer_html": "",
+            "liquid": ""
+          }
+        },
+        "tab_i4NQen": {
+          "type": "tab",
+          "settings": {
+            "tab_block_id": "",
+            "svg_color": "#121212",
+            "icon": "time",
+            "image": "shopify://shop_images/paypal_2.png",
+            "question": "Bezahle nach 30 Tagen",
+            "answer_html": "",
+            "liquid": "<div data-pp-message=\"\" data-pp-buyercountry=\"DE\"data-pp-amount=\"50\" data-pp-placement=\"cart\" data-pp-style-layout=\"text\" data-pp-style-logo-type=\"alternative\"\ndata-pp-style-logo-size=\"40\" data-pp-style-text-color=\"black\" data-pp-style-text-size=\"10\" data-pp-style-text-align=\"left\"></div>"
+          }
+        },
+        "tab_Xi3cLJ": {
+          "type": "tab",
+          "settings": {
+            "tab_block_id": "klarna_popup",
+            "svg_color": "#121212",
+            "icon": "time",
+            "image": "shopify://shop_images/klarna_logo_icon_169389.png",
+            "question": "Bezahle in 30 Tagen",
+            "answer_html": "",
+            "liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "tab_wX6gmg",
+        "tab_8Lpqy6",
+        "tab_VCeW9k",
+        "tab_i4NQen",
+        "tab_Xi3cLJ"
+      ],
+      "settings": {
+        "subtitle": "",
+        "subtitle_color": "#121212",
+        "subtitle_font_size": 10,
+        "title": "",
+        "title_font_size": 10,
+        "title_color": "#121212",
+        "arrow_size": 14,
+        "arrow_color": "#121212",
+        "icon_width": 22,
+        "text_color": "#121212",
+        "question_font_size": 13,
+        "answer_color": "#121212",
+        "answer_font_size": 12,
+        "border_color": "rgba(0,0,0,0)",
+        "background-color": "#ffffff",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_x_desktop": 1.5,
+        "padding_x": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "button_padding_y": 10
+      }
+    },
+    "1603289e-16d7-4816-9659-3d8f925d8604": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17391985950984__1603289e-16d7-4816-9659-3d8f925d8604-1675801885eb3c1210-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--17391985950984__1603289e-16d7-4816-9659-3d8f925d8604-1675801885eb3c1210-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Beschreibung",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--17391985950984__1603289e-16d7-4816-9659-3d8f925d8604-1675801885eb3c1210-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>{{ product.metafields.my_fields.beschreibung | metafield_tag }}</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17391985950984__1603289e-16d7-4816-9659-3d8f925d8604-1675801885eb3c1210-0",
+        "template--17391985950984__1603289e-16d7-4816-9659-3d8f925d8604-1675801885eb3c1210-1",
+        "template--17391985950984__1603289e-16d7-4816-9659-3d8f925d8604-1675801885eb3c1210-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "5aa82ec2-712f-4cdf-90d9-552cc1985746": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17876092551432__5aa82ec2-712f-4cdf-90d9-552cc1985746-167813099001e85c6f-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "template--17876092551432__5aa82ec2-712f-4cdf-90d9-552cc1985746-167813099001e85c6f-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Technische Daten",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--17876092551432__5aa82ec2-712f-4cdf-90d9-552cc1985746-167813099001e85c6f-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>{{ product.metafields.custom.detailinformation_1_text | metafield_tag }}</p><p>{{ product.metafields.custom.na_schutz.value }}</p><p>{{ product.metafields.custom.datenblatt.value }}</p><p>{{ product.metafields.custom.mikrowechselrichter.value }}</p><p>{{ product.metafields.custom.testtext.value }}</p><p></p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17876092551432__5aa82ec2-712f-4cdf-90d9-552cc1985746-167813099001e85c6f-0",
+        "template--17876092551432__5aa82ec2-712f-4cdf-90d9-552cc1985746-167813099001e85c6f-1",
+        "template--17876092551432__5aa82ec2-712f-4cdf-90d9-552cc1985746-167813099001e85c6f-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "1688451955e5451819": {
+      "type": "apps",
+      "blocks": {
+        "8fc853ac-ca19-49a9-9363-38f42e59cfb6": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "8fc853ac-ca19-49a9-9363-38f42e59cfb6"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "contact_icons_jAkrYy": {
+      "type": "contact-icons",
+      "blocks": {
+        "contact_Tzbbba": {
+          "type": "contact",
+          "settings": {
+            "heading": "Telefonisch",
+            "subtext": "+49 9369 9848130",
+            "link": "tel:+49 9369 9848130"
+          }
+        },
+        "contact_gVjtQn": {
+          "type": "contact",
+          "settings": {
+            "heading": "Per E-Mail",
+            "subtext": "info@balkonstrom.com",
+            "link": "mailto:info@balkonstrom.com"
+          }
+        },
+        "contact_PyG7aL": {
+          "type": "contact",
+          "settings": {
+            "heading": "Rückruf anfordern",
+            "subtext": "Rückruf anfordern",
+            "link": "https://calendly.com/balkonstrom-abholung"
+          }
+        }
+      },
+      "block_order": [
+        "contact_Tzbbba",
+        "contact_gVjtQn",
+        "contact_PyG7aL"
+      ],
+      "settings": {
+        "section_title": "Sprich direkt mit uns",
+        "desktop_padding_top": 32,
+        "desktop_padding_bottom": 32,
+        "mobile_padding_top": 16,
+        "mobile_padding_bottom": 16
+      }
+    }
+  },
+  "order": [
+    "main",
+    "icon_with_text_kpW4Br",
+    "1603289e-16d7-4816-9659-3d8f925d8604",
+    "5aa82ec2-712f-4cdf-90d9-552cc1985746",
+    "1688451955e5451819",
+    "contact_icons_jAkrYy"
+  ]
+}

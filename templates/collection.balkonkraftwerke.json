@@ -1,0 +1,808 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "collection-banner",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "show_collection_title": true,
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "collection_title_size": "h0",
+        "image_size": "sm",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "featured_product": "",
+        "featured_product_heading": "Featured product",
+        "text_color": "#eeece5",
+        "overlay_color": "#000000",
+        "overlay_opacity": 15
+      }
+    },
+    "image_with_text_overlay_PhhEfc": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_tgThrF": {
+          "type": "heading",
+          "settings": {
+            "text": "Balkonkraftwerke",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_WkwjKJ": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Unsere Mini-Solaranlagen mit Schukostecker: Einfach ohne Elektriker anschließen. Hochwertige Halterungen für flexible Montageorte!</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_tgThrF",
+        "richtext_WkwjKJ"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "enable_fix_parallax": false,
+        "image_size": "md",
+        "image": "shopify://shop_images/Solarmodul_Detailbild.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 45
+      }
+    },
+    "custom_logo_list_bUhBci": {
+      "type": "custom-logo-list",
+      "blocks": {
+        "logo_image_6FzDKm": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/Untitled_design_80.png"
+          }
+        },
+        "logo_image_jFycmM": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_1_6ad045c6-a6af-43bc-8772-088fda3e65c1.png"
+          }
+        },
+        "logo_image_wMqTgW": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_68bc6b1f-9cde-4e28-90d9-010389d4b518.png"
+          }
+        },
+        "logo_image_Aie9KF": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_4.png"
+          }
+        },
+        "logo_image_VhHbVq": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_3_eccce761-16d6-41a5-aab7-1b94750e6ae5.png"
+          }
+        },
+        "logo_image_kXYYGW": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_2_a6e3afea-7afd-46b9-9542-a2b05fba13c9.png"
+          }
+        }
+      },
+      "block_order": [
+        "logo_image_6FzDKm",
+        "logo_image_jFycmM",
+        "logo_image_wMqTgW",
+        "logo_image_Aie9KF",
+        "logo_image_VhHbVq",
+        "logo_image_kXYYGW"
+      ],
+      "settings": {
+        "enable_mobile_slider": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "c9d98b4c-ed74-46f0-8590-2beeef824ebd": {
+      "type": "collection-list",
+      "blocks": {
+        "template--18120693088520__c9d98b4c-ed74-46f0-8590-2beeef824ebd-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "balkon",
+            "image": "shopify://shop_images/MeyerBurger800WattBalkonkraftwerk.webp",
+            "subheading": "",
+            "title": "Balkon",
+            "url": "",
+            "heading_tag": "h3",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--18120693088520__c9d98b4c-ed74-46f0-8590-2beeef824ebd-collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "dach",
+            "image": "shopify://shop_images/roof_Dual_panel_1_8a74f1d9-058f-47a3-b45e-b8f1bcc295a0.jpg",
+            "subheading": "",
+            "title": "Dach",
+            "url": "",
+            "heading_tag": "h3",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--18120693088520__c9d98b4c-ed74-46f0-8590-2beeef824ebd-collection-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "dach",
+            "image": "shopify://shop_images/Flachdach_Balkonkraftwerk.jpg",
+            "subheading": "",
+            "title": "Flachdach",
+            "url": "",
+            "heading_tag": "h3",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "f9cdb260-14f2-428f-ac24-0c33813634f4": {
+          "type": "collection",
+          "settings": {
+            "collection": "fassade",
+            "image": "shopify://shop_images/Premium_Wall_800_039e73e9-134a-4cb1-96bd-c510c1c33c40.webp",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h3",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "0ea72d92-f2a3-4e96-82ca-4d89bde31cfc": {
+          "type": "collection",
+          "settings": {
+            "collection": "garten",
+            "image": "shopify://shop_images/Garden_2_6c93c8cd-bdeb-45df-a80f-63f8e253ce56.jpg",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h3",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 15
+          }
+        },
+        "a1dd287a-0c63-498e-a634-e5528dc2e5fd": {
+          "type": "collection",
+          "settings": {
+            "collection": "ohne-halterung",
+            "image": "shopify://shop_images/8.jpg",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h3",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10
+          }
+        }
+      },
+      "block_order": [
+        "template--18120693088520__c9d98b4c-ed74-46f0-8590-2beeef824ebd-collection-1",
+        "template--18120693088520__c9d98b4c-ed74-46f0-8590-2beeef824ebd-collection-2",
+        "template--18120693088520__c9d98b4c-ed74-46f0-8590-2beeef824ebd-collection-3",
+        "f9cdb260-14f2-428f-ac24-0c33813634f4",
+        "0ea72d92-f2a3-4e96-82ca-4d89bde31cfc",
+        "a1dd287a-0c63-498e-a634-e5528dc2e5fd"
+      ],
+      "settings": {
+        "full_width": false,
+        "stack_collections": true,
+        "collections_per_row": 3,
+        "show_progress_bar": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "text_with_icons_WTVMAK": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_9UYCYP": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/icon-montage.png",
+            "mobile_icon_width": 24,
+            "icon_width": 40,
+            "icon_background_type": "circle",
+            "icon_background": "#eee9e3",
+            "icon_color": "",
+            "subtitle": "",
+            "title": "Kinderleichte Selbstmontage",
+            "content": ""
+          }
+        },
+        "item_rHhhwV": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/icondeutschland.png",
+            "mobile_icon_width": 24,
+            "icon_width": 40,
+            "icon_background_type": "circle",
+            "icon_background": "#eee9e3",
+            "icon_color": "",
+            "subtitle": "",
+            "title": "Made in Germany Komponenten",
+            "content": ""
+          }
+        },
+        "item_qiHPtN": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/eigenverbrauch.png",
+            "mobile_icon_width": 24,
+            "icon_width": 40,
+            "icon_background_type": "circle",
+            "icon_background": "#eee9e3",
+            "icon_color": "",
+            "subtitle": "",
+            "title": "Stecker rein & Strom sparen",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_9UYCYP",
+        "item_rHhhwV",
+        "item_qiHPtN"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "title": "",
+        "heading_tag": "h4",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "#f7f7f7",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "media_with_text_mBzNaV": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_VeJG3L": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Kein_Titel_1600_x_1600_px_444.webp",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Qualität bis ins letzte Detail",
+            "content": "<p>Wir legen Wert auf eine überdurchschnittliche Qualität unserer Produkte und unserer Services. Deshalb sind unsere Balkonkraftwerke mit den exklusiv für Balkonstrom® produzierten Made in Germany Kabeln ausgestattet. Für die Montage erhältst du mit deiner Anlage die passende Schritt-für-Schritt-Anleitung, mit der du dein Balkonkraftwerk im Handumdrehen in Betrieb nehmen kannst.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f7f7f7",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_VeJG3L"
+      ],
+      "settings": {
+        "show_klaviyo_form": false,
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "09df8a39-86d5-4eab-a510-9aa283582fe0": {
+      "type": "faq",
+      "blocks": {
+        "template--18109074047240__09df8a39-86d5-4eab-a510-9aa283582fe0-item-1": {
+          "type": "item",
+          "settings": {
+            "title": "Was ist ein Balkonkraftwerk?",
+            "content": "<p>Ein Balkonkraftwerk besteht meist aus ein bis zwei Photovoltaik-Modulen und einem Wechselrichter, welcher mittels Schukostecker in die Steckdose eingesteckt werden kann. Ein Balkonkraftwerk kann an den unterschiedlichsten Orten montiert werden, so zum Beispiel im Garten, auf dem Hausdach, auf der Garage oder an einer Fassade. Die erzeugte Leistung wird direkt in das Hausnetz eingespeist und kann unmittelbar von den Verbrauchern genutzt werden. Balkonkraftwerke unter 600 Watt Ausgangsleistung des Wechselrichters sind genehmigungsfrei. Anlagen mit über 600 Watt Ausgangsleistung werden oft als Mini-PV-Anlagen bezeichnet.</p>"
+          }
+        },
+        "template--18109074047240__09df8a39-86d5-4eab-a510-9aa283582fe0-item-2": {
+          "type": "item",
+          "settings": {
+            "title": "Darf ich mein Balkonkraftwerk selbst anschließen?",
+            "content": "<p>Balkonkraftwerke kannst du eigenständig anschließen. Die DIN VDE 0100-551-1:2016.09 besagt, dass nicht zertifizierte Endverbraucher den Anschluss an einer entsprechenden Steckdose vornehmen dürfen. Der Anschluss muss also nicht durch einen Elektriker erfolgen.</p>"
+          }
+        },
+        "template--18109074047240__09df8a39-86d5-4eab-a510-9aa283582fe0-item-3": {
+          "type": "item",
+          "settings": {
+            "title": "Wie lange kann ich damit Strom erzeugen?",
+            "content": "<p>Die Leistungsgarantie von Solarmodulen beträgt in den meisten Fällen 25 bis 30 Jahre. Auf Wechselrichter geben die Hersteller 12 Jahre Garantie. Die meisten Komponenten überleben diesen Zeitraum jedoch. So gibt es beispielsweise Solarmodule, welche bereits seit mehr als 35 Jahren Strom erzeugen.</p>"
+          }
+        },
+        "a7d01820-ade9-4f49-96a2-cf60add901f9": {
+          "type": "item",
+          "settings": {
+            "title": "Ist das betreiben eines Balkonkraftwerks sicher?",
+            "content": "<p>Ja. Bei mehr als 250.000 in Europa installierten Anlagen, welche an Schutzkontaktsteckdosen betrieben werden, sind keinerlei durch die Komponenten der Balkonkraftwerke verursachten Schäden bekannt. Die installierte Ausgangsleistung von 600 bzw. 800 Watt ist nicht in der Lage, eine normale Elektroinstallation zu überlasten.</p>"
+          }
+        },
+        "4169eda3-aa04-4044-ab93-060f35ad24a9": {
+          "type": "item",
+          "settings": {
+            "title": "Kann ich das Balkonkraftwerk auch direkt bei euch abholen?",
+            "content": "<p>Gerne kannst du deine Anlage auch kostenlos bei uns vor Ort abholen und sparst dir so die Lieferzeit und die Lieferkosten deiner Bestellung. Im Anschluss an deine Bestellung kannst du dich einfach in ein freies Zeitfenster zur Abholung einbuchen.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18109074047240__09df8a39-86d5-4eab-a510-9aa283582fe0-item-1",
+        "template--18109074047240__09df8a39-86d5-4eab-a510-9aa283582fe0-item-2",
+        "template--18109074047240__09df8a39-86d5-4eab-a510-9aa283582fe0-item-3",
+        "a7d01820-ade9-4f49-96a2-cf60add901f9",
+        "4169eda3-aa04-4044-ab93-060f35ad24a9"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "rich_text_JfkFG6": {
+      "type": "rich-text",
+      "blocks": {
+        "image_C79Krw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Logos.png",
+            "width_mode": "custom",
+            "max_width": 350,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "image_C79Krw"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "e1b6d873-1d74-40aa-8bc4-465e4166dba7": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18120693088520__e1b6d873-1d74-40aa-8bc4-465e4166dba7-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Balkonkraftwerk 800 Watt, Mini-Solaranlage kaufen, Strom erzeugen und Stromkosten sparen",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--18120693088520__e1b6d873-1d74-40aa-8bc4-465e4166dba7-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Balkonkraftwerke und Mini-Solaranlagen mit Komponenten aus Deutschland (Plug & Play-PV-Anlage) bestehen aus ein bis vier Solarmodulen und stellen eine einfache und kostengünstige Option dar, um mittels Sonnenenergie eigenen Strom zu produzieren und in dein Hausnetz einzuspeisen. Für die Installation ist kein Elektriker notwendig. Du musst deine Solaranlage nur montieren, den Stecker in die Steckdose stecken und schon produzierst du deinen eigenen Strom. Balkonkraftwerke kannst du an den unterschiedlichsten Örtlichkeiten montieren. Ob im Garten, auf deinem Hausdach, auf deinem Gartenhaus, am Balkon oder an einer Fassade – für unsere Balkonkraftwerke gibt es die passende Unterkonstruktion, die du für die Montage brauchst.</strong></p><h3>Unsere Balkonstrom Komplettsets</h3><p>Unsere Balkonstrom Komplettsets enthalten alles, was du für die Inbetriebnahme deiner Solaranlage benötigst. Von verschiedenen hochqualitativen Solarmodulen, dem passenden Wechselrichter, unseren Made in Germany MC-4- und AC-Anschlusskabeln bis hin zur Unterkonstruktion ist alles in einem Set enthalten. Balkonkraftwerke leben vom Do-it-yourself-Gedanken - Damit bei der Installation deiner Anlage alles reibungslos verläuft, erhältst du mit deinem Set eine detaillierte Montageanleitung, die zu deiner gewählten Unterkonstruktion passt und keine Fragen offenlässt. Bei Balkonstrom erhältst du Balkonkraftwerke mit unterschiedlicher Leistung. Für Balkonkraftwerke mit 800 Watt setzen wir den Hoymiles HM-800 ein, der sich ganz einfach auf die aktuell zulässigen 600 Watt drosseln lässt. Wie die Drosselung von 800W auf 600W funktioniert, zeigen wir dir in einer detaillierten Anleitung. Die in unseren Sets enthaltenen Solarmodule von Meyer Burger und Trina haben eine Leistungsgarantie von 25 Jahren. Auf die enthaltenen Wechselrichter Hoymiles HM-400 und Hoymiles HM-800 gibt der Hersteller 12 Jahre Garantie. Die meisten Komponenten überleben diesen Zeitraum jedoch. So gibt es beispielsweise Solarmodule, welche bereits seit mehr als 35 Jahren Strom erzeugen.</p><h3>Welche Vorteile bringt ein Balkonkraftwerk mit sich?</h3><p>Ein Balkonkraftwerk bringt einen großen Nutzen mit sich. Ein Balkonkraftwerk oder eine Mini-Solaranlage ist im Vergleich zu einer großen Aufdachanlage eine deutlich kostengünstigere Option, um eigenen Strom zu produzieren. Balkonstrom bietet verschiedene Balkonkraftwerke für jeden Geldbeutel. Mit einem Balkonkraftwerk oder eine Mini-Solaranlage lassen sich (kleine) freie Flächen zum Beispiel auf dem Dach, im Garten, am Balkon oder auf der Garage optimal ausnutzen, denn du kannst selbst entscheiden, wie groß deine Anlage sein soll. Zudem machst du dich mit einem Balkonkraftwerk oder einer Mini-Solaranlage unabhängiger von den Strompreisen extern Stromanbieter und kannst deine Stromkosten signifikant senken. Dadurch, dass für die Montage und den Anschluss kein Elektriker notwendig ist, kannst du ein Balkonkraftwerk oder eine Mini-Solaranlage kurzfristig montieren und direkt mit dem Sparen starten. Ein weiterer Aspekt ist in der aktuellen Hochzinsphase ist, dass die allermeisten Menschen keine Darlehen – wie bei einer großen Photovoltaikanlage - aufnehmen müssen, um sich die Anschaffung leisten zu können.</p><h3>Wann rechnet sich ein Balkonkraftwerk bzw. wie groß ist die Ersparnis?</h3><p>Wann sich ein Balkonkraftwerk rechnet, sich also amortisiert hat, hängt von verschiedenen Faktoren wie dem jährlichen Stromertrag deiner Anlage und dem aktuellen Strompreis ab. Bei optimaler Ausrichtung an einem verschattungsfreien Montageort lassen sich mit einem Balkonkraftwerk bestehend aus zwei Photovoltaik-Modulen ca. 800 kWh in einem Jahr erzeugen. Die tatsächlich erreichte Ersparnis hängt insbesondere vom eigenen Verbrauchsverhalten ab. Eine Kilowattstunde Strom kostet im Jahr 2023 durchschnittlich 42 Cent. Wenn du den erzeugten Strom komplett selbst verbrauchst, würdest du zwischen zwischen 290 und 340 Euro jährlich einsparen. Wenn du nur 2/3 des produzierten Stroms selbst verbrauchst, sparst du in etwa 250-280 Euro in einem Jahr. Die Amortisationszeit liegt somit zwischen zwei bis vier Jahren. Diese kann durch eine mögliche staatliche Förderung verkürzt werden. Viele Landkreise und Städte fördern die Anschaffung von Balkonkraftwerken und Mini-Solaranlagen. Ob für dich eine Förderung besteht, erfährst du <a href=\"https://www.balkonstrom.com/blogs/news/hier-bekommst-du-eine-foerderungen-balkonkraftwerke-600w\" target=\"_blank\" title=\"https://www.balkonstrom.com/blogs/news/hier-bekommst-du-eine-foerderungen-balkonkraftwerke-600w\">hier</a>.</p><h3>Was ist ein Balkonkraftwerk und wie groß darf ein Balkonkraftwerk sein ohne Genehmigung?</h3><p>Ein Balkonkraftwerk besteht meist aus ein bis zwei Photovoltaik-Modulen und einem Wechselrichter, welcher mittels Schukostecker in die Steckdose eingesteckt werden kann. Ein Balkonkraftwerk kann an den unterschiedlichsten Orten montiert werden, so zum Beispiel im Garten, auf dem Hausdach, auf der Garage oder an einer Fassade. Die erzeugte Leistung wird direkt in das Hausnetz eingespeist und kann unmittelbar von den Verbrauchern genutzt werden. Balkonkraftwerke mit maximal 600 Watt Ausgangsleistung des Wechselrichters sind genehmigungsfrei. Bei Balkonstrom erhältst du derzeit auch Anlagen, die den Hoymiles HM-800 enthalten. Dieser kann ganz einfach auf die für das vereinfachte Verfahren zulässigen 600 Watt gedrosselt werden. Sobald ein Balkonkraftwerk mit 800 Watt Ausgangsleistung erlaubt ist, kann die Leistung des Hoymiles HM-800 dann einfach wieder auf 800 Watt gesteigert werden.</p><h3>Wer darf Balkonkraftwerke montieren?</h3><p>Die Montage ist sowohl Eigentümern als auch Mietern erlaubt. Besonders für Mieter sind Balkonkraftwerke interessant, da hier häufig nur wenig freie Fläche zur Verfügung steht, um Photovoltaik anzubringen. Sofern das Anbringen von Gegenständen in deinem Mietvertrag nicht explizit ausgeschlossen ist, sollte deinem Balkonkraftwerk nichts im Wege stehen. Balkonkraftwerke kannst du eigenständig anschließen. Die DIN VDE 0100-551-1:2016.09 besagt, dass nicht zertifizierte Endverbraucher den Anschluss an einer entsprechenden Steckdose vornehmen dürfen. Der Anschluss muss also nicht durch einen Elektriker erfolgen. Anlagen mit mehr als 600 Watt Ausgangsleistung des Wechselrichters musst du jedoch von einem Elektriker anschließen lassen.</p><h3>Woraus besteht ein Balkonkraftwerk von Balkonstrom?</h3><p>Das erhältst du in unseren Balkonstrom Komplettsets:<br/>1-2 x Solarmodule (Meyer Burger oder Trina)<br/>1 x Mikrowechselrichter (Hoymiles HM-400 oder Hoymiles HM-800)<br/>1 x Unterkonstruktion<br/>Zubehör (u.a. Made in Germany MC-4- und AC-Anschlusskabel)<br/>Detaillierte Montageanleitung</p><h3>Wie funktioniert ein Balkonkraftwerk?</h3><p>Der durch die Solarzellen produzierten Strom wandelt der Wechselrichter der Anlage von Gleichstrom in Wechselstrom um. Mittels AC-Anschlusskabel mit einem Schukostecker fließt der Strom in dein Hausnetz und kann von deinen Haushaltsgeräten genutzt werden. Die Geräte greifen dabei automatisch auf den selbst produzierten Strom zu, da der Strom den Weg des geringsten Widerstands nimmt. Dein eigener Strom wird also bevorzugt verbraucht. Für den Anschluss kannst du eine herkömmliche Steckdose verwenden, auf keinen Fall aber eine Mehrfachsteckdose! Wenn es hierbei zu einer Überlastung dieser Mehrfachsteckdose kommen sollte, droht Brandgefahr.</p><h3>Welche Voraussetzung muss mein Stromzähler erfüllen?</h3><p>Grundsätzlich sind alle Zähler für den Betrieb eines Balkonkraftwerkes geeignet, sofern die Leistung deiner Solaranlage unter 800 Watt und die Netzrückspeisung unter 4 % des jährlichen Strombezugs liegen. Überschreitest du diesen Wert, musst du einen Zähler mit Rücklaufsperre einbauen. Einen solchen Zähler bekommst du von deinem Messstellenbetreiber. (i.d.R. dein Netzbetreiber). Welcher Netzbetreiber für dich zuständig ist, kannst du <a href=\"https://xn--strungsauskunft-9sb.de/stromausfall\" target=\"_blank\" title=\"https://xn--strungsauskunft-9sb.de/stromausfall\">hier</a> nachschauen. Ab 2024 dürften sogenannte Ferraris Stromzähler während einer Übergangszeit auch rückwärts drehen.</p><h3>Unsere Made in Germany MC-4- und AC-Anschlusskabel</h3><p>Bei unseren Balkonstrom Komplettsets setzen wir auf Qualität. Das fängt bei hochwertigen Modulen von Meyer Burger und Trina an und hört bei den kleinsten Komponenten unserer Anlagen, den Kabel auf. Um dir rundum zuverlässige und sichere Balkonkraftwerke bieten zu können, lassen wir unsere MC-4- und AC-Anschlusskabel im Vergleich zu anderen Anbietern extra von unserem lokalen Partner unter höchsten Qualitätsstandards in Deutschland fertigen. Mit unseren Made in Germany Kabeln gewährleisten wir die bestmögliche Verbindung zwischen Kabel und Stecker und können so den langjährigen und sicheren Betrieb deines Balkonkraftwerkes garantieren. Unser Partner hat langjährige Erfahrung in der Herstellung von DC-Verlängerungskabeln sowie Anschlusskabeln und stellt die Qualität der Verbindungen bei der Produktion durch verschiedene Prüf- und Messverfahren sicher. Durch die Verwendung unserer Made in Germany Kabel, kann die Wahrscheinlichkeit für Fehler, Komplikationen und damit verbundene Ertragsausfälle durch die zahlreichen Kontrollschritte in der Produktion maßgeblich reduziert werden. In unserem Blogbeitrag kannst du dich näher darüber informieren, <a href=\"https://www.balkonstrom.com/blogs/news/balkonkraftwerke-bloss-nicht-am-falschen-ende-sparen\" target=\"_blank\" title=\"https://www.balkonstrom.com/blogs/news/balkonkraftwerke-bloss-nicht-am-falschen-ende-sparen\">warum wir auf Made in Germany Kabel setzen</a> und du bei deinem Balkonkraftwerk nicht an den Kabeln sparen solltest. Außerdem geben wir dir in einem weiteren Beitrag <a href=\"https://www.balkonstrom.com/blogs/news/herstellung-und-produktion-der-kabel-fur-unsere-balkonkraftwerke\" target=\"_blank\" title=\"https://www.balkonstrom.com/blogs/news/herstellung-und-produktion-der-kabel-fur-unsere-balkonkraftwerke\">Einblicke in die Kabelfertigung</a>.</p><h3>Welches Balkonkraftwerk von Balkonstrom passt zu mir?</h3><p>Welches unsere Sets sich am besten für dich eignet, hängt von drei Faktoren ab:</p><p>1) Wie viel freie Fläche steht dir zur Verfügung?</p><p>2) Möchtest du ein Basic Set oder ein Premium Set?</p><p>3) Wo willst du dein Balkonkraftwerk montieren?<br/><br/>Zu 1) In unserem Shop erhältst du derzeit Balkonkraftwerke mit einem Modul oder mit zwei Solarmodulen. Je nachdem wie viel freie Fläche dir am Montageort zur Verfügung steht, kannst du die Größe deines Balkonkraftwerkes wählen. Zwei Solarmodule erzielen natürlich den doppelten Stromertrag von einem Solarmodul.<br/><br/>Zu 2) Unsere Komplettsets lassen sich in „Basic-Sets“ und „Premium-Sets“ einteilen. Unsere Basic Sets sind Balkonkraftwerke mit Solarmodulen von Trina und unser Preisleistungssieger. Die Basic Sets eignen sich für alle, die auf der Suche nach einem optisch ansprechenden, qualitativ hochwertigen und gleichzeitig preiswerten Balkonkraftwerk sind.<br/>Unsere Premium-Sets sind Balkonkraftwerke mit Meyer Burger Solarmodulen. Die in Deutschland hergestellten Module basieren auf der Heterojunction- und der SmartWire-Technologie, die für maximale Erträge und eine besonders lange Lebensdauer der Module mit niedriger Degradation sorgen.<br/>Bei den Premium-Sets besteht eine 25-jährige Produkt- und Leistungsgarantie. Bei den Basic Sets besteht eine 15-jährige Produkt- und eine 25-jährige Leistungsgarantie.<br/><br/>Zu 3) Balkonkraftwerke und Mini-Solaranlagen können an verschiedensten Orten montiert werden. Ob auf dem Dach, am Balkon, in deinem Garten oder an einer Fassade. Unsere Balkonstrom Balkonkraftwerke sind zusammen mit verschiedenen Unterkonstruktionen erhältlich:</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18120693088520__e1b6d873-1d74-40aa-8bc4-465e4166dba7-heading-1",
+        "template--18120693088520__e1b6d873-1d74-40aa-8bc4-465e4166dba7-richtext-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "e74dc221-69c5-467a-ba14-74e75ad29631": {
+      "type": "seo-section",
+      "blocks": {
+        "template--18732286083336__e74dc221-69c5-467a-ba14-74e75ad29631-fullwidthblock-1": {
+          "type": "fullwidthblock",
+          "settings": {
+            "full_width_heading": "Balkonkraftwerk 800 Watt, Mini-Solaranlage kaufen, Strom erzeugen und Stromkosten sparen",
+            "full_width_description": "<p>Balkonkraftwerke und Stecker-Solaranlagen mit Komponenten aus Deutschland (Plug & Play-PV-Anlage) bestehen aus ein bis vier Solarmodulen und stellen eine einfache und kostengünstige Option dar, um mittels Sonnenenergie eigenen Strom zu produzieren und in dein Hausnetz einzuspeisen. Für die Installation ist kein Elektriker notwendig. Du musst deine Solaranlage nur montieren, den Stecker in die Steckdose stecken und schon produzierst du deinen eigenen Strom. Balkonkraftwerke kannst du an den unterschiedlichsten Örtlichkeiten montieren. Ob im Garten, auf deinem Hausdach, auf deinem Gartenhaus, am Balkon oder an einer Fassade – für unsere Balkonkraftwerke gibt es die passende Unterkonstruktion, die du für die Montage brauchst.</p>",
+            "full_width_heading_color": "#040404",
+            "gradient": "",
+            "full_width_description_color": "#040404",
+            "full_width_heading_size": "h2"
+          }
+        },
+        "template--18732286083336__e74dc221-69c5-467a-ba14-74e75ad29631-leftblock-1": {
+          "type": "leftblock",
+          "settings": {
+            "left_block_heading": "Unsere Balkonstrom® Komplettsets",
+            "left_block_description": "<p>Unsere Balkonstrom® Komplettsets enthalten alles, was du für die Inbetriebnahme deiner Solaranlage benötigst. Von verschiedenen hochqualitativen Solarmodulen, dem passenden Wechselrichter, unseren Made in Germany MC-4- und AC-Anschlusskabeln bis hin zur Unterkonstruktion ist alles in einem Set enthalten. Balkonkraftwerke leben vom Do-it-yourself-Gedanken - Damit bei der Installation deiner Anlage alles reibungslos verläuft, erhältst du mit deinem Set eine detaillierte Montageanleitung, die zu deiner gewählten Unterkonstruktion passt und keine Fragen offenlässt. Bei Balkonstrom® erhältst du Balkonkraftwerke mit unterschiedlicher Leistung. Für Balkonkraftwerke mit 800 Watt setzen wir den Hoymiles HM-800 ein, der sich ganz einfach auf die aktuell zulässigen 600 Watt drosseln lässt. Wie die Drosselung von 800W auf 600W funktioniert, zeigen wir dir in einer detaillierten Anleitung. Die in unseren Sets enthaltenen Solarmodule von Meyer Burger und Trina haben eine Leistungsgarantie von 25 Jahren. Auf die enthaltenen Wechselrichter Hoymiles HM-400 und Hoymiles HM-800 gibt der Hersteller 12 Jahre Garantie. Die meisten Komponenten überleben diesen Zeitraum jedoch. So gibt es beispielsweise Solarmodule, welche bereits seit mehr als 35 Jahren Strom erzeugen.</p>",
+            "left_block_heading_color": "#040404",
+            "gradient": "",
+            "left_block_description_color": "#040404",
+            "left_block_heading_size": "h3"
+          }
+        },
+        "cb80ac74-6c8c-4208-bd6e-ed56355504df": {
+          "type": "leftblock",
+          "settings": {
+            "left_block_heading": "Welche Vorteile bringt ein Balkonkraftwerk mit sich?",
+            "left_block_description": "<p>Ein Balkonkraftwerk bringt einen großen Nutzen mit sich. Ein Balkonkraftwerk oder eine Mini-Solaranlage ist im Vergleich zu einer großen Aufdachanlage eine deutlich kostengünstigere Option, um eigenen Strom zu produzieren. Balkonstrom® bietet verschiedene Balkonkraftwerke für jeden Geldbeutel. Mit einem Balkonkraftwerk oder eine Mini-Solaranlage lassen sich (kleine) freie Flächen zum Beispiel auf dem Dach, im Garten, am Balkon oder auf der Garage optimal ausnutzen, denn du kannst selbst entscheiden, wie groß deine Anlage sein soll. Zudem machst du dich mit einem Balkonkraftwerk oder einer Mini-Solaranlage unabhängiger von den Strompreisen extern Stromanbieter und kannst deine Stromkosten signifikant senken. Dadurch, dass für die Montage und den Anschluss kein Elektriker notwendig ist, kannst du ein Balkonkraftwerk oder eine Mini-Solaranlage kurzfristig montieren und direkt mit dem Sparen starten. Ein weiterer Aspekt ist in der aktuellen Hochzinsphase ist, dass die allermeisten Menschen keine Darlehen – wie bei einer großen Photovoltaikanlage - aufnehmen müssen, um sich die Anschaffung leisten zu können.</p>",
+            "left_block_heading_color": "#040404",
+            "gradient": "",
+            "left_block_description_color": "#040404",
+            "left_block_heading_size": "h3"
+          }
+        },
+        "f3e63cc5-2fcc-4e55-8f78-625ed48eae40": {
+          "type": "leftblock",
+          "settings": {
+            "left_block_heading": "Wann rechnet sich ein Balkonkraftwerk bzw. wie groß ist die Ersparnis?",
+            "left_block_description": "<p>Wann sich ein Balkonkraftwerk rechnet, sich also amortisiert hat, hängt von verschiedenen Faktoren wie dem jährlichen Stromertrag deiner Anlage und dem aktuellen Strompreis ab. Bei optimaler Ausrichtung an einem verschattungsfreien Montageort lassen sich mit einem Balkonkraftwerk bestehend aus zwei Photovoltaik-Modulen ca. 800 kWh in einem Jahr erzeugen. Die tatsächlich erreichte Ersparnis hängt insbesondere vom eigenen Verbrauchsverhalten ab. Eine Kilowattstunde Strom kostet im Jahr 2023 durchschnittlich 42 Cent. Wenn du den erzeugten Strom komplett selbst verbrauchst, würdest du zwischen zwischen 290 und 340 Euro jährlich einsparen. Wenn du nur 2/3 des produzierten Stroms selbst verbrauchst, sparst du in etwa 250-280 Euro in einem Jahr. Die Amortisationszeit liegt somit zwischen zwei bis vier Jahren. Diese kann durch eine mögliche staatliche Förderung verkürzt werden. Viele Landkreise und Städte fördern die Anschaffung von Balkonkraftwerken und Mini-Solaranlagen. Ob für dich eine Förderung besteht, erfährst du <a href=\"https://www.balkonstrom.com/blogs/news/hier-bekommst-du-eine-foerderungen-balkonkraftwerke-600w\" target=\"_blank\" title=\"https://www.balkonstrom.com/blogs/news/hier-bekommst-du-eine-foerderungen-balkonkraftwerke-600w\">hier</a>.</p>",
+            "left_block_heading_color": "#040404",
+            "gradient": "",
+            "left_block_description_color": "#040404",
+            "left_block_heading_size": "h3"
+          }
+        },
+        "42715c8c-980e-4d15-94c7-40ff716747e2": {
+          "type": "leftblock",
+          "settings": {
+            "left_block_heading": "Was ist ein Balkonkraftwerk und wie groß darf ein Balkonkraftwerk sein ohne Genehmigung?",
+            "left_block_description": "<p>Ein Balkonkraftwerk besteht meist aus ein bis zwei Photovoltaik-Modulen und einem Wechselrichter, welcher mittels Schukostecker in die Steckdose eingesteckt werden kann. Ein Balkonkraftwerk kann an den unterschiedlichsten Orten montiert werden, so zum Beispiel im Garten, auf dem Hausdach, auf der Garage oder an einer Fassade. Die erzeugte Leistung wird direkt in das Hausnetz eingespeist und kann unmittelbar von den Verbrauchern genutzt werden. Balkonkraftwerke mit maximal 600 Watt Ausgangsleistung des Wechselrichters sind genehmigungsfrei. Bei Balkonstrom® erhältst du derzeit auch Anlagen, die den Hoymiles HM-800 enthalten. Dieser kann ganz einfach auf die für das vereinfachte Verfahren zulässigen 600 Watt gedrosselt werden. Sobald ein Balkonkraftwerk mit 800 Watt Ausgangsleistung erlaubt ist, kann die Leistung des Hoymiles HM-800 dann einfach wieder auf 800 Watt gesteigert werden.</p>",
+            "left_block_heading_color": "#040404",
+            "gradient": "",
+            "left_block_description_color": "#040404",
+            "left_block_heading_size": "h3"
+          }
+        },
+        "3b26f6ca-b68d-4799-af1b-70f98f314070": {
+          "type": "leftblock",
+          "settings": {
+            "left_block_heading": "Wer darf Balkonkraftwerke montieren?",
+            "left_block_description": "<p>Die Montage ist sowohl Eigentümern als auch Mietern erlaubt. Besonders für Mieter sind Balkonkraftwerke interessant, da hier häufig nur wenig freie Fläche zur Verfügung steht, um Photovoltaik anzubringen. Sofern das Anbringen von Gegenständen in deinem Mietvertrag nicht explizit ausgeschlossen ist, sollte deinem Balkonkraftwerk nichts im Wege stehen. Balkonkraftwerke kannst du eigenständig anschließen. Die DIN VDE 0100-551-1:2016.09 besagt, dass nicht zertifizierte Endverbraucher den Anschluss an einer entsprechenden Steckdose vornehmen dürfen. Der Anschluss muss also nicht durch einen Elektriker erfolgen. Anlagen mit mehr als 600 Watt Ausgangsleistung des Wechselrichters musst du jedoch von einem Elektriker anschließen lassen.</p>",
+            "left_block_heading_color": "#040404",
+            "gradient": "",
+            "left_block_description_color": "#040404",
+            "left_block_heading_size": "h3"
+          }
+        },
+        "ffb95fc0-e26a-4087-9eb2-b5233238b45d": {
+          "type": "rightblock",
+          "settings": {
+            "right_block_heading": "Woraus besteht ein Balkonkraftwerk von Balkonstrom®?",
+            "right_block_description": "<p>Das erhältst du in unseren Balkonstrom® Komplettsets:</p><ul><li>1-2 x Solarmodule (Meyer Burger oder Trina)</li><li>1 x Mikrowechselrichter (Hoymiles HM-400 oder Hoymiles HM-800)</li><li>1 x Unterkonstruktion</li><li>Zubehör (u.a. Made in Germany MC-4- und AC-Anschlusskabel)</li><li>Detaillierte Montageanleitung</li></ul>",
+            "right_block_heading_color": "#040404",
+            "gradient": "",
+            "right_block_description_color": "#040404",
+            "right_block_heading_size": "h3"
+          }
+        },
+        "14f8083e-fcab-4377-9bf4-81c39bd4a23e": {
+          "type": "rightblock",
+          "settings": {
+            "right_block_heading": "Wie funktioniert ein Balkonkraftwerk?",
+            "right_block_description": "<p>Der durch die Solarzellen produzierten Strom wandelt der Wechselrichter der Anlage von Gleichstrom in Wechselstrom um. Mittels AC-Anschlusskabel mit einem Schukostecker fließt der Strom in dein Hausnetz und kann von deinen Haushaltsgeräten genutzt werden. Die Geräte greifen dabei automatisch auf den selbst produzierten Strom zu, da der Strom den Weg des geringsten Widerstands nimmt. Dein eigener Strom wird also bevorzugt verbraucht. Für den Anschluss kannst du eine herkömmliche Steckdose verwenden, auf keinen Fall aber eine Mehrfachsteckdose! Wenn es hierbei zu einer Überlastung dieser Mehrfachsteckdose kommen sollte, droht Brandgefahr.</p>",
+            "right_block_heading_color": "#040404",
+            "gradient": "",
+            "right_block_description_color": "#040404",
+            "right_block_heading_size": "h3"
+          }
+        },
+        "babd6a08-9fe1-48fa-97ef-d9d4f4a1a290": {
+          "type": "rightblock",
+          "settings": {
+            "right_block_heading": "Welche Voraussetzung muss mein Stromzähler erfüllen?",
+            "right_block_description": "<p>Grundsätzlich sind alle Zähler für den Betrieb eines Balkonkraftwerkes geeignet, sofern die Leistung deiner Solaranlage unter 800 Watt und die Netzrückspeisung unter 4 % des jährlichen Strombezugs liegen. Überschreitest du diesen Wert, musst du einen Zähler mit Rücklaufsperre einbauen. Einen solchen Zähler bekommst du von deinem Messstellenbetreiber. (i.d.R. dein Netzbetreiber). Welcher Netzbetreiber für dich zuständig ist, kannst du <a href=\"https://xn--strungsauskunft-9sb.de/stromausfall\" target=\"_blank\" title=\"https://xn--strungsauskunft-9sb.de/stromausfall\">hier</a> nachschauen. Ab 2024 dürften sogenannte Ferraris Stromzähler während einer Übergangszeit auch rückwärts drehen.</p>",
+            "right_block_heading_color": "#040404",
+            "gradient": "",
+            "right_block_description_color": "#040404",
+            "right_block_heading_size": "h3"
+          }
+        },
+        "5a221f72-80e8-41fc-b51c-e5bd2c36459e": {
+          "type": "rightblock",
+          "settings": {
+            "right_block_heading": "Unsere Made in Germany MC-4- und AC-Anschlusskabel",
+            "right_block_description": "<p>Bei unseren Balkonstrom® Komplettsets setzen wir auf Qualität. Das fängt bei hochwertigen Modulen von Meyer Burger und Trina an und hört bei den kleinsten Komponenten unserer Anlagen, den Kabel auf. Um dir rundum zuverlässige und sichere Balkonkraftwerke bieten zu können, lassen wir unsere MC-4- und AC-Anschlusskabel im Vergleich zu anderen Anbietern extra von unserem lokalen Partner unter höchsten Qualitätsstandards in Deutschland fertigen. Mit unseren Made in Germany Kabeln gewährleisten wir die bestmögliche Verbindung zwischen Kabel und Stecker und können so den langjährigen und sicheren Betrieb deines Balkonkraftwerkes garantieren. Unser Partner hat langjährige Erfahrung in der Herstellung von DC-Verlängerungskabeln sowie Anschlusskabeln und stellt die Qualität der Verbindungen bei der Produktion durch verschiedene Prüf- und Messverfahren sicher. Durch die Verwendung unserer Made in Germany Kabel, kann die Wahrscheinlichkeit für Fehler, Komplikationen und damit verbundene Ertragsausfälle durch die zahlreichen Kontrollschritte in der Produktion maßgeblich reduziert werden. In unserem Blogbeitrag kannst du dich näher darüber informieren, <a href=\"https://www.balkonstrom.com/blogs/news/balkonkraftwerke-bloss-nicht-am-falschen-ende-sparen\" target=\"_blank\" title=\"https://www.balkonstrom.com/blogs/news/balkonkraftwerke-bloss-nicht-am-falschen-ende-sparen\">warum wir auf Made in Germany Kabel setzen</a> und du bei deinem Balkonkraftwerk nicht an den Kabeln sparen solltest. Außerdem geben wir dir in einem weiteren Beitrag <a href=\"https://www.balkonstrom.com/blogs/news/herstellung-und-produktion-der-kabel-fur-unsere-balkonkraftwerke\" target=\"_blank\" title=\"https://www.balkonstrom.com/blogs/news/herstellung-und-produktion-der-kabel-fur-unsere-balkonkraftwerke\">Einblicke in die Kabelfertigung</a>.</p>",
+            "right_block_heading_color": "#040404",
+            "gradient": "",
+            "right_block_description_color": "#040404",
+            "right_block_heading_size": "h3"
+          }
+        },
+        "cd678822-9750-4e38-9abc-ccf8c0554332": {
+          "type": "rightblock",
+          "settings": {
+            "right_block_heading": "Welches Balkonkraftwerk von Balkonstrom® passt zu mir?",
+            "right_block_description": "<p>Welches unserer Sets sich am besten für dich eignet, hängt von drei Faktoren ab:</p><p>1) Wie viel freie Fläche steht dir zur Verfügung?</p><p>2) Möchtest du ein Basic Set oder ein Premium Set?</p><p>3) Wo willst du dein Balkonkraftwerk montieren?<br/><br/>Zu 1) In unserem Shop erhältst du derzeit Balkonkraftwerke mit einem Modul oder mit zwei Solarmodulen. Je nachdem wie viel freie Fläche dir am Montageort zur Verfügung steht, kannst du die Größe deines Balkonkraftwerkes wählen. Zwei Solarmodule erzielen natürlich den doppelten Stromertrag von einem Solarmodul.<br/><br/>Zu 2) Unsere Komplettsets lassen sich in „Basic-Sets“ und „Premium-Sets“ einteilen. Unsere Basic Sets sind Balkonkraftwerke mit Solarmodulen von Trina und unser Preisleistungssieger. Die Basic Sets eignen sich für alle, die auf der Suche nach einem optisch ansprechenden, qualitativ hochwertigen und gleichzeitig preiswerten Balkonkraftwerk sind.<br/>Unsere Premium-Sets sind Balkonkraftwerke mit Meyer Burger Solarmodulen. Die in Deutschland hergestellten Module basieren auf der Heterojunction- und der SmartWire-Technologie, die für maximale Erträge und eine besonders lange Lebensdauer der Module mit niedriger Degradation sorgen.<br/>Bei den Premium-Sets besteht eine 25-jährige Produkt- und Leistungsgarantie. Bei den Basic Sets besteht eine 15-jährige Produkt- und eine 25-jährige Leistungsgarantie.<br/><br/>Zu 3) Balkonkraftwerke und Mini-Solaranlagen können an verschiedensten Orten montiert werden. Ob auf dem Dach, am Balkon, in deinem Garten oder an einer Fassade. Unsere Balkonstrom® Balkonkraftwerke sind zusammen mit verschiedenen Unterkonstruktionen erhältlich.</p>",
+            "right_block_heading_color": "#040404",
+            "gradient": "",
+            "right_block_description_color": "#040404",
+            "right_block_heading_size": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "template--18732286083336__e74dc221-69c5-467a-ba14-74e75ad29631-fullwidthblock-1",
+        "template--18732286083336__e74dc221-69c5-467a-ba14-74e75ad29631-leftblock-1",
+        "cb80ac74-6c8c-4208-bd6e-ed56355504df",
+        "f3e63cc5-2fcc-4e55-8f78-625ed48eae40",
+        "42715c8c-980e-4d15-94c7-40ff716747e2",
+        "3b26f6ca-b68d-4799-af1b-70f98f314070",
+        "ffb95fc0-e26a-4087-9eb2-b5233238b45d",
+        "14f8083e-fcab-4377-9bf4-81c39bd4a23e",
+        "babd6a08-9fe1-48fa-97ef-d9d4f4a1a290",
+        "5a221f72-80e8-41fc-b51c-e5bd2c36459e",
+        "cd678822-9750-4e38-9abc-ccf8c0554332"
+      ],
+      "settings": {
+        "full_width": false,
+        "page_width": 1600,
+        "link_color": "#040404",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "seo_section_hUaBQK": {
+      "type": "seo-section",
+      "blocks": {
+        "fullwidthblock_qzx3d9": {
+          "type": "fullwidthblock",
+          "settings": {
+            "full_width_heading": "Bei Balkonstrom® ist für jeden das passende Komplettset dabei",
+            "full_width_description": "",
+            "full_width_heading_color": "#040404",
+            "gradient": "",
+            "full_width_description_color": "#040404",
+            "full_width_heading_size": "h2"
+          }
+        },
+        "leftblock_Yw4yPe": {
+          "type": "leftblock",
+          "settings": {
+            "left_block_heading": "Unsere Balcony Sets: Solaranlagen für deinen Balkon",
+            "left_block_description": "<p>Unsere Komplettsets für deinen Balkon enthalten alle Komponenten, für die direkte Inbetriebnahme deiner Anlage. Du kannst diese selbstständig aufbauen, anmelden und anschließen. Der Wechselrichter unserer Balcony Sets (Hoymiles HM-800) kannst du ganz einfach auf die derzeit geltenden 600 Watt drosseln und die Leistung nach Gesetzesbeschluss eigenständig auf 800 Watt erhöhen.</p><p>Die Module unsere Balcony Balkonkraftwerke werden durch die mitgelieferte Halterung am Balkonhandlauf und dem Gitter montiert. Du kannst den Neigungswinkel der Module bei dieser Halterung flexibel anpassen, um den Stromertrag zu optimieren. Mit unseren modernen und zeitlos erscheinenden Balcony-Sets hat die triste Bambusmatte als Sichtschutz ausgedient.</p>",
+            "left_block_heading_color": "#040404",
+            "gradient": "",
+            "left_block_description_color": "#040404",
+            "left_block_heading_size": "h3"
+          }
+        },
+        "leftblock_VRdjiP": {
+          "type": "leftblock",
+          "settings": {
+            "left_block_heading": "Balkonkraftwerke zur Montage an der Fassade und Hauswand",
+            "left_block_description": "<p>Wenn du ein Balkonkraftwerk an einer Hauswand oder einer sonstigen Fassade montieren willst, sollte deine Wahl auf eines unserer Wall-Balkonkraftwerke fallen. Zur Montage erhältst du zwei kurze und zwei lange ausziehbare Stützen, durch die du den Neigungswinkel der Solarmodule flexibel anpassen kannst. Die Solarmodule montierst du horizontal an der Wand.</p>",
+            "left_block_heading_color": "#040404",
+            "gradient": "",
+            "left_block_description_color": "#040404",
+            "left_block_heading_size": "h3"
+          }
+        },
+        "leftblock_9kBFW9": {
+          "type": "leftblock",
+          "settings": {
+            "left_block_heading": "Balkonkraftwerke für deinen Garten: Unsere Flat-Balkonkraftwerke",
+            "left_block_description": "<p>In deinem Garten ist noch Platz für ein Balkonkraftwerk? Unsere Balkonstrom® Flat-Balkonkraftwerke sind am schnellsten und am einfachsten montiert. Hier ist lediglich eine Aufständerung der Module in einem Neigungswinkel von 20° mittels einer Halterung erforderlich. Hierfür erhältst du von uns zwei Aluminiumstützen und vier Bautenschutzmatten. Die Konstruktion musst du im Anschluss nur noch mittels 30x30 cm Gehwegplatten oder anderen geeigneten Steinen ballastieren.</p>",
+            "left_block_heading_color": "#040404",
+            "gradient": "",
+            "left_block_description_color": "#040404",
+            "left_block_heading_size": "h3"
+          }
+        },
+        "rightblock_rFYd89": {
+          "type": "rightblock",
+          "settings": {
+            "right_block_heading": "Unsere Komplettsets für dein Dach",
+            "right_block_description": "<p>Egal welches Dach du hast, wir haben das passende Balkonkraftwerk für dich! Unseren Dach-Sets erhältst du für die Montage auf einem Ziegeldach, Bitumendach, Blechdach oder einem Flachdach. All unsere Unterkonstruktionen sind sicher und leicht zu montieren. Mit deinem Balkonkraftwerk wird eine detaillierte Montageanleitung mitgeliefert, die zu deiner gewählten Unterkonstruktion passt.</p><p><strong>Balkonkraftwerke für Ziegeldächer</strong></p><p>Unsere Solaranlagen für Ziegeldächer kannst du auf allen Schrägdächern, die mit gängigen Dachziegeln (z.B. Pfannenziegel, wie Frankfurter oder Harzer Pfannen) gedeckt sind, montieren. Für die Unterkonstruktion erhältst du von uns ein Schienensystem, Modulklemmen und Dachhaken inkl. Schrauben. Nachdem du die Dachhaken in die Holzsparren des Dachs geschraubt hast, montierst du die Modulschienen. Dann musst du nur noch die Solarmodule befestigen und schon ist deine Anlage betriebsfähig.</p><p></p><p><strong>Balkonkraftwerke für Bitumendächer</strong></p><p>Unsere Balkonkraftwerke für Bitumendächer können sowohl auf, die mit Bitumen- als auch auf  Bitumenschindel-Dächern montiert werden. Du erhältst dafür das Schienensystem, Modulklemmen, Stockschrauben und selbstklebende Dichtungsplatten für Bitumendächer.<br/></p><p><strong>Balkonkraftwerke für Blechdächer</strong></p><p>Du solltest dich für eines unserer Blechdach-Sets entscheiden, wenn du deine Anlage auf einem Trapez- oder Wellblechdach montieren möchtest. Dafür liefern wir dir das entsprechende Schienensystem, Schrauben und Modulklemmen.</p><p><strong>Balkonkraftwerke für Flachdächer</strong></p><p>Die schnellste Montage gelingt dir mit unseren Flachdach-Komplettsets, denn hier ist lediglich eine Aufständerung der Module in einem Neigungswinkel von 20° durch die Halterung notwendig, die du im Anschluss noch stabilisierst. Hierfür schicken wir dir zwei Aluminiumstützen und vier Bautenschutzmatten. Die Ballastierung des Systems nimmst du mit 30x30 cm Gehwegplatten oder anderen geeigneten Steinen vor.</p>",
+            "right_block_heading_color": "#040404",
+            "gradient": "",
+            "right_block_description_color": "#040404",
+            "right_block_heading_size": "h3"
+          }
+        },
+        "leftblock_xq3Vfc": {
+          "type": "leftblock",
+          "settings": {
+            "left_block_heading": "Balkonkraftwerke ohne Halterung: Unsere Pure-Komplettsets",
+            "left_block_description": "<p>Balkonkraftwerke ohne Halterung: Unsere Pure-Komplettsets</p><p>Balkonkraftwerke leben vom DIY-Gedanken. Für alle Bastler und Heimwerkerhelden unter euch bieten wir mit unseren Balkonstrom® Pure-Sets Balkonkraftwerke ohne Halterung an. Hier erhältst du die Solarmodule, den passenden Wechselrichter und unsere Made in Germany Kabel. Eine individuelle Unterkonstruktion zur Montage der Anlage bastelst du dir im Anschluss selbst.</p>",
+            "left_block_heading_color": "#040404",
+            "gradient": "",
+            "left_block_description_color": "#040404",
+            "left_block_heading_size": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "fullwidthblock_qzx3d9",
+        "leftblock_Yw4yPe",
+        "leftblock_VRdjiP",
+        "leftblock_9kBFW9",
+        "rightblock_rFYd89",
+        "leftblock_xq3Vfc"
+      ],
+      "settings": {
+        "full_width": false,
+        "page_width": 1000,
+        "link_color": "#040404",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "products_per_page": 8,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "filter_layout": "horizontal",
+        "show_sort_by": false,
+        "show_filters": false,
+        "show_filter_group_name": false,
+        "show_color_swatch": false,
+        "show_empty_filter_values": false,
+        "show_filter_values_count": false,
+        "open_first_filter_group": false
+      }
+    },
+    "d4c13e1f-6c89-415f-a385-7ef6a159aa98": {
+      "type": "seo-section",
+      "blocks": {
+        "template--18732286083336__d4c13e1f-6c89-415f-a385-7ef6a159aa98-fullwidthblock-1": {
+          "type": "fullwidthblock",
+          "settings": {
+            "full_width_heading": "",
+            "full_width_description": "",
+            "full_width_heading_color": "#040404",
+            "gradient": "",
+            "full_width_description_color": "#040404",
+            "full_width_heading_size": "h1"
+          }
+        },
+        "template--18732286083336__d4c13e1f-6c89-415f-a385-7ef6a159aa98-leftblock-1": {
+          "type": "leftblock",
+          "settings": {
+            "left_block_heading": "Ist mein Balkonkraftwerk beständig gegen Regen, Frost und Hagel?",
+            "left_block_description": "<p>Deine Anlage ist jeglichen Wetterbedingungen gewappnet. Die Komponenten sind wasserdicht, auf extreme Temperaturen zwischen -40 und +80 Grad Celsius ausgelegt und zu einem gewissen Grad hagelsicher. Bei unseren Premium Sets mit Meyer Burger Solarmodulen, können Hagelkörner von bis zu 55 mm deiner Solaranlage nichts anhaben. Extreme Witterungseinflüsse stellen somit keine Gefahr für deine Solarmodule bzw. deine Solaranlage dar. Bitte beachte, dass die bei uns erhältlichen Strommessgeräte nicht wasserdicht und somit nicht für den Betrieb im Freien geeignet sind.</p>",
+            "left_block_heading_color": "#040404",
+            "gradient": "",
+            "left_block_description_color": "#040404",
+            "left_block_heading_size": "h3"
+          }
+        },
+        "template--18732286083336__d4c13e1f-6c89-415f-a385-7ef6a159aa98-rightblock-1": {
+          "type": "rightblock",
+          "settings": {
+            "right_block_heading": "Was muss ich nach der Montage beachten?",
+            "right_block_description": "<p>Balkonkraftwerke sind wartungsfrei. Ist deine Anlage erst installiert, hast du somit keine wiederkehrende Arbeit damit. </p><p>Grundsätzlich bist du aber dazu verpflichtet, dein Balkonkraftwerk bei deinem Netzbetreiber anzumelden. Diese Anmeldung kannst du häufig einfach über die Website deines Netzbetreibers vornehmen. Hier erfährst du durch die Eingabe deines Wohnortes, welcher Netzbetreiber für dich zuständig ist.</p><p>Außerdem musst du deine Anlage im Marktstammdatenregister registrieren. Das kannst du hier erledigen.</p>",
+            "right_block_heading_color": "#040404",
+            "gradient": "",
+            "right_block_description_color": "#040404",
+            "right_block_heading_size": "h3"
+          }
+        },
+        "5b867862-3a2a-4e6f-830a-65266bff0187": {
+          "type": "leftblock",
+          "settings": {
+            "left_block_heading": "Erhalte ich eine Förderung für mein Balkonkraftwerk?",
+            "left_block_description": "<p>Derzeit gibt es keine allgemeingültige Förderrichtlinie für Balkonkraftwerke in Deutschland. Allerdings fördern viele Landkreise und Städte die Anschaffung von Balkonkraftwerken. Je nachdem wo du wohnst, können sowohl die Fördersumme als auch die Anforderungen an deine Anlage variieren. In einem unserer Blogbeiträge haben wir eine detaillierte Übersicht mit allen uns bekannten <a href=\"/blogs/news/hier-bekommst-du-eine-forderung-balkonkraftwerke-mit-600-800-watt\" title=\"Hier bekommst du Förderungen für dein Balkonkraftwerk mit 600-800 Watt\">Förderungen</a> in den einzelnen Bundesländern erstellt.</p>",
+            "left_block_heading_color": "#040404",
+            "gradient": "",
+            "left_block_description_color": "#040404",
+            "left_block_heading_size": "h3"
+          }
+        },
+        "bdd2325c-930a-4962-b1c5-b8463f318d65": {
+          "type": "rightblock",
+          "settings": {
+            "right_block_heading": "Wieso bei Balkonstrom® kaufen?",
+            "right_block_description": "<p>Mit uns wird dein Projekt vom eigenen Balkonkraftwerk zu einem vollen Erfolg. Wir sind begeistert von Balkonkraftwerken und davon, dass wir dich bei deinem Vorhaben begleiten dürfen. Bei allem, was wir tun, legen wir Wert auf Qualität und deine Zufriedenheit. Wir haben immer das Ziel im Blick, dass du am Ende nicht mit irgendeiner Anlage, sondern mit deiner Wunschanlage deinen eigenen Strom erzeugst!</p><p>Balkonstrom® bietet Balkonkraftwerke für jeden Geldbeutel und jegliche Bedarfe. Egal, ob klein oder groß, ob Basic- oder Premium-Set, ob für das Dach, den Garten, den Balkon oder die Hauswand, bei uns findet jeder, was er braucht. Durch unsere Made in Germany MC-4- und AC-Anschluss-Kabel, die wir von unserem lokalen Partner bewusst in Deutschland produzieren lassen, wirken wir aktiv den größten Fehlerquellen entgegen, um dir rundum zuverlässige und sichere Anlagen zu gewährleisten. Für die Montage geben wir dir zu deiner Unterkonstruktion passende Schritt-für-Schritt-Anleitungen an die Hand, damit keine Fragen offenbleiben sollten. Falls doch, freuen wir uns, dir weiterzuhelfen. <a href=\"/pages/contact\" title=\"Kontakt\">Kontaktiere</a> hierzu einfach unseren Support.</p><p>Also, worauf wartest du? Starte jetzt dein Projekt mit Balkonstrom® und erzeuge deinen Strom selbst!</p>",
+            "right_block_heading_color": "#040404",
+            "gradient": "",
+            "right_block_description_color": "#040404",
+            "right_block_heading_size": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "template--18732286083336__d4c13e1f-6c89-415f-a385-7ef6a159aa98-fullwidthblock-1",
+        "template--18732286083336__d4c13e1f-6c89-415f-a385-7ef6a159aa98-leftblock-1",
+        "template--18732286083336__d4c13e1f-6c89-415f-a385-7ef6a159aa98-rightblock-1",
+        "5b867862-3a2a-4e6f-830a-65266bff0187",
+        "bdd2325c-930a-4962-b1c5-b8463f318d65"
+      ],
+      "settings": {
+        "full_width": false,
+        "page_width": 1000,
+        "link_color": "#040404",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "image_with_text_overlay_PhhEfc",
+    "custom_logo_list_bUhBci",
+    "c9d98b4c-ed74-46f0-8590-2beeef824ebd",
+    "text_with_icons_WTVMAK",
+    "media_with_text_mBzNaV",
+    "09df8a39-86d5-4eab-a510-9aa283582fe0",
+    "rich_text_JfkFG6",
+    "e1b6d873-1d74-40aa-8bc4-465e4166dba7",
+    "e74dc221-69c5-467a-ba14-74e75ad29631",
+    "seo_section_hUaBQK",
+    "main",
+    "d4c13e1f-6c89-415f-a385-7ef6a159aa98"
+  ]
+}

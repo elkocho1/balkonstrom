@@ -1,0 +1,106 @@
+
+{% comment %}
+<div class="section showimage-variant">
+  <h2>Im Lieferumfang</h2>
+  {% assign product_images = product.metafields.custom.lieferumfang_images.value %}
+  {% assign product_headings = product.metafields.my_fields.lieferumfang | split: '\n' %}
+  
+  {% if product_images %}
+    <!-- Display product-level images and headings -->
+    <div class="variant-images">
+      <ul>
+        {% for image in product_images %}
+          <li>
+            <img src="{{ image | img_url: 'medium' }}" alt="{{ product_headings[forloop.index0] | default: 'Image' }}" />
+              <h4 class="scope-heading h4 text-center">
+                {{ image.alt | remove: '• ' }}
+              </h4>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% else %}
+   {% for variant in product.variants %}
+    {% assign images = variant.metafields.custom.variants_image.value %}
+    {% assign heading = variant.metafields.custom.variants_image_heading.value %}
+    {% if images %}
+      <div class="variant-images" id="{{ variant.id }}">
+        <ul>
+          {% for image in images %}
+            <li>
+              <img src="{{ image | img_url: 'medium' }}" alt="{{ variant.title }}" />
+              {% if heading %}
+                <h4 class="scope-heading h4 text-center">
+                  {{ heading[forloop.index0] }}
+                </h4>
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endif %}
+  {% endfor %}
+  {% endif %}
+</div>
+{% endcomment %}
+<div class="section showimage-variant">
+  <h2>Im Lieferumfang</h2>
+  {% assign product_images = product.metafields.custom.lieferumfang_images.value %}
+  {% assign product_headings = product.metafields.my_fields.lieferumfang | split: '\n' %}
+
+  
+  {% for variant in product.variants %}
+    {% assign images = variant.metafields.custom.variants_image.value %}
+    {% assign heading = variant.metafields.custom.variants_image_heading.value %}
+    {% if images %}
+      <div class="variant-images" id="{{ variant.id }}">
+        <ul>
+          {% for image in images %}
+            <li>
+              <img src="{{ image | img_url: 'medium' }}" alt="{{ variant.title }}" />
+              {% if heading %}
+                <h4 class="scope-heading h4 text-center">
+                  {{ heading[forloop.index0] }}
+                </h4>
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endif %}
+  {% endfor %}
+  
+  {% if product_images %}
+    <!-- Display product-level images and headings -->
+    <div class="variant-images">
+      <ul>
+        {% for image in product_images %}
+          <li>
+            <img src="{{ image | img_url: 'medium' }}" alt="{{ product_headings[forloop.index0] | default: 'Image' }}" />
+            <h4 class="scope-heading h4 text-center">
+              {{ image.alt | remove: '• ' }}
+            </h4>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endif %}
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+ 
+{% schema %}
+{
+  "name": "Im Lieferumfang",
+  "settings": [
+
+  ],
+  "presets": [
+  {
+    "name": "Im Lieferumfang",
+  }
+]
+}
+{% endschema %}

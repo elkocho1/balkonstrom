@@ -1,0 +1,17 @@
+{% assign mounting_option_pdf = product.metafields.custom.module_pdf_link.value %}
+{% if mounting_option_pdf != blank %}
+<div class="product-info__accordion">
+    <div class="accordion__toggle bold">
+       <div class="text-with-icon">
+         <span {% if size == 'lg' %}class="h6"{% endif %}> 
+           {% for pdf in mounting_option_pdf %}
+            {% if forloop.first %}
+              <a href="{{ pdf }}" class="variant_pdf_url" target="_blank">{{ block.settings.module_text }}</a>
+            {% endif %}  
+          {% endfor %}           
+         </span>
+        </div>
+       <span class="square-chevron group-hover:colors group-expanded:colors group-expanded:rotate">{%- render 'download-icon' -%}</span>
+    </div>
+  </div>
+{% endif %}

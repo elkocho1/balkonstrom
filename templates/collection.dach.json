@@ -1,0 +1,876 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "collection-banner",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "show_collection_title": true,
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "collection_title_size": "h1",
+        "image_size": "sm",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "featured_product": "",
+        "featured_product_heading": "Featured product",
+        "text_color": "#eeece5",
+        "overlay_color": "#000000",
+        "overlay_opacity": 15
+      }
+    },
+    "image_with_text_overlay_k3PkQU": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_Y7xy3t": {
+          "type": "heading",
+          "settings": {
+            "text": "Balkonkraftwerke für jedes Dach",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_dwkUL3": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Komplettpakete – ideal für Ziegel-, Bitumen-, Blech-, Biberschwanz- und Flachdächer!</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Y7xy3t",
+        "richtext_dwkUL3"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "enable_fix_parallax": false,
+        "image_size": "md",
+        "image": "shopify://shop_images/balkonkraftwerk-premium-800_ec88d974-0939-432d-8505-2723ced9f463.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 51
+      }
+    },
+    "navigation_section_MTjAMb": {
+      "type": "navigation-section",
+      "blocks": {
+        "text_FxnfV8": {
+          "type": "text",
+          "settings": {
+            "title": "Ziegeldach",
+            "url": "https://www.balkonstrom.com/collections/dach#featured_collection_0"
+          }
+        },
+        "text_rcgLUh": {
+          "type": "text",
+          "settings": {
+            "title": "Bitumendach",
+            "url": "https://www.balkonstrom.com/collections/dach#featured_collection_2"
+          }
+        },
+        "text_67VzEH": {
+          "type": "text",
+          "settings": {
+            "title": "Blechdach",
+            "url": "https://www.balkonstrom.com/collections/dach#featured_collection_4"
+          }
+        },
+        "text_4X6UTQ": {
+          "type": "text",
+          "settings": {
+            "title": "Flachdach",
+            "url": "https://www.balkonstrom.com/collections/dach#featured_collection_6"
+          }
+        },
+        "text_zy87rn": {
+          "type": "text",
+          "settings": {
+            "title": "Biberschwanzdach",
+            "url": "https://www.balkonstrom.com/collections/dach#featured_collection_8"
+          }
+        }
+      },
+      "block_order": [
+        "text_FxnfV8",
+        "text_rcgLUh",
+        "text_67VzEH",
+        "text_4X6UTQ",
+        "text_zy87rn"
+      ],
+      "settings": {
+        "hide_on_desktop": false,
+        "text_color": "#000000",
+        "bg_color": "#ffffff",
+        "active_text_color": "#040404",
+        "active_bg_color": "#ffffff",
+        "font_size": 22,
+        "border_radius": 0
+      }
+    },
+    "custom_logo_list_gKU4HC": {
+      "type": "custom-logo-list",
+      "blocks": {
+        "logo_image_zX94at": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/Untitled_design_80.png"
+          }
+        },
+        "logo_image_TwFyAm": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_1_6ad045c6-a6af-43bc-8772-088fda3e65c1.png"
+          }
+        },
+        "logo_image_G7MKQt": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_68bc6b1f-9cde-4e28-90d9-010389d4b518.png"
+          }
+        },
+        "logo_image_p8ygA8": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_4.png"
+          }
+        },
+        "logo_image_rYryLC": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_3_eccce761-16d6-41a5-aab7-1b94750e6ae5.png"
+          }
+        },
+        "logo_image_dMrgm7": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_2_a6e3afea-7afd-46b9-9542-a2b05fba13c9.png"
+          }
+        }
+      },
+      "block_order": [
+        "logo_image_zX94at",
+        "logo_image_TwFyAm",
+        "logo_image_G7MKQt",
+        "logo_image_p8ygA8",
+        "logo_image_rYryLC",
+        "logo_image_dMrgm7"
+      ],
+      "settings": {
+        "enable_mobile_slider": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection_xReMxc": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "ziegeldach-basic",
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Ziegeldach - Basic",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "2c4561fc-8168-4c14-a781-918edacf03b9": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "ziegeldach-premium",
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 8,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Ziegeldach - Premium",
+        "content": "",
+        "link_url": "shopify://collections/ziegeldach-premium",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "text_with_icons_akwkg9": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_CjKjDA": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/icon-robust.png",
+            "mobile_icon_width": 24,
+            "icon_width": 40,
+            "icon_background_type": "circle",
+            "icon_background": "#eee9e3",
+            "icon_color": "",
+            "subtitle": "",
+            "title": "Komplettsets für jedes Dach",
+            "content": ""
+          }
+        },
+        "item_XUdzqD": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/icon-book.png",
+            "mobile_icon_width": 24,
+            "icon_width": 40,
+            "icon_background_type": "circle",
+            "icon_background": "#eee9e3",
+            "icon_color": "",
+            "subtitle": "",
+            "title": "Schritt-für-Schritt-Anleitung",
+            "content": ""
+          }
+        },
+        "item_MMrHUw": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/icon-lebensdauer.png",
+            "mobile_icon_width": 24,
+            "icon_width": 40,
+            "icon_background_type": "circle",
+            "icon_background": "#eee9e3",
+            "icon_color": "",
+            "subtitle": "",
+            "title": "Langlebig & effizient",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_CjKjDA",
+        "item_XUdzqD",
+        "item_MMrHUw"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "title": "",
+        "heading_tag": "h4",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "#f7f7f7",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "featured_collection_nDN47L": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "bitumendach-basic",
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Bitumendach - Basic",
+        "content": "",
+        "link_url": "shopify://collections/bitumendach-basic",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "rich_text_kzQ4x9": {
+      "type": "rich-text",
+      "blocks": {
+        "button_TUT6q4": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "Balkonkraftwerke mit Stromspeicher entdecken",
+            "url": "shopify://collections/balkonkraftwerke-mit-speicher",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_TUT6q4"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "362402e3-ef36-4fc3-9254-6a8cd2099e82": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "bitumendach-premium",
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 8,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Bitumendach - Premium",
+        "content": "",
+        "link_url": "shopify://collections/bitumendach-premium",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "featured_collection_mk9ytw": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "blechdach-basic",
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Blechdach - Basic",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "e76596b7-a37f-4981-a091-b5ac5efe0dfd": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "blechdach-premium",
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 8,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Blechdach - Premium",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "featured_collection_QanxHX": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "flachdach-basic",
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Flachdach - Basic",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "rich_text_9kVBpa": {
+      "type": "rich-text",
+      "blocks": {
+        "button_48F3Kc": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "Finde attraktive Förderungen für Balkonkraftwerke",
+            "url": "shopify://pages/foerderung",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_48F3Kc"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "e25b4b08-603b-4495-b701-0a7de1fcba23": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "flachdach-premium",
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 8,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Flachdach - Premium",
+        "content": "",
+        "link_url": "shopify://collections/flachdach-premium",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "featured_collection_WExiKi": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "biberschwanzdach-basic",
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Biberschwanzdach - Basic",
+        "content": "",
+        "link_url": "shopify://collections/biberschwanzdach-basic",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "featured_collection_TKnzKy": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "biberschwanzdach-1",
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 8,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Biberschwanzdach - Premium",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "media_with_text_79GCJY": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_j8DNiM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Kein_Titel_1600_x_1600_px_444.webp",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Basic oder Premium Set - Der Unterschied",
+            "content": "<p>Vergleiche unsere Basic- und Premium-Sets und entscheide selbst, was zu dir passt!</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f7f7f7",
+            "background_gradient": "",
+            "text_color": "#040404",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_j8DNiM"
+      ],
+      "settings": {
+        "show_klaviyo_form": false,
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "09df8a39-86d5-4eab-a510-9aa283582fe0": {
+      "type": "faq",
+      "blocks": {
+        "template--18109074047240__09df8a39-86d5-4eab-a510-9aa283582fe0-item-1": {
+          "type": "item",
+          "settings": {
+            "title": "Kann ich das Balkonkraftwerk selbst auf dem Dach montieren?",
+            "content": "<p>Ja. Durch unsere Anleitung ist es jedem möglich, dass Balkonkraftwerk eigenständig zu montieren. Du solltest jedoch für eine ordnungsgemäße Absturzsicherung sorgen. Bei Zweifeln empfehlen wir dir einen Dachdecker oder Zimmermann zu kontaktieren. </p>"
+          }
+        },
+        "template--18109074047240__09df8a39-86d5-4eab-a510-9aa283582fe0-item-2": {
+          "type": "item",
+          "settings": {
+            "title": "Wie viel Platz muss mein Dach haben?",
+            "content": "<p>Sieh dir hierzu einfach unseren <a href=\"https://cdn.shopify.com/s/files/1/0609/9481/4140/files/Ziegeldachcheck.pdf?v=1694785908&ref=UHG98_tNkfvJs6\" title=\"Balkonstrom Dachcheck Ziegeldach\">Dachcheck</a> an. Danach weißt du ob auch dein Dach geeignet ist. </p>"
+          }
+        },
+        "template--18109074047240__09df8a39-86d5-4eab-a510-9aa283582fe0-item-3": {
+          "type": "item",
+          "settings": {
+            "title": "Wie lange kann ich damit Strom erzeugen?",
+            "content": "<p>Die Leistungsgarantie von Solarmodulen beträgt in den meisten Fällen 25 bis 30 Jahre. Auf Wechselrichter geben die Hersteller 12 Jahre Garantie. Die meisten Komponenten überleben diesen Zeitraum jedoch. So gibt es beispielsweise Solarmodule, welche bereits seit mehr als 35 Jahren Strom erzeugen.</p>"
+          }
+        },
+        "a7d01820-ade9-4f49-96a2-cf60add901f9": {
+          "type": "item",
+          "settings": {
+            "title": "Ist das betreiben eines Balkonkraftwerks sicher?",
+            "content": "<p>Ja. Bei mehr als 250.000 in Europa installierten Anlagen, welche an Schutzkontaktsteckdosen betrieben werden, sind keinerlei durch die Komponenten der Balkonkraftwerke verursachten Schäden bekannt. Die installierte Ausgangsleistung von 600 bzw. 800 Watt ist nicht in der Lage, eine normale Elektroinstallation zu überlasten.</p>"
+          }
+        },
+        "4169eda3-aa04-4044-ab93-060f35ad24a9": {
+          "type": "item",
+          "settings": {
+            "title": "Kann ich das Balkonkraftwerk auch quer bzw. horizontal montieren?",
+            "content": "<p>Ja. Solltest du unsere Set nicht vertikal montieren wollen, dann schreibe uns gerne eine <a href=\"https://www.balkonstrom.com/pages/contact\" title=\"Kontaktformular Balkonstrom\">Nachricht</a> und wir senden dir ein individuelles Angebot zu. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18109074047240__09df8a39-86d5-4eab-a510-9aa283582fe0-item-1",
+        "template--18109074047240__09df8a39-86d5-4eab-a510-9aa283582fe0-item-2",
+        "template--18109074047240__09df8a39-86d5-4eab-a510-9aa283582fe0-item-3",
+        "a7d01820-ade9-4f49-96a2-cf60add901f9",
+        "4169eda3-aa04-4044-ab93-060f35ad24a9"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "<p>Du hast Fragen rund um das Thema Balkonkraftwerke und Mini-PV-Anlagen? Für eine Zusammenstellung der häufig gestellten Fragen schaue gerne bei unseren FAQ vorbei.</p>",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "aa3ba5ba-f5c6-418e-8256-401cc436afa2": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18109074047240__aa3ba5ba-f5c6-418e-8256-401cc436afa2-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Made in Germany: Warum Balkonkraftwerke aus Deutschland die beste Wahl sind",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--18109074047240__aa3ba5ba-f5c6-418e-8256-401cc436afa2-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Balkonkraftwerk Komplettsets sind eine großartige Möglichkeit, um erneuerbare Energie zu erzeugen und gleichzeitig Geld zu sparen. Unsere Premium Balkonkraftwerk-Serie mit Fokus auf „Made in Germany“ sind besonders beliebt, da sie eine Vielzahl an Vorteilen bieten. Allem voran werden auch in unseren Premium Sets ausschließlich MC-4-Verlängerungskabel und Schuko-Anschlusskabel aus deutscher Produktion verwendet. Wir lassen die Kabel für eine langfristige Zuverlässigkeit exklusiv von unserem Partner in Deutschland fertigen. Die Kabel weisen eine hohe Qualität auf und werden im Vergleich zu importierten Kabeln im Zuge einer fortlaufenden Qualitätskontrolle überprüft. Da wir in Deutschland produzieren lassen, werden unsere Kabel nicht um die halbe Welt geschifft. So fällt eine Belastung der Umwelt durch Transportwege weg. Gerne kannst du dich bei einem Besuch in unserem Lager im direkten Vergleich zu einem importieren Kabel von unseren Made in Germany Kabeln überzeugen.</p><p>Hochwertige Meyer Burger Module sind das Herzstück der Premiumsets. Designed werden die Module in der Schweiz, gefertigt ausschließlich in Deutschland. Ausgestattet sind die Module mit neuster Technologie und zukunftsweisender Effizienzwerte der Zellen. Mit der Hertojunction Technologie und der patentierten Smart Wire Technologie setzen sie sich klar von herkömmlichen Solarmodulen ab. Die Herstellung erfolgt zu 100% mit erneuerbaren Energien. Und das Beste ist: du genießt den größten Vorteil durch den Standort des Garantiegebers Meyer Burger in Deutschland. Der Hersteller sichert dir jeweils 25 Jahre Leistungs- und Produktgarantie zu. Das macht dein Balkonkraftwerk zu einer langfristig lohnenswerten und sicheren Investition. </p><h4>Unsere Balkonkraftwerke live und in Farbe: Profitiere von der kostenlosen Abholung und Beratung in Würzburg</h4><p>Besonders für Kunden aus dem Umkreis von Würzburg lohnt es sich, uns in unserem Lager einen Besuch abzustatten. Vor Ort haben wir all unsere Sets lagernd und sind immer bereit, dir unsere Produkte vorzustellen. Im direkten Vergleich können wir dir alle Unterschiede und Vorteile unserer Komplettsets erklären. Unsere Beratung ist für dich selbstverständlich kostenfrei. Uns ist bewusst, dass die Wahl eines Balkonkraftwerkes an individuelle Gegebenheiten geknüpft ist, weshalb wir großen Wert auf eine Beratung legen, die auf deine Bedürfnisse eingeht. Zögere nicht, dich vor einem Kauf bei uns umzuschauen und mit uns gemeinsam die beste Anlage für dich zu finden. Natürlich kannst du auch ohne unsere Beratung in Anspruch zu nehmen bei uns vorbeischauen und dein Balkonkraftwerk bei uns abholen. So sparst du dir nicht nur die Lieferkosten, sondern auch noch die Lieferzeit. Und das heißt: je früher dein Balkonkraftwerk bei dir ist, umso schneller kannst du damit starten, deinen eigenen Strom zu produzieren!</p><h4>Balkonkraftwerke passend für dein Dach: Ziegel-, Bitumen-, Blech- oder Flachdach </h4><p>In unseren Balkonstrom Komplett-Sets kannst du die für dein Dach passende Unterkonstruktion auswählen. All unsere angebotenen Systeme sind von hoher Qualität und sicher. Beim Kauf einer Anlage erhältst du jeweils eine detaillierte Schritt-für-Schritt-Montageanleitung, sodass die Installation schnell durchgeführt ist. </p><h4>Balkonkraftwerke für Ziegeldächer </h4><p>Unsere Solaranlagen für Ziegeldächer kannst du auf allen Schrägdächern, die mit gängigen Dachziegeln (z.B. Pfannenziegel, wie Frankfurter oder Harzer Pfannen) gedeckt sind, montieren. Für die Unterkonstruktion erhältst du von uns ein Schienensystem, Modulklemmen und Dachhaken inkl. Schrauben. Nachdem du die Dachhaken in die Holzsparren des Dachs geschraubt hast, montierst du die Modulschienen. Dann musst du nur noch die Solarmodule befestigen und schon ist deine Anlage betriebsfähig.  </p><h4>Balkonkraftwerke für Bitumendächer </h4><p>Unsere Komplett-Sets für Bitumendächer kannst du auf Dächern montieren, die mit Bitumen oder Bitumenschindeln gedeckt sind, montieren. Mit der Unterkonstruktion kommen ein Schienensystem, Modulklemmen, Stockschrauben sowie selbstklebende Dichtungsplatten für Bitumendächer. Für dieses System musst du in einem ersten Schritt die Stockschrauben inkl. Dichtungsplatte in die Holzkonstruktion des Dachs schrauben. Hier montierst du in einem zweiten Schritt die Modulschienen, die letztendlich die Module tragen werden.  </p><h4>Balkonkraftwerke für Blechdächer </h4><p>Unsere Anlagen für Blechdächer sollten deine Wahl sein, wenn du ein Balkonkraftwerk auf einem Trapez- oder Wellblechdach installieren möchtest. Für die Unterkonstruktion liefern wir dir ein Schienensystem, Modulklemmen und abdichtende Stockschrauben. Nachdem du die Stockschrauben durch das Blech deines Dachs in die Holzkonstruktion geschraubt hast, montierst du die Modulschienen, an denen du zum Schluss die Module fixierst. </p><h4>Balkonkraftwerke für Flachdächer </h4><p>Unsere Balkonstrom für Flachdächer sind besonders einfach und schnell aufzubauen, denn du musst die Solarmodule lediglich mithilfe der Halterung in einem Neigungswinkel von 20° aufständern und das System stabilisieren. Die Unterkonstruktion besteht aus zwei Aluminiumstützen, die du auf vier Bautenschutzmatten platzierst und mit den Solarmodulen verbindest. Mit 30x30 cm Gehwegplatten oder anderen geeigneten Steinen ballastierst du die Halterung schließlich, um die Konstruktion zu sichern.</p><h4>Schnelle und flexible Montage: Mit unseren Balkonkraftwerken einfach Stromkosten sparen</h4><p>Einer der Hauptvorteile unserer Balkonkraftwerke ist, dass sie einfach zu installieren sind. Außerdem ist eine Anlage eine Investition, die sich schnell rechnet. Du benötigst keine speziellen Kenntnisse oder Fähigkeiten, um unsere Balkonkraftwerke zu montieren. Das heißt, du hast weder lange Wartezeiten für einen Handwerkertermin noch musst du entsprechende Rechnungen begleichen. Darüber hinaus sind unsere Komplettsets zuverlässig und langlebig, was bedeutet, dass du über Jahre hinweg deinen eigenen Strom kostenlos produzieren kannst.</p><p>Mit unseren Balkonkraftwerken kannst du nahezu jeden freien Ort dazu nutzen, um deine eigene Stromproduktion in die Tat umzusetzen. Egal ob auf einem Ziegeldach oder deiner Dachterrasse. Bei unseren Sets, die aus 1-4 Solarmodulen bestehen, ist für jeden die richtige Anlage dabei. Balkonkraftwerke benötigen nur eine minimale Fläche und haben dennoch einen wesentlichen Einfluss auf deine jährliche Stromrechnung. Sie sind deshalb besonders interessant für Menschen, denen wenig Platz zur Verfügung steht. </p><p>In vielen Städten und Landkreisen werden Balkonkraftwerke staatlich gefördert. Da in Deutschland ein Förderdschungel herrscht, haben wir für dich eine <a href=\"/blogs/news/hier-bekommst-du-eine-foerderung-balkonkraftwerke-mit-600-800-watt\" target=\"_blank\" title=\"Hier bekommst du Förderungen für dein Balkonkraftwerk mit 600-800 Watt\">umfassende Übersicht</a> erstellt, in der du überprüfen kannst, ob du an deinem Wohnort eine Förderung für dein Balkonkraftwerk in Anspruch nehmen kannst und welche Fördersumme du erwarten kannst.</p><p>Insgesamt sind Balkonkraftwerke eine hervorragende Möglichkeit, um eigene Energie zu erzeugen, Geld zu sparen und dir an jedem sonnenreichen Tag eine wahre Freude zu bereiten. Wähle jetzt deine Anlage und starte mit deinem DIY-Strom-Spar-Projekt!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18109074047240__aa3ba5ba-f5c6-418e-8256-401cc436afa2-heading-1",
+        "template--18109074047240__aa3ba5ba-f5c6-418e-8256-401cc436afa2-richtext-1"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "rich_text_pDcNPr": {
+      "type": "rich-text",
+      "blocks": {
+        "image_EhzpWX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Logos.png",
+            "width_mode": "custom",
+            "max_width": 350,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "image_EhzpWX"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "5d028b29-b54f-4f7f-aa70-4a2edc4d1509": {
+      "type": "seo-section",
+      "blocks": {
+        "template--18732286116104__5d028b29-b54f-4f7f-aa70-4a2edc4d1509-fullwidthblock-1": {
+          "type": "fullwidthblock",
+          "settings": {
+            "full_width_heading": "Made in Germany: Warum Balkonkraftwerke aus Deutschland die beste Wahl sind",
+            "full_width_description": "<p>Balkonkraftwerk Komplettsets sind eine großartige Möglichkeit, um erneuerbare Energie zu erzeugen und gleichzeitig Geld zu sparen. Unsere Premium Balkonkraftwerk-Serie mit Fokus auf „Made in Germany“ sind besonders beliebt, da sie eine Vielzahl an Vorteilen bieten. Allem voran werden auch in unseren Premium Sets ausschließlich MC-4-Verlängerungskabel und Schuko-Anschlusskabel aus deutscher Produktion verwendet. Wir lassen die Kabel für eine langfristige Zuverlässigkeit exklusiv von unserem Partner in Deutschland fertigen. Die Kabel weisen eine hohe Qualität auf und werden im Vergleich zu importierten Kabeln im Zuge einer fortlaufenden Qualitätskontrolle überprüft. Da wir in Deutschland produzieren lassen, werden unsere Kabel nicht um die halbe Welt geschifft. So fällt eine Belastung der Umwelt durch Transportwege weg. Gerne kannst du dich bei einem Besuch in unserem Lager im direkten Vergleich zu einem importieren Kabel von unseren Made in Germany Kabeln überzeugen.</p><p>Hochwertige Meyer Burger Module sind das Herzstück der Premiumsets. Designed werden die Module in der Schweiz, gefertigt ausschließlich in Deutschland. Ausgestattet sind die Module mit neuster Technologie und zukunftsweisender Effizienzwerte der Zellen. Mit der Hertojunction Technologie und der patentierten Smart Wire Technologie setzen sie sich klar von herkömmlichen Solarmodulen ab. Die Herstellung erfolgt zu 100% mit erneuerbaren Energien. Und das Beste ist: du genießt den größten Vorteil durch den Standort des Garantiegebers Meyer Burger in Deutschland. Der Hersteller sichert dir jeweils 25 Jahre Leistungs- und Produktgarantie zu. Das macht dein Balkonkraftwerk zu einer langfristig lohnenswerten und sicheren Investition. </p>",
+            "full_width_heading_color": "#040404",
+            "gradient": "",
+            "full_width_description_color": "#040404",
+            "full_width_heading_size": "h3"
+          }
+        },
+        "template--18732286116104__5d028b29-b54f-4f7f-aa70-4a2edc4d1509-leftblock-1": {
+          "type": "leftblock",
+          "settings": {
+            "left_block_heading": "Unsere Balkonkraftwerke live und in Farbe: Profitiere von der kostenlosen Abholung und Beratung in Würzburg",
+            "left_block_description": "<p>Besonders für Kunden aus dem Umkreis von Würzburg lohnt es sich, uns in unserem Lager einen Besuch abzustatten. Vor Ort haben wir all unsere Sets lagernd und sind immer bereit, dir unsere Produkte vorzustellen. Im direkten Vergleich können wir dir alle Unterschiede und Vorteile unserer Komplettsets erklären. Unsere Beratung ist für dich selbstverständlich kostenfrei. Uns ist bewusst, dass die Wahl eines Balkonkraftwerkes an individuelle Gegebenheiten geknüpft ist, weshalb wir großen Wert auf eine Beratung legen, die auf deine Bedürfnisse eingeht. Zögere nicht, dich vor einem Kauf bei uns umzuschauen und mit uns gemeinsam die beste Anlage für dich zu finden. Natürlich kannst du auch ohne unsere Beratung in Anspruch zu nehmen bei uns vorbeischauen und dein Balkonkraftwerk bei uns abholen. So sparst du dir nicht nur die Lieferkosten, sondern auch noch die Lieferzeit. Und das heißt: je früher dein Balkonkraftwerk bei dir ist, umso schneller kannst du damit starten, deinen eigenen Strom zu produzieren!</p>",
+            "left_block_heading_color": "#040404",
+            "gradient": "",
+            "left_block_description_color": "#040404",
+            "left_block_heading_size": "h4"
+          }
+        },
+        "56578c54-165c-42a8-8ac9-5db1342bf8cd": {
+          "type": "leftblock",
+          "settings": {
+            "left_block_heading": "Balkonkraftwerke passend für dein Dach: Ziegel-, Bitumen-, Blech- oder Flachdach ",
+            "left_block_description": "<p>In unseren Balkonstrom® Komplett-Sets kannst du die für dein Dach passende Unterkonstruktion auswählen. All unsere angebotenen Systeme sind von hoher Qualität und sicher. Beim Kauf einer Anlage erhältst du jeweils eine detaillierte Schritt-für-Schritt-Montageanleitung, sodass die Installation schnell durchgeführt ist.</p>",
+            "left_block_heading_color": "#040404",
+            "gradient": "",
+            "left_block_description_color": "#040404",
+            "left_block_heading_size": "h4"
+          }
+        },
+        "518794f1-df05-438f-b776-00124193544f": {
+          "type": "leftblock",
+          "settings": {
+            "left_block_heading": "Balkonkraftwerke für Ziegeldächer ",
+            "left_block_description": "<p>Unsere Solaranlagen für Ziegeldächer kannst du auf allen Schrägdächern, die mit gängigen Dachziegeln (z.B. Pfannenziegel, wie Frankfurter oder Harzer Pfannen) gedeckt sind, montieren. Für die Unterkonstruktion erhältst du von uns ein Schienensystem, Modulklemmen und Dachhaken inkl. Schrauben. Nachdem du die Dachhaken in die Holzsparren des Dachs geschraubt hast, montierst du die Modulschienen. Dann musst du nur noch die Solarmodule befestigen und schon ist deine Anlage betriebsfähig. </p>",
+            "left_block_heading_color": "#040404",
+            "gradient": "",
+            "left_block_description_color": "#040404",
+            "left_block_heading_size": "h4"
+          }
+        },
+        "0703f4fe-54f8-49de-a9ff-8c2f11dfa80a": {
+          "type": "leftblock",
+          "settings": {
+            "left_block_heading": "Balkonkraftwerke für Bitumendächer ",
+            "left_block_description": "<p>Unsere Komplett-Sets für Bitumendächer kannst du auf Dächern montieren, die mit Bitumen oder Bitumenschindeln gedeckt sind, montieren. Mit der Unterkonstruktion kommen ein Schienensystem, Modulklemmen, Stockschrauben sowie selbstklebende Dichtungsplatten für Bitumendächer. Für dieses System musst du in einem ersten Schritt die Stockschrauben inkl. Dichtungsplatte in die Holzkonstruktion des Dachs schrauben. Hier montierst du in einem zweiten Schritt die Modulschienen, die letztendlich die Module tragen werden. </p>",
+            "left_block_heading_color": "#040404",
+            "gradient": "",
+            "left_block_description_color": "#040404",
+            "left_block_heading_size": "h4"
+          }
+        },
+        "leftblock_anctUG": {
+          "type": "leftblock",
+          "settings": {
+            "left_block_heading": "Balkonkraftwerke für Biberschwanzdächer",
+            "left_block_description": "<p>Auch für die Montage von Balkonkraftwerken auf Biberschwanzdächern, charakterisiert durch ihre überlappenden, schuppenartigen Ziegel, halten wir für dich die perfekte Lösung bereit. Unsere Sets für Biberschwanzdächer kommen mit einem Schienensystem, Modulklemmen und Dachhaken inkl. der benötigten Schrauben. Auf die Befestigung der Dachhaken folgt die Montage der Modulschienen, auf denen du im Anschluss nur noch die Solarmodule fixieren musst.</p>",
+            "left_block_heading_color": "#040404",
+            "gradient": "",
+            "left_block_description_color": "#040404",
+            "left_block_heading_size": "h1"
+          }
+        },
+        "92d5ea22-0e21-4fcf-8a92-c2df23d42f57": {
+          "type": "rightblock",
+          "settings": {
+            "right_block_heading": "Balkonkraftwerke für Blechdächer ",
+            "right_block_description": "<p>Unsere Anlagen für Blechdächer sollten deine Wahl sein, wenn du ein Balkonkraftwerk auf einem Trapez- oder Wellblechdach installieren möchtest. Für die Unterkonstruktion liefern wir dir ein Schienensystem, Modulklemmen und abdichtende Stockschrauben. Nachdem du die Stockschrauben durch das Blech deines Dachs in die Holzkonstruktion geschraubt hast, montierst du die Modulschienen, an denen du zum Schluss die Module fixierst.</p>",
+            "right_block_heading_color": "#040404",
+            "gradient": "",
+            "right_block_description_color": "#040404",
+            "right_block_heading_size": "h4"
+          }
+        },
+        "template--18732286116104__5d028b29-b54f-4f7f-aa70-4a2edc4d1509-rightblock-1": {
+          "type": "rightblock",
+          "settings": {
+            "right_block_heading": "Balkonkraftwerke für Flachdächer ",
+            "right_block_description": "<p>Unsere Balkonstrom® für Flachdächer sind besonders einfach und schnell aufzubauen, denn du musst die Solarmodule lediglich mithilfe der Halterung in einem Neigungswinkel von 20° aufständern und das System stabilisieren. Die Unterkonstruktion besteht aus zwei Aluminiumstützen, die du auf vier Bautenschutzmatten platzierst und mit den Solarmodulen verbindest. Mit 30x30 cm Gehwegplatten oder anderen geeigneten Steinen ballastierst du die Halterung schließlich, um die Konstruktion zu sichern.</p>",
+            "right_block_heading_color": "#040404",
+            "gradient": "",
+            "right_block_description_color": "#040404",
+            "right_block_heading_size": "h4"
+          }
+        },
+        "93eaa031-e74b-43e4-8118-f93381c3387b": {
+          "type": "rightblock",
+          "settings": {
+            "right_block_heading": "Schnelle und flexible Montage: Mit unseren Balkonkraftwerken einfach Stromkosten sparen",
+            "right_block_description": "<p>Einer der Hauptvorteile unserer Balkonkraftwerke ist, dass sie einfach zu installieren sind. Außerdem ist eine Anlage eine Investition, die sich schnell rechnet. Du benötigst keine speziellen Kenntnisse oder Fähigkeiten, um unsere Balkonkraftwerke zu montieren. Das heißt, du hast weder lange Wartezeiten für einen Handwerkertermin noch musst du entsprechende Rechnungen begleichen. Darüber hinaus sind unsere Komplettsets zuverlässig und langlebig, was bedeutet, dass du über Jahre hinweg deinen eigenen Strom kostenlos produzieren kannst.</p><p>Mit unseren Balkonkraftwerken kannst du nahezu jeden freien Ort dazu nutzen, um deine eigene Stromproduktion in die Tat umzusetzen. Egal ob auf einem Ziegeldach oder deiner Dachterrasse. Bei unseren Sets, die aus 1-4 Solarmodulen bestehen, ist für jeden die richtige Anlage dabei. Balkonkraftwerke benötigen nur eine minimale Fläche und haben dennoch einen wesentlichen Einfluss auf deine jährliche Stromrechnung. Sie sind deshalb besonders interessant für Menschen, denen wenig Platz zur Verfügung steht. </p><p>In vielen Städten und Landkreisen werden Balkonkraftwerke staatlich gefördert. Da in Deutschland ein Förderdschungel herrscht, haben wir für dich eine <a href=\"/blogs/news/hier-bekommst-du-eine-foerderung-balkonkraftwerke-mit-600-800-watt\" target=\"_blank\" title=\"Hier bekommst du Förderungen für dein Balkonkraftwerk mit 600-800 Watt\">umfassende Übersicht</a> erstellt, in der du überprüfen kannst, ob du an deinem Wohnort eine Förderung für dein Balkonkraftwerk in Anspruch nehmen kannst und welche Fördersumme du erwarten kannst.</p><p>Insgesamt sind Balkonkraftwerke eine hervorragende Möglichkeit, um eigene Energie zu erzeugen, Geld zu sparen und dir an jedem sonnenreichen Tag eine wahre Freude zu bereiten. Wähle jetzt deine Anlage und starte mit deinem DIY-Strom-Spar-Projekt!</p>",
+            "right_block_heading_color": "#040404",
+            "gradient": "",
+            "right_block_description_color": "#040404",
+            "right_block_heading_size": "h4"
+          }
+        }
+      },
+      "block_order": [
+        "template--18732286116104__5d028b29-b54f-4f7f-aa70-4a2edc4d1509-fullwidthblock-1",
+        "template--18732286116104__5d028b29-b54f-4f7f-aa70-4a2edc4d1509-leftblock-1",
+        "56578c54-165c-42a8-8ac9-5db1342bf8cd",
+        "518794f1-df05-438f-b776-00124193544f",
+        "0703f4fe-54f8-49de-a9ff-8c2f11dfa80a",
+        "leftblock_anctUG",
+        "92d5ea22-0e21-4fcf-8a92-c2df23d42f57",
+        "template--18732286116104__5d028b29-b54f-4f7f-aa70-4a2edc4d1509-rightblock-1",
+        "93eaa031-e74b-43e4-8118-f93381c3387b"
+      ],
+      "settings": {
+        "full_width": false,
+        "page_width": 1600,
+        "link_color": "#000000",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "products_per_page": 8,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "filter_layout": "horizontal",
+        "show_sort_by": false,
+        "show_filters": false,
+        "show_filter_group_name": false,
+        "show_color_swatch": false,
+        "show_empty_filter_values": false,
+        "show_filter_values_count": false,
+        "open_first_filter_group": false
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "image_with_text_overlay_k3PkQU",
+    "navigation_section_MTjAMb",
+    "custom_logo_list_gKU4HC",
+    "featured_collection_xReMxc",
+    "2c4561fc-8168-4c14-a781-918edacf03b9",
+    "text_with_icons_akwkg9",
+    "featured_collection_nDN47L",
+    "362402e3-ef36-4fc3-9254-6a8cd2099e82",
+    "featured_collection_mk9ytw",
+    "e76596b7-a37f-4981-a091-b5ac5efe0dfd",
+    "rich_text_kzQ4x9",
+    "featured_collection_QanxHX",
+    "e25b4b08-603b-4495-b701-0a7de1fcba23",
+    "rich_text_9kVBpa",
+    "featured_collection_WExiKi",
+    "featured_collection_TKnzKy",
+    "media_with_text_79GCJY",
+    "09df8a39-86d5-4eab-a510-9aa283582fe0",
+    "aa3ba5ba-f5c6-418e-8256-401cc436afa2",
+    "rich_text_pDcNPr",
+    "5d028b29-b54f-4f7f-aa70-4a2edc4d1509",
+    "main"
+  ]
+}

@@ -1,0 +1,593 @@
+{{ 'component-collection-hero.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+
+  @media screen and (min-width: 750px) and (max-width: 989px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.desktop_padding_top | times: 0.75 | round: 0 }}px;
+      padding-bottom: {{ section.settings.desktop_padding_bottom | times: 0.75 | round: 0 }}px;
+    }
+    .section-{{ section.id }}-padding .heading-section-header {
+      padding-bottom: {{ section.settings.desktop_heading_padding_bottom | times: 0.75 | round: 0 }}px;
+    }
+  }
+  @media screen and (max-width: 749px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.mobile_padding_top }}px;
+      padding-bottom: {{ section.settings.mobile_padding_bottom }}px;
+    }
+    .section-{{ section.id }}-padding .heading-section-header {
+      padding-top: {{ section.settings.mobile_heading_padding_top }}px;
+      padding-bottom: {{ section.settings.mobile_heading_padding_bottom }}px;
+    }
+  }
+  @media screen and (min-width: 990px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.desktop_padding_top }}px;
+      padding-bottom: {{ section.settings.desktop_padding_bottom }}px;
+    }
+    .section-{{ section.id }}-padding .heading-section-header {
+      padding-bottom: {{ section.settings.desktop_heading_padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="section">
+  <div class="section-{{ section.id }}-padding ">
+      {% if section.settings.sub_heading != blank
+        or section.settings.heading != blank
+        or section.settings.main_description != blank
+      %}
+        <div
+          class="heading-section-header {{ section.settings.content_alignment }}"
+          style="max-width: {{ section.settings.heading_max_width }}px;"
+        >
+          {% if section.settings.heading != blank %}
+            <{{ section.settings.heading_tag }} class="section_title">
+              {{- section.settings.heading -}}
+               {{ section.settings.title_icon | image_url: width: 50 | image_tag }}
+            </{{ section.settings.heading_tag }}>
+          {% endif %}
+          {% if section.settings.main_description != blank %}
+            <div class="section-description {{ section.settings.description_size }}">
+              {{ section.settings.main_description }}
+            </div>
+          {% endif %}
+        </div>
+      {% endif %}
+
+    <div class="collection_hero_wrapper">
+      <div class="media-with-text_media">
+        {%- if section.settings.image != blank -%}
+          {%- if section.settings.image != blank -%}
+            {%- assign width_ratio = 100.0 | divided_by: section.settings.media_width -%}
+            {%- assign maximum_image_width = settings.page_width | divided_by: width_ratio -%}
+
+            {%- capture sizes -%}(max-width: 999px) 100vw, min({{ maximum_image_width | ceil }}px, {{ section.settings.media_width }}vw){% endcapture %}
+
+            {{-
+              section.settings.image
+              | image_url: width: section.settings.image.width
+              | image_tag:
+                loading: 'lazy',
+                sizes: sizes,
+                widths: '300,400,500,600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600'
+            -}}
+          {%- else -%}
+            <video-media
+              {% if section.settings.autoplay %}
+                autoplay
+              {% endif %}
+            >
+              {%- if section.settings.autoplay -%}
+                {%- assign show_controls = true -%}
+              {%- else -%}
+                {%- assign show_controls = true -%}
+              {%- endif -%}
+
+              {{-
+                section.settings.video
+                | video_tag:
+                  playsinline: true,
+                  preload: 'metadata',
+                  loop: true,
+                  muted: section.settings.autoplay,
+                  controls: section.settings.autoplay,
+                  controls: show_controls,
+                  image_size: '800x'
+              -}}
+              {{- poster -}}
+            </video-media>
+
+            {% comment %}{{- 'image' | placeholder_svg_tag: 'aspect-short placeholder' -}}{% endcomment %}
+          {%- endif -%}
+        {%- else -%}
+          {%- capture poster -%}
+                {%- assign poster_image = section.settings.poster_image | default: section.settings.video.preview_image -%}
+  
+                {%- if poster_image -%}
+                  {{- poster_image | image_url: width: poster_image.width | image_tag: loading: 'lazy', sizes: '(max-width: 699px) 400px, 800px', widths: '200,300,400,500,600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000,3200', class: 'rounded' -}}
+                {%- else -%}
+                  {{ 'image' | placeholder_svg_tag: 'rounded' }}
+                {%- endif -%}
+              {%- endcapture -%}
+
+          {%- if section.settings.video -%}
+            <video-media
+              {% if section.settings.autoplay %}
+                autoplay
+              {% else %}
+                show-play-button
+              {% endif %}
+            >
+              {%- unless section.settings.autoplay -%}
+                {{- poster -}}
+              {%- endunless -%}
+
+              {%- if section.settings.autoplay -%}
+                {{-
+                  section.settings.video
+                  | video_tag: playslinline: true, controls: true, muted: true, loop: true, preload: 'metadata'
+                -}}
+              {%- else -%}
+                {{-
+                  section.settings.video
+                  | video_tag: playslinline: true, controls: true, muted: false, loop: true, preload: 'metadata'
+                -}}
+              {%- endif -%}
+            </video-media>
+          {%- else -%}
+            <video-media
+              host="{{ section.settings.external_video_url.type }}"
+              {% if section.settings.autoplay %}
+                autoplay
+              {% else %}
+                show-play-button
+              {% endif %}
+            >
+              {%- unless section.settings.autoplay -%}
+                {{- poster -}}
+              {%- endunless -%}
+
+              <template>
+                {%- if section.settings.external_video_url.type == 'youtube' -%}
+                  <iframe
+                    src="https://www.youtube.com/embed/{{ section.settings.external_video_url.id }}?playsinline=1&autoplay=1&controls=0&mute={% if section.settings.autoplay %}1{% else %}0{% endif %}&loop=1&playlist={{ section.settings.external_video_url.id }}&enablejsapi=1&rel=0&modestbranding=1&origin={{ 'https://' | append: request.host | url_encode }}"
+                    allow="autoplay; encrypted-media"
+                    allowfullscreen="allowfullscreen"
+                  ></iframe>
+                {%- elsif section.settings.external_video_url.type == 'vimeo' -%}
+                  <iframe
+                    src="https://player.vimeo.com/video/{{ section.settings.external_video_url.id }}?autoplay=1&autopause=1&background=1&loop=1&muted={% if section.settings.autoplay %}1{% else %}0{% endif %}&transparent=0&responsive=1&portrait=0&title=0&byline=0&color={{ settings.text_color | remove_first: '#' }}"
+                    allow="autoplay; encrypted-media;"
+                    allowfullscreen="allowfullscreen"
+                  ></iframe>
+                {%- endif -%}
+              </template>
+            </video-media>
+          {%- endif -%}
+        {%- endif -%}
+        <div class="media_block_content_main">
+          {%- if section.settings.language_text != blank -%}
+            <div class="language_block">
+              {{ section.settings.language_icon | image_url: width: 500 | image_tag }}
+              <span class="language_text">{{ section.settings.language_text }}</span>
+            </div>
+          {% endif %}
+          {%- if section.settings.customer_text != blank -%}
+            <div class="customer_block">
+              <a href="{{ section.settings.customer_url }}">
+                {{ section.settings.customer_icon | image_url: width: 500 | image_tag }}
+                <span class="language_text">{{ section.settings.customer_text }}</span>
+              </a>
+            </div>
+          {% endif %}
+        </div>
+      </div>
+
+      <div class="media-with-text__text">
+        {%- if section.settings.text_block_heading != blank -%}
+          <div class="text_block_heading">
+            <h3>{{ section.settings.text_block_heading }}</h3>
+          </div>
+        {% endif %}
+        <ul class="icon_text_list_main">
+          {%- if section.settings.icon_text_list1 != blank -%}
+            <li>
+              <span class="icon_text_list">
+                <svg class="desktop_check_icon" width="32" height="30" viewBox="0 0 32 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M27.2109 8.13559L12.5442 21.8856L5.87756 15.6356" stroke="#1BB97E" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <svg class="mobile_check_icon" width="17" height="33" viewBox="0 0 17 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M14.4558 8.94915L6.6641 24.0741L3.12244 17.1991" stroke="#1BB97E" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                {{ section.settings.icon_text_list1 }}
+              </span>
+            </li>
+          {% endif %}
+          {%- if section.settings.icon_text_list2 != blank -%}
+            <li>
+              <span class="icon_text_list">
+                 <svg class="desktop_check_icon" width="32" height="30" viewBox="0 0 32 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M27.2109 8.13559L12.5442 21.8856L5.87756 15.6356" stroke="#1BB97E" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <svg class="mobile_check_icon" width="17" height="33" viewBox="0 0 17 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M14.4558 8.94915L6.6641 24.0741L3.12244 17.1991" stroke="#1BB97E" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                {{ section.settings.icon_text_list2 }}
+              </span>
+            </li>
+          {% endif %}
+          {%- if section.settings.icon_text_list3 != blank -%}
+            <li>
+              <span class="icon_text_list">
+                 <svg class="desktop_check_icon" width="32" height="30" viewBox="0 0 32 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M27.2109 8.13559L12.5442 21.8856L5.87756 15.6356" stroke="#1BB97E" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <svg class="mobile_check_icon" width="17" height="33" viewBox="0 0 17 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M14.4558 8.94915L6.6641 24.0741L3.12244 17.1991" stroke="#1BB97E" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                {{ section.settings.icon_text_list3 }}
+              </span>
+            </li>
+          {% endif %}
+        </ul>
+
+        <div class="collection_list_main collection_list_slider">
+          {%- for block in section.blocks -%}
+            {%- capture block_content -%}
+                  {%- case block.type -%}
+                    {%- when 'collection' -%}
+                      {% assign collection_handle = block.settings.collection %}
+                      {% assign collection = collections[collection_handle] %}
+              
+                      {% if collection %}
+                        <div class="collection_list">
+                          <div class="collection_list_content">
+                            <a href="{{ collection.url }}">
+                              {% if block.settings.collection_custom_image != blank %}
+                                  {{ block.settings.collection_custom_image | image_url: width: 1000 | image_tag }}
+                              {% else %}
+                                <img src="{{ collection.image | img_url: 'medium' }}" alt="{{ collection.title }}">
+                              {% endif %}
+                              <div class="product_title">
+                                {% if block.settings.collection_custom_title != blank %}
+                                    {{ block.settings.collection_custom_title }}
+                                {% else %}
+                                    {{ collection.title }}                                  
+                                {% endif %}
+                                <svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M23.7071 8.70711C24.0976 8.31658 24.0976 7.68342 23.7071 7.29289L17.3431 0.928932C16.9526 0.538408 16.3195 0.538408 15.9289 0.928932C15.5384 1.31946 15.5384 1.95262 15.9289 2.34315L21.5858 8L15.9289 13.6569C15.5384 14.0474 15.5384 14.6805 15.9289 15.0711C16.3195 15.4616 16.9526 15.4616 17.3431 15.0711L23.7071 8.70711ZM-7.44125e-10 9L23 9L23 7L7.44125e-10 7L-7.44125e-10 9Z" fill="black"/>
+                                </svg>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                      {% endif %}
+                  {%- endcase -%}
+                {%- endcapture -%}
+
+            {{ block_content }}
+          {%- endfor -%}
+        </div>
+
+        <div class="button_main">
+          {%- if section.settings.button_1 != blank -%}
+            <a class="button button_1" href="{{ section.settings.button_url1 }}">
+              {{ section.settings.button_1 }}
+            </a>
+          {% endif %}
+          {%- if section.settings.button_2 != blank -%}
+            <a class="button button_2" href="{{ section.settings.button_url2 }}">
+              {{ section.settings.button_2 }}
+            </a>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Collection hero",
+  "class": "collection_hero",
+  "settings": [
+    {
+      "type": "textarea",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Main heading"
+    },
+    {
+      "type": "image_picker",
+      "id": "title_icon",
+      "label": "Title icon"
+    },
+    {
+      "type": "richtext",
+      "id": "main_description",
+      "label": "Description",
+      "default": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>"
+    },
+    {
+      "type": "header",
+      "content": "Heading style"
+    },
+    {
+      "type": "select",
+      "id": "heading_tag",
+      "label": "Heading tag",
+      "default": "h2",
+      "options": [
+        {
+          "value": "h2",
+          "label": "H2"
+        },
+        {
+          "value": "h3",
+          "label": "H3"
+        },
+        {
+          "value": "h4",
+          "label": "H4"
+        },
+        {
+          "value": "h5",
+          "label": "H5"
+        },
+        {
+          "value": "h6",
+          "label": "H6"
+        }
+      ]
+    },
+    {
+      "type": "range",
+      "label": "Heading max width",
+      "id": "heading_max_width",
+      "default": 800,
+      "min": 300,
+      "max": 1500,
+      "step": 20,
+      "unit": "px"
+    },
+    {
+      "type": "header",
+      "content": "Heading section alignment"
+    },
+    {
+      "type": "select",
+      "id": "content_alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "center",
+      "label": "Center"
+    },
+    {
+      "type": "header",
+      "content": "Desktop heading spacing"
+    },
+    {
+      "type": "range",
+      "id": "desktop_heading_padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Bottom desktop padding",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "mobile_heading_padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Bottom mobile padding",
+      "default": 36
+    },
+
+
+    {
+      "type": "header",
+      "content": "Media block content"
+    },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image",
+        "info": "1500 x 1500px .jpg recommended"
+      },
+      {
+        "type": "video",
+        "id": "video",
+        "label": "Video",
+        "info": "Replaces external video if both are set."
+      },
+      {
+        "type": "header",
+        "content": "Video Autoplay "
+      },
+     {
+        "type": "checkbox",
+        "id": "autoplay",
+        "label": "Autoplay",
+        "info": "Video are muted to allow autoplay. For best results, do not add any content on top of the video when autoplay is enabled.",
+        "default": false
+      },
+    {
+        "type": "image_picker",
+        "id": "language_icon",
+        "label": "Language icon"
+      },
+      {
+        "type": "textarea",
+        "id": "language_text",
+        "label": "Language text",
+        "default": "Made in Germany"
+      },
+     {
+        "type": "image_picker",
+        "id": "customer_icon",
+        "label": "Customer icon"
+      },
+      {
+        "type": "textarea",
+        "id": "customer_text",
+        "label": "Customer text",
+        "default": "Native Customer Support"
+      },
+
+
+      {
+        "type": "header",
+        "content": "Text block content"
+      },
+      {
+        "type": "text",
+        "id": "text_block_heading",
+        "label": "Heading",
+        "default": "The Perfect Kit for Every Home:"
+      },
+      {
+        "type": "header",
+        "content": "Icon text list"
+      },
+      {
+        "type": "text",
+        "id": "icon_text_list1",
+        "label": "List text 1",
+        "default": "Assemble yourself in 60 mins with no experience"
+      },
+      {
+        "type": "text",
+        "id": "icon_text_list2",
+        "label": "List text 2",
+        "default": "Pays for itself in 2 years"
+      },
+      {
+        "type": "text",
+        "id": "icon_text_list3",
+        "label": "List text 3",
+        "default": "25 Year Guarantee"
+      },
+    {
+      "type": "header",
+      "content": "Button"
+    },
+    {
+      "type": "text",
+      "id": "button_1",
+      "label": "Button 1",
+      "default": "What Product is right for you?"
+    },
+    {
+      "type": "url",
+      "id": "button_url1",
+      "label": "url"
+    },
+    {
+      "type": "text",
+      "id": "button_2",
+      "label": "Button 2",
+      "default": "Shop all"
+    },
+    {
+      "type": "url",
+      "id": "button_url2",
+      "label": "url"
+    },
+
+    {
+      "type": "header",
+      "content": "Desktop section spacing"
+    },
+    {
+      "type": "range",
+      "id": "desktop_padding_top",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Top padding",
+      "default": 100
+    },
+    {
+      "type": "range",
+      "id": "desktop_padding_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Bottom padding",
+      "default": 100
+    },
+    {
+      "type": "header",
+      "content": "Mobile section spacing"
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding_top",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Top padding",
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Bottom padding",
+      "default": 50
+    }
+  ],
+  "blocks": [
+  {
+    "type": "collection",
+    "name": "Collection",
+    "settings": [
+      {
+        "type": "collection",
+        "label": "Collection",
+        "id": "collection"
+      },
+      {
+        "type": "image_picker",
+        "label": "collection custom image",
+        "id": "collection_custom_image"
+      },
+      {
+        "type": "text",
+        "label": "Collection custom title",
+        "id": "collection_custom_title"
+      }
+    ]
+  }
+],
+  "presets": [
+    {
+      "name": "Collection hero"
+    }
+  ]
+}
+{% endschema %}

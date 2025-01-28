@@ -1,0 +1,447 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "100%"
+      }
+    },
+    "image_with_text_overlay_p6tfBA": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_3dFEet": {
+          "type": "heading",
+          "settings": {
+            "text": "Förderung für Balkonkraftwerke in Berlin",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_VENWLN": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Erhalte bis zu 500 € für den Kauf einer Mini-Solaranlage!</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_3dFEet",
+        "richtext_VENWLN"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "enable_fix_parallax": false,
+        "image_size": "md",
+        "image": "shopify://shop_images/Berlin.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 40
+      }
+    },
+    "custom_logo_list_RYAiRz": {
+      "type": "custom-logo-list",
+      "blocks": {
+        "logo_image_6Mbabc": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/Untitled_design_80.png"
+          }
+        },
+        "logo_image_4jC4Rb": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_1_6ad045c6-a6af-43bc-8772-088fda3e65c1.png"
+          }
+        },
+        "logo_image_YgcwmG": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_68bc6b1f-9cde-4e28-90d9-010389d4b518.png"
+          }
+        },
+        "logo_image_ijX6Cw": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_4.png"
+          }
+        },
+        "logo_image_cUP3D8": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_3_eccce761-16d6-41a5-aab7-1b94750e6ae5.png"
+          }
+        }
+      },
+      "block_order": [
+        "logo_image_6Mbabc",
+        "logo_image_4jC4Rb",
+        "logo_image_YgcwmG",
+        "logo_image_ijX6Cw",
+        "logo_image_cUP3D8"
+      ],
+      "settings": {
+        "enable_mobile_slider": true,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "rich_text_aU9AH6": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_xTfQ79": {
+          "type": "heading",
+          "settings": {
+            "text": "Bis zu 500 € für dein Balkonkraftwerk",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_ieJVYi": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Mit dem Förderprogramm SolarPLUS bezuschusst die Bundeshauptstadt Berlin den Kauf von Balkonkraftwerken mit bis zu 500 €. Mieter und Eigentümer können die Förderung für ihre Solaranlagen beantragen, um so eigenen Solarstrom zu erzeugen und die Energiekosten deutlich zu senken. Zusätzlich zur Förderung wurde die Mehrwertsteuer für Mini-Solaranlagen von 19% auf 0% gesenkt. Dadurch sind Balkonkraftwerke für Berliner aktuell sehr günstig!</p>"
+          }
+        },
+        "subheading_gbcxrD": {
+          "type": "subheading",
+          "settings": {
+            "text": "Beachte: Das Förderprogramm auf 14.000 Anträge begrenzt - schnell aktiv werden lohnt sich!"
+          }
+        }
+      },
+      "block_order": [
+        "heading_xTfQ79",
+        "richtext_ieJVYi",
+        "subheading_gbcxrD"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "featured_collection_mh_HR9qTq": {
+      "type": "featured-collection-mh",
+      "settings": {
+        "enable_blur": false,
+        "items_mt": 40,
+        "collection": "",
+        "product_list": [
+          "premium-wall-800",
+          "premium-balcony-800",
+          "basic-flat-1350-bifazial",
+          "basic-roof-1800-bifazial-ziegeldach"
+        ],
+        "stack_products": false,
+        "show_bar": false,
+        "top_bar": false,
+        "product_show": 10,
+        "product_per_desktop": 4,
+        "product_per_mobile": "1",
+        "image_radius": 4,
+        "image_ration": "square",
+        "use_custom_height": false,
+        "image_height_desktop": 400,
+        "image_height_mobile": 200,
+        "show_second": true,
+        "use_shadow": true,
+        "shadow_width": 5,
+        "card_padding_horizontal": 12,
+        "card_padding_vertical": 20,
+        "card_title_custom": false,
+        "card_title_font": "assistant_n4",
+        "card_title_size": 16,
+        "card_title_letter": 0,
+        "card_title_height": 100,
+        "heading": "Passendes Balkonkraftwerk finden",
+        "heading_custom": false,
+        "heading_font": "assistant_n4",
+        "heading_size": 40,
+        "heading_letter": 0,
+        "heading_height": 110,
+        "heading_align": "center",
+        "sub_heading": "",
+        "sub_heading_custom": false,
+        "sub_heading_font": "assistant_n4",
+        "sub_heading_size": 12,
+        "sub_heading_letter": 0,
+        "sub_heading_height": 100,
+        "sub_heading_align": "center",
+        "invert_content": false,
+        "link": "Mehr ansehen",
+        "link_url": "shopify://collections/800-watt-balkonkraftwerk",
+        "link_custom": false,
+        "link_font": "assistant_n4",
+        "link_size": 16,
+        "link_letter": 0,
+        "link_height": 100,
+        "link_position": false,
+        "card_price_custom": false,
+        "card_price_font": "assistant_n4",
+        "card_price_size": 16,
+        "card_price_letter": 0,
+        "card_price_height": 100,
+        "card_price_mt": 12,
+        "heading_color": "#000000",
+        "sub_heading_color": "#000000",
+        "link_color": "#000000",
+        "link_hover_color": "#000000",
+        "link_arrow_color": "#000000",
+        "link_background_color": "#e6e6e6",
+        "link_background_hover_color": "#000000",
+        "card_title_color": "#000000",
+        "card_price_color": "#000000",
+        "arrow_color": "rgba(0,0,0,0)",
+        "arrow_hover_color": "rgba(0,0,0,0)",
+        "arrow_bg_color": "rgba(0,0,0,0)",
+        "arrow_bg_hover_color": "#ffffff",
+        "arrow_border_color": "#f2c315",
+        "arrow_border_hover_color": "#000000",
+        "progress_color": "#000000",
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "benefit_text_1": "Benefit 1 Text",
+        "benefit_text_2": "Benefit 2 Text",
+        "benefit_text_3": "Benefit 3 Text",
+        "inventory_text": "Auf Lager - in 2-4 Werktagen bei dir",
+        "subsidy_price": "379,00€",
+        "subsidy_label": "Preis mit Förderung",
+        "no_subsidy_label": "ohne Förderung",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "content_width": 130,
+        "border_thickness": 0
+      }
+    },
+    "custom_html_6UnjnJ": {
+      "type": "custom-html",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<p style=\"text-align: center;\"><a href=\"https://www.ibb-business-team.de/steckersolargeraete/\" class=\"button\"><span class=\"NormalTextRun SCXW4322749 BCX8\">Zur Förderrichtlinie</span></a><br class=\"SCXW4322749 BCX8\"></p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "images_with_text_scrolling_B6qnmQ": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "item_nbjGb9": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Strom_sparen.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Förderung beantragen",
+            "content": "<p>Hole das Einverständnis deines Vermieters für die Installation eines Balkonkraftwerks ein und stelle den Antrag online auf der Website der IBB. </p><p><a href=\"https://ibb-bt-solarplus.antragsverwaltung.de/register.php?subsystem_register=ibb_sp_stm\" target=\"_blank\" title=\"https://ibb-bt-solarplus.antragsverwaltung.de/register.php?subsystem_register=ibb_sp_stm\">Zur Antragstellung</a></p>"
+          }
+        },
+        "item_ERWYtQ": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Antrageinreichen.webp",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Balkonkraftwerk kaufen",
+            "content": "<p>Entscheide dich für ein <a href=\"https://www.balkonstrom.com/collections/balkonkraftwerke\" target=\"_blank\" title=\"https://www.balkonstrom.com/collections/balkonkraftwerke\">Balkonkraftwerk</a> von Balkonstrom nach Bestätigung der Förderung. Melde es digital bei Stromnetz Berlin sowie im Marktstammdatenregister an.</p>"
+          }
+        },
+        "item_6rhc86": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/basic-bifazial-set.webp",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Installation & Auszahlung",
+            "content": "<p>Reiche deine Rechnung bei der IBB Business Team GmbH ein, beantrage die Auszahlung und installiere dein Balkonkraftwerk. Und schon kannst du deinen eigenen Strom produzieren.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_nbjGb9",
+        "item_ERWYtQ",
+        "item_6rhc86"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": true,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "custom_html_6CNgFA": {
+      "type": "custom-html",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<p style=\"text-align: center;\"><a href=\"https://www.balkonstrom.com/collections/balkonkraftwerke\" class=\"button\"><span class=\"NormalTextRun SCXW4322749 BCX8\">Balkonkraftwerk kaufen</span></a><br class=\"SCXW4322749 BCX8\"></p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "multi_column_fwqjMK": {
+      "type": "multi-column",
+      "blocks": {
+        "item_gbbtWt": {
+          "type": "item",
+          "settings": {
+            "column_size": "1.5",
+            "title": "Das ist zu beachten",
+            "heading_tag": "h4",
+            "content": "<ul><li>Dein Erstwohnsitz ist in Berlin. </li><li>Dein Vermieter ist mit der Montage einverstanden. </li><li>Die Installation muss durch eine fachkundige Person erfolgen.</li><li>Du hast einen Zweirichtungszähler oder einen Stromzähler mit Rücklaufsperre (falls nicht, kann dieser kostenfrei ausgetauscht werden).</li></ul>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_dJUrVe": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Begrenzte Verfügbarkeit",
+            "heading_tag": "h4",
+            "content": "<p>Die Förderung für Balkonkraftwerke in Berlin ist auf insgesamt 14.000 Anlagen begrenzt. Aktuell sind nur noch wenige Plätze im Fördertopf verfügbar. Informiere dich jetzt, um von der Förderung zu profitieren.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_gbbtWt",
+        "item_dJUrVe"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "enable_column_padding": false,
+        "column_background": "",
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "Balkonkraftwerk-Förderung in Berlin",
+        "content": "<p>Den Zuschuss für dein Balkonkraftwerk in Berlin kannst du als Mieter und Eigentümer von selbst genutzten Wohnungen, Ein- und Zweifamilienhäusern sowie Reihenhäusern beantragen. Damit du die Förderung erhältst, müssen bestimmte Voraussetzungen erfüllt sein. </p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_html_6rHcFB": {
+      "type": "custom-html",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<p style=\"text-align: center;\"><a href=\"https://www.balkonstrom.com/pages/foerderung\" class=\"button\"><span class=\"NormalTextRun SCXW4322749 BCX8\">Du bist nicht aus Berlin? Entdecke weitere Förderprogramme hier!</span></a><br class=\"SCXW4322749 BCX8\"></p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "faq_JUXQbE": {
+      "type": "faq",
+      "blocks": {
+        "item_GCV9nP": {
+          "type": "item",
+          "settings": {
+            "title": "Wer kann die Förderung beantragen?",
+            "content": "<p>Mieter und Eigentümer von Wohnungen, Ein- und Zweifamilienhäusern sowie Reihenhäusern mit Erstwohnsitz in Berlin. Auch Pächter von Kleingärten sind antragsberechtigt. Ob du Anspruch hast, kannst du in der <a href=\"https://www.ibb-business-team.de/fileadmin/ibb-business-team/solarplus/downloads/steckersolargeraete-richtlinie-foerderprogramm.pdf\" target=\"_blank\" title=\"https://www.ibb-business-team.de/fileadmin/ibb-business-team/solarplus/downloads/steckersolargeraete-richtlinie-foerderprogramm.pdf\">Förderrichtlinie</a> nachlesen.</p>"
+          }
+        },
+        "item_EX8gwb": {
+          "type": "item",
+          "settings": {
+            "title": "Wie hoch ist die Förderung in Berlin?",
+            "content": "<p>Der Zuschuss des Berliner Förderprogramms beträgt bis zu 500 € pro Balkonkraftwerk.</p>"
+          }
+        },
+        "item_CPdGqn": {
+          "type": "item",
+          "settings": {
+            "title": "Was muss ich vor der Antragstellung beachten?",
+            "content": "<p>Zum Zeitpunkt der Antragstellung darf das Balkonkraftwerk noch nicht bestellt oder gekauft sein. Außerdem benötigst du das Einverständnis deines Vermieters und dein Erstwohnsitz muss in Berlin sein. Hier findest du <a href=\"https://www.ibb-business-team.de/steckersolargeraete/foerderkriterien-antragstellung\" target=\"_blank\" title=\"https://www.ibb-business-team.de/steckersolargeraete/foerderkriterien-antragstellung\">weitere Informationen zur Antragstellung</a>.</p>"
+          }
+        },
+        "item_kmYFCX": {
+          "type": "item",
+          "settings": {
+            "title": "Darf ich ein Balkonkraftwerk in meiner Wohnung installieren?",
+            "content": "<p>Ob ein Balkonkraftwerk in deiner Wohnung erlaubt ist, hängt von der Genehmigung deines Vermieters ab.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_GCV9nP",
+        "item_EX8gwb",
+        "item_CPdGqn",
+        "item_kmYFCX"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "<p>Du hast Fragen rund um das Thema Förderungen für Balkonkraftwerke und Mini-PV-Anlagen? Für eine Zusammenstellung der häufig gestellten Fragen schaue gerne bei unseren FAQ vorbei.</p>",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_p6tfBA",
+    "custom_logo_list_RYAiRz",
+    "rich_text_aU9AH6",
+    "featured_collection_mh_HR9qTq",
+    "custom_html_6UnjnJ",
+    "images_with_text_scrolling_B6qnmQ",
+    "custom_html_6CNgFA",
+    "multi_column_fwqjMK",
+    "custom_html_6rHcFB",
+    "faq_JUXQbE"
+  ]
+}

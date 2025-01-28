@@ -1,0 +1,58 @@
+{% if section.settings.free_gift_product != blank %}
+        <div class="shipping-bar-container">
+              <div class="shipping-info">
+                  
+                  <p class="remaining-amount">
+                                      
+                    {% assign free_gift_matched = false %}
+                    {% for collection_handle in section.settings.free_gift_collection %}
+                    {% assign my_collection = collections[collection_handle.handle] %}
+                    
+                    {% if my_collection %}
+                      {% for product in my_collection.products %}
+                        {% for item in cart.items %}
+                          {% if item.product_id == product.id %}
+                            {% assign free_gift_matched = true %}
+                          {% endif %}
+                        {% endfor %}
+                      {% endfor %}
+                    {% endif %}
+                  {% endfor %}
+                    
+                       <input type="hidden" class="hidden_atr_div"  free_gift_value="{{ free_gift_matched }}" free_gift= "{{ section.settings.free_gift_product.selected_or_first_available_variant.id }}"{% if section.settings.thresold_enable_disable == true %} freeGiftThreshold="{{ section.settings.thresold_for_free_gift | times: 100 }}"{% endif %} threshold_value = "{% if section.settings.thresold_enable_disable == true %}enabled{% else %}disabled{% endif %}"/>
+
+                    
+                    {% assign freeshipping_treshold = section.settings.thresold_for_free_shipping | times:100 %}
+                    {% assign thresold = section.settings.thresold_for_free_gift | times:100.0 %}
+                    {% assign remainiang_amount_shipping = freeshipping_treshold | minus:cart.total_price | money %}
+                    {% assign remainiang_amount = thresold | minus:cart.total_price | money %}
+                    {% assign progress_bar_count = cart.total_price | divided_by:thresold | times:100 %}
+                    {% if cart.total_price < freeshipping_treshold and cart.total_price < thresold %}
+                    <span>{{ section.settings.free_shipping_not_reach_msg | replace: 'price', remainiang_amount_shipping }}</span>
+                    {% elsif cart.total_price >= freeshipping_treshold and cart.total_price < thresold %}
+                    <span>{{ section.settings.free_shipping_reach_msg }}</span>
+                      {% if section.settings.thresold_enable_disable == true %}
+                    <span>{{ section.settings.free_gift_not_reach_msg | replace: 'price', remainiang_amount }}</span>
+                      {% endif %}
+                    {% elsif cart.total_price >= thresold %}
+                      <span>{{ section.settings.free_gift_reach_msg }}</span>
+                    {% endif %}
+                  </p>
+                </div>
+              <div class="shipping-progress">
+                  <div class="progress-bar" id="progressBar" style="width: {{ progress_bar_count | round }}%"></div>
+                {% if section.settings.free_shipping_icon != blank %}
+                <div class="shipping-icon" style="left: {{ freeshipping_treshold | divided_by:thresold | times:100.0 }}%">
+                  {{ section.settings.free_shipping_icon | image_url: width:25 | image_tag  }}
+                </div>
+                {% endif %}
+                  {% comment %}
+                {% if section.settings.free_gift_icon != blank %}
+                <div class="gift-icon">
+                  {{ section.settings.free_gift_icon | image_url: width:25 | image_tag  }}
+                </div> 
+                {% endif %}
+                {% endcomment %}
+              </div>
+          </div> 
+          {% endif %}

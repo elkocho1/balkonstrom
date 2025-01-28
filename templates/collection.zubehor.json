@@ -1,0 +1,157 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "collection-banner",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "show_collection_title": true,
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "collection_title_size": "h1",
+        "image_size": "sm",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "featured_product": "",
+        "featured_product_heading": "Featured product",
+        "text_color": "#eeece5",
+        "overlay_color": "#000000",
+        "overlay_opacity": 15
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "custom_css": [],
+      "settings": {
+        "products_per_page": 24,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "filter_layout": "horizontal",
+        "show_sort_by": false,
+        "show_filters": false,
+        "show_filter_group_name": false,
+        "show_color_swatch": false,
+        "show_empty_filter_values": false,
+        "show_filter_values_count": false,
+        "open_first_filter_group": false
+      }
+    },
+    "09df8a39-86d5-4eab-a510-9aa283582fe0": {
+      "type": "faq",
+      "blocks": {
+        "template--18109074047240__09df8a39-86d5-4eab-a510-9aa283582fe0-item-1": {
+          "type": "item",
+          "settings": {
+            "title": "Was ist ein Balkonkraftwerk?",
+            "content": "<p>Ein Balkonkraftwerk besteht meist aus ein bis zwei Photovoltaik-Modulen und einem Wechselrichter, welcher mittels Schukostecker in die Steckdose eingesteckt werden kann. Ein Balkonkraftwerk kann an den unterschiedlichsten Orten montiert werden, so zum Beispiel im Garten, auf dem Hausdach, auf der Garage oder an einer Fassade. Die erzeugte Leistung wird direkt in das Hausnetz eingespeist und kann unmittelbar von den Verbrauchern genutzt werden. Balkonkraftwerke unter 600 Watt Ausgangsleistung des Wechselrichters sind genehmigungsfrei. Anlagen mit über 600 Watt Ausgangsleistung werden oft als Mini-PV-Anlagen bezeichnet.</p>"
+          }
+        },
+        "template--18109074047240__09df8a39-86d5-4eab-a510-9aa283582fe0-item-2": {
+          "type": "item",
+          "settings": {
+            "title": "Darf ich mein Balkonkraftwerk selbst anschließen?",
+            "content": "<p>Balkonkraftwerke kannst du eigenständig anschließen. Die DIN VDE 0100-551-1:2016.09 besagt, dass nicht zertifizierte Endverbraucher den Anschluss an einer entsprechenden Steckdose vornehmen dürfen. Der Anschluss muss also nicht durch einen Elektriker erfolgen.</p>"
+          }
+        },
+        "template--18109074047240__09df8a39-86d5-4eab-a510-9aa283582fe0-item-3": {
+          "type": "item",
+          "settings": {
+            "title": "Wie lange kann ich damit Strom erzeugen?",
+            "content": "<p>Die Leistungsgarantie von Solarmodulen beträgt in den meisten Fällen 25 bis 30 Jahre. Auf Wechselrichter geben die Hersteller 12 Jahre Garantie. Die meisten Komponenten überleben diesen Zeitraum jedoch. So gibt es beispielsweise Solarmodule, welche bereits seit mehr als 35 Jahren Strom erzeugen.</p>"
+          }
+        },
+        "a7d01820-ade9-4f49-96a2-cf60add901f9": {
+          "type": "item",
+          "settings": {
+            "title": "Ist das betreiben eines Balkonkraftwerks sicher?",
+            "content": "<p>Ja. Bei mehr als 250.000 in Europa installierten Anlagen, welche an Schutzkontaktsteckdosen betrieben werden, sind keinerlei durch die Komponenten der Balkonkraftwerke verursachten Schäden bekannt. Die installierte Ausgangsleistung von 600 bzw. 800 Watt ist nicht in der Lage, eine normale Elektroinstallation zu überlasten.</p>"
+          }
+        },
+        "4169eda3-aa04-4044-ab93-060f35ad24a9": {
+          "type": "item",
+          "settings": {
+            "title": "Kann ich das Balkonkraftwerk auch direkt bei euch abholen?",
+            "content": "<p>Ja, das ist problemlos möglich. Nach deinem Kauf kannst du dich einfach in ein freies Zeitfenster zur Abholung einbuchen und so Versandkosten einsparen.</p><p>Solltest du deine Anlage nicht abholen können, berechnen wir für den Versand von Balkonkraftwerken per Spedition innerhalb von Deutschland 39 Euro, für eine Mini-PV-Anlage 49 Euro.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18109074047240__09df8a39-86d5-4eab-a510-9aa283582fe0-item-1",
+        "template--18109074047240__09df8a39-86d5-4eab-a510-9aa283582fe0-item-2",
+        "template--18109074047240__09df8a39-86d5-4eab-a510-9aa283582fe0-item-3",
+        "a7d01820-ade9-4f49-96a2-cf60add901f9",
+        "4169eda3-aa04-4044-ab93-060f35ad24a9"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "aa3ba5ba-f5c6-418e-8256-401cc436afa2": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18109074047240__aa3ba5ba-f5c6-418e-8256-401cc436afa2-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Balkonkraftwerke vom Experten kaufen und eigenen Strom erzeugen",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--18109074047240__aa3ba5ba-f5c6-418e-8256-401cc436afa2-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Unsere Balkonstrom Flat Balkonkraftwerke sind ideal für die Aufstellung auf allen geraden Flächen bis maximal 5° Neigung. Egal, ob auf deiner Terrasse, im Garten oder auf deinem Gartenhaus – dank des simplen Systems und unserer detaillierten Schritt-für-Schritt-Anleitung produzierst du im Handumdrehen deinen eigenen Strom. </p><p><strong>Schneller sparen kannst du nicht</strong> Unsere Balkonstrom Flat Balkonkraftwerke sind besonders einfach und schnell aufzubauen, denn du musst die Solarmodule lediglich mithilfe der Halterung in einem Neigungswinkel von 20° aufständern und das System stabilisieren. Die Unterkonstruktion besteht aus zwei Aluminiumstützen, die du auf vier Bautenschutzmatten platzierst und mit den Solarmodulen verbindest. Mit 30x30 cm Gehwegplatten oder anderen geeigneten Steinen ballastierst du die Halterung schließlich, um die Konstruktion zu sichern. Wie das geht, zeigen wir dir in unserer Montageanleitung zum Aufbau deiner Solaranlage. Die Ausrichtung kannst du frei wählen, wir empfehlen dir aber, deine Steckersolaranlage gen Süden, Westen oder Osten auszurichten.  </p><p><strong>Unsere Plug-and-Play Komplett-Sets</strong> </p><p>Bei der Bestellung eines Balkonkraftwerks von Balkonstrom erhältst du automatisch alle benötigten Komponenten, um deine Anlage unmittelbar zu montieren. Hierzu zählen beispielsweise ein hochwertiger Wechselrichter, bei dem du durch einfaches Umstellen frei zwischen 600 Watt und 800 Watt Leistung hin und her variieren kannst, sowie unsere Made in Germany MC-4 Verlängerungskabel und AC-Anschlusskabel. Bei unseren Anschlusskabeln kannst du beim Kauf zwischen einer Länge von 3 bis 15 m wählen, je nachdem welche Kabellänge du benötigst, um den Wechselrichter mit der Steckdose zu verbinden. Ist deine Solaranlage einmal eingesteckt, speist sie den eigens produzierten Strom direkt in dein Hausnetz ein. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18109074047240__aa3ba5ba-f5c6-418e-8256-401cc436afa2-heading-1",
+        "template--18109074047240__aa3ba5ba-f5c6-418e-8256-401cc436afa2-richtext-1"
+      ],
+      "custom_css": [],
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "main",
+    "09df8a39-86d5-4eab-a510-9aa283582fe0",
+    "aa3ba5ba-f5c6-418e-8256-401cc436afa2"
+  ]
+}

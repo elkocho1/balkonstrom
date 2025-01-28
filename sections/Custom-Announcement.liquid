@@ -1,0 +1,638 @@
+{% comment %} Shopify CSS and JS code is merged, so this code will work here. {% endcomment %}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<style>
+  #section-{{ section.id }} {
+    background: {{ section.settings.background }};
+    color: {{ section.settings.text_color }};
+  }
+  .slider-for {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+</style>
+
+<script>
+  $(document).ready(function() {
+      $('#slider-for').slick({
+        prevArrow:"<button type='button' class='slick-prev pull-left'><img src='https://cdn.shopify.com/s/files/1/0609/9481/4140/files/left.svg?v'></button>",
+        nextArrow:"<button type='button' class='slick-next pull-right'><img src='https://cdn.shopify.com/s/files/1/0609/9481/4140/files/right.svg'></button>",
+        autoplay: {{section.settings.enable_autoplay}},
+        arrows:{{section.settings.enable_arrow}}
+      });
+    });
+</script>
+{%- if section.settings.enable_bar -%}
+  {%- unless section.settings.home_page_only and template != 'index' -%}
+    <section id="section-{{ section.id }}" data-section-id="{{ section.id }}" data-section-type="announcement-bar">
+      <div class="deskscreen">
+        <div class="AnnouncementBar">
+          <div class="review-img">
+            {% if section.settings.reviewimg != null %}
+              <img src="{{ section.settings.reviewimg | img_url: 'master' }}">
+            {% endif %}
+            {% if section.settings.review != '' %}
+              <span>{{ section.settings.review }}</span>
+            {% endif %}
+          </div>
+          
+          <div class="slider-versand">
+           {% if section.settings.enable_text_blocks %}
+            <div class="middle-slide {% if section.settings.enable_text_blocks %} middle-slide-active {% endif %}">
+              <div class="slider-for" id="slider-for">
+                {%- for block in section.blocks -%}
+                  {% case block.type %}
+                    {% when 'text' %}
+                  {% if block.settings.text != '' %}
+                    <div class="slide-container">{{ block.settings.text }}</div>
+                  {% endif %}
+                    {% endcase %}
+                {%- endfor -%}
+              </div>
+            </div>
+            {% endif %}
+
+            {% if section.settings.enable_countdown %}
+            <div class="countdown-main-wrapper">
+              {% for block in section.blocks %}
+                {% case block.type %}
+                  {% when 'countdown' %}
+                    <div
+                      class="countdown-wrapper-box"
+                      data-block-id="{{ block.id }}"
+                      data-end-date="{{ block.settings.date_picker }}"
+                    >
+                      <div class="countdown-wrapper-text-count">
+                      <div
+                        class="countdown-sale-text"
+                        style="font-size: {{ block.settings.heading_font_size }}px; color: {{ block.settings.heading_color }};"
+                      >
+                        🔥 {{ block.settings.countdown_heading }}
+                      </div>
+
+                      <div
+                        class="countdown-sale-count countdown-timerr-{{ block.id }}"
+                        style="color: {{ block.settings.color_countdown }};"
+                      >
+                        <div class="time-block-count">
+                          <span class="time-block-count__num js-timer-days">00</span>
+                          <span class="time-block-count__unit">{{ block.settings.days_translated }}</span>
+                        </div>
+                        <span class="time-divier"></span>
+                        <div class="time-block-count">
+                          <span class="time-block-count__num js-timer-hours">00</span>
+                          <span class="time-block-count__unit">{{ block.settings.hours_translated }}</span>
+                        </div>
+                        <span class="time-divier"></span>
+                        <div class="time-block-count">
+                          <span class="time-block-count__num js-timer-minutes">00</span>
+                          <span class="time-block-count__unit">{{ block.settings.minutes_translated }}</span>
+                        </div>
+                        <span class="time-divier"></span>
+                        <div class="time-block-count">
+                          <span class="time-block-count__num js-timer-seconds">00</span>
+                          <span class="time-block-count__unit">{{ block.settings.seconds_translated }}</span>
+                        </div>
+                      </div>
+                        </div>
+                      <div class="countdown-timer-completed-text" style="display: none;">
+                        {{ block.settings.timer_completed_text }}
+                      </div>
+
+                      <div
+                        class="countdown-button"
+                        style="background-color: {{ block.settings.count_button_bg_color }}"
+                      >
+                        <a
+                          href="{{ block.settings.count_button_url }}"
+                          style="color: {{ block.settings.count_button_text_color }}"
+                        >
+                          {{- block.settings.count_button_text -}}
+                        </a>
+                      </div>
+                    </div>
+                {% endcase %}
+              {% endfor %}
+            </div>
+            {% endif %}
+            
+          </div>
+    
+          <div class="uber-text">
+            <div class="uberlink">
+              {% if section.settings.content1 != '' and section.settings.link1 != '' %}
+                <a href="{{ section.settings.link1 }}">{{ section.settings.content1 }}</a>
+              {% endif %}
+              {% if section.settings.content2 != '' and section.settings.link2 != '' %}
+                <a href="{{ section.settings.link2 }}">{{ section.settings.content2 }}</a>
+              {% endif %}
+            </div>
+            <div class="iconsbadge">
+              <div class="three-badge">
+                {% if section.settings.badge1 != null %}
+                  <img src="{{ section.settings.badge1 | image_url: width: 80 }}">
+                {% endif %}
+                {% if section.settings.badge2 != null %}
+                  <img src="{{ section.settings.badge2 | image_url: width: 80 }}">
+                {% endif %}
+                {% if section.settings.badge3 != null %}
+                  <img src="{{ section.settings.badge3 | image_url: width: 80 }}">
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  {%- endunless -%}
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Custom-Announcement",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "enable_bar",
+      "label": "Enable bar",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "home_page_only",
+      "label": "Home page only",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_autoplay",
+      "label": "Autoplay Slider",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_arrow",
+      "label": "Slider Arrow",
+      "default": true
+    },
+     {
+      "type": "checkbox",
+      "id": "enable_text_blocks",
+      "label": "Enable Text Block",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_countdown",
+      "label": "Enable Countdowm",
+      "default": true
+    },
+    {
+      "type": "color",
+      "id": "background",
+      "label": "Background",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text",
+      "default": "#ffffff"
+    },
+    {
+       "type": "image_picker",
+       "id": "reviewimg",
+       "label": "Star Review Image"
+     },
+     {
+      "type": "text",
+      "id": "review",
+      "label": "Review Text"
+    },
+    {
+      "type": "text",
+      "id": "content1",
+      "label": "Text1"
+    },
+    {
+      "type": "url",
+      "id": "link1",
+      "label": "Link1"
+    },
+    {
+      "type": "text",
+      "id": "content2",
+      "label": "Text2"
+    },
+    {
+      "type": "url",
+      "id": "link2",
+      "label": "Link2"
+    },
+    {
+       "type": "image_picker",
+       "id": "badge1",
+       "label": "Badge1"
+     },
+    {
+       "type": "image_picker",
+       "id": "badge2",
+       "label": "Badge2"
+     },
+    {
+       "type": "image_picker",
+       "id": "badge3",
+       "label": "Badge3"
+     },
+],
+"blocks": [
+    {
+      "type": "text",
+      "name": "name",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Paragraph"
+        }
+      ]
+    },
+    {
+      "type": "countdown",
+      "name": "Countdown Timer",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+            "id": "date_picker",
+            "label": "Choose date",
+            "default": "12-24-2024",
+            "info": "e.g. mm-dd-yyyy"
+        },
+        {
+          "type": "text",
+          "id": "countdown_heading",
+          "label": "Heading",
+          "default": "Big Summer Sale"
+        },
+        {
+          "type": "color",
+          "id": "heading_color",
+          "label": "Color",
+          "default": "#ffffff"
+        },
+        {
+          "type": "range",
+          "id": "heading_font_size",
+          "min": 12,
+          "max": 80,
+          "step": 1,
+          "unit": "px",
+          "label": "Heading font size",
+          "default": 30
+        },
+        {
+          "type": "richtext",
+          "id": "timer_completed_text",
+          "label": "Timer completed text"
+        },
+        {
+          "type": "color",
+          "id": "color_countdown",
+          "label": "Color",
+          "default": "#FFFFFF"
+        },
+        {
+          "type": "header",
+          "content": "Translate"
+        },
+        {
+          "type": "text",
+          "id": "days_translated",
+          "label": "Days",
+          "default": "Days"
+        },
+        {
+          "type": "text",
+          "id": "hours_translated",
+          "label": "Hours",
+          "default": "Hours"
+        },
+        {
+          "type": "text",
+          "id": "minutes_translated",
+          "label": "Minutes",
+          "default": "Minutes"
+        },
+        {
+          "type": "text",
+          "id": "seconds_translated",
+          "label": "Seconds",
+          "default": "Seconds"
+        },
+        {
+          "type": "text",
+          "id": "count_button_text",
+          "label": "Count Button Text"
+        },
+        {
+          "type": "url",
+          "id": "count_button_url",
+          "label": "Count Button Url"
+        },
+        {
+          "type": "color",
+          "id": "count_button_text_color",
+          "label": "Count Button Text Color"
+        },
+        {
+          "type": "color",
+          "id": "count_button_bg_color",
+          "label": "Count Btn Bg Color"
+        }
+      ]
+    }
+  ],
+
+ "presets": [
+     {
+        "name": "Custom Announcement",
+        "category": "Custom_banner",
+        "blocks": [
+          {
+            "type": "text"
+          },
+          {
+            "type": "countdown"
+          }
+        ]
+      }
+ ]
+
+}
+{% endschema %}
+{% javascript %}
+
+  $(document).ready(function() {
+  function updateCountdown() {
+    var $countdownBoxes = $(".countdown-wrapper-box");
+    var allCountdownsCompleted = true; // Flag to check if all countdowns are completed
+
+    $countdownBoxes.each(function() {
+      var $this = $(this);
+      var endDateStr = $this.data("end-date"); // Get end date from data attribute
+      var endDate = new Date(endDateStr.replace(/-/g, "/")); // Parse the end date as a JavaScript Date object
+      var now = new Date(); // Current date and time
+      var timeDiff = endDate - now; // Calculate time difference
+
+      if (timeDiff <= 0) {
+        // Countdown completed
+        // $this.find(".countdown-timer-completed-text").show(); // Show the completed message
+        // $this.find(".countdown-sale-count").hide(); // Hide countdown numbers
+        // $this.find(".countdown-button").hide(); // Hide countdown button if applicable
+      } else {
+        // Countdown still active
+        allCountdownsCompleted = false; // Set the flag to false if any countdown is still running
+
+        // Calculate and display remaining time
+        var days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((timeDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((timeDiff % (1000 * 60)) / 1000);
+
+        // Update the timer display with new values
+        $this.find(".js-timer-days").text(days < 10 ? '0' + days : days);
+        $this.find(".js-timer-hours").text(hours < 10 ? '0' + hours : hours);
+        $this.find(".js-timer-minutes").text(minutes < 10 ? '0' + minutes : minutes);
+        $this.find(".js-timer-seconds").text(seconds < 10 ? '0' + seconds : seconds);
+      }
+    });
+
+    // Show or hide elements based on countdown completion
+    if (allCountdownsCompleted) {
+      $(".middle-slide").show();   // Show middle-slide when all countdowns are completed
+      $(".countdown-main-wrapper").hide(); // Hide countdown-main-wrapper
+    } else {
+      $(".middle-slide").hide();   // Hide middle-slide when any countdown is active
+      $(".countdown-main-wrapper").show(); // Show countdown-main-wrapper
+    }
+  }
+
+  // Update countdown every second
+  setInterval(updateCountdown, 1000);
+
+  // Initialize countdown immediately on page load
+  updateCountdown();
+});
+  
+{% endjavascript %}
+
+
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+
+{% comment %}
+<script>
+    $(document).ready(function() {
+    function updateCountdown() {
+      var $countdownBoxes = $(".countdown-wrapper-box");
+      $countdownBoxes.each(function() {
+        var $this = $(this);
+        var endDate = new Date($this.data("end-date"));
+        var now = new Date();
+        var timeDiff = endDate - now;
+
+        if (timeDiff <= 0) {
+          $this.find(".countdown-timer-completed-text").show();
+          // $this.find(".middle-slide").show();
+          $this.find(".countdown-sale-count").hide();
+           // $this.find(".countdown-wrapper-box").hide();
+          return;
+        }
+
+        // Calculate time components
+        var days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((timeDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((timeDiff % (1000 * 60)) / 1000);
+
+        // Update the HTML with the new time values
+        $this.find(".js-timer-days").text(days < 10 ? '0' + days : days);
+        $this.find(".js-timer-hours").text(hours < 10 ? '0' + hours : hours);
+        $this.find(".js-timer-minutes").text(minutes < 10 ? '0' + minutes : minutes);
+        $this.find(".js-timer-seconds").text(seconds < 10 ? '0' + seconds : seconds);
+      });
+    }
+
+    // Update countdown every second
+    setInterval(updateCountdown, 1000);
+
+    // Initialize countdown immediately on page load
+    updateCountdown();
+  });
+</script>
+{% endcomment %}
+
+{% comment %}
+<script>
+  $(document).ready(function() {
+  function updateCountdown() {
+    var $countdownBoxes = $(".countdown-wrapper-box");
+    var allCountdownsCompleted = true; // This flag will help determine if all countdowns are completed
+
+    $countdownBoxes.each(function() {
+      var $this = $(this);
+      var endDate = new Date($this.data("end-date"));
+      var now = new Date();
+      var timeDiff = endDate - now;
+
+      if (timeDiff <= 0) {
+        // Countdown completed, show completed text and hide countdown numbers
+        // $this.find(".countdown-timer-completed-text").show();
+        // $this.find(".countdown-sale-count").hide();
+        // $this.find(".countdown-button").hide();
+      } else {
+        // Countdown still active, update the time 
+        allCountdownsCompleted = false; // If at least one countdown is still active, don't show the "middle-slide"
+
+        // Calculate time components
+        var days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((timeDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((timeDiff % (1000 * 60)) / 1000);
+
+        // Update the HTML with the new time values
+        $this.find(".js-timer-days").text(days < 10 ? '0' + days : days);
+        $this.find(".js-timer-hours").text(hours < 10 ? '0' + hours : hours);
+        $this.find(".js-timer-minutes").text(minutes < 10 ? '0' + minutes : minutes);
+        $this.find(".js-timer-seconds").text(seconds < 10 ? '0' + seconds : seconds);
+      }
+    });
+
+    // Show or hide elements based on countdown completion
+    if (allCountdownsCompleted) {
+      $(".middle-slide").show();   // Show middle-slide when all countdowns are completed
+      $(".countdown-main-wrapper").hide(); // Hide countdown-main-wrapper
+    } else {
+      $(".middle-slide").hide();   // Hide middle-slide when countdowns are active
+      $(".countdown-main-wrapper").show(); // Show countdown-main-wrapper
+    }
+  }
+
+  // Update countdown every second
+  setInterval(updateCountdown, 1000);
+
+  // Initialize countdown immediately on page load
+  updateCountdown();
+});
+
+</script>
+{% endcomment %}
+{% comment %}
+<script>
+  $(document).ready(function() {
+  function updateCountdown() {  
+    var allCountdownsCompleted = true;
+
+    $(".countdown-wrapper-box").each(function() {
+      var $this = $(this);
+      var endDateStr = $this.data("end-date");
+      var endDate = new Date(endDateStr);
+      var now = new Date();
+      var timeDiff = endDate - now;
+
+      console.log(`End Date: ${endDate}, Now: ${now}, Time Diff: ${timeDiff}`);
+
+      if (timeDiff <= 0) {
+        $this.find(".countdown-timer-completed-text").show();
+        $this.find(".countdown-sale-count").hide();
+        $this.find(".countdown-button").hide();
+      } else {
+        allCountdownsCompleted = false;
+
+        var days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((timeDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((timeDiff % (1000 * 60)) / 1000);
+
+        $this.find(".js-timer-days").text(days < 10 ? '0' + days : days);
+        $this.find(".js-timer-hours").text(hours < 10 ? '0' + hours : hours);
+        $this.find(".js-timer-minutes").text(minutes < 10 ? '0' + minutes : minutes);
+        $this.find(".js-timer-seconds").text(seconds < 10 ? '0' + seconds : seconds);
+      }
+    });
+
+    console.log(`All Countdowns Completed: ${allCountdownsCompleted}`);
+
+    if (allCountdownsCompleted) {
+      $(".middle-slide").show();
+      $(".countdown-main-wrapper").hide();
+    } else {
+      $(".middle-slide").hide();
+      $(".countdown-main-wrapper").show();
+    }
+  }
+
+  setInterval(updateCountdown, 1000);
+  updateCountdown();
+});
+
+</script>
+
+
+<script>
+  $(".countdown-main-wrapper").hide();
+  $(document).ready(function() {
+  function updateCountdown() {
+    var $countdownBoxes = $(".countdown-wrapper-box");
+    var allCountdownsCompleted = true; // Flag to check if all countdowns are completed
+
+    $countdownBoxes.each(function() {
+      var $this = $(this);
+      var endDateStr = $this.data("end-date"); // Get end date from data attribute
+      var endDate = new Date(endDateStr); // Parse the end date as a JavaScript Date object
+      var now = new Date(); // Current date and time
+      var timeDiff = endDate - now; // Calculate time difference
+
+      if (timeDiff <= 0) {
+        // Countdown completed
+        // $this.find(".countdown-timer-completed-text").show(); // Show the completed message
+        // $this.find(".countdown-sale-count").hide(); // Hide countdown numbers
+        // $this.find(".countdown-button").hide(); // Hide countdown button if applicable
+      } else {
+        // Countdown still active
+        allCountdownsCompleted = false; // Set the flag to false if any countdown is still running
+
+        // Calculate and display remaining time
+        var days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((timeDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((timeDiff % (1000 * 60)) / 1000);
+
+        // Update the timer display with new values
+        $this.find(".js-timer-days").text(days < 10 ? '0' + days : days);
+        $this.find(".js-timer-hours").text(hours < 10 ? '0' + hours : hours);
+        $this.find(".js-timer-minutes").text(minutes < 10 ? '0' + minutes : minutes);
+        $this.find(".js-timer-seconds").text(seconds < 10 ? '0' + seconds : seconds);
+      }
+    });
+
+    // Show or hide elements based on countdown completion
+    if (allCountdownsCompleted) {
+      $(".middle-slide").show();   // Show middle-slide when all countdowns are completed
+      $(".countdown-main-wrapper").hide(); // Hide countdown-main-wrapper
+    } else {
+      $(".middle-slide").hide();   // Hide middle-slide when any countdown is active
+      $(".countdown-main-wrapper").show(); // Show countdown-main-wrapper
+    }
+  }
+
+  // Update countdown every second
+  setInterval(updateCountdown, 1000);
+
+  // Initialize countdown immediately on page load
+  updateCountdown();
+});
+
+</script>
+{% endcomment %}

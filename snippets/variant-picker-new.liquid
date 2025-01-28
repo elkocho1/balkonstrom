@@ -1,0 +1,492 @@
+{%- comment -%}
+  ----------------------------------------------------------------------------------------------------------------------
+  VARIANT PICKER
+  ----------------------------------------------------------------------------------------------------------------------
+
+  Render the variant picker option selectors.
+
+  ********************************************
+  Supported variables
+  ********************************************
+
+  * product: the product for which to render the selector (required)
+  * update_url: if set to true, the URL is updated when the variant changes (usually used for product page)
+  * hide_sold_out_variants: if set to true, the sold out or unavailable variants are hidden
+  * hide_size_chart: if set to true, size chart is always hidden
+  * force_dropdown_as_block: if set to true, the dropdown selectors are replaced by blocks, which is useful for quick buy where dropdown are not convenient to use
+  * form_id: the ID of the form that is listening
+  * block: the block itself, for theme-specific options (such as selector types)
+{%- endcomment -%}
+
+<style>
+  .rotated {
+      transform: rotate(45deg) !important;
+      background: rgb(var(--button-background-primary)) !important;
+  }
+  
+  .circle-chevron {
+    background-color: black;
+  }
+  /* .circle-chevron:hover {
+      background: rgb(var(--button-background-primary));
+  } */
+  .select:hover .circle-chevron {
+      background: rgb(var(--button-background-primary));
+  }
+  .montage {
+    display: none !important;
+  }
+</style>
+
+{%- assign color_label_list = 'general.label.color' | t | replace: ', ', ',' | downcase | split: ',' -%}
+{%- assign size_label_list = 'general.label.size' | t | replace: ', ', ',' | downcase | split: ',' -%}
+
+{%- unless hide_sold_out_variants and product.available == false -%}
+  <variant-picker
+    class="variant-picker"
+    handle="{{ product.handle }}"
+    form="{{ form_id }}"
+    {% if update_url %}
+      update-url
+    {% endif %}
+    {% if hide_sold_out_variants %}
+      hide-sold-out-variants
+    {% endif %}
+  >
+    {%- for option in product.options_with_values -%}
+      {%- assign option_downcase = option.name | downcase -%}
+      {%- assign selector_type = block.settings.selector_mode -%}
+
+      {% if color_label_list contains option_downcase %}
+        {%- assign selector_type = block.settings.color_mode -%}
+
+        {%- if selector_type == 'variant_image' -%}
+          {%- comment -%}To use this mode every variant must have an attached media{%- endcomment -%}
+
+          {%- for variant in product.variants -%}
+            {%- unless variant.featured_media -%}
+              {%- assign selector_type = 'color' -%}
+              {%- break -%}
+            {%- endunless -%}
+          {%- endfor -%}
+        {%- endif -%}
+      {%- endif -%}
+
+      {%- if selector_type == 'dropdown' and force_dropdown_as_block -%}
+        {%- assign selector_type = 'block' -%}
+      {%- endif -%}
+      {% unless product.has_only_default_variant %}
+        <fieldset class="variant-picker__option no-js:hidden" data-option-index="{{ option.position }}">
+
+        <div class="variant-picker__option-info">
+          <div class="h-stack">
+            {% comment %} <legend class="text-subdued">{{ option.name }}:</legend> {% endcomment %}
+            {% assign count = count | plus: 1 %}
+            {% if block.settings.first_varint_name != blank and forloop.index == 1 %}
+             <legend class="text-subdued">{{ count }}. {{ block.settings.first_varint_name }} <strong>{{ option.name }}</strong></legend>
+            {% endif %}
+
+            {% if block.settings.varint_name != blank and forloop.index == 2 %}
+             <legend class="text-subdued">{{ count }}. {{ block.settings.varint_name }} <strong>{{ option.name }}</strong></legend>
+            {% endif %}
+            
+           {% if block.settings.varint_tooltip_text != blank or block.settings.varint_tooltip_title != blank or
+                  block.settings.varint_tooltip_text-2 != blank or block.settings.varint_tooltip_title-2 != blank or
+                  block.settings.varint_tooltip_text-3 != blank or block.settings.varint_tooltip_title-3 != blank
+            %}
+            <div class="variant-tooltip"
+              {% if forloop.index == 1 %}
+                data-tooltip="{% if block.settings.varint_tooltip_text != blank %}{{ block.settings.varint_tooltip_text }}{% endif %}"
+                data-tooltip-title="{% if block.settings.varint_tooltip_title != blank %}{{ block.settings.varint_tooltip_title }}{% endif %}"
+              {% elsif forloop.index == 2 %}
+                data-tooltip="{% if block.settings.varint_tooltip_text-2 != blank %}{{ block.settings.varint_tooltip_text-2 }}{% endif %}"
+                data-tooltip-title="{% if block.settings.varint_tooltip_title-2 != blank %}{{ block.settings.varint_tooltip_title-2 }}{% endif %}"
+              {% elsif forloop.index == 3 %}
+                data-tooltip="{% if block.settings.varint_tooltip_text-3 != blank %}{{ block.settings.varint_tooltip_text-3 }}{% endif %}"
+                data-tooltip-title="{% if block.settings.varint_tooltip_title-3 != blank %}{{ block.settings.varint_tooltip_title-3 }}{% endif %}"
+              {% endif %}
+              data-tooltip-pos="right" data-tooltip-length="medium"
+              >
+              <div class="custom-variant-tooltip">
+                {% if forloop.index == 1 %}
+                <div class="cvt-title">{% if block.settings.varint_tooltip_title != blank %}{{ block.settings.varint_tooltip_title }}{% endif %}</div>
+                <div class="cvt-description">{% if block.settings.varint_tooltip_text != blank %}{{ block.settings.varint_tooltip_text }}{% endif %}</div>
+              {% elsif forloop.index == 2 %}
+                <div class="cvt-title">{% if block.settings.varint_tooltip_title-2 != blank %}{{ block.settings.varint_tooltip_title-2 }}{% endif %}</div>
+                <div class="cvt-description">{% if block.settings.varint_tooltip_text-2 != blank %}{{ block.settings.varint_tooltip_text-2 }}{% endif %}</div>
+              {% elsif forloop.index == 3 %}
+                <div class="cvt-title">{% if block.settings.varint_tooltip_title-3 != blank %}{{ block.settings.varint_tooltip_title-3 }}{% endif %}</div>
+                <div class="cvt-description">{% if block.settings.varint_tooltip_text-3 != blank %}{{ block.settings.varint_tooltip_text-3 }}{% endif %}</div>
+              {% endif %}
+              </div>
+            </div>
+            {% endif %}
+            
+          </div>
+          
+
+          {%- if hide_size_chart != true
+            and block.settings.size_chart_page != blank
+            and size_label_list contains option_downcase
+          -%}
+            {%- capture drawer_id -%}size-chart-{{ section.id }}-{{ block.id }}{%- endcapture -%}
+
+            <button
+              type="button"
+              class="text-sm text-subdued"
+              aria-controls="{{ drawer_id | escape }}"
+              aria-expanded="false"
+            >
+              <span class="link">{{ 'product.general.size_chart' | t }}</span>
+            </button>
+
+            <x-drawer id="{{ drawer_id }}" class="drawer drawer--lg">
+              <span class="h5" slot="header">{{ block.settings.size_chart_page.title }}</span>
+
+              <div class="prose">
+                {{- block.settings.size_chart_page.content -}}
+              </div>
+            </x-drawer>
+          {%- endif -%}
+        </div>
+        <div class="variant-picker__option-info-custom"></div>
+        {%- if selector_type == 'dropdown' -%}
+          {%- capture popover_id -%}popover-variant-picker-{{ section.id }}-{{ product.id }}-{{ option.position }}{%- endcapture -%}
+
+          <div class="relative {{ option.name | handleize }}">
+            <button type="button" class="select" aria-controls="{{ popover_id }}" aria-expanded="false">              
+              {% assign mounting_option_images = product.metafields.custom.mounting_options_images.value %}              
+              {% assign ImageOption = option.name | downcase %}
+              {% if ImageOption == "montage" %}
+                {% for image in mounting_option_images %}                    
+                  {% assign ImageALT = image.alt %}
+                  {% assign SelectedImageALT = option.selected_value %}
+                  {% if ImageALT == SelectedImageALT %}
+                    {{ image | image_url: width: 100 | image_tag: class:'button-variant-image' }}                    
+                  {% endif %}  
+                {% endfor %}                
+              {% endif %}
+              <span id="{{ popover_id }}-selected-value">{{- option.selected_value -}}</span>  
+              <span class="square-chevron group-hover:colors group-expanded:colors group-expanded:rotate">{%- render 'icon' with 'plus-largue-icon' -%}</span>
+            </button>
+
+            <x-popover
+              id="{{ popover_id }}"
+              class="popover"
+              initial-focus="[aria-selected='true']"
+              close-on-listbox-select
+              anchor-horizontal="start"
+              anchor-vertical="end"
+            >
+              <p class="h5" slot="title">{{ option.name }}</p>
+
+              <x-listbox data-option-selector class="popover-listbox" aria-owns="{{ popover_id }}-selected-value">
+                <input
+                  type="hidden"
+                  name="option{{ option.position }}"
+                  form="{{ form_id }}"
+                  value="{{ option.selected_value | escape }}"
+                >
+
+                {%- for value in option.values -%}
+                  <button
+                    type="button"
+                    class="popover-listbox__option"
+                    role="option"
+                    value="{{ value | escape }}"
+                    {% if value == option.selected_value %}
+                      aria-selected="true"
+                    {% endif %}
+                    data-option-value
+                  >
+                    {% assign mounting_option_images = product.metafields.custom.mounting_options_images.value %}      
+                    {% assign mounting_option_pdf = product.metafields.custom.module_pdf_link.value %} 
+                    {% assign PDFLink = mounting_option_pdf[forloop.index0] %}
+                    {% assign ImageOption = option.name | downcase %}
+                    {% if ImageOption == "montage" %}
+                      {% for image in mounting_option_images %}
+                        {% assign ImageALT = image.alt %}
+                        {% assign SelectedImageALT = value %}
+                        {% if ImageALT == SelectedImageALT %}
+                          {{ image | image_url: width: 100 | image_tag: class:'button-variant-image' }}    
+                          {% if PDFLink != blank %}<input type="hidden" class="options_pdf_link" value="{{ PDFLink }}"/>{% endif %}
+                        {% endif %}  
+                      {% endfor %}                
+                    {% endif %}
+                    {{ value }}
+                  </button>
+                {%- endfor -%}
+              </x-listbox>
+            </x-popover>
+          </div>
+        {%- else -%}
+          <div
+            {% unless block.settings.stack_blocks %}
+              class="scroll-area bleed sm:unbleed"
+            {% endunless %}
+          >
+            <div
+              data-option-selector
+              class="variant-picker__option-values {% if block.settings.stack_blocks %}wrap{% else %}scroll-area bleed sm:unbleed{% endif %} {% if selector_type == 'color' and settings.color_swatch_style == 'rectangle' %}variant-picker__option-values--color gap-4{% else %}gap-2{% endif %}"
+            >
+              {%- assign name = 'option' | append: option.position -%}
+
+              {%- for value in option.values -%}
+                {%- assign selected = false -%}
+
+                {%- if value == option.selected_value -%}
+                  {%- assign selected = true -%}
+                {%- endif -%}
+
+                {%- case selector_type -%}
+                  {%- when 'variant' -%}
+                    {%- assign variant_for_value = product.variants | where: name, value | first -%}
+                    {%- render 'swatch' with 'media',
+                      value: value,
+                      media: variant_for_value.featured_media,
+                      selected: selected,
+                      name: name,
+                      form: form_id,
+                      bordered: true
+                    -%}
+                  {%- when 'color' -%}
+                    {%- render 'swatch' with 'color', value: value, selected: selected, name: name, form: form_id -%}
+                  {%- when 'block' -%}
+                    {%- render 'swatch' with 'block', value: value, selected: selected, name: name, form: form_id -%}
+                  {%- when 'block_swatch' -%}
+                    {%- render 'swatch' with 'block',
+                      value: value,
+                      selected: selected,
+                      name: name,
+                      form: form_id,
+                      show_color: true
+                    -%}
+                {%- endcase -%}
+              {%- endfor -%}
+            </div>
+          </div>
+        {%- endif -%}
+      </fieldset>
+      {% endunless %}
+    {%- endfor -%}
+    
+{% if template.suffix == 'universal_update_george' or template.suffix == 'balkon-mit-speicher-new' or template.suffix == 'speicher' %}
+  {% assign additional_product = product.metafields.custom.additional_upsell_product.value %}
+    {% if additional_product != blank %}
+      <div class="product_container_main" id="product_container_main"> 
+        {% if block.settings.upsell_heading != blank or block.settings.tooltip_title != blank or block.settings.tooltip_content != blank %}
+          <div class="variant-picker__option-info">
+            <legend class="text-subdued tooltip">{{ block.settings.upsell_heading }}
+              <span class="tooltiptext">                
+                  {% if block.settings.tooltip_title != blank %}<div class="cvt-title">{{ block.settings.tooltip_title }}</div>{% endif %}
+                  {% if block.settings.tooltip_content != blank %}<div class="cvt-description">{{ block.settings.tooltip_content }}</div>{% endif %}
+              </span>
+            </legend>        
+          </div>
+        {% endif %}
+
+        {% if additional_product.compare_at_price > additional_product.price %}
+          {% assign save_price = additional_product.compare_at_price | minus: additional_product.price | money %}
+        {% endif %}
+
+        {% if block.settings.badge_heading != blank or block.settings.badge_saving_text or block.settings.badge_description != blank %}
+          <div class="badges_main only_mobile">
+            <!-- Badges -->
+            <div class="badges">
+              {% if block.settings.badge_heading != blank %}<span class="badge-recommended">{{ block.settings.badge_heading }}</span>{% endif %}
+              {% if block.settings.badge_saving_text != blank %}<span class="badge-save">{{ block.settings.badge_saving_text | replace: '[save_price]', save_price }}</span>{% endif %}
+            </div>    
+            <!-- Description -->
+            {% if block.settings.badge_description != blank %}<p class="product-description">{{ block.settings.badge_description }}</p>{% endif %}
+          </div>
+          {% endif %}
+      
+        <div class="product-container">
+            <!-- Product Image and Add Icon -->
+          <div class="product-image-container">
+            {{ additional_product.featured_image | image_url: width: '200' | image_tag: alt: additional_product.featured_image.alt }}
+            <div id="add-icon" class="add-icon">
+              <span class="plus">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5 12H19" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M12 5V19" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </span>
+              <span class="minis">
+                <svg width="24" height="2" viewBox="0 0 24 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_1_1617)">
+                  <path d="M5 1H19" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M12 0.416504V1.58317" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_1_1617">
+                  <rect width="24" height="2" fill="white"/>
+                  </clipPath>
+                  </defs>
+                  </svg>
+              </span>
+            </div>               
+          </div>
+        
+          <div class="product-info">
+            <div class="product-title_main">
+            {% if additional_product.title != blank %}<p class="product-title">{{ additional_product.title }}</p>{% endif %}
+        
+              <div class="price-section">(
+                {% if additional_product.compare_at_price > additional_product.price %}<span class="original-price">+{{ additional_product.compare_at_price | money }}</span>{% endif %}
+                <span class="discounted-price">{{ additional_product.price | money }}</span>
+                )
+              </div>
+            </div>
+
+            {% if block.settings.badge_heading != blank or block.settings.badge_saving_text or block.settings.badge_description != blank %}
+              <div class="badges_main only_desktop">
+              <!-- Badges -->
+              <div class="badges">
+                {% if block.settings.badge_heading != blank %}<span class="badge-recommended">{{ block.settings.badge_heading }}</span>{% endif %}
+                {% if block.settings.badge_saving_text != blank %}<span class="badge-save">{{ block.settings.badge_saving_text | replace: '[save_price]', save_price }}</span>{% endif %}
+              </div>
+              <!-- Description -->
+              {% if block.settings.badge_description != blank %}<p class="product-description">{{ block.settings.badge_description }}</p>{% endif %}
+              </div>
+            {% endif %}
+          </div>
+        </div>
+
+      {% comment %}
+        <div class="product_lists">          
+          <div class="status"> 
+            <span class="icon cross ">
+                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M20 6L9 17L4 12" stroke="#027B4B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>  
+              </span>         
+              <span>{{ product.title }}</span>
+          </div>
+      
+          <div class="status status_chang">
+              <span class="icon cross">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M18 6L6 18" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M6 6L18 18" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>   
+              </span>
+                  
+            <span class="icon check">
+             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20 6L9 17L4 12" stroke="#027B4B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+            <span>{{ additional_product.title }}</span>
+          </div>
+        </div>
+      {% endcomment %}              
+                   
+
+          {% if additional_product.compare_at_price != blank %}
+            <div hidden data-additional-product>
+              {% assign updatedAdditionalComparePrice = product.selected_or_first_available_variant.compare_at_price | plus: additional_product.compare_at_price %}
+              {% assign updatedAdditionalRegPrice = product.selected_or_first_available_variant.price | plus: additional_product.price %}
+              {% assign updatedSavingPrice = updatedAdditionalComparePrice | minus: updatedAdditionalRegPrice | money %}
+              <span
+                data-variant-id="{{ additional_product.selected_or_first_available_variant.id }}"
+                {% if additional_product.compare_at_price %} data-only-add-pro-comp-price = "{{ additional_product.compare_at_price }}"{% endif %}
+                {% if additional_product.price %} data-only-add-pro-price="{{ additional_product.price }}"{% endif %}
+                {% if product.compare_at_price and additional_product.compare_at_price %}data-additional-product-compare-price="{{ updatedAdditionalComparePrice | money }}"{% endif %}
+                {% if product.price and additional_product.price %}data-additional-product-regular-price="{{ updatedAdditionalRegPrice | money }}"{% endif %}
+                data-additional_product-saving-price="{{ updatedSavingPrice }}"
+                {% if product.selected_or_first_available_variant.compare_at_price %}data-main-product-compare-price="{{ product.selected_or_first_available_variant.compare_at_price | money }}"{% endif %}
+                {% if product.selected_or_first_available_variant.price %}data-main-product-regular-price="{{ product.selected_or_first_available_variant.price | money }}"{% endif %}
+                data-saving-price="{{ product.selected_or_first_available_variant.compare_at_price | minus: product.selected_or_first_available_variant.price | money }}"
+                ></span>
+            </div>
+          
+
+          {% else %}
+             <div hidden data-additional-product>
+              {% assign updatedAdditionalComparePrice = product.compare_at_price |plus: additional_product.price %}
+              {% assign updatedAdditionalRegPrice = product.price | plus: additional_product.price %}
+              {% assign updatedSavingPrice = updatedAdditionalComparePrice | minus: updatedAdditionalRegPrice | money %}
+              <span
+                data-variant-id="{{ additional_product.selected_or_first_available_variant.id }}"
+                {% if product.compare_at_price and additional_product.price %}data-additional-product-compare-price="{{ updatedAdditionalComparePrice | money }}"{% endif %}
+                {% if product.price and additional_product.price %}data-additional-product-regular-price="{{ updatedAdditionalRegPrice | money }}"{% endif %}
+                data-additional_product-saving-price="{{ updatedSavingPrice }}"
+                {% if product.compare_at_price %}data-main-product-compare-price="{{ product.compare_at_price | money }}"{% endif %}
+                {% if product.price %}data-main-product-regular-price="{{ product.price | money }}"{% endif %}
+                data-saving-price="{{ product.compare_at_price | minus: product.price | money }}"
+                ></span>
+            </div>
+        {% endif %}
+      </div>
+    {% endif %}
+{% endif %}
+
+    {% comment %}
+      <div class="var_custom_cover">
+        <div class="h-stack hidden">
+          <legend class="text-subdued">Horizontal/Vertikale Montage: vertikal paarmontage</legend>
+          <variant-option-value>Vertikal Paarmontage</variant-option-value>
+        </div>
+        <div class="var_customitem_row">
+          {% assign mounting_option_index = 0 %}
+          {% assign horizontal_vertical_mounting_option_name = 'montage' %}
+          {% for option in product.options %}
+            {% assign option_name_downcased = option | handleize %}
+            {% if option_name_downcased == horizontal_vertical_mounting_option_name %}
+              {% assign mounting_option_index = forloop.index0 %}
+              {% break %}
+            {% endif %}
+          {% endfor %}
+          {% assign selected_option = product.selected_or_first_available_variant.options[mounting_option_index] %}
+          {% assign mounting_option_images = product.metafields.custom.mounting_options_images.value %}
+         
+          {%- for mounting_option in product.options_by_name['Montage'].values -%}
+            {% assign option_index = forloop.index %}
+            {% for image in mounting_option_images %}
+              {% if forloop.index == option_index %}
+                <div class="var_customitem">
+                  <input data-option-position="{{ mounting_option_index | plus: 1 }}" class="input-mounting__options" type="radio" value="{{ mounting_option }}" name="{{ horizontal_vertical_mounting_option_name }}" {% if selected_option == mounting_option %}checked{% endif %}>
+                  <img width="auto" height="auto" loading="lazy" src="{{ image | img_url }}" alt="{{ image.alt | default: mounting_option }}">
+                  <span>{{ image.alt | default: mounting_option }}</span>
+                </div>
+              {% endif %}
+            {%- endfor -%}
+          {%- endfor -%}
+        </div>
+      </div>
+    {% endcomment %}
+
+    <script>
+      // document.addEventListener("DOMContentLoaded", function() {
+      //     var buttons = document.querySelectorAll('.select');
+
+      //      buttons.forEach(function(button) {
+      //         button.addEventListener('click', function(event) {
+      //           console.log(event.target)                
+      //             var icon = button.querySelector('.circle-chevron');
+
+      //             if (event.target && icon) {
+      //                 icon.classList.toggle('rotated');
+      //             }
+      //         });
+      //     });
+      // });
+    </script>
+
+    <noscript>
+      {%- capture input_label -%}{{ 'product.general.variant' | t }}{%- endcapture -%}
+      {%- capture select_options -%}
+        {%- for variant in product.variants -%}
+          <option {% if variant == product.selected_or_first_available_variant %}selected="selected"{% endif %} {% unless variant.available %}disabled="disabled"{% endunless %} value="{{ variant.id }}">{{ variant.title }} - {{ variant.price | money }}</option>
+        {%- endfor -%}
+      {%- endcapture -%}
+
+      {%- render 'select', label: input_label, form: form_id, name: 'id', options: select_options -%}
+    </noscript>
+  </variant-picker>
+{%- else -%}
+  <noscript>
+    <input type="hidden" name="id" form="{{ form_id }}" value="{{ product.selected_or_first_available_variant.id }}">
+  </noscript>
+{%- endunless -%}

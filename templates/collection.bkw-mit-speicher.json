@@ -1,0 +1,574 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "collection-banner",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "show_collection_title": true,
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "collection_title_size": "h1",
+        "image_size": "sm",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "featured_product": "",
+        "featured_product_heading": "Featured product",
+        "text_color": "#eeece5",
+        "overlay_color": "#000000",
+        "overlay_opacity": 15
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "products_per_page": 24,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "filter_layout": "horizontal",
+        "show_sort_by": false,
+        "show_filters": false,
+        "show_filter_group_name": false,
+        "show_color_swatch": false,
+        "show_empty_filter_values": false,
+        "show_filter_values_count": false,
+        "open_first_filter_group": false
+      }
+    },
+    "image_with_text_overlay_X6FmxU": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_hFQnBY": {
+          "type": "heading",
+          "settings": {
+            "text": "Balkonkraftwerke mit Speicher",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_jMqnfb": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Erhöhe deine Unabhängigkeit von externen Anbietern und senke deine Stromkosten!</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hFQnBY",
+        "richtext_jMqnfb"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "enable_fix_parallax": false,
+        "image_size": "md",
+        "image": "shopify://shop_images/sc_c1_2.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "navigation_section_FBxTGC": {
+      "type": "navigation-section",
+      "blocks": {
+        "text_jQTNfm": {
+          "type": "text",
+          "settings": {
+            "title": "Anker",
+            "url": "https://www.balkonstrom.com/collections/balkonkraftwerke-mit-speicher#featured_collection_0"
+          }
+        },
+        "text_ixHnLp": {
+          "type": "text",
+          "settings": {
+            "title": "Hoymiles",
+            "url": "https://www.balkonstrom.com/collections/balkonkraftwerke-mit-speicher#featured_collection_1"
+          }
+        }
+      },
+      "block_order": [
+        "text_jQTNfm",
+        "text_ixHnLp"
+      ],
+      "settings": {
+        "hide_on_desktop": false,
+        "text_color": "#000000",
+        "bg_color": "#ffffff",
+        "active_text_color": "#ffffff",
+        "active_bg_color": "#000000",
+        "font_size": 16,
+        "border_radius": 0
+      }
+    },
+    "custom_logo_list_LjKfgY": {
+      "type": "custom-logo-list",
+      "blocks": {
+        "logo_image_fdXHA9": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/Untitled_design_80.png"
+          }
+        },
+        "logo_image_KTDtpx": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_1_6ad045c6-a6af-43bc-8772-088fda3e65c1.png"
+          }
+        },
+        "logo_image_PiQQAa": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_68bc6b1f-9cde-4e28-90d9-010389d4b518.png"
+          }
+        },
+        "logo_image_BYc4tc": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_4.png"
+          }
+        },
+        "logo_image_ytXXKH": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_3_eccce761-16d6-41a5-aab7-1b94750e6ae5.png"
+          }
+        },
+        "logo_image_bBfC7h": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_2_a6e3afea-7afd-46b9-9542-a2b05fba13c9.png"
+          }
+        }
+      },
+      "block_order": [
+        "logo_image_fdXHA9",
+        "logo_image_KTDtpx",
+        "logo_image_PiQQAa",
+        "logo_image_BYc4tc",
+        "logo_image_ytXXKH",
+        "logo_image_bBfC7h"
+      ],
+      "settings": {
+        "enable_mobile_slider": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection_cwyLnL": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "products": [
+          "basic-set-900-bifazial-pro-mit-speicher",
+          "basic-set-1350-bifazial-pro-mit-speicher",
+          "basic-set-1800-bifazial-pro-mit-speicher",
+          "premium-set-pro-mit-speicher",
+          "premium-set-1200-pro-mit-speicher",
+          "premium-1600-pro-mit-speicher"
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Balkonkraftwerk mit Anker Stromspeicher",
+        "content": "",
+        "link_url": "shopify://collections/balkonkraftwerke-mit-speicher",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "featured_collection_RmDDwi": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "products": [
+          "basic-900-bifazial-pro-mit-hoymiles-ms-a2-speicher",
+          "basic-1800-bifazial-pro-hoymiles-ms-a2-speicher"
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Balkonkraftwerk mit Hoymiles Stromspeicher",
+        "content": "",
+        "link_url": "shopify://collections/balkonkraftwerke-mit-speicher",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "text_with_icons_WzBHbe": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_EggTzQ": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-validation",
+            "custom_icon": "shopify://shop_images/eigenverbrauch.png",
+            "mobile_icon_width": 24,
+            "icon_width": 40,
+            "icon_background_type": "circle",
+            "icon_background": "#eee9e3",
+            "icon_color": "",
+            "subtitle": "",
+            "title": "Steigere deinen Eigenverbrauch",
+            "content": ""
+          }
+        },
+        "item_GchbQV": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-money",
+            "custom_icon": "shopify://shop_images/icon-kosten_senken.png",
+            "mobile_icon_width": 24,
+            "icon_width": 40,
+            "icon_background_type": "circle",
+            "icon_background": "#eee9e3",
+            "icon_color": "",
+            "subtitle": "",
+            "title": "Senke deine Stromkosten",
+            "content": ""
+          }
+        },
+        "item_6dKBwf": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-file",
+            "custom_icon": "shopify://shop_images/icon-montage.png",
+            "mobile_icon_width": 24,
+            "icon_width": 40,
+            "icon_background_type": "circle",
+            "icon_background": "#eee9e3",
+            "icon_color": "",
+            "subtitle": "",
+            "title": "Do-it-Yourself-Montage",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_EggTzQ",
+        "item_GchbQV",
+        "item_6dKBwf"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "title": "",
+        "heading_tag": "h4",
+        "text_alignment": "center",
+        "icon_spacing": "large",
+        "background": "#f7f7f7",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "rich_text_YNDBBU": {
+      "type": "rich-text",
+      "blocks": {
+        "image_dNen77": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Logos.png",
+            "width_mode": "custom",
+            "max_width": 350,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "image_dNen77"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_logo_list_LUFYFd": {
+      "type": "custom-logo-list",
+      "blocks": {
+        "logo_image_3Gr7jN": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/Anker_Logo.png"
+          }
+        },
+        "logo_image_9PHepF": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/Hoymiles_Logo.png"
+          }
+        }
+      },
+      "block_order": [
+        "logo_image_3Gr7jN",
+        "logo_image_9PHepF"
+      ],
+      "settings": {
+        "enable_mobile_slider": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "media_with_text_Frd6HQ": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_PpqhqA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Kein_Titel_1600_x_1600_px_444.webp",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Basic oder Premium Set - Der Unterschied",
+            "content": "<p>Vergleiche unsere Basic- und Premium-Sets und entscheide selbst, was zu dir passt!</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f7f7f7",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_PpqhqA"
+      ],
+      "settings": {
+        "show_klaviyo_form": false,
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "media_with_text_UgfkJB": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_EanLeb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/bkw-mit-speicher-anker-solix-pro.webp",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Flexibel erweiterbar: Anker SOLIX Solarbank 2 E1600 PRO",
+            "content": "<p>Die Anker SOLIX Solarbank 2 E1600 Pro maximiert die Nutzung deines Solarstroms dank <strong>hochwertiger LiFePO4-Batteriezellen und 1,6 kWh Kapazität</strong>. Mit der Anker-App kannst du den Solarstromspeicher bequem vom Smartphone aus überwachen und optimieren.</p><ul><li><strong>Erweiterbar</strong> auf bis zu 9,6 kWh Kapazität</li><li><strong>6000 </strong>Ladezyklen</li><li><strong>10 Jahre </strong>Herstellergarantie</li><li><strong>Robust & wetterfest</strong> mit IP65 Schutzklasse</li></ul>",
+            "link_text": "Zum Produkt",
+            "link_url": "https://www.balkonstrom.com/products/anker-solix-solarbank-2-e1600-pro",
+            "background": "#f7f7f7",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_EanLeb"
+      ],
+      "settings": {
+        "show_klaviyo_form": false,
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "media_with_text_rHMekj": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_nyhBbe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Hoymiles_MSA2.webp",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "In 7 Sekunden einsatzbereit: Hoymiles MS A2",
+            "content": "<p>Mit einer Kapazität von <strong>2240 Wh</strong> ist der  Hoymiles MS A2 ein leistungsstarker Stromspeicher für dein Balkonkraftwerk. Durch die Kompatibilität mit dem <a href=\"https://www.balkonstrom.com/products/shelly-pro-3em\" target=\"_blank\" title=\"https://www.balkonstrom.com/products/shelly-pro-3em\">Shelly Pro 3EM</a> kannst du <strong>Nulleinspeisung </strong>realisieren, wodurch du deinen Solarstrom effizient nutzt und Kosten sparst.</p><ul><li><strong>6000 </strong>Ladezyklen</li><li><strong>10 Jahre </strong>Herstellergarantie</li><li><strong>Robust & wetterfest </strong>mit IP65 Schutzklasse</li></ul>",
+            "link_text": "Zum Produkt",
+            "link_url": "https://www.balkonstrom.com/products/hoymiles-ms-mikro-speicher-2240wh",
+            "background": "#f7f7f7",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_nyhBbe"
+      ],
+      "settings": {
+        "show_klaviyo_form": false,
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "faq_PUqnQq": {
+      "type": "faq",
+      "blocks": {
+        "item_6r933d": {
+          "type": "item",
+          "settings": {
+            "title": "Warum lohnt sich ein Balkonkraftwerk mit Stromspeicher?",
+            "content": "<p>Ein Stromspeicher ermöglicht es dir, überschüssigen Strom, der tagsüber von deinem Balkonkraftwerk erzeugt wird, zu speichern und später zu nutzen. Das erhöht deinen Eigenverbrauch und reduziert deine Abhängigkeit vom öffentlichen Stromnetz. Du kannst so auch abends oder an bewölkten Tagen auf den selbst erzeugten Strom zurückgreifen und somit deine Stromkosten weiter senken.</p>"
+          }
+        },
+        "item_Yanicg": {
+          "type": "item",
+          "settings": {
+            "title": "Worauf sollte ich bei der Auswahl eines Stromspeichers achten?",
+            "content": "<p>Die Kapazität sollte passend zur Größe deines Balkonkraftwerks gewählt werden, um weder zu viel noch zu wenig Speicherplatz zu haben. Achte auf die vom Hersteller angegebenen Platzierungsvorschriften, um die Lebensdauer des Speichers nicht zu beeinträchtigen. Zudem ist eine ausreichende Garantiezeit ein wichtiges Kriterium für die Auswahl.</p>"
+          }
+        },
+        "item_Rm4U9w": {
+          "type": "item",
+          "settings": {
+            "title": "Wie funktioniert die Integration eines Stromspeichers in mein Balkonkraftwerk?",
+            "content": "<p>Der Stromspeicher wird zwischen dein Balkonkraftwerk und das Hausnetz geschaltet. Der von deinem Balkonkraftwerk erzeugte Gleichstrom wird durch einen Wechselrichter in Wechselstrom umgewandelt und fließt zunächst in den Speicher. Sobald deine Haushaltsgeräte Strom benötigen, wird dieser bevorzugt aus dem Speicher entnommen, bevor auf das öffentliche Netz zurückgegriffen wird. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_6r933d",
+        "item_Yanicg",
+        "item_Rm4U9w"
+      ],
+      "settings": {
+        "full_width": false,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "<p>Du hast Fragen rund um das Thema Balkonkraftwerke, Stromspeicher und Mini-PV-Anlagen? Für eine Zusammenstellung der häufig gestellten Fragen schaue gerne bei unseren FAQ vorbei.</p>",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "seo_section_Y7yqLe": {
+      "type": "seo-section",
+      "blocks": {
+        "fullwidthblock_Gg8JJK": {
+          "type": "fullwidthblock",
+          "settings": {
+            "full_width_heading": "Balkonkraftwerke mit Stromspeicher von Balkonstrom®",
+            "full_width_description": "<p>Unsere Balkonkraftwerk-Komplettsets mit Stromspeicher bieten dir eine innovative Lösung, um deinen Eigenverbrauch zu maximieren, Stromkosten zu senken und unabhängiger von externer Stromversorgung zu werden. Überschüssiger Strom wird im Stromspeicher gespeichert und kann später genutzt werden.</p><p>Die Balkonkraftwerke von Balkonstrom® sind vielseitig und können an Balkonen, im Garten, auf Flachdächern, Schrägdächern sowie an Fassaden montiert werden. Diese flexiblen Montagemöglichkeiten machen sie ideal, egal ob du in einer Mietwohnung oder einem Eigenheim lebst. Die platzsparenden Systeme sind die perfekte Lösung, um auf kleinen Freiflächen effizient deinen eigenen Solarstrom zu erzeugen und deine Stromkosten langfristig zu reduzieren. Mit unseren Plug-&-Play-Komplettsets erhältst du eine komplette und unkomplizierte Lösung für deine Mini-Solaranlage.</p>",
+            "full_width_heading_color": "#040404",
+            "gradient": "",
+            "full_width_description_color": "#040404",
+            "full_width_heading_size": "h1"
+          }
+        },
+        "leftblock_ExhrjN": {
+          "type": "leftblock",
+          "settings": {
+            "left_block_heading": "Darum lohnt sich ein Stromspeicher für dein Balkonkraftwerk",
+            "left_block_description": "<p>Ein Stromspeicher maximiert den Nutzen deines Balkonkraftwerks, indem er überschüssigen Strom speichert, wenn du ihn nicht sofort benötigst. Dies ist besonders vorteilhaft, wenn du tagsüber nicht zu Hause bist oder dein Strombedarf gering ist. Mit dem Stromspeicher kannst du den erzeugten Strom auch abends oder bei schlechtem Wetter nutzen. Dies macht dich unabhängiger vom öffentlichen Netz und deinen gesamten Energiehaushalt effizienter und kosteneffektiver. Außerdem steigert der Einsatz eines Stromspeichers die Wirtschaftlichkeit deiner Solaranlage, indem er die Amortisationszeit verkürzt und die Nutzung der kostenlosen Solarenergie maximiert.</p>",
+            "left_block_heading_color": "#040404",
+            "gradient": "",
+            "left_block_description_color": "#040404",
+            "left_block_heading_size": "h1"
+          }
+        },
+        "rightblock_Qq9a3k": {
+          "type": "rightblock",
+          "settings": {
+            "right_block_heading": "Die wichtigsten Vorteile von Stromspeichern für Balkonkraftwerke",
+            "right_block_description": "<p>Stromspeicher sind eine lohnende Investition für Balkonkraftwerke, da sie dir zahlreiche Vorteile bieten. Du kannst deinen Eigenverbrauch deutlich steigern, da der Speicher überschüssigen Strom aufnimmt und dir ermöglicht, diesen später zu nutzen. Dadurch sinken deine Stromkosten, da du weniger Energie von deinem Stromversorger kaufen musst. Zweitens erhöht ein Stromspeicher deine Unabhängigkeit von den Preisen externer Anbieter, indem du mehr von deinem selbst erzeugten Strom verbrauchst. Dies macht dich weniger anfällig für Preisschwankungen und steigert deine Energiesicherheit. Drittens verlängert sich die Lebensdauer und Effizienz deiner Solaranlage, da du die erzeugte Energie optimal ausnutzen kannst. Zudem bieten viele Stromspeicherlösungen eine lange Garantie und hohe Zuverlässigkeit, was die Investition noch attraktiver macht. Durch diese Vorteile wird der Einsatz eines Stromspeichers zu einem lohnenden Schritt in Richtung Energiekostenreduzierung und Nachhaltigkeit.</p>",
+            "right_block_heading_color": "#040404",
+            "gradient": "",
+            "right_block_description_color": "#040404",
+            "right_block_heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "fullwidthblock_Gg8JJK",
+        "leftblock_ExhrjN",
+        "rightblock_Qq9a3k"
+      ],
+      "settings": {
+        "full_width": false,
+        "page_width": 1200,
+        "link_color": "#040404",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "main",
+    "image_with_text_overlay_X6FmxU",
+    "navigation_section_FBxTGC",
+    "custom_logo_list_LjKfgY",
+    "featured_collection_cwyLnL",
+    "featured_collection_RmDDwi",
+    "text_with_icons_WzBHbe",
+    "custom_logo_list_LUFYFd",
+    "media_with_text_Frd6HQ",
+    "rich_text_YNDBBU",
+    "media_with_text_UgfkJB",
+    "media_with_text_rHMekj",
+    "faq_PUqnQq",
+    "seo_section_Y7yqLe"
+  ]
+}

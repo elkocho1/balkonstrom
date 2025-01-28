@@ -1,0 +1,448 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "products_per_page": 24,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "filter_layout": "horizontal",
+        "show_sort_by": false,
+        "show_filters": false,
+        "show_filter_group_name": false,
+        "show_color_swatch": false,
+        "show_empty_filter_values": false,
+        "show_filter_values_count": false,
+        "open_first_filter_group": false
+      }
+    },
+    "banner": {
+      "type": "collection-banner",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "show_collection_title": true,
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "collection_title_size": "h1",
+        "image_size": "sm",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "featured_product": "",
+        "featured_product_heading": "Featured product",
+        "text_color": "#eeece5",
+        "overlay_color": "#000000",
+        "overlay_opacity": 15
+      }
+    },
+    "image_with_text_overlay_DFWaHG": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_zQeELj": {
+          "type": "heading",
+          "settings": {
+            "text": "Balkonkraftwerk ohne Halterung",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_DNGbAV": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Komplettsets ohne Halterung – perfekt für die individuelle Befestigung!</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_zQeELj",
+        "richtext_DNGbAV"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "enable_fix_parallax": false,
+        "image_size": "md",
+        "image": "shopify://shop_images/Ohne-Halterung.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "custom_logo_list_JpnWnD": {
+      "type": "custom-logo-list",
+      "blocks": {
+        "logo_image_wghVCm": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/Untitled_design_80.png"
+          }
+        },
+        "logo_image_TTArxi": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_1_6ad045c6-a6af-43bc-8772-088fda3e65c1.png"
+          }
+        },
+        "logo_image_mXfAiA": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_68bc6b1f-9cde-4e28-90d9-010389d4b518.png"
+          }
+        },
+        "logo_image_mww6tF": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_4.png"
+          }
+        },
+        "logo_image_qrnEPK": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_3_eccce761-16d6-41a5-aab7-1b94750e6ae5.png"
+          }
+        },
+        "logo_image_VDgXVr": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_2_a6e3afea-7afd-46b9-9542-a2b05fba13c9.png"
+          }
+        }
+      },
+      "block_order": [
+        "logo_image_wghVCm",
+        "logo_image_TTArxi",
+        "logo_image_mXfAiA",
+        "logo_image_mww6tF",
+        "logo_image_qrnEPK",
+        "logo_image_VDgXVr"
+      ],
+      "settings": {
+        "enable_mobile_slider": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection_wpB6Mx": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "ohne-halterung-basic",
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Ohne Halterung - Basic",
+        "content": "",
+        "link_url": "shopify://collections/ohne-halterung-basic",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "text_with_icons_EVr9pk": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_CdnzCV": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/icon-montage.png",
+            "mobile_icon_width": 24,
+            "icon_width": 40,
+            "icon_background_type": "circle",
+            "icon_background": "#eee9e3",
+            "icon_color": "",
+            "subtitle": "",
+            "title": "Einfache Selbstmontage",
+            "content": ""
+          }
+        },
+        "item_dbUbeY": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/icon-lebensdauer.png",
+            "mobile_icon_width": 24,
+            "icon_width": 40,
+            "icon_background_type": "circle",
+            "icon_background": "#eee9e3",
+            "icon_color": "",
+            "subtitle": "",
+            "title": "Langlebig & effizient",
+            "content": ""
+          }
+        },
+        "item_JDiJ98": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/icon-robust.png",
+            "mobile_icon_width": 24,
+            "icon_width": 40,
+            "icon_background_type": "circle",
+            "icon_background": "#eee9e3",
+            "icon_color": "",
+            "subtitle": "",
+            "title": "Hochwertige Komplettsets",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_CdnzCV",
+        "item_dbUbeY",
+        "item_JDiJ98"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "title": "",
+        "heading_tag": "h4",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "#f7f7f7",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "featured_collection_xCVpRJ": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "ohne-halterung-premium",
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Ohne Halterung - Premium",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "media_with_text_gcBPHp": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_bExT8g": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Kein_Titel_1600_x_1600_px_444.webp",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Basic oder Premium Set - Der Unterschied",
+            "content": "<p>Vergleiche unsere Basic- und Premium-Sets und entscheide selbst, was zu dir passt!</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f7f7f7",
+            "background_gradient": "",
+            "text_color": "#040404",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_bExT8g"
+      ],
+      "settings": {
+        "show_klaviyo_form": false,
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "09df8a39-86d5-4eab-a510-9aa283582fe0": {
+      "type": "faq",
+      "blocks": {
+        "template--18109074047240__09df8a39-86d5-4eab-a510-9aa283582fe0-item-1": {
+          "type": "item",
+          "settings": {
+            "title": "Wie kann ich mein Balkonkraftwerk befestigen?",
+            "content": "<p>Wenn Sie sich für dieses Set entscheiden müssen Sie sich selbst eine Unterkonstruktion bauen. Die Module können an der Ablauflöchern des Rahmens oder durch Klemmen am Modulrahmen befestigt werden.</p>"
+          }
+        },
+        "template--18109074047240__09df8a39-86d5-4eab-a510-9aa283582fe0-item-2": {
+          "type": "item",
+          "settings": {
+            "title": "In welche Himmelsrichtung muss mein Balkonkraftwerk ausgerichtet sein?",
+            "content": "<p>Wir empfehlen dir dein Balkonkraftwerk unverschattet in Richtung Süden, Oste oder Westen auszurichten.</p>"
+          }
+        },
+        "template--18109074047240__09df8a39-86d5-4eab-a510-9aa283582fe0-item-3": {
+          "type": "item",
+          "settings": {
+            "title": "Sind die Anschlusskabel witterungsbeständig?",
+            "content": "<p>Ja, unsere Made in Germany Anschlusskabel sind die wohl hochwertigsten Kabel auf dem deutschen Markt. Somit ist es für die Nutzung im Freien bestens geeignet. Es zeichnet sich durch maximale UV- und Ozonbeständigkeit aus.</p>"
+          }
+        },
+        "a7d01820-ade9-4f49-96a2-cf60add901f9": {
+          "type": "item",
+          "settings": {
+            "title": "Wie weit kann ich die Module voneinander entfernt montieren?",
+            "content": "<p>Du kannst die Module auch mehr als 10m voneinander entfernen. Allerdings benötigst du hierfür <a href=\"https://www.balkonstrom.com/collections/kabel\" title=\"MC-4 Verlängerungskabel Made in Germany\">MC-4 Verlängerungskabel </a>in der entsprechenden Länge um die Module mit dem Wechselrichter zu montieren.</p>"
+          }
+        },
+        "4169eda3-aa04-4044-ab93-060f35ad24a9": {
+          "type": "item",
+          "settings": {
+            "title": "Erhalte ich eine Anleitung nach dem Kauf?",
+            "content": "<p>Ja, du erhälst automatisch unsere Basisanleitung nach dem Kauf per E-Mail. Alternativ kannst du dir die Anleitung in unserem Downloadcenter herunterladen.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18109074047240__09df8a39-86d5-4eab-a510-9aa283582fe0-item-1",
+        "template--18109074047240__09df8a39-86d5-4eab-a510-9aa283582fe0-item-2",
+        "template--18109074047240__09df8a39-86d5-4eab-a510-9aa283582fe0-item-3",
+        "a7d01820-ade9-4f49-96a2-cf60add901f9",
+        "4169eda3-aa04-4044-ab93-060f35ad24a9"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "<p>Du hast Fragen rund um das Thema Balkonkraftwerke und Mini-PV-Anlagen? Für eine Zusammenstellung der häufig gestellten Fragen schaue gerne bei unseren FAQ vorbei.</p>",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "rich_text_FpeB93": {
+      "type": "rich-text",
+      "blocks": {
+        "image_PnE7XN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Logos.png",
+            "width_mode": "custom",
+            "max_width": 350,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "image_PnE7XN"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "19d8c731-18f5-4af4-8108-a1785d51dfa6": {
+      "type": "seo-section",
+      "blocks": {
+        "template--18732286345480__19d8c731-18f5-4af4-8108-a1785d51dfa6-fullwidthblock-1": {
+          "type": "fullwidthblock",
+          "settings": {
+            "full_width_heading": "Balkon-Solaranlagen aus Würzburg – Dein DIY-Projekt",
+            "full_width_description": "<p>Wenn du auf der Suche nach einer einfachen und kostengünstigen Möglichkeit bist, um dein Haus oder deine Wohnung mit Strom zu versorgen, dann sind bist du bei uns genau richtig. Als Experte für Balkon-Solaranlagen sind wir von der Technologie der Balkonkraftwerke überzeugt. Die kleinen Anlagen sind eine großartige Option für alle, die noch ungenutzten Platz an ihrem Balkon, im Garten, auf der Terrasse oder dem Dach haben. Dabei ist es egal, ob du in einer Wohnung oder einem Haus lebst, du brauchst nur Platz für mindestens ein Solarmodul. Eine Balkon-Solaranlage ist eine kleine Photovoltaik-Anlage, die sehr einfach zu installieren ist.</p><p>Für alle, die vom DIY-Gedanken so überzeugt sind, dass sie sich gerne eine eigene Unterkonstruktion basteln wollen, bieten wir unsere Pure Balkonkraftwerke an. Bei diesen Anlagen ohne Halterung erhältst du deine Solarmodule, den entsprechenden passenden Hoymiles Wechselrichter sowie unsere Made in Germany Kabel. Für eine passende Unterkonstruktion sorgst du selbst. Für den technischen Anschluss erhältst du dennoch von uns eine Schritt-für-Schritt-Anleitung, damit keine Fragen offenbleiben.</p>",
+            "full_width_heading_color": "#040404",
+            "gradient": "",
+            "full_width_description_color": "#040404",
+            "full_width_heading_size": "h2"
+          }
+        },
+        "template--18732286345480__19d8c731-18f5-4af4-8108-a1785d51dfa6-leftblock-1": {
+          "type": "leftblock",
+          "settings": {
+            "left_block_heading": "Einfach sparen – Zapfe die Sonne an mit hochwertigen Balkonkraftwerken von Balkonstrom®",
+            "left_block_description": "<p>Balkonkraftwerke sind kostengünstig, einfach zu installieren und ziehen keine langwierigen und kostspieligen Genehmigungen nach sich. Mit einer Balkon-Solaranlage kannst du unkompliziert deinen eigenen Strom erzeugen und deine Stromrechnung reduzieren, indem du einfach die Sonne anzapfst. Besonders für Menschen, die in städtischen Gebieten leben, sind Balkonkraftwerke die ideale Lösung, um auf begrenztem Raum eigenen Strom zu produzieren. Du kannst die Anlage zum Beispiel am Balkon oder auf der Terrasse installieren, ohne dass bauliche Veränderungen notwendig sind.</p><p>Um dir rundum zuverlässige und hochwertige Anlagen bieten zu können, lassen wir die in unseren Anlagen enthaltenen <a href=\"/blogs/news/balkonkraftwerke-bloss-nicht-am-falschen-ende-sparen\" title=\"Balkonkraftwerk Made in Germany: Warum wir auf Made in Germany setzen\">AC-Anschlusskabel sowie MC-4-Kabel</a> exklusiv von unserem Partner in Deutschland fertigen. Unser Partner ist Experte im Gebiet der Kabelproduktion für Photovoltaikanlagen und stellt die gefertigten Kabel während der Produktion durch verschiedene <a href=\"/blogs/news/herstellung-und-produktion-der-kabel-fur-unsere-balkonkraftwerke\" title=\"Balkonkraftwerk: Unsere Kabel Made in Germany unter die Lupe genommen\">Test- und Prüfverfahren</a> genau auf die Probe. So garantieren wir dir auch hier Komponenten mit einer 1A Qualität.</p>",
+            "left_block_heading_color": "#040404",
+            "gradient": "",
+            "left_block_description_color": "#040404",
+            "left_block_heading_size": "h3"
+          }
+        },
+        "template--18732286345480__19d8c731-18f5-4af4-8108-a1785d51dfa6-rightblock-1": {
+          "type": "rightblock",
+          "settings": {
+            "right_block_heading": "Balkonkraftwerk Würzburg – Wir freuen uns auf deinen Besuch",
+            "right_block_description": "<p>Als Unternehmen sind von unseren Produkten überzeugt und stolz darauf. Und nicht nur darauf, sondern auch auf unseren erstklassigen Service, denn bei uns erhältst du eine umfassende und fachmännische Beratung. Wir verstehen, dass es schwierig sein kann, das beste Balkonkraftwerk für die individuellen Bedürfnisse auszuwählen, besonders dann, wenn du bislang keine Möglichkeit hattest, dich mit der Technologie vertraut zu machen. Deshalb setzen wir auf persönliche Beratung und Unterstützung, um sicherzustellen, dass du die beste Wahl triffst.</p><p>Besonders, wenn du aus Würzburg oder der Umgebung kommst, lohnt es sich, einmal bei uns vorbeizukommen und dich vor Ort beraten zu lassen. Derzeit kannst du <strong>jeden Samstag zwischen 9-13 Uhr ohne Termin</strong> bei uns vorbeikommen, um deine individuellen Bedarfe zu besprechen und dir unsere Sets anzuschauen. Wir nehmen uns Zeit, um deine Fragen zu beantworten und dir alle Informationen zu geben, die du benötigst, um deine Entscheidung zu treffen.</p><p>Wenn du also auf der Suche nach einem Balkonkraftwerk bist, das perfekt zu deinen Bedürfnissen passt, zögere nicht, uns zu kontaktieren! Wir unterstützen dich gerne darin, die beste Wahl zu treffen.<br/></p>",
+            "right_block_heading_color": "#040404",
+            "gradient": "",
+            "right_block_description_color": "#040404",
+            "right_block_heading_size": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "template--18732286345480__19d8c731-18f5-4af4-8108-a1785d51dfa6-fullwidthblock-1",
+        "template--18732286345480__19d8c731-18f5-4af4-8108-a1785d51dfa6-leftblock-1",
+        "template--18732286345480__19d8c731-18f5-4af4-8108-a1785d51dfa6-rightblock-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "page_width": 1600,
+        "link_color": "#040404",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "banner",
+    "image_with_text_overlay_DFWaHG",
+    "custom_logo_list_JpnWnD",
+    "featured_collection_wpB6Mx",
+    "text_with_icons_EVr9pk",
+    "featured_collection_xCVpRJ",
+    "media_with_text_gcBPHp",
+    "09df8a39-86d5-4eab-a510-9aa283582fe0",
+    "rich_text_FpeB93",
+    "19d8c731-18f5-4af4-8108-a1785d51dfa6"
+  ]
+}

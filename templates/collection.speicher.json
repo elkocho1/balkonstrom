@@ -1,0 +1,472 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "collection-banner",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "show_collection_title": true,
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "collection_title_size": "h1",
+        "image_size": "sm",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "featured_product": "",
+        "featured_product_heading": "Featured product",
+        "text_color": "#eeece5",
+        "overlay_color": "#000000",
+        "overlay_opacity": 15
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "products_per_page": 24,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "filter_layout": "horizontal",
+        "show_sort_by": false,
+        "show_filters": false,
+        "show_filter_group_name": false,
+        "show_color_swatch": false,
+        "show_empty_filter_values": false,
+        "show_filter_values_count": false,
+        "open_first_filter_group": false
+      }
+    },
+    "image_with_text_overlay_FKaU9w": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_AjX7aN": {
+          "type": "heading",
+          "settings": {
+            "text": "Balkonkraftwerke mit Speicher",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_XYMmwQ": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Entdecke Stromspeicher & Balkonkraftwerk-Komplettsets für maximalen Eigenverbrauch!</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_AjX7aN",
+        "richtext_XYMmwQ"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "enable_fix_parallax": false,
+        "image_size": "md",
+        "image": "shopify://shop_images/Speicher_Sets.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 51
+      }
+    },
+    "custom_logo_list_hJVWpE": {
+      "type": "custom-logo-list",
+      "blocks": {
+        "logo_image_JcBCML": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/Untitled_design_80.png"
+          }
+        },
+        "logo_image_KXRAyr": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_1_6ad045c6-a6af-43bc-8772-088fda3e65c1.png"
+          }
+        },
+        "logo_image_AC8kcp": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_68bc6b1f-9cde-4e28-90d9-010389d4b518.png"
+          }
+        },
+        "logo_image_yTG6Tj": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_4.png"
+          }
+        },
+        "logo_image_HY3w6d": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_3_eccce761-16d6-41a5-aab7-1b94750e6ae5.png"
+          }
+        },
+        "logo_image_WHChjq": {
+          "type": "logo-image",
+          "settings": {
+            "logo_img": "shopify://shop_images/image_2_a6e3afea-7afd-46b9-9542-a2b05fba13c9.png"
+          }
+        }
+      },
+      "block_order": [
+        "logo_image_JcBCML",
+        "logo_image_KXRAyr",
+        "logo_image_AC8kcp",
+        "logo_image_yTG6Tj",
+        "logo_image_HY3w6d",
+        "logo_image_WHChjq"
+      ],
+      "settings": {
+        "enable_mobile_slider": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection_BDtxMq": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "balkonkraftwerke-mit-speicher",
+        "products": [],
+        "full_width": false,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 50,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Balkonkraftwerke mit Speicher",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "media_with_text_C3LrD4": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_QXyACt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Speicher_Header_mobile.webp",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Unsere Komplettsets mit Stromspeicher",
+            "content": "<ul><li><strong>Balkonkraftwerk-Komplettset:</strong> Inklusive Solarmodule, Anker Solarbank 2 Pro, Made in Germany Kabel & Anker Smart Meter</li><li><strong>Flexible Montage</strong>: An Fassade, Dach, Garten, Balkon oder ohne Halterung</li><li><strong>Maximaler Eigenverbrauch: </strong>Speichere den nicht direkt genutzten Strom für später</li></ul>",
+            "link_text": "Balkonkraftwerke mit Speicher",
+            "link_url": "shopify://collections/balkonkraftwerke-mit-speicher",
+            "background": "#f7f7f7",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_QXyACt"
+      ],
+      "settings": {
+        "show_klaviyo_form": false,
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "featured_collection_dYNYrC": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "stromspeicher",
+        "products": [],
+        "full_width": false,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 50,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Stromspeicher",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "text_with_icons_eRfdBq": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_DUCCpk": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-validation",
+            "custom_icon": "shopify://shop_images/icon-speicher.png",
+            "mobile_icon_width": 24,
+            "icon_width": 40,
+            "icon_background_type": "circle",
+            "icon_background": "#eee9e3",
+            "icon_color": "",
+            "subtitle": "",
+            "title": "Flexibel erweiterbar",
+            "content": ""
+          }
+        },
+        "item_CRhH3w": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-percent",
+            "custom_icon": "shopify://shop_images/eigenverbrauch.png",
+            "mobile_icon_width": 24,
+            "icon_width": 40,
+            "icon_background_type": "circle",
+            "icon_background": "#eee9e3",
+            "icon_color": "",
+            "subtitle": "",
+            "title": "Maximaler Eigenverbrauch",
+            "content": ""
+          }
+        },
+        "item_eQLQRU": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-recycle",
+            "custom_icon": "shopify://shop_images/icon-lebensdauer.png",
+            "mobile_icon_width": 24,
+            "icon_width": 40,
+            "icon_background_type": "circle",
+            "icon_background": "#eee9e3",
+            "icon_color": "",
+            "subtitle": "",
+            "title": "Robust & langlebig",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_DUCCpk",
+        "item_CRhH3w",
+        "item_eQLQRU"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": true,
+        "title": "",
+        "heading_tag": "h4",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "#f7f7f7",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "rich_text_XNtVrg": {
+      "type": "rich-text",
+      "blocks": {
+        "button_gKyxBG": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "Balkonkraftwerke entdecken",
+            "url": "shopify://collections/balkonkraftwerke",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_gKyxBG"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "faq_PUqnQq": {
+      "type": "faq",
+      "blocks": {
+        "item_cD3akK": {
+          "type": "item",
+          "settings": {
+            "title": "Was sind die Vorteile eines Balkonkraftwerks mit Speicher?",
+            "content": "<p>Ein Balkonkraftwerk mit Speicher ermöglicht es dir, den erzeugten Solarstrom auch dann zu nutzen, wenn die Sonne nicht scheint, wodurch du deinen Eigenverbrauch maximierst und Stromkosten weiter senkst.</p>"
+          }
+        },
+        "item_UpaLQR": {
+          "type": "item",
+          "settings": {
+            "title": "Was ist in den Komplettsets enthalten?",
+            "content": "<p>In unserem Shop findest du Basic und Premium Komplettsets mit Stromspeicher. Die Sets enthalten Solarmodule, die Anker Solarbank 2 Pro, AC-Anschlusskabel, MC-4 Verlängerungskabel und das Anker Smart Meter. Für mehr Details stöbere in unserem <a href=\"https://www.balkonstrom.com/collections/balkonkraftwerke-mit-speicher\" target=\"_blank\" title=\"https://www.balkonstrom.com/collections/balkonkraftwerke-mit-speicher\">Shop</a>.</p>"
+          }
+        },
+        "item_ytazjE": {
+          "type": "item",
+          "settings": {
+            "title": "Kann ich den Speicher selbst installieren?",
+            "content": "<p>Ja, unsere Balkonkraftwerke mit Speicher sind als Plug-&-Play-Komplettsets konzipiert und somit einfach selbst zu installieren. Jede Lieferung enthält eine ausführliche Anleitung, die dir Schritt für Schritt durch den Installationsprozess hilft.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_cD3akK",
+        "item_UpaLQR",
+        "item_ytazjE"
+      ],
+      "settings": {
+        "full_width": false,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "<p>Du hast Fragen rund um das Thema Stromspeicher für Balkonkraftwerke? Für eine Zusammenstellung der häufig gestellten Fragen schaue gerne bei unseren FAQ vorbei.</p>",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "rich_text_b9nwig": {
+      "type": "rich-text",
+      "blocks": {
+        "image_gkW8ci": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Logos.png",
+            "width_mode": "custom",
+            "max_width": 350,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "image_gkW8ci"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "seo_section_Y7yqLe": {
+      "type": "seo-section",
+      "blocks": {
+        "fullwidthblock_Gg8JJK": {
+          "type": "fullwidthblock",
+          "settings": {
+            "full_width_heading": "Balkonkraftwerk-Komplettsets mit Stromspeicher",
+            "full_width_description": "<p>Unsere Balkonkraftwerk-Komplettsets mit integriertem Stromspeicher bieten dir eine smarte Möglichkeit, deinen Eigenverbrauch zu optimieren, Stromkosten zu senken und die Abhängigkeit von externen Stromquellen zu reduzieren. Der erzeugte Überschuss wird im Stromspeicher gespeichert und kann bei Bedarf genutzt werden.</p><p>Die Balkonkraftwerke von Balkonstrom® sind äußerst vielseitig und lassen sich an Balkonen, im Garten, auf Flach- und Schrägdächern sowie an Fassaden installieren. Dank dieser flexiblen Montagemöglichkeiten sind sie sowohl für Mietwohnungen als auch Eigenheime ideal geeignet. Die kompakten Systeme ermöglichen es dir, auch auf kleinen Flächen effizient Solarstrom zu erzeugen und langfristig deine Stromkosten zu reduzieren. Mit unseren Plug-&-Play-Komplettsets erhältst du eine vollständige und benutzerfreundliche Lösung für deine Mini-Solaranlage.</p>",
+            "full_width_heading_color": "#040404",
+            "gradient": "",
+            "full_width_description_color": "#040404",
+            "full_width_heading_size": "h1"
+          }
+        },
+        "leftblock_ExhrjN": {
+          "type": "leftblock",
+          "settings": {
+            "left_block_heading": "Stromspeicher als optimale Ergänzung zu deinem Balkonkraftwerk",
+            "left_block_description": "<p>Mit einem Stromspeicher kannst du das volle Potenzial deines Balkonkraftwerkes ausschöpfen. Balkonkraftwerke sind ganz besonders dann lohnenswert, wenn du den Strom deiner Anlage dann verbrauchen kannst, wenn er produziert wird. Ist dir das nicht möglich, zum Beispiel, weil du tagsüber außer Haus bist und deine Standby-Geräte in deiner Abwesenheit weniger Strom verbrauchen, als produziert wird, fließt der Stromüberschuss in das öffentliche Netz. Ein Stromspeicher ermöglicht es dir, den überschüssigen Strom, den dein Balkonkraftwerk erzeugt, zu speichern und zu einem späteren Zeitpunkt zu nutzen. Der Speicher fungiert als Batterie, in der der Strom zwischengespeichert wird. Sobald du dann abends oder an bewölkten Tagen mehr Strom benötigst, kannst du diesen aus deinem Speicher entnehmen.<br/></p>",
+            "left_block_heading_color": "#040404",
+            "gradient": "",
+            "left_block_description_color": "#040404",
+            "left_block_heading_size": "h1"
+          }
+        },
+        "leftblock_FYU3Vd": {
+          "type": "leftblock",
+          "settings": {
+            "left_block_heading": "Die Vorteile eines Stromspeichers für Balkonkraftwerke",
+            "left_block_description": "<p>Der Einsatz eines Stromspeichers bringt gleich mehrere Vorteile mit sich. Zum einen kannst du deinen Eigenverbrauch signifikant erhöhen, da überschüssiger Strom nicht ins öffentliche Stromnetz eingespeist, sondern auf dem Speicher bis zur Nutzung aufbewahrt wird. Dadurch sinken deine Stromkosten, da du weniger Strom von deinem Energieversorger beziehen musst. Außerdem wirkt sich der erhöhte Eigenverbrauch positiv auf die Amortisationszeit deiner Solaranlage aus. Zum anderen steigert ein Stromspeicher auch deine Unabhängigkeit von den Tarifen externer Stromanbieter, da du weniger abhängig vom öffentlichen Stromnetz bist und deinen selbst erzeugten Strom rund um die Uhr nutzen kannst.</p>",
+            "left_block_heading_color": "#040404",
+            "gradient": "",
+            "left_block_description_color": "#040404",
+            "left_block_heading_size": "h1"
+          }
+        },
+        "rightblock_Qq9a3k": {
+          "type": "rightblock",
+          "settings": {
+            "right_block_heading": "Worauf solltest du bei der Auswahl eines Stromspeichers achten?",
+            "right_block_description": "<p>Bei der Auswahl eines Stromspeichers für dein Balkonkraftwerk gibt es einige Faktoren, die du berücksichtigen solltest. Zunächst einmal ist die Kapazität des Speichers wichtig. Wähle die Kapazität des Speichers anhand deiner Anlagengröße aus, sodass der Speicher weder zu über- noch zu unterdimensioniert ist. Bei der Platzierung des Speichers solltest du auf jeden Fall die Angaben des Herstellers berücksichtigen, um die Lebensdauer des Speichers nicht negativ zu beeinflussen. Einige Speicher reagieren empfindlich auf Kälte. Nicht zuletzt ist auch die Lebensdauer des Speichers entscheidend. Achte darauf, dass der Stromspeicher langlebig ist und über eine ausreichende Garantiezeit verfügt.</p>",
+            "right_block_heading_color": "#040404",
+            "gradient": "",
+            "right_block_description_color": "#040404",
+            "right_block_heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "fullwidthblock_Gg8JJK",
+        "leftblock_ExhrjN",
+        "leftblock_FYU3Vd",
+        "rightblock_Qq9a3k"
+      ],
+      "settings": {
+        "full_width": false,
+        "page_width": 1200,
+        "link_color": "#040404",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "main",
+    "image_with_text_overlay_FKaU9w",
+    "custom_logo_list_hJVWpE",
+    "featured_collection_BDtxMq",
+    "media_with_text_C3LrD4",
+    "featured_collection_dYNYrC",
+    "text_with_icons_eRfdBq",
+    "rich_text_XNtVrg",
+    "faq_PUqnQq",
+    "rich_text_b9nwig",
+    "seo_section_Y7yqLe"
+  ]
+}
