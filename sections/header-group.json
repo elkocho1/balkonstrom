@@ -239,12 +239,59 @@
             "stretch_promo": false,
             "drawer_link_image": "hide"
           }
+        },
+        "mega_menu_Ng3dYr": {
+          "type": "mega_menu",
+          "disabled": true,
+          "settings": {
+            "menu_item": "Service",
+            "show_new_button": false,
+            "layout": "horizontal_center",
+            "submenu_style": "bold_heading",
+            "image_1": "shopify://shop_images/Beratung-removebg-preview.png",
+            "show_new_button_image_1": false,
+            "image_heading_1": "Beratungstermin",
+            "image_link_1": "shopify://pages/beratungstermin",
+            "image_text_color_1": "#ffffff",
+            "image_2": "shopify://shop_images/Anmeldung-removebg-preview.png",
+            "show_new_button_image_2": false,
+            "image_heading_2": "Anmeldung",
+            "image_link_2": "shopify://pages/balkonkraftwerk-anmeldeverfahren",
+            "image_text_color_2": "#ffffff",
+            "image_3": "shopify://shop_images/Download-removebg-preview.png",
+            "show_new_button_image_3": false,
+            "image_heading_3": "Downloadcenter",
+            "image_link_3": "shopify://pages/downloadcenter",
+            "image_text_color_3": "#ffffff",
+            "image_4": "shopify://shop_images/Ratgeber-removebg-preview.png",
+            "show_new_button_image_4": false,
+            "image_heading_4": "Ratgeber",
+            "image_link_4": "shopify://pages/balkonkraftwerk-ratgeber",
+            "image_text_color_4": "#ffffff",
+            "image_5": "shopify://shop_images/Blog__3_-removebg-preview.png",
+            "show_new_button_image_5": false,
+            "image_heading_5": "Blog",
+            "image_link_5": "shopify://blogs/news",
+            "image_text_color_5": "#ffffff",
+            "image_6": "shopify://shop_images/Quiz-removebg-preview.png",
+            "show_new_button_image_6": false,
+            "image_heading_6": "Produktfinder",
+            "image_link_6": "https://www.balkonstrom.com/tools/perfect-product-finder/balkonkraftwerk-quiz#/questions/1",
+            "image_text_color_6": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "grid",
+            "stretch_promo": false,
+            "drawer_link_image": "hide"
+          }
         }
       },
       "block_order": [
         "mega_menu_jmhTza",
         "13bfbce4-4402-4e5b-99af-615d56a3128b",
-        "mega_menu_Gn7AcH"
+        "mega_menu_Gn7AcH",
+        "mega_menu_Ng3dYr"
       ],
       "custom_css": [
         ".button_new {font-size: 14px;}"
